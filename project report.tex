@@ -1,0 +1,41 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage[margin=1in]{geometry}
+\usepackage{float}
+\title{Propagation of Voltage in a Neuron: The Cable Equation}
+\author{Darice Guittet, Elise Niedringhaus, Sarah Liddle}
+
+\begin{document}
+\maketitle
+\section{Introduction}
+
+Information within the brain is transmitted between neurons largely due to action potentionals, otherwise known as spikes, which are when the voltage in a neuron rapidly rises and falls. These allow communication between brain cells. A.L Hodgkin and A.F. Huxley received a 1963 Nobel Prize for their work regarding this topic, specifically the discovery that individual parts of the axonal membrane behave similarly to a component in an electric circuit. With this knew knowledge, it is now possible to derive equations that represent the voltage propagation in a neuron using formulas similar to those that describe current, resistance, and voltage in an electrical system. This pattern of diffusion along the membrane of neurons by current or voltage is called cable theory, which is what we will be analyzing in this report.
+
+\subsection{Understanding the Model}
+The model we are using to understand the propogation of voltage in a neuron can be described by the following partial differential equation:
+\begin{equation} \label{1}
+\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}+f(v(x,t))
+\end {equation}
+The terms with partial derivatives are from the heat or diffusion equation, mathematically describing the process when molecules move from areas of high concentration to places of low concentration. The $f(v(x,t))$ term accounts for ion channels in a neuron; these open and close to add or decrease from the ions entering the cell based on its current voltage. 
+
+
+Therefore, the final partial differential equation we will be using to analyze voltage propagation in a neuron is:
+\begin{equation} \label{2}
+\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}+f(v(x,t))+J_{ext}(x,t)
+\end {equation}
+
+\subsection{Purpose}
+In this project, we aim to examine the partial differential equation model of this phenomenon to analyze the propagation of action potentials throughout a neoron. First, we will look at a passive membrane where there is no voltage gradient and ions will leak out of the cell by first solving the stationary solution and then solving the partial differential equation inorder to analyze the impulse propagation reaction to various initial voltage inputs. Next, we will analyze a nonlinear model that takes into account that membrane ion channels often have a "two state" nature--meaning... We will examine the traveling wave solutions of this model. Therefore, we aim to have a better understanding of how voltage propagates within under various conditions and inputs. 
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

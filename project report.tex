@@ -15,15 +15,27 @@ Information within the brain is transmitted between neurons largely due to actio
 \subsection{Understanding the Model}
 The model we are using to understand the propagation of voltage in a neuron can be described by the following partial differential equation:
 \begin{equation} \label{1}
-\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}+f(v(x,t))
-\end {equation}
-The terms with partial derivatives are from the heat or diffusion equation, mathematically describing the process when molecules move from areas of high concentration to places of low concentration. The $f(v(x,t))$ term accounts for ion channels in a neuron; these open and close to add or decrease from the ions entering the cell based on its current voltage. 
-
-
-Therefore, the final partial differential equation we will be using to analyze voltage propagation in a neuron is:
-\begin{equation} \label{2}
 \frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}+f(v(x,t))+J_{ext}(x,t)
 \end {equation}
+The terms with partial derivatives are from the heat or diffusion equation, mathematically describing the process when molecules move from areas of high concentration to places of low concentration. The $f(v(x,t))$ term accounts for ion channels in a neuron; these open and close to add or decrease from the ions entering the cell based on its current voltage. The $J_{ext}(x,t)$ term accounts for the external voltage that is applied to the neuron. 
+\subsubsection{Summary of the Derivation}
+This model is derived from equations relating current, voltage, and resistance in an electric circuit, as the work by A.L. Hodgkin and A.F. Huxley demonstrated that parts of the axonal membrane behave similar to a circuit. We will take the membrane to be an infitesimal segment $[x, x+dx]$ with seperate intra- and extracellular voltages and resistances, denoted by either an $i$ or an $e$ in the subscript, respectively. The first step in deriving the model is using Ohm's law to relate current, voltage, and resistance. Note that since we will be examining the voltage in the membrane of a neuron, it is important to examine each of these values inside and outside of the cell; this results in two equations for current. 
+\[v_i(x+dx)-v_i(x)=-I_i(x)R_idx\]
+\[v_e(x+dx)-v_e(x)=-I_e(x)R_edx\]
+If we take these relations, divide by $dx$, and take the limit as $dx\rightarrow 0$ and solve for current, we get the following equations:
+\[I_i(x)=-\frac{\partial}{\partial{x}}(\frac{1}{R_i(x)}\frac{\partial{v_i}}{\partial{x}})\]
+\[I_e(x)=-\frac{\partial}{\partial{x}}(\frac{1}{R_e(x)}\frac{\partial{v_e}}{\partial{x}})\]
+Now, we want to use these two equations to solve for the current per unit length $J_m(x)$, where, for an infitesimal segment, $J_m(x)dx=I_e(x+dx)-I_e(x)=I_i(x+dx)-I_i(x)$. We will divde by $dx$ and take the limit as $dx\rightarrow 0$. This gives the relatioship:
+\[J_m(x)=\frac{\partial{I_e}}{\partial{x}}=-\frac{\partial{I_i}}{\partial{x}}\]
+We know that the voltage across the cell membrane must be the difference between the intra- and extracellular voltages: $v=v_i=v_e$ and that there is a total current that is constant that will be equal to the sum of the intra- and extracellular current. We will use Ohm's law to write this current in terms of resistance and voltage, rewriting voltages with the relation $v=v_i=v_e$, and plug all these into the sum of currents equation. Since the sum of the currents is constant and we can assume that resistances are constant, we can take the partial derivative with respect to x and get the following relationship between current per unit length $J_m(x)$ and voltage $v$.
+\begin{equation} \label{2}
+J_m(x)=\frac{\partial}{\partial{x}}(\frac{1}{R(x)}\frac{\partial{v}}{\partial{x}})
+\end {equation}
+This describes the current passing through the membrane of a neuron, and is also a form of the diffusion equation.\par
+Now, we will consider time variables in this model because the model behaves like an RC circuit and have some nonlinear properties of ion channels that act similar to resistors. When the current per unit length has a time variable, it is also the sum of capactive current, outward ionic current, and inward applied current. If we plug this relation into Equation (\ref{2}), we get the following:
+\[C\frac{\partial{v(x,t)}}{\partial{t}}=-J_{ION}(v(x,t),t)+\frac{1}{R}\frac{\partial^2{v(x,t)}}{\partial{x}^2}+J_A(x,t)\]
+The term $-J_{ION}(v(x,t),t)$ is the outward applied current, can be represented by $f(v(x,t))$, a nonlinear function that controls how voltage leaves or enters the system. The term $J_A(x,t)$ was the inward applied current, and can represent the voltage applied ot the system externally. Now, we will need to change variables in order to get rid of R and C; however, we will still write the final variables as $x$ and $t$ for familiarty. The final model becomes:
+\[\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}+f(v(x,t))+J_{ext}(x,t)\]
 
 \subsection{Purpose}
 In this project, we aim to examine the partial differential equation model of this phenomenon to analyze the propagation of action potentials throughout a neuron. First, we will look at a passive membrane where there is no voltage gradient and ions will leak out of the cell by first solving the stationary solution and then solving the partial differential equation in order to analyze the impulse propagation reaction to various initial voltage inputs. Next, we will analyze a nonlinear model that takes into account that membrane ion channels often have a "two state" nature--meaning... We will examine the traveling wave solutions of this model. Therefore, we aim to have a better understanding of how voltage propagates within under various conditions and inputs.
@@ -104,11 +116,11 @@ Using the same approach, we will use Taylor series to write the second x derivat
 \[\frac{\partial^2{v(x,t)}}{\partial{x}^2}=\frac{v^{j}_{i+1}-2v^j_i+v^j_{i-1}}{(\Delta{x})^2}+O((\Delta{x})^2)\]
 Using these two formulas and putting these into our original PDE gives:
 \[\frac{v^{j+1}_i-v^j_i}{\Delta{t}}=\frac{v^{j}_{i+1}-2v^j_i+v^j_{i-1}}{(\Delta{x})^2}-v^j_i+J_{ext}(x,t)\]
-Finally, we can algebraically solve this equation for $v^{j+1}_i$, in terms of values that are known. Therefore, going timestep by timestep starting from the initial condition, this question can be usedto solve numerically for the entire subset of the neuron we're examining. Note that I have removed the $J_{ext}(x,t)$ form from this equation
+Finally, we can algebraically solve this equation for $v^{j+1}_i$, in terms of values that are known. Therefore, going timestep by timestep starting from the initial condition, this question can be used to solve numerically for the entire subset of the neuron we're examining. Note that I have removed the $J_{ext}(x,t)$ from this equation
 \begin{equation} \label{*}
 v^{j+1}_i=\frac{\Delta{t}}{(\Delta{x})^2}(v^{j}_{i+1}+v^{j}_{i-1})+(1-\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2})v^{j}_{i}+\Delta{t}*J_{ext}(x,t)
 \end {equation}
-However, looking at the $v^{j}_{i}$ term in this equation, it can be seen that if $\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2}>1$ then this approximation is unstable and will not converge. Therefore, in order for this method of finite difference approximation to converge, $\Delta{t}$ must be much smaller than $(\Delta{x})^2$ 
+However, looking at the $v^{j}_{i}$ term in this equation, it can be seen that if $\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2}>1$ then this approximation is unstable and will not converge. Therefore, in order for this method of finite difference approximation to converge, $\Delta{t}$ must be much smaller than $\Delta{x}$ 
 When using equation (\ref{*}) to approximate this solution numerically, we will be using $J_{ext}(x,t)=10e^{-25x^2}\delta{(t)}$. However, instead of simulating the function $\delta{(t})$, we will remove $J_{ext}(x,t)$ from the function representing the numerical function and use it as the initial condtion, making $v(x,0)=10e^{-25x^2}$. The boundary conditions will be zero everywhere else. Since we cannot approximate an infinite interval of x and t, we will instead look at the region from $[-10,10]$ for x and $[0,50]$ for t. 
 First, using the given $\Delta{t}=0.1$ and $\Delta{x}=0.1$, we can see the the approximation does not converge to a solution, as predicted, and that it is unstable. 
 \begin{figure}[H]
@@ -124,6 +136,57 @@ Next, when we change $\Delta{t}$ to 0.001 the meet the conditions for stability 
   \label{fig:sketch2}
 \end{figure}
 As one can see, this plot is matches closely to the analytical solution. It shows the spike of voltage at $t=0$ and $x=0$ and demonstrates how that voltage propagates throughout the neuron, approaching zero as time and x increases. 
+
+\section{The Bistable and Traveling Wave Solution}
+
+\subsection{Numerical Solutions: Two-State Ion Channels}
+After analytically solving te traveling wave solutions of the ovltage equation, we found numerical solutions as well. In this case, the equation we examined was:
+\[\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}-v(x,t)+H(v(x,t)-\theta)+J_{ext}(x,t)\]
+Though the term $J_{ext}(x,t)$ was not specified, I will used $J_{ext}(x,t)=10e^{25x^2}\delta{t}$. This is the same $J_{ext}(x,t)$ used in numerically solving the passive membrane solution, and it can be removed from the equation itself and substituted into the initial condition. It mimics the scenario of a large spike of voltage initially applied to the neuron at $x=0$ and $t=0$, while remaining almost zero for all other $x$ at $t=0$. Also, though there are infinite boundaries for both $x$ and $t$, we will again only look at the region from $[-10,10]$ for x and $[0,50]$ for t in order to numerically solve this system.  Similar to the numerical solutions of the passive membrane, we will solve the system numerically by discretizing both partial derivatives using Taylor series, plugging these approximations back into the original partial differential equation, and solving for $v^{j+1}_i$. This gives the equation:
+\begin{equation} \label{**}
+v^{j+1}_i=\frac{\Delta{t}}{(\Delta{x})^2}(v^{j}_{i+1}+v^{j}_{i-1})+(1-\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2})v^{j}_{i}+\Delta{t}*H(v^j_i-\theta)
+\end {equation}
+This equation requires the same stability condition as the numerical approximation for the passive membrane solution. If $\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2}>1$ then this approximation is unstable and will not converge. Therefore, $\Delta{t}$ must be much smaller than $\Delta{x}$. This instability is demonstrated when we use the given values of $\Delta{x}=0.1$ and $\Delta{t}=0.1$. 
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{badplot3.jpg}
+  \caption{Plot of Unstable Numerical Approximation, Two-State Ion Channel Solution}
+  \label{fig:sketch3}
+\end{figure}
+Matlab was unable to plot this completely, because the divergance caused some of the points to not be able to compute. Therefore, for the rest of the problem, we will make $\Delta{x}=0.5$ and $\Delta{t}=0.005$. Next, we will produce plots of numerical solutions with three different values of $\theta$. The values we examined were $\theta=1$, $\theta=0.5$, $\theta=0.1$. 
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{thetaone.jpg}
+  \caption{Plot of Stable Numerical Approximation, Two-State Ion Channel Solution, $\theta=1$}
+  \label{fig:sketch4}
+\end{figure}
+With this value of $\theta$ the plot doesn't look much different from the plots in the passive membrane solution. This is because when $\theta$ is large, not many of values of voltage, $v(x,t)$ will be greater than $\theta$ so the Heaviside function will be zero for most of the soltuion. 
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{thetatwo.jpg}
+  \caption{Plot of Stable Numerical Approximation, Two-State Ion Channel Solution, $\theta=0.5$}
+  \label{fig:sketch5}
+\end{figure}
+The concept of a traveling wave is best depicted with this value of $\theta$. As time increases, the solution converges to a uniform wave that doesn't change shape.
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{thetathree.jpg}
+  \caption{Plot of Stable Numerical Approximation, Two-State Ion Channel Solution, $\theta=0.1$}
+  \label{fig:sketch6}
+\end{figure}
+The concept of a traveling wave is also depicted with this value of $\theta$. Though the wave is larger, the wave still doesn't change shape as time increases. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

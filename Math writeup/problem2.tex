@@ -1,0 +1,88 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex
+\usepackage{amsmath}
+
+
+\title{The cable project}
+\author{Elise Niedringhaus, Sarah Liddle and Darice Guittet}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+\section{2}
+\subsection{2a}
+\subsection{2b}
+Boundary conditions:\\
+$$\lim_{x\to\infty} \frac{\partial v(x,t)}{\partial x}=0$$ and $$\lim_{x\to\infty} \frac{\partial v(x,t)}{\partial x}=0$$\\
+Application of the change of variables $v(x,t)=V(\xi)$, where $\xi=x-ct$ to $\frac{\partial v(x,t)}{\partial t}=\frac{\partial ^2 v(x,t)}{\partial x^2}-v(x,t)+H(v-\theta)+J_{ext}(x,t)$ yields the following second order ordinary differential equation:\\
+\begin{equation}
+\label{second order ODE}
+-cV'(\xi)=V''(\xi)-V(\xi)+H(V(\xi)-\theta)+J_{ext}(x,t)
+\end{equation}
+\subsection{2c}
+
+The two ordinary differential equations are:\\
+\begin{equation}
+\label{ODE1}
+-cV_1'(\xi)=V_1''(\xi)-V_1(\xi)
+\end{equation}
+for  $\xi \in (0,\infty)$ and\\
+
+\begin{equation}
+\label{ODE2} 
+-cV_2'(\xi)=V_2''(\xi)-V_2(\xi)+1
+\end{equation}
+for $\xi \in (-\infty,0)$
+
+The boundary conditions are\\
+$$\lim_{\xi\to-\infty} \frac{d V_1(\xi)}{d \xi}=0$$
+$$\lim_{\xi\to\infty} \frac{d V_2(\xi)}{d \xi}=0$$
+$$\lim_{\xi\to-\infty} V_1(\xi)=1$$
+$$\lim_{\xi\to\infty} V_2(\xi)=0$$
+$$V_1(0)=V_2(0)$$
+$$\frac{d V_1}{d \xi}(0)=\frac{d V_2}{d \xi}(0)$$
+\subsection{2d}
+
+Equation \ref{ODE1} is a homogeneous ordinary differential equation. The corresponding characteristic equation, $r^2+cr-1=0$, has roots of  $r=\frac{-c \pm \sqrt{c^2+4}}{2}$. Thus, 
+\begin{equation}
+\label{ODE1 general solution}
+V_{1}=c_1 e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+c_2e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi}, \xi \in (0,\infty)
+\end{equation}
+
+In order to solve equation \ref{ODE2}, use the method of undetermined coefficients. First, determine the homogeneous solution of the differential equation by solving $cV_2'(\xi)=V_2''(\xi)-V_2(\xi)$ for $V_2$. The characteristic equation, $r^2+cr-1=0$, has roots of $r=\frac{-c \pm \sqrt{c^2+4}}{2}$. Thus, the homogeneous solution is
+\begin{equation}
+\label{homogeneous solution}
+V_{2,h}=c_3 e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+c_4 e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi}
+\end{equation}
+Guess a particular solution of the form $V_{2,p}=A$. Plugging $V_{2,p}$ into equation \ref{ODE2} yields 
+$$-c(0)=0-A+1$$
+$$A=1$$ 
+$$V_{2,p}=1$$
+Thus, the solution to equation \ref{ODE2} is 
+\begin{equation}
+\label{ODE2 general solution}
+V_{2}=c_3 e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+c_4 e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi}+1, \xi \in (-\infty,0)
+\end{equation}
+Next, use the boundary conditions to eliminate the arbitrary coefficients. 
+$$\lim_{\xi\to\infty} \frac{d V_1(\xi)}{d \xi}=0\Rightarrow c_1=0$$
+$$\lim_{\xi\to-\infty} \frac{d V_2(\xi)}{d \xi}=0\Rightarrow c_4=0$$
+$$V_1(0)=V_2(0)\Rightarrow c_2=c_3+1$$
+$$\frac{d V_1}{d \xi}(0)=\frac{d V_2}{d \xi}(0)\Rightarrow -\frac{1}{2}(c+\sqrt{c^2+4}) c_2= \frac{1}{2}(-c+\sqrt{c^2+4})c_3$$ 
+The solution to this linear system of equations is $c_1=0, c_2=\frac{\frac{1}{2}(-c+\sqrt{c^2+4})}{\frac{1}{2}(-c+\sqrt{c^2+4})+\frac{1}{2}(c+\sqrt{c^2+4})}=\frac{-c+\sqrt{c^2+4}}{2\sqrt{c^2+4}}, c_3= \frac{-\frac{1}{2}(c+\sqrt{c^2+4})}{\frac{1}{2}(-c+\sqrt{c^2+4})+\frac{1}{2}(c+\sqrt{c^2+4})}=\frac{-c-\sqrt{c^2+4}}{2\sqrt{c^2+4}}$, and $c_4=0$.\\
+The solution to equation \ref{ODE1} is 
+\begin{equation}
+\label{ODE1 solution}
+V_1(\xi)=\frac{-c+\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi},\xi \in (0,\infty).
+\end{equation}
+The solution to equation \ref{ODE2} is
+\begin{equation}
+\label{ODE2 solution}
+V_2(\xi)=\frac{-c-\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+1,\xi \in (-\infty,0).
+\end{equation}
+\end{document}  

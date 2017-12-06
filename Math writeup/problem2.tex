@@ -20,10 +20,10 @@
 \subsection{2b}
 Boundary conditions:\\
 $$\lim_{x\to\infty} \frac{\partial v(x,t)}{\partial x}=0$$ and $$\lim_{x\to\infty} \frac{\partial v(x,t)}{\partial x}=0$$\\
-Application of the change of variables $v(x,t)=V(\xi)$, where $\xi=x-ct$ to $\frac{\partial v(x,t)}{\partial t}=\frac{\partial ^2 v(x,t)}{\partial x^2}-v(x,t)+H(v-\theta)+J_{ext}(x,t)$ yields the following second order ordinary differential equation:\\
+Application of the change of variables $v(x,t)=V(\xi)$, where $\xi=x-ct$ to $\frac{\partial v(x,t)}{\partial t}=\frac{\partial ^2 v(x,t)}{\partial x^2}-v(x,t)+H(v-\theta)+J_{ext}(x,t)$ yields the following second order ordinary differential equation. Assume that the external current. $J_{ext})(x,t)=0$.\\
 \begin{equation}
 \label{second order ODE}
--cV'(\xi)=V''(\xi)-V(\xi)+H(V(\xi)-\theta)+J_{ext}(x,t)
+-cV'(\xi)=V''(\xi)-V(\xi)+H(V(\xi)-\theta)
 \end{equation}
 \subsection{2c}
 
@@ -85,4 +85,30 @@ The solution to equation \ref{ODE2} is
 \label{ODE2 solution}
 V_2(\xi)=\frac{-c-\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+1,\xi \in (-\infty,0).
 \end{equation}
+\subsection{2e}
+In order to understand the relationship between the speed of the traveling front and the threshold value $\theta$, apply the threshold condition that $V(0)=\theta$. Application of this threshold condition to the traveling wave solutions gives $\frac{-c}{2\sqrt{c^2+4}}+\frac{1}{2}=\theta$.
+$$\frac{-c}{\sqrt{c^2+4}}+1=2\theta$$
+$$\frac{-c}{\sqrt{c^2+4}}=2\theta1$$
+$$\frac{c^2}{c^2+4}=(2\theta-1)^2$$
+$$c^2(1-(2\theta-1)^2)=4(2\theta-1)^2$$
+$$c=\sqrt{\frac{4(2\theta-1)^2}{1-(2\theta-1)^2}}$$
+$$c=\sqrt{\frac{-(2\theta-1)^2}{\theta^2-\theta}}$$
+\subsection{2f}
+Partial differential equation: 
+\begin{equation}
+\label{uh}
+\frac{\partial v}{\partial t}=\frac{\partial ^2 v}{\partial x^2}-v+H(v-\theta)
+\end{equation}
+In order to analyze the stability of the traveling wave solution found, let $v(x,t)=V(\xi)+\epsilon\psi(\xi,t)$, where $0 < \epsilon <<1$ and $\psi(\xi,t)$ represents a small perturbation to the traveling wave solution. 
+$$\frac{\partial v}{\partial t}=\frac{\partial\xi}{\partial t}\frac{dV}{d\xi}+\epsilon(\frac{\partial \psi}{\partial \xi}\frac{\partial \xi}{\partial t}+\frac{\partial \psi}{\partial t})$$
+$$\Rightarrow \frac{\partial v}{\partial t}=-c\frac{dV}{d\xi}+\epsilon(-c\frac{\partial \psi}{\partial \xi}+\frac{\partial \psi}{\partial t})$$
+$$\frac{\partial v}{\partial x}=\frac{\partial \xi}{\partial x}\frac{dV}{d\xi}+\epsilon\frac{\partial\xi}{\partial x}\frac{\partial\psi}{\partial\xi}$$
+$$\Rightarrow \frac{\partial v}{\partial x}=\frac{dV}{d\xi}+\epsilon\frac{\partial\psi}{\partial\xi}$$
+$$\frac{\partial^2 v}{\partial x^2}=\frac{\partial \xi}{\partial x}\frac{d^2V}{d\xi^2}+\epsilon\frac{\partial^2\psi}{\partial\xi^2}\frac{\partial \xi}{\partial x}$$
+$$\Rightarrow \frac{\partial^2 v}{\partial x^2}=\frac{d^2V}{d\xi^2}+\epsilon\frac{\partial^2\psi}{\partial\xi^2}$$
+Equation \ref{uh} can be rewritten as 
+\begin{equation}
+-c\frac{dV(\xi)}{d\xi}+\epsilon(-c\frac{\partial \psi(\xi,t)}{\partial \xi}+\frac{\partial \psi(\xi,t)}{\partial t})=\frac{d^2V(\xi)}{d\xi^2}+\epsilon\frac{\partial^2\psi(\xi,t)}{\partial\xi^2}-V(\xi)+\epsilon\psi(\xi,t)+H(V(\xi)+\epsilon\psi(\xi,t)-\theta)
+\end{equation}
+
 \end{document}  

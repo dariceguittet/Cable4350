@@ -1,5 +1,6 @@
 \documentclass[12pt]{article}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \graphicspath{ {images/} }
 \usepackage[margin=1in]{geometry}
 \usepackage{float}
@@ -102,11 +103,113 @@ Therefore, $c(\omega) = 1$ and our solution for $t>0$ is found to be the inverse
 $$G_{\infty}(\omega,t) = \frac{1}{2\pi}\int_{-\infty}^{\infty}e^{-t(\omega^2+1)}e^{i \omega x)} d\omega = \frac{1}{2\pi}\int_{-\infty}^{\infty}e^{i \omega x-t(\omega^2+1)}d\omega $$
 We complete the square for the exponents and recognize the result as a Gaussian integral to find the solution.
 
-$$ G_{\infty}(x,t>0) = \frac{1}{2\pi}e^{-t-\frac{x^2}{4t}}\int_{-\infty}^{\infty}e^{-t(\omega - \frac{ix}{2t} )^2 }d\omega = \frac{1}{\sqrt{4\pi t}}e^{-t-\frac{x^2}{4t}} $$
+$$ G_{\infty}(x,t) = \frac{\mathcal{H}(x,t)}{2\pi}e^{-t-\frac{x^2}{4t}}\int_{-\infty}^{\infty}e^{-t(\omega - \frac{ix}{2t} )^2 }d\omega = \frac{\mathcal{H}(x,t)}{\sqrt{4\pi t}}e^{-t-\frac{x^2}{4t}} $$
 
 \subsubsection{Plots of Green's Function}
+We plot Green's function at $t=0$, $t=1$, $t=10$ and $t=100$.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Part1Plots/t0}
+        \caption{$t=0$}
+        \label{fig:t0}
+    \end{subfigure}
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Part1Plots/t1}
+        \caption{$t=1$}
+        \label{fig:t1}
+    \end{subfigure}
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Part1Plots/t10}
+        \caption{$t=10$}
+        \label{fig:t10}
+    \end{subfigure}
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Part1Plots/t100}
+        \caption{$t=100$}
+        \label{fig:t100}
+    \end{subfigure}
+    \caption{Plots of Green's Function at Various Times}\label{fig:timeplots}
+\end{figure}
+
+We also plot Green's function at $x=0$, where voltage is monotone decreasing, and $x=2$, where voltage is nonmonotonic, for $t>0$.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Part1Plots/x0}
+        \caption{$x=0$}
+        \label{fig:x0}
+    \end{subfigure}
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Part1Plots/x2}
+        \caption{$x=2$}
+        \label{fig:x2}
+    \end{subfigure}
+
+    \caption{Plots of Green's Function at Various Locations}\label{fig:spaceplots}
+\end{figure}
+
+The total voltage was computed to be $\int_{-\infty}^{\infty}G_{\infty}(x,t)dx = e^{-t}, t>0$ and it is monotone decreasing.
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[h]{0.8\textwidth}
+        \includegraphics[width=\textwidth]{Part1Plots/g}
+    \end{subfigure}
+    \caption{Total Voltage} \label{fig:totalvoltage}
+\end{figure}
+   	
+   	
+\subsection{Generalizing Solutions}
+Using Green's function found above, the formula for a generalized solution given arbitrary spatiotemporal input $J_{ext}(x,t)$ is
+
+$$ \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0,t-t_0)J_{ext}(x_0,t_0)dx_0dt_0 $$
+
+\pagebreak
+
+\subsubsection{Example Function 1}
+For $J_{1}(x,t) = [\delta(x-1)+\delta(x+1)]\delta(t)$, with a starting momentary impulse at $x=1$ and $x=-1$ , the solution is found and plotted below.
+
+$$ v_1(x,t) = \frac{\mathcal{H}(t)}{2\sqrt{\pi t}}(1+e^{\frac{x}{t}})e^{-t-\frac{(1+x)^2}{4t}} $$
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[h]{0.8\textwidth}
+        \includegraphics[width=\textwidth]{Part1Plots/plot1}
+    \end{subfigure}
+    \caption{Plot of $v_1(x,t)$ with $J_{1}(x,t)=[\delta(x-1)+\delta(x+1)]\delta(t)$} \label{fig:jext1}
+\end{figure}
+
+\pagebreak
+\subsubsection{Example Function 2}
+For $J_{2}(x,t) = 1$, the solution and plot is:
+$$ v_2(x,t) = 1 $$
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[h]{0.8\textwidth}
+        \includegraphics[width=\textwidth]{Part1Plots/plot2}
+    \end{subfigure}
+    \caption{Plot of $v_2(x,t)$ with $J_{2}(x,t)=1$} \label{fig:jext2}
+\end{figure}
 
 
+\pagebreak
+\subsubsection{Example Function 3}
+For $J_{3}(x,t) = sin(x)$, the solution and plot is:
+$$ v_3{x,t} = \frac{sin(x)}{2} $$
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[h]{0.8\textwidth}
+        \includegraphics[width=\textwidth]{Part1Plots/plot3}
+    \end{subfigure}
+    \caption{Plot of $v_{3}(x,t)$ with $ J_3(x,t) = \frac{sin(x)}{2} $ } \label{fig:jext3}
+\end{figure}
+
+\pagebreak
 
 \section{Numerical Solutions}
 After analytically solving the voltage equation, we also found numerical solutions. In order to numerically solve for this partial differential equation, we must first discretize both partial derivatives. For this problem, discretization is the process of using Taylor series to approximate the first time derivative of the voltage function in terms of the point we will approximate and the known point one time step before it, like so:

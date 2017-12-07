@@ -97,8 +97,9 @@ $$c=\sqrt{\frac{-(2\theta-1)^2}{\theta^2-\theta}}$$
 Partial differential equation: 
 \begin{equation}
 \label{uh}
-\frac{\partial v}{\partial t}=\frac{\partial ^2 v}{\partial x^2}-v+H(v-\theta)
+\frac{\partial v}{\partial t}=\frac{\partial ^2 v}{\partial x^2}+f(v(x,t))
 \end{equation}
+where $f(v)=-v+H(v-\theta)$.\\
 In order to analyze the stability of the traveling wave solution found, let $v(x,t)=V(\xi)+\epsilon\psi(\xi,t)$, where $0 < \epsilon <<1$ and $\psi(\xi,t)$ represents a small perturbation to the traveling wave solution. 
 $$\frac{\partial v}{\partial t}=\frac{\partial\xi}{\partial t}\frac{dV}{d\xi}+\epsilon(\frac{\partial \psi}{\partial \xi}\frac{\partial \xi}{\partial t}+\frac{\partial \psi}{\partial t})$$
 $$\Rightarrow \frac{\partial v}{\partial t}=-c\frac{dV}{d\xi}+\epsilon(-c\frac{\partial \psi}{\partial \xi}+\frac{\partial \psi}{\partial t})$$
@@ -108,7 +109,32 @@ $$\frac{\partial^2 v}{\partial x^2}=\frac{\partial \xi}{\partial x}\frac{d^2V}{d
 $$\Rightarrow \frac{\partial^2 v}{\partial x^2}=\frac{d^2V}{d\xi^2}+\epsilon\frac{\partial^2\psi}{\partial\xi^2}$$
 Equation \ref{uh} can be rewritten as 
 \begin{equation}
--c\frac{dV(\xi)}{d\xi}+\epsilon(-c\frac{\partial \psi(\xi,t)}{\partial \xi}+\frac{\partial \psi(\xi,t)}{\partial t})=\frac{d^2V(\xi)}{d\xi^2}+\epsilon\frac{\partial^2\psi(\xi,t)}{\partial\xi^2}-V(\xi)+\epsilon\psi(\xi,t)+H(V(\xi)+\epsilon\psi(\xi,t)-\theta)
+\label{frewritten}
+-c\frac{dV(\xi)}{d\xi}+\epsilon(-c\frac{\partial \psi(\xi,t)}{\partial \xi}+\frac{\partial \psi(\xi,t)}{\partial t})=\frac{d^2V(\xi)}{d\xi^2}+\epsilon\frac{\partial^2\psi(\xi,t)}{\partial\xi^2}+f(V(\xi)+\epsilon\psi(\xi,t))
 \end{equation}
+where $f(V(\xi)+\epsilon\psi)=-(V(\xi)+\epsilon\psi(\xi,t))+H(V(\xi)+\epsilon\psi(\xi,t)-\theta)$.\\
+
+Analysis of equation \ref{frewritten} can be simplified by using the Taylor expansion of $f(V(\xi)+\epsilon\psi)$ with respect to $\epsilon$, about $\epsilon=0$.
+$$f(V(\xi)+\epsilon\psi)\approx f(V(\xi)+\epsilon\psi)\Big|_{\epsilon=0}+\Bigg(\frac{\partial f(V(\xi)+\epsilon\psi)}{\partial \epsilon}\Big|_{\epsilon=0}\Bigg)\epsilon+O(\epsilon ^2)$$
+$$f(V(\xi)+\epsilon\psi)\approx f\big(V(\xi)\big)+\big(-\psi(\xi,t)+\psi(\xi,t) \delta(V(\xi)-\theta)\big)\epsilon$$
+$$f(V(\xi)+\epsilon\psi)\approx -V(\xi)+H(V(\xi)-\theta)+\psi(\xi,t)\epsilon\big(-1+\delta(V(\xi)-\theta)\big)$$
+Equation \ref{frewritten} becomes
+$$-c\frac{dV(\xi)}{d\xi}+\epsilon(-c\frac{\partial \psi(\xi,t)}{\partial \xi}+\frac{\partial \psi(\xi,t)}{\partial t})=\frac{d^2V(\xi)}{d\xi^2}+\epsilon\frac{\partial^2\psi(\xi,t)}{\partial\xi^2}-V(\xi)+H(V(\xi)-\theta)+\psi(\xi,t)\epsilon\big(-1+\delta(V(\xi)-\theta)\big)$$
+In order to analyze the long term behavior of the disturbance, look only at the terms involving $\psi$ and $\epsilon$. The partial differential equation that models the behavior of the perturbation is:
+$$\epsilon(-c\frac{\partial \psi(\xi,t)}{\partial \xi}+\frac{\partial \psi(\xi,t)}{\partial t})=\epsilon\frac{\partial^2\psi(\xi,t)}{\partial\xi^2}+\psi(\xi,t)\epsilon\big(-1+\delta(V(\xi)-\theta)\big)$$
+$$-c\frac{\partial \psi(\xi,t)}{\partial \xi}+\frac{\partial \psi(\xi,t)}{\partial t}=\frac{\partial^2\psi(\xi,t)}{\partial\xi^2}+\psi(\xi,t)\big(-1+\delta(V(\xi)-\theta)\big)$$
+In order to further understand the behavior of the perturbation, solve the partial differential equation to the left and the right of $V(\epsilon)=\theta$. The governing equation for $V(\xi)\neq\theta$ is 
+\begin{equation}
+\label{psiPDE}
+-c\frac{\partial \psi(\xi,t)}{\partial \xi}+\frac{\partial \psi(\xi,t)}{\partial t}=\frac{\partial^2\psi(\xi,t)}{\partial\xi^2}-\psi(\xi,t)
+\end{equation}
+since $\delta(V(\xi)-\theta)=0$ whenever $V(\xi)\neq\theta$. This equation can be solved using separation of variables, which means solutions should have the form of $\psi(\xi,t)=F(\xi)G(t)\neq0$.
+This proposed solution must satisfy the partial differential equation in equation \ref{psiPDE}.
+$$-cG(t)\frac{dF(\xi)}{d\xi}+F(\xi)\frac{dG(t)}{dt}=G(t)\frac{d^2F(\xi)}{d\xi^2}-F(\xi)G(t)$$
+$$-c\frac{1}{F(\xi)}\frac{dF}{d\xi}+\frac{1}{G(t)}\frac{dG}{dt}=\frac{1}{F(\xi)}\frac{d^2F(\xi)}{D\xi^2}-1$$
+$$$$
+
+
+
 
 \end{document}  

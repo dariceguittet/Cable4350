@@ -13,7 +13,7 @@
 Information within the brain is transmitted between neurons largely due to action potentionals, otherwise known as spikes, which are when the voltage in a neuron rapidly rises and falls. These allow communication between brain cells. A.L Hodgkin and A.F. Huxley received a 1963 Nobel Prize for their work regarding this topic, specifically the discovery that individual parts of the axonal membrane behave similarly to a component in an electric circuit. With this knew knowledge, it is now possible to derive equations that represent the voltage propagation in a neuron using formulas similar to those that describe current, resistance, and voltage in an electrical system. This pattern of diffusion along the membrane of neurons by current or voltage is called cable theory, which is what we will be analyzing in this report.
 
 \subsection{Understanding the Model}
-The model we are using to understand the propagation of voltage in a neuron can be described by the following partial differential equation:
+The model we are using to understand the propogation of voltage in a neuron can be described by the following partial differential equation:
 \begin{equation} \label{1}
 \frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}+f(v(x,t))
 \end {equation}
@@ -26,74 +26,7 @@ Therefore, the final partial differential equation we will be using to analyze v
 \end {equation}
 
 \subsection{Purpose}
-In this project, we aim to examine the partial differential equation model of this phenomenon to analyze the propagation of action potentials throughout a neuron. First, we will look at a passive membrane where there is no voltage gradient and ions will leak out of the cell by first solving the stationary solution and then solving the partial differential equation in order to analyze the impulse propagation reaction to various initial voltage inputs. Next, we will analyze a nonlinear model that takes into account that membrane ion channels often have a "two state" nature--meaning... We will examine the traveling wave solutions of this model. Therefore, we aim to have a better understanding of how voltage propagates within under various conditions and inputs.
-
-\section{Passive Membrane}
-We consider a passive membrane current with a linear ionic current that obeys Ohm's Law, with the resistance rescaled to unity: $f(v(x,t)) = -v(x,t)$. In addition, we add an external impulse at $x=0$ and $t=0$, formulated as the dirac delta function $\delta(t) \delta(x)$, to examine how the voltage responds. Since axons are much longer than wide, $x$ will range from $-\infty$ to $\infty$. We are also looking for bounded solutions since this is a physical system, therefore we look for solutions such that $\int_{-\infty}^{\infty}|v(x,t)|dx = M < \infty$. The inhomogeneous PDE corresponding to such a system is given by
-
-\begin{equation} \label{pm}
-\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}-v(x,t)+\delta(t)\delta(x)
-\end {equation}
-
-\subsection{Stationary Solutions}
-To start, we find the stationary solutions, $v(x,t) = V_0(x)$, satisfying $\frac{\partial{v(x,t)}}{\partial{t}} = 0$ by solving the homogeneous ODE:
-
-\begin{equation} \label{pm_odeH}
-\frac{d^2{V_0(x)}}{d{x^2}} - V_0(x) = 0
-\end{equation}
-The general solution is $V_0(x) = c_1e^{-x} + c_2e^{x}$. However, in order for $V_0$ to be bounded on $(-\infty, \infty)$, $V_0$ = 0:
-
-\subsection{Impulse Response}
-We add a stationary input current localized at $x=0$ and find solutions $V_F(x)$ to the resulting inhomogeneous ODE with boundary conditions $\lim_{x\to\infty} V_F(x) = 0$.
-
-\begin{equation} \label{pm_odeN}
-\frac{d^2{V_F(x)}}{d{x^2}} - V_F(x) = -\delta(x)
-\end{equation}
-We compute the Fourier transforms of the ODE to find an algebraic equation for the Fourier transform of the solution $\mathcal{FT}\left\{V_F(x)\right\} = \overline{V_F}(\omega)$, where $\omega$ is the spatial frequency with units $\frac{1}{x}$. Using the fact that $\mathcal{FT}\left\{d_{xx}V_F(x)\right\} = -\omega^2\overline{V_F}(\omega)$ and $ \mathcal{FT}\left\{\delta(x)\right\} = 1$, we get upon rearranging:
-
-$$ \overline{V_F}(\omega) = \frac{1}{\omega^2+1} $$
-
-Taking the inverse Fourier transform gives us our solution:
-
-$$ V_F(x) = \mathcal{FT}^{-1}\left\{\overline{V_F(\omega)}\right\} =  \frac{1}{2}e^{-|x|} $$
-
-\subsection{Generalizing Solutions}
-If we make the change of variable $x = x-x_0$ to Part 2.2, we arrive at the inhomogeneous ODE whose solution is defined to be Green's function for this particular problem. Let $\mathcal{L}\left\{G\right\}$ be the linear operator that is the left-hand side of the equation and $G(x-x_0)$ be Green's function, satisfying the same boundary conditions as above.
-
-\begin{equation} \label{pm_greens}
-\mathcal{L}\left\{G\right\} = -\frac{d^2{G(x-x_0)}}{d{x^2}} + G(x-x_0) = \delta(x-x_0)
-\end{equation}
-$$ G(x-x_0) = \frac{1}{2}e^{-| x-x_0 |} $$
-For any external input $f(x)$ and the associated inhomogeneous equation $\mathcal{L}\left\{y\right\} = f(x)$, the solution $y(x)$ can be found as
-$$ y(x) = \int_{a}^{b}G(x-x_0)f(x_0)dx_0 $$
-This fundamental property of Green's function is due to the \textit{sifting property} of the dirac delta function. 
-$$\mathcal{L}\left\{y\right\} = L\int_a^bG(x-x_0)f(x_0)dx_0 = \int_a^b\mathcal{L}\left\{G(x-x_0)\right\}f(x_0)dx_0 = \int_a^b\delta(x-x_0)f(x_0)dx_0 $$
-The formula for a stationary solution given an arbitrary stationary input uses Green's function as below.
-$$V_A(x) = \int_{-\infty}^{\infty}\frac{1}{2}e^{-|x-x_0|}J_{ext}(x_0)dx_0 $$
-
-\subsection{Green's Function for Time-Dependent Equation}
-Returning to the full time-dependent equation (\ref{pm}), we use Fourier transforms to find the solution, $G_{\infty}(x,t)$, Green's function on the infinite cable. This time, the Fourier transform of the PDE results in an inhomogeneous ODE for $\overline{G_{\infty}}(\omega,t)$.
-
-\begin{equation}\label{pm_timeFT}
-\frac{d}{dt}\overline{G_{\infty}}(\omega,t) + (\omega^2+1)\overline{G_{\infty}}(\omega,t) = \delta(t) 
-\end{equation} 
-When $t>0$, $\delta(t) = 0$ so the equation is reduced to a homogeneous ODE. Separation of variables and integration of both sides leads to the homogeneous solution, scaled by a function that is only dependent on $\omega$.
-
-$$\overline{G_{\infty}}(\omega,t) = c(\omega)e^{-t(\omega^2+1)} $$
-To find the value of $c(\omega)$, we examine the solution around $t=0$. Due to $\delta(t)$, there is a discontinuity such that $\overline{G_{\infty}}(\omega,0^-) = 0$ while $\overline{G_{\infty}}(\omega,0^+) = c(\omega)$. We integrate equation (\ref{pm_timeFT}) at a small section around the discontinuity, from $t=(-\epsilon, \epsilon)$, use the fact that $\overline{G_{\infty}}(\omega,\epsilon-) = 0$ since our system starts at $t=0$. 
-
-$$  \overline{G_{\infty}}(\omega,\epsilon) + \int_{-\epsilon}^{\epsilon}(\omega^2+1)\overline{G_{\infty}}(\omega,t)dt = \int_{-\epsilon}^{\epsilon}\delta(t)dt = 1$$
-Taking the limit as $\epsilon \to 0$, we find the integral goes to zero and we are left with the constraint.
-
-$$ \lim_{\epsilon\to 0} \overline{G_{\infty}}(\omega,\epsilon)  = \lim_{t\to 0^+}c(\omega)e^{-t(\omega^2+1)}  = 1 $$
-Therefore, $c(\omega) = 1$ and our solution for $t>0$ is found to be the inverse Fourier transform.
-$$G_{\infty}(\omega,t) = \frac{1}{2\pi}\int_{-\infty}^{\infty}e^{-t(\omega^2+1)}e^{i \omega x)} d\omega = \frac{1}{2\pi}\int_{-\infty}^{\infty}e^{i \omega x-t(\omega^2+1)}d\omega $$
-We complete the square for the exponents and recognize the result as a Gaussian integral to find the solution.
-
-$$ G_{\infty}(x,t>0) = \frac{1}{2\pi}e^{-t-\frac{x^2}{4t}}\int_{-\infty}^{\infty}e^{-t(\omega - \frac{ix}{2t} )^2 }d\omega = \frac{1}{\sqrt{4\pi t}}e^{-t-\frac{x^2}{4t}} $$
-
-\subsubsection{Plots of Green's Function}
-
+In this project, we aim to examine the partial differential equation model of this phenomenon to analyze the propagation of action potentials throughout a neoron. First, we will look at a passive membrane where there is no voltage gradient and ions will leak out of the cell by first solving the stationary solution and then solving the partial differential equation inorder to analyze the impulse propagation reaction to various initial voltage inputs. Next, we will analyze a nonlinear model that takes into account that membrane ion channels often have a "two state" nature--meaning... We will examine the traveling wave solutions of this model. Therefore, we aim to have a better understanding of how voltage propagates within under various conditions and inputs.
 
 
 \section{Numerical Solutions}

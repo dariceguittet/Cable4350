@@ -1,7 +1,7 @@
 %%% Initialize variables
-dx = 1; %change in x
+dx = 0.5; %change in x
 Nx = 20/dx; % Choose the number of x steps 
-dt = 0.01; %Length of each time step in seconds 
+dt = 0.005; %Length of each time step in seconds 
 Nt = 50/dt; % Choose the number of time steps
 b=dt/(dx*dx);
 
@@ -18,4 +18,11 @@ for k=1:Nt
 end
 
 figure(1)
-surf(V); title('Voltage Propagation')
+mesh(V); title('Voltage Propagation');ylabel('x (Multiplied by 10, Shifted by 10)'); xlabel('Time (Multiplied by 10)'); zlabel('Voltage')
+
+x=1:Nx+1;
+x1=x*dx-10.1;
+figure (2)
+plot(x1,V(:,500:1001)); title('Voltage Propagation, Times 25-50'); xlabel('x'); ylabel('Voltage')
+figure (3)
+plot(x1,V); title('Voltage Propagation'); xlabel('x'); ylabel('Voltage')

@@ -16,15 +16,6 @@
 
 
 
-
-
-The temporal portion of $\psi(\xi,t)=F(\xi)G(t)$ is governed by $\frac{1}{G(t)}\frac{dG}{dt}=\lambda$.
-Thus, the time dependence of $\psi(\xi,t)$ is described by $G(t)=C_1e^{\lambda t}$, where $C_1\in\mathbb{R}$. Now, consider $\frac{d^2F(\xi)}{d\xi^2}+c\frac{dF(\xi)}{d\xi}-F(\xi)(1+\lambda)=0$. 
-There are three cases to consider: $\lambda=0$, $\lambda<0$ and $\lambda>0$.\\
-
- When $\lambda=0$, $\frac{d^2F(\xi)}{d\xi^2}+c\frac{dF(\xi)}{d\xi}-F(\xi)=0$ has the general solution $F(\xi)=Ae^{\frac{1}{2}\big(-c+\sqrt{c^2+4}\big)\xi}+Be^{-\frac{1}{2}\big(c+\sqrt{c^2+4}\big)\xi}$. The solution corresponding to the zero eigenvalue is $\psi(\xi,t)=A_0e^{\frac{1}{2}\big(-c+\sqrt{c^2+4}\big)\xi}+B_0e^{-\frac{1}{2}\big(c+\sqrt{c^2+4}\big)\xi}$.\\
- ???? Wait this doesn't depend on time so it can't decay in time????
- 
  
  When $\lambda<0$, if $c^2\geq4(1+\lambda)$, then $F(\xi)=Ae^{\frac{1}{2}\big(-c+\sqrt{c^2+4(1+\lambda)}\big)\xi}+Be^{-\frac{1}{2}\big(c+\sqrt{c^2+4(1+\lambda)}\big)\xi}$. The boundary condition in equation \ref{psiBC} requires that $B=0$ when $V>\theta$ and that $A=0$ when $V<\theta$. \\
  
@@ -86,11 +77,11 @@ The time-dependent equation is a homogeneous ODE with the following solutions, w
 \end{equation}
 For the spatial dependence, we split the domain of the equation into three regions, depending on the value of $\delta(V(\xi)-\theta)$, with the boundary condition that $\lim_{\xi \to \pm \infty}\psi = 0$:
 
-1) $\xi < 0$ and $\delta(V(\xi)-\theta) = 0$
+Region 1: $\xi < 0$ and $\delta(V(\xi)-\theta) = 0$
 
-2) $\xi > 0$ and $\delta(V(\xi)-\theta) = 0$ 
+Region 2: $\xi > 0$ and $\delta(V(\xi)-\theta) = 0$ 
 
-3) $\xi = 0$ and $\delta(V(\xi)-\theta) = \infty$
+Region 3: $\xi = 0$ and $\delta(V(\xi)-\theta) = \infty$
 
 \subsubsection{ Region 1 and 2}
 In Region 1 and 2, we solve the equation:
@@ -101,8 +92,10 @@ In Region 1 and 2, we solve the equation:
 The boundary conditions are in Region 1: $\lim_{\xi \to -\infty}S_1 = 0$; and in Region 2: $\lim_{\xi \to \infty}S_2 = 0$. The solutions have the form:
 
 \begin{equation} \label{homogsln}
-S_1(\xi) = c_1e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}\xi}
+\begin{aligned}
+S_1(\xi) = c_1e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}\xi} \\
 S_2(\xi) = c_2e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}\xi} 
+\end{aligned}
 \end{equation}
 
 \subsubsection{Region 3}
@@ -130,6 +123,7 @@ $S$ is the spatial part of some arbitrary perturbation function that satisfies $
 
 
 \subsection{Eigenvalues}
+\subsubsection{$\lambda = 0$ Case}
 Now to examine the family of solutions that depend on $\lambda$, we start with the $\lambda = 0$ case. Assuming we can rescale $S(0)$ to unity, eq (\ref{Keq}) simplifies to:
 $$1 = K\Bigg(\frac{-c-\sqrt{c^2+4)}}{2} - \frac{-c+\sqrt{c^2+4)}}{2}\Bigg) = -K\sqrt{c^2+4} $$
 or
@@ -137,7 +131,7 @@ $$K = -\frac{1}{\sqrt{c^2+4}}$$
 Plugging this constant back into our solutions for Region 1 and 2 (\ref{homogsln}) and multiplying it by the time-dependent solution (\ref{timeeq}), we find a solution for $\psi(\xi,t)$:
 
 \begin{equation}\label{solnlambda0}
-\psi(\xi,t)=
+\psi_{\lambda=0}(\xi,t)=
 \begin{cases}
 \ \frac{-1}{\sqrt{c^2+4}}e^{\frac{-c+\sqrt{c^2+4}}{2}},\quad \xi < 0 \\
 \ \frac{-1}{\sqrt{c^2+4}}e^{\frac{-c-\sqrt{c^2+4}}{2}},\quad \xi > 0\\
@@ -169,6 +163,26 @@ Recalling our traveling wave solution $V(\xi)$ (\ref{}), we note that $\psi(\xi,
     \end{subfigure}
     \caption{$v(x,t) = V(\xi) + \epsilon V'(\xi)$ with various $\epsilon$ values}\label{fig:timeplots}
 \end{figure}
+
+\subsubsection{$\lambda > 0$ Case}
+\begin{equation}\label{solnlambda+}
+\psi_{\lambda >0}(\xi,t)=
+\begin{cases}
+\ \frac{-1}{\sqrt{c^2+4(\lambda+1)}}e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}},\quad \xi < 0 \\
+\ \frac{-1}{\sqrt{c^2+4(\lambda+1)}}e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}},\quad \xi > 0\\
+\end{cases}
+\end{equation}
+
+\subsubsection{$\lambda < 0$ Case}
+\begin{equation}\label{solnlambda-}
+\psi_{\lambda <0}(\xi,t)=
+\begin{cases}
+\ \frac{-1}{\sqrt{c^2-4(\lambda-1)}}e^{\frac{-c+\sqrt{c^2-4(\lambda-1)}}{2}},\quad \xi < 0 \\
+\ \frac{-1}{\sqrt{c^2-4(\lambda-1)}}e^{\frac{-c-\sqrt{c^2-4(\lambda-1)}}{2}},\quad \xi > 0\\
+\end{cases}
+\end{equation}
+
+\pagebreak
 
 \begin{thebibliography}{9}
 

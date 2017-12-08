@@ -289,7 +289,13 @@ With this value of $\theta$, there is a single wave of voltage, but its speed is
   \caption{Plot of Stable Numerical Approximation, Two-State Ion Channel Solution, $\theta=0.1$}
   \label{fig:sketch6}
 \end{figure}
-We found that for this value of $\theta$, the traveling wave front was better depicted with a wider range of x values, so x will go between $[-30,30]$ in this plot. One can see that initially, the wave is spreading from the center $x=0$ to the edges of the boundary. In an infinite boundary, this wave would spread throughout the entire neuron. 
+We found that for this value of $\theta$, the traveling wave front was better depicted with a wider range of x values, so x will go between $[-30,30]$ in this plot. One can see that initially, the wave is spreading from the center $x=0$ to the edges of the boundary. In an infinite boundary, this wave would spread throughout the entire neuron. \par
+In order to approximate the speed of this wavenumerically, we found the time at which a certain value of x reached a voltage above a certain threshold, and tthen we found the time that a different value of x (farther from the origin than the initial x value) reached a voltage above the same threshold. In this case, we used Matlab to find the first time that $x=80$ reached a voltage greater than or equal to $0.999$ and found the first time that $x=100$ reached this same value. By dividing the difference of these times by the distance of these x values, we were able to approximate that the wave was traveling at a speed of $c=2.27$ units of distance per units of time. \par
+Earlier in the analytical solutions of the traveling wave solution, we found an equation that solves analytically for the speed of the wave with respect to $\theta$. When $\theta=0.1$, using this equation to solve for the speed analytically gives a value of $c=2.67$ units of distance per units of time. Therefore, our numerical solution is reasonably close to the analytical solution, especially considering that the highest error term in the equations using discretization to approximate the partial derivatives was of $O(\Delta{x})$, which in this case, $\Delta{x}=0.5$. Therefore, the error in the numerical approximation is within the given range of error. 
+
+
+
+
 \subsubsection{Periodically Varying Threshold}
 Now, we will find numerical solutions for a periodically varying threshold. This will be represented in our model by substituting in the following for $f(v(x,t))$:
 \[f(v,x)=-v+H(v-\theta(1+0.5\cos(x)))\]
@@ -319,7 +325,8 @@ It seems that if the constant $C$ is too small not much changes from the prior s
   \caption{Varying $C$, $\theta=0.1$}
   \label{fig:sketch10}
 \end{figure}
-It appears that once $C$ is above a certain threshold, the magnitude of $C$ will not have a large effect on the waves. This makes sense because most voltage values in the orginal equation are close to zero, so they will only be larger than $\theta(1+C\cos(x))$ when $\cos(x)$ is close to zero anyway, which will result in roughly the same points being affected by the Heaviside function, no matter the magnitude of $C$. Therefore, the average speed of the front is not affected if the constant is increased drastically. 
+It appears that once $C$ is above a certain threshold, the magnitude of $C$ will not have a large effect on the waves. This makes sense because most voltage values in the orginal equation are close to zero, so they will only be larger than $\theta(1+C\cos(x))$ when $\cos(x)$ is close to zero anyway, which will result in roughly the same points being affected by the Heaviside function, no matter the magnitude of $C$. Therefore, the average speed of the front is not affected if the constant is increased drastically. \par
+Also, in order to investigate if the front ever stops completely, we investigated the numerical solution on even larger intervals of x. However, when doing this, we found that waves could be seen throughoutthe entire interval of x; therefore, the front will never stop completely. 
 
 \section{Conclusions}
 In this report, we have analyzed variations of the cable equation in order to better understand the ways in which voltage can propagate throughout a neuron. After summarizing the derivation of the model, we analyzed an action potential imposed on a neuron that is experiencing ions leaking out of the cell. This was our passive membrane solution, and our models confirmed what one might expect--a large spike of voltage initially that is quickly dispersed throughout the neuron and diminished through leaking ions until the voltage goes back to zero, or its original voltage state. \par

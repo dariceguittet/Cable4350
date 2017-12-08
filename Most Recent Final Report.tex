@@ -15,45 +15,43 @@
 \maketitle
 \section{Introduction}
 
-Information within the brain is transmitted between neurons largely as a result of action potentionals, otherwise known as spikes, which are when the voltage in a neuron rapidly rises and falls. These allow communication between brain cells. A.L Hodgkin and A.F. Huxley received a 1963 Nobel Prize for their work regarding this topic, specifically the discovery that individual parts of the axonal membrane behave similarly to a component in an electric circuit. With this new knowledge, it is now possible to derive equations that represent the voltage propagation in a neuron using formulas similar to those that describe current, resistance, and voltage in an electrical system. This pattern of diffusion along the membrane of neurons by current or voltage is called cable theory, which is what we will be analyzing in this report.
+Information within the brain is transmitted between neurons largely as a result of action potentionals, otherwise known as spikes, which are when the voltage in a neuron rapidly rises and falls. A.L Hodgkin and A.F. Huxley received a 1963 Nobel Prize for their work regarding this topic, specifically the discovery that individual parts of the axonal membrane behave similarly to a component in an electric circuit. With this new knowledge, it is now possible to derive equations that represent the voltage propagation in a neuron using formulas similar to those that describe current, resistance, and voltage in an electrical system. This pattern of voltage diffusion along the membrane of neurons is called neuronal cable theory, which is what we will be analyzing in this report.
 
 \subsection{Understanding the Model}
 The model we are using to understand the propagation of voltage in a neuron can be described by the following partial differential equation:
 \begin{equation} \label{1}
 \frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}+f(v(x,t))+J_{ext}(x,t)
 \end {equation}
-The terms with partial derivatives are from the heat or diffusion equation, mathematically describing the process when molecules move from areas of high concentration to places of low concentration. The $f(v(x,t))$ term accounts for ion channels in a neuron; these open and close to increase or decrease from the ions entering the cell based on its current voltage. The $J_{ext}(x,t)$ term accounts for the external voltage that is applied to the neuron. 
+The terms with partial derivatives are from the diffusion equation, mathematically describing the process when molecules move from areas of high concentration to places of low concentration. The $f(v(x,t))$ term accounts for ion channels in a neuron; these open and close in response to the cell's current voltage. The $J_{ext}(x,t)$ term accounts for the external voltage that is applied to the neuron. 
 \subsubsection{Summary of the Derivation}
-This model is derived from equations relating current, voltage, and resistance in an electric circuit, as the work by A.L. Hodgkin and A.F. Huxley demonstrated that parts of the axonal membrane behave similar to a circuit. We will take the membrane to be an infitesimal segment $[x, x+dx]$ with separate intra- and extracellular voltages and resistances, denoted by either an $i$ or an $e$ in the subscript, respectively. The first step in deriving the model is using Ohm's law to relate current, voltage, and resistance. Note that since we will be examining the voltage in the membrane of a neuron, it is important to examine each of these values inside and outside of the cell; this results in two equations for current. 
+We will take the membrane to be an infitesimal segment $[x, x+dx]$ with separate intra- and extracellular voltages and resistances, denoted by either an $i$ or an $e$ in the subscript, respectively. The first step in deriving the model is using Ohm's law to relate current, voltage, and resistance. Note that since we will be examining the voltage in the membrane of a neuron, it is important to examine each of these values inside and outside of the cell; this results in two equations for current. 
 \[v_i(x+dx)-v_i(x)=-I_i(x)R_idx\]
 \[v_e(x+dx)-v_e(x)=-I_e(x)R_edx\]
 If we take these relations, divide by $dx$,  take the limit as $dx\rightarrow 0$, and solve for current, we get the following equations:
 \[I_i(x)=-\frac{\partial}{\partial{x}}(\frac{1}{R_i(x)}\frac{\partial{v_i}}{\partial{x}})\]
 \[I_e(x)=-\frac{\partial}{\partial{x}}(\frac{1}{R_e(x)}\frac{\partial{v_e}}{\partial{x}})\]
-Now, we want to use these two equations to solve for the current per unit length $J_m(x)$, where, for an infitesimal segment, $J_m(x)dx=I_e(x+dx)-I_e(x)=I_i(x)-I_i(x+dx)$. We will divde by $dx$ and take the limit as $dx\rightarrow 0$. This gives the relationship:
+Now, we want to use these two equations to solve for the current per unit length $J_m(x)$, where, for an infinitesimal segment, $J_m(x)dx=I_e(x+dx)-I_e(x)=I_i(x)-I_i(x+dx)$. We will divide by $dx$ and take the limit as $dx\rightarrow 0$. This gives the relationship:
 \[J_m(x)=\frac{\partial{I_e}}{\partial{x}}=-\frac{\partial{I_i}}{\partial{x}}\]
-We know that the voltage across the cell membrane must be the difference between the intra- and extracellular voltages: $v=v_i-v_e$ and that the sum of intra- and extracellular currents yield a total constant current that will be equal to the sum of the intra- and extracellular current. We will use Ohm's law to write this current in terms of resistance and voltage, rewriting voltages with the relation $v=v_i-v_e$, and plug all these into the sum of currents equation. Since the sum of the currents is constant and we can assume that resistances are constant, we can take the partial derivative with respect to x and get the following relationship between current per unit length $J_m(x)$ and voltage $v$.
+The voltage across the cell membrane must be the difference between the intra- and extracellular voltages: $v=v_i-v_e$ and the sum of intra- and extracellular currents yields a total constant current that will be equal to the sum of the intra- and extracellular current. We will use Ohm's law to write this current in terms of resistance and voltage, rewriting voltages with the relation $v=v_i-v_e$, and plug all these into the sum of currents equation, which must be constant. We take the partial derivative with respect to x and get the following relationship between current per unit length $J_m(x)$ and voltage $v$.
 \begin{equation} \label{2}
-J_m(x)=\frac{\partial}{\partial{x}}(\frac{1}{R(x)}\frac{\partial{v}}{\partial{x}})
+J_m(x)=\frac{\partial}{\partial{x}}\bigg(\frac{1}{R(x)}\frac{\partial{v}}{\partial{x}}\bigg)
 \end {equation}
 This describes the current passing through the membrane of a neuron and is also a form of the diffusion equation.\par
 Now, we will consider time variables in this model because the model behaves like an RC circuit and possesses some nonlinear properties of ion channels that act similarly to resistors. When the current per unit length has a time variable, it is also the sum of capactive current, outward ionic current, and inward applied current. If we plug this relation into Equation (\ref{2}), we get the following:
 \[C\frac{\partial{v(x,t)}}{\partial{t}}=-J_{ION}(v(x,t),t)+\frac{1}{R}\frac{\partial^2{v(x,t)}}{\partial{x}^2}+J_A(x,t)\]
-The outward applied current term, $-J_{ION}(v(x,t),t)$ , can be represented by $f(v(x,t))$, a nonlinear function that controls how voltage leaves or enters the system. The term $J_A(x,t)$ is the inward applied current, and represents the voltage applied to the system externally. Now, we will need to change variables in order to get rid of R and C; however, we will still write the final variables as $x$ and $t$ for familiarity. The final model becomes:
+The outward applied current term, $-J_{ION}(v(x,t),t)$ , can be represented by $f(v(x,t))$, a nonlinear function that controls how voltage leaves or enters the system. The term $J_A(x,t)$ is the inward applied current, and represents the voltage applied to the system externally. After rescaling to get rid of $R$ and $C$ and renaming variables as $x$ and $t$, the final model becomes:
 \[\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}+f(v(x,t))+J_{ext}(x,t)\]
 
 \subsection{Purpose}
-In this project, we aim to examine the partial differential equation model of voltage patterns throughout space and time in order to analyze the propagation of action potentials throughout a neuron. First, we will look at a passive membrane where there is no voltage gradient and ions will leak out of the cell. We will first solve the stationary solution and then solve the partial differential equation in order to analyze the impulse propagation reaction to various initial voltage inputs. Next, we will analyze a nonlinear model that takes into account that membrane ion channels often have a two state nature, meaning that there are two stable states, one inactive and one active. We will use these to examine the traveling wave solutions of this model. Therefore, we will explore the effects of various conditions and inputs on the votage propagation within a neuron.
+In this project, we first look at a passive membrane where there is no voltage gradient and ions leak out of the cell. We solve the stationary solution and then solve the partial differential equation in order to analyze the impulse propagation reaction to various initial voltage inputs. In the second section, we analyze a nonlinear model that takes into account the two-state nature of ion channels, one inactive and one active. We use these to examine the traveling wave solutions of this model and explore the effects of various conditions and inputs on the voltage propagation within a neuron.
 \section{Passive Membrane}
-We consider a passive membrane current with a linear ionic current that obeys Ohm's Law, with the resistance rescaled to unity: $f(v(x,t)) = -v(x,t)$. In addition, we add an external impulse at $x=0$ and $t=0$, formulated as the dirac delta function $\delta(t) \delta(x)$, to examine how the voltage responds. Since axons are much longer than wide, $x$ will range from $-\infty$ to $\infty$. We are also looking for bounded solutions since this is a physical system, therefore we look for solutions such that $\int_{-\infty}^{\infty}|v(x,t)|dx = M < \infty$. The inhomogeneous PDE corresponding to such a system is given by
-
+We consider a passive membrane current with a linear ionic current that obeys Ohm's Law, with the resistance rescaled to unity: $f(v(x,t)) = -v(x,t)$. In addition, we add an external impulse at $x=0$ and $t=0$, formulated as the dirac delta function $\delta(t) \delta(x)$, to examine how the voltage responds. Since axons are much longer than they are wide, $x$ will range from $-\infty$ to $\infty$. We are also looking for bounded solutions since this is a physical system, therefore we look for solutions such that $\int_{-\infty}^{\infty}|v(x,t)|dx = M < \infty$. The inhomogeneous PDE corresponding to such a system is given by
 \begin{equation} \label{pm}
 \frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}-v(x,t)+\delta(t)\delta(x)
 \end {equation}
 
 \subsection{Stationary Solutions}
 To start, we find the stationary solutions, $v(x,t) = V_0(x)$, satisfying $\frac{\partial{v(x,t)}}{\partial{t}} = 0$ by solving the homogeneous ODE:
-
 \begin{equation} \label{pm_odeH}
 \frac{d^2{V_0(x)}}{d{x^2}} - V_0(x) = 0
 \end{equation}
@@ -61,20 +59,16 @@ The general solution is $V_0(x) = c_1e^{-x} + c_2e^{x}$. However, in order for $
 
 \subsection{Impulse Response}
 We add a stationary input current localized at $x=0$ and find solutions $V_F(x)$ to the resulting inhomogeneous ODE with boundary conditions $\lim_{x\to\infty} V_F(x) = 0$.
-
 \begin{equation} \label{pm_odeN}
 \frac{d^2{V_F(x)}}{d{x^2}} - V_F(x) = -\delta(x)
 \end{equation}
-We compute the Fourier transforms of the ODE to find an algebraic equation for the Fourier transform of the solution $\mathcal{FT}\left\{V_F(x)\right\} = \overline{V_F}(\omega)$, where $\omega$ is the spatial frequency with units $\frac{1}{x}$. Using the fact that $\mathcal{FT}\left\{d_{xx}V_F(x)\right\} = -\omega^2\overline{V_F}(\omega)$ and $ \mathcal{FT}\left\{\delta(x)\right\} = 1$, we get an equation which we can rearrange:
-
+We compute the Fourier transforms of the ODE to find an algebraic equation for the Fourier transform of the solution $\mathcal{FT}\left\{V_F(x)\right\} = \overline{V_F}(\omega)$, where $\omega$ is the spatial frequency with units $\frac{1}{x}$. Using the fact that $\mathcal{FT}\left\{d_{xx}V_F(x)\right\} = -\omega^2\overline{V_F}(\omega)$ and $ \mathcal{FT}\left\{\delta(x)\right\} = 1$, we get an equation which we can rearrange into:
 $$  \overline{V_F}(\omega) = \frac{1}{\omega^2+1} $$
 From a Fourier transform table \cite{fourier}, we find our solution to be:
-
 $$ V_F(x) = \mathcal{FT}^{-1}\left\{\overline{V_F(\omega)}\right\} =  \frac{1}{2}e^{-|x|} $$
 
 \subsection{Generalizing Solutions}
 If we make the change of variable $x = x-x_0$ to Part 2.2, we arrive at the inhomogeneous ODE whose solution is defined to be Green's function for this particular problem. Let $\mathcal{L}\left\{G\right\}$ be the linear operator that is the left-hand side of the equation and $G(x-x_0)$ be Green's function, satisfying the same boundary conditions as above.
-
 \begin{equation} \label{pm_greens}
 \mathcal{L}\left\{G\right\} = -\frac{d^2{G(x-x_0)}}{d{x^2}} + G(x-x_0) = \delta(x-x_0)
 \end{equation}
@@ -87,28 +81,24 @@ The formula for a stationary solution given an arbitrary stationary input uses G
 $$V_A(x) = \int_{-\infty}^{\infty}\frac{1}{2}e^{-|x-x_0|}J_{ext}(x_0)dx_0 $$
 
 \subsection{Green's Function for Time-Dependent Equation}
-Returning to the full time-dependent equation (\ref{pm}), we use Fourier transforms to find the solution, $G_{\infty}(x,t)$, Green's function on the infinite cable. This time, the Fourier transform of the PDE results in an inhomogeneous ODE for $\overline{G_{\infty}}(\omega,t)$.
-
+Returning to the full time-dependent equation (\ref{pm}), we again use Fourier transforms to find the solution, $G_{\infty}(x,t)$, Green's function on the infinite cable. This time, the Fourier transform of the PDE results in an inhomogeneous ODE for $\overline{G_{\infty}}(\omega,t)$.
 \begin{equation}\label{pm_timeFT}
 \frac{d}{dt}\overline{G_{\infty}}(\omega,t) + (\omega^2+1)\overline{G_{\infty}}(\omega,t) = \delta(t) 
 \end{equation} 
 When $t>0$, $\delta(t) = 0$ so the equation is reduced to a homogeneous ODE. Separation of variables and integration of both sides leads to the homogeneous solution, scaled by a function that is only dependent on $\omega$.
-
 $$ \int\frac{1}{\overline{G_{\infty}}(\omega,t)}d\overline{G_{\infty}}(\omega,t) = -\int(\omega^2 + 1)dt $$
+
 $$ \ln|(\overline{G_{\infty}}(\omega,t)| = -(\omega^2+1)t + c(\omega) $$
  
 $$\overline{G_{\infty}}(\omega,t) = c(\omega)e^{-t(\omega^2+1)} $$
-To find the value of $c(\omega)$, we examine the solution around $t=0$. Due to $\delta(t)$, there is a discontinuity such that $\overline{G_{\infty}}(\omega,0^-) = 0$ while $\overline{G_{\infty}}(\omega,0^+) = c(\omega)$. We integrate equation (\ref{pm_timeFT}) at a small section around the discontinuity, from $t=(-\epsilon, \epsilon)$, and use the fact that $\overline{G_{\infty}}(\omega,-\epsilon) = 0$ since our system starts at $t=0$. 
-
+To find the value of $c(\omega)$, we examine the solution around $t=0$. Due to $\delta(t)$, there is a discontinuity such that $\lim_{\epsilon \to 0}\overline{G_{\infty}}(\omega,\epsilon^-) = 0$ due to the fact that our system starts at $t=0$, while $\lim_{\epsilon \to 0}\overline{G_{\infty}}(\omega,\epsilon^+) = c(\omega)$. We integrate equation (\ref{pm_timeFT}) at a small section around the discontinuity, from $t=(-\epsilon, \epsilon)$. 
 $$\int_{-\epsilon}^{\epsilon}\frac{d}{dt}\overline{G_{\infty}}(\omega,t)dt + \int_{-\epsilon}^{\epsilon}(\omega^2+1)\overline{G_{\infty}}(\omega,t)dt = \int_{-\epsilon}^{\epsilon}\delta(t)dt $$
 
 $$  \overline{G_{\infty}}(\omega,\epsilon) + \int_{-\epsilon}^{\epsilon}(\omega^2+1)\overline{G_{\infty}}(\omega,t)dt = 1$$
 Taking the limit as $\epsilon \to 0$, we find the integral goes to zero and we are left with the constraint.
-
 $$ \lim_{\epsilon\to 0} \overline{G_{\infty}}(\omega,\epsilon)  = \lim_{t\to 0^+}c(\omega)e^{-t(\omega^2+1)}  = 1 $$
-Therefore, $c(\omega) = 1$ and our solution for $t>0$ is found to be the inverse Fourier transform.
-$$G_{\infty}(\omega,t) = \frac{1}{2\pi}\int_{-\infty}^{\infty}e^{-t(\omega^2+1)}e^{i \omega x)} d\omega = \frac{1}{2\pi}\int_{-\infty}^{\infty}e^{i \omega x-t(\omega^2+1)}d\omega $$
-We complete the square for the exponents and recognize the result as a Gaussian integral to find the solution.
+Therefore, $c(\omega) = 1$ and compute the inverse Fourier transform for solution for $t>0$ by completing the square for the exponents and recognizing the result as a Gaussian integral.
+$$\mathcal{FT}^{-1}\left\{\overline{G_{\infty}}(\omega,t)\right\} = \frac{1}{2\pi}\int_{-\infty}^{\infty}e^{-t(\omega^2+1)}e^{i \omega x)} d\omega = \frac{1}{2\pi}\int_{-\infty}^{\infty}e^{i \omega x-t(\omega^2+1)}d\omega $$
 
 $$ G_{\infty}(x,t) = \frac{\mathcal{H}(x,t)}{2\pi}e^{-t-\frac{x^2}{4t}}\int_{-\infty}^{\infty}e^{-t(\omega - \frac{ix}{2t} )^2 }d\omega = \frac{\mathcal{H}(x,t)}{\sqrt{4\pi t}}e^{-t-\frac{x^2}{4t}} $$
 
@@ -312,7 +302,7 @@ Equation (\ref{second order ODE}) can now be decomposed into the following two s
 -cV_2'(\xi)=V_2''(\xi)-V_2(\xi)+1 \text{ when $\xi \in (-\infty,0)$.}
 \end{equation}
 
-In order to ensure the solutions to equations (\ref{ODE1}) and (\ref{ODE2}) are physically realistic, we must impose boundary conditions. $V(\xi)$ must approach the homogeneous solution as $\xi$ approaches $\pm \infty$. Also, the two solutions and their first derivatives must match at $\xi=0$. Physically, this is because we want to model the voltage, which should be continuously differentiable. Mathematically, the boundary conditions are described by\\
+In order to ensure the solutions to equations (\ref{ODE1}) and (\ref{ODE2}) are physically realistic, we must impose boundary conditions. $V(\xi)$ must approach the homogeneous solution as $\xi$ approaches $\pm \infty$. Also, the two solutions and their first derivatives must match at $\xi=0$. Physically, this is because we want to model the voltage, which should be differentiable. The boundary conditions are:\\
 $$\lim_{\xi\to-\infty} \frac{d V_1(\xi)}{d \xi}=0$$
 $$\lim_{\xi\to\infty} \frac{d V_2(\xi)}{d \xi}=0$$
 $$\lim_{\xi\to-\infty} V_1(\xi)=1$$
@@ -323,10 +313,10 @@ $$\frac{d V_1}{d \xi}(0)=\frac{d V_2}{d \xi}(0)$$
 
 \subsection{Solving for Traveling Wave Solutions}
 
-Equation (\ref{ODE1}) is a homogeneous ordinary differential equation. The corresponding characteristic equation, $r^2+cr-1=0$, has roots of  $r=\frac{-c \pm \sqrt{c^2+4}}{2}$. The general solution to equation \ref{ODE1} is 
+Equation (\ref{ODE1}) is a homogeneous ordinary differential equation. The corresponding characteristic equation, $r^2+cr-1=0$, has roots of  $r=\frac{-c \pm \sqrt{c^2+4}}{2}$. The general solution to equation (\ref{ODE1}) is 
 \begin{equation}
 \label{ODE1 general solution}
-V_{1}=c_1 e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+c_2e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi}, \xi \in (0,\infty)
+V_{1}=c_1 e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+c_2e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi}, \quad \xi \in (0,\infty)
 \end{equation}
 
 Equation (\ref{ODE2}) is not homogeneous, but can be solved using the method of undetermined coefficients. First, the homogeneous solution is obtained by solving $cV_2'(\xi)=V_2''(\xi)-V_2(\xi)$ for $V_2$. The homogeneous solution is
@@ -338,23 +328,22 @@ $$V_{2,p}=1$$
 Thus, the solution to equation (\ref{ODE2}) is 
 \begin{equation}
 \label{ODE2 general solution}
-V_{2}=c_3 e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+c_4 e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi}+1, \xi \in (-\infty,0)
+V_{2}=c_3 e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+c_4 e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi}+1, \quad \xi \in (-\infty,0)
 \end{equation}
 Next, use the boundary conditions to eliminate the unknown coefficients from equations (\ref{ODE1 general solution}) and (\ref{ODE2 general solution}). 
 $$\lim_{\xi\to\infty} \frac{d V_1(\xi)}{d \xi}=0\Rightarrow c_1=0$$
 $$\lim_{\xi\to-\infty} \frac{d V_2(\xi)}{d \xi}=0\Rightarrow c_4=0$$
 $$V_1(0)=V_2(0)\Rightarrow c_2=c_3+1$$
 $$\frac{d V_1}{d \xi}(0)=\frac{d V_2}{d \xi}(0)\Rightarrow -\frac{1}{2}(c+\sqrt{c^2+4}) c_2= \frac{1}{2}(-c+\sqrt{c^2+4})c_3$$ 
-The solution to this linear system of equations is $c_1=0, c_2=\frac{-c+\sqrt{c^2+4}}{2\sqrt{c^2+4}}, c_3=\frac{-c-\sqrt{c^2+4}}{2\sqrt{c^2+4}}$, and $c_4=0$.\\
-The solution to equation (\ref{ODE1}) is 
+The solution to this linear system of equations is $c_1=0, c_2=\frac{-c+\sqrt{c^2+4}}{2\sqrt{c^2+4}}, c_3=\frac{-c-\sqrt{c^2+4}}{2\sqrt{c^2+4}}$, and $c_4=0$. So, the solution to equation (\ref{ODE1}) is 
 \begin{equation}
 \label{ODE1 solution}
-V_1(\xi)=\frac{-c+\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi},\xi \in (0,\infty).
+V_1(\xi)=\frac{-c+\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi},\quad \xi \in (0,\infty).
 \end{equation}
 The solution to equation (\ref{ODE2}) is
 \begin{equation}
 \label{ODE2 solution}
-V_2(\xi)=\frac{-c-\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+1,\xi \in (-\infty,0).
+V_2(\xi)=\frac{-c-\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+1,\quad \xi \in (-\infty,0).
 \end{equation}
 \begin{figure}[H]
 \centering

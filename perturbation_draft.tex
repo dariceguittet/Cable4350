@@ -104,17 +104,17 @@ At Region 3, we integrate the equation at a small interval around the point of d
 \begin{equation}
 \frac{d^2S}{d\xi^2} + c\frac{dS}{d\xi} - \big[\lambda + 1 + \delta(V(\xi)-\theta)\big]S = 0
 \end{equation} 
-Since there is a discontinuity due to the dirac delta function here at $V(\xi) = \theta$, $\xi = 0$, we integrate a small interval $(+\epsilon,-\epsilon)$ around the discontinuity. Then, we taking the limit $\epsilon \to 0$ gives us information as to how the solutions in Region 1 and 2, (\ref{homogsln}), connect in Region 3.
+Since there is a discontinuity due to the dirac delta function here at $V(\xi) = \theta$, $\xi = 0$, we integrate a small interval $(+\epsilon,-\epsilon)$ around the discontinuity. Then, we take the limit $\epsilon \to 0$ gives us information as to how the solutions in Region 1 and 2, (\ref{homogsln}), connect in Region 3.
 
 $$ \int_{-\epsilon}^{+\epsilon}\frac{d^2S}{d\xi^2}d\xi + c\int_{-\epsilon}^{+\epsilon}\frac{dS}{d\xi}d\xi - \int_{-\epsilon}^{+\epsilon}(\lambda + 1)Sd\xi - \int_{-\epsilon}^{+\epsilon}\delta(V(\xi)-\theta)Sd\xi = 0 $$
 For the first two terms, the fundamental theorem of calculus gives us the first derivative evaluated at the endpoints and the function evaluated at the endpoints.
 $$ \frac{dS}{d\xi}(+\epsilon) - \frac{dS}{d\xi}(-\epsilon) + c[S(+\epsilon) - S(-\epsilon)] - \int_{-\epsilon}^{+\epsilon}(\lambda + 1)Sd\xi - \int_{-\epsilon}^{+\epsilon}\delta(V(\xi)-\theta)Sd\xi = 0 $$
 Now we take the limit:
 $$ \lim_{\xi \to 0} \Bigg[ \frac{dS}{d\xi}(+\epsilon) - \frac{dS}{d\xi}(-\epsilon) + c[S(+\epsilon) - S(-\epsilon)] - \int_{-\epsilon}^{+\epsilon}(\lambda + 1)Sd\xi - \int_{-\epsilon}^{+\epsilon}\delta(V(\xi)-\theta)Sd\xi \Bigg]= 0 $$
-Of the remaining two integrals, the first one goes to zero as the bounds shrink the zero since the integral is continuous, even if $S$ is not. The second integral involving the dirac delta function evaluates to $S(0)$ by the \textit{sampling property}, since we are specifically looking at the small region centered around where $V(\xi) = \theta$. Therefore we get:
-$$ \lim_{\xi \to 0} \Bigg[ \frac{dS}{d\xi}(+\epsilon) - \frac{dS}{d\xi}(-\epsilon) + c[S(+\epsilon) - S(-\epsilon) \Bigg] = S(0) $$
+Of the remaining two integrals, the first one goes to zero as the bounds shrink to zero since the integral is continuous, even if $S$ is not. The second integral involving the dirac delta function evaluates to $S(0)$ by the \textit{sampling property}, since we are specifically looking at the small region centered around where $V(\xi) = \theta$. Therefore we get:
+$$ \lim_{\xi \to 0} \Bigg[ \frac{dS}{d\xi}(+\epsilon) - \frac{dS}{d\xi}(-\epsilon) + c[S(+\epsilon) - S(-\epsilon)] \Bigg] = S(0) $$
 $S$ must be continuous if we are assuming that the derivative $\frac{dS}{d\xi}$ exists so $S(0^+) = S(0^-)$ and the constants in front of the homogeneous solutions (\ref{homogsln}) are equal, $c_1 = c_2 = K$, revealing a relationship between the value of the spatial term and the discontinuity between its derivative at $\xi=0$.
-$$ S(0) = \lim_{\xi \to 0} \Bigg[ K(\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}} - \frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}})\Bigg] $$
+$$ S(0) = \lim_{\xi \to 0} \Bigg[ K(\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}\xi} - \frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}\xi})\Bigg] $$
 Taking the limit, we find the following, where $S(0)\in \mathbb{R}$ and $K\in\mathbb{R}$ since this is a physical system and we assume the solutions are real-valued.
 \begin{equation}\label{Keq}
 S(0) = K\Bigg(\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2} - \frac{-c+\sqrt{c^2+4(\lambda+1)}}{2} \Bigg)
@@ -133,8 +133,8 @@ Plugging this constant back into our solutions for Region 1 and 2 (\ref{homogsln
 \begin{equation}\label{solnlambda0}
 \psi_{\lambda=0}(\xi,t)=
 \begin{cases}
-\ \frac{-1}{\sqrt{c^2+4}}e^{\frac{-c+\sqrt{c^2+4}}{2}},\quad \xi < 0 \\
-\ \frac{-1}{\sqrt{c^2+4}}e^{\frac{-c-\sqrt{c^2+4}}{2}},\quad \xi > 0\\
+\ \frac{-1}{\sqrt{c^2+4}}e^{\frac{-c+\sqrt{c^2+4}}{2}\xi},\quad \xi < 0 \\
+\ \frac{-1}{\sqrt{c^2+4}}e^{\frac{-c-\sqrt{c^2+4}}{2}\xi},\quad \xi > 0\\
 \end{cases}
 \end{equation}
 Recalling our traveling wave solution $V(\xi)$ (\ref{}), we note that $\psi(\xi,t) = V'(\xi)$. This solution corresponds to $v(x,t) = V(\xi) + \epsilon V'(\xi)$, a Taylor expansion linearization around the traveling wave solution. This perturbation is independent of time. We plot $v(x,t)$ with various values of $\epsilon$ to show its effect on $V(\xi)$.
@@ -168,8 +168,8 @@ Recalling our traveling wave solution $V(\xi)$ (\ref{}), we note that $\psi(\xi,
 \begin{equation}\label{solnlambda+}
 \psi_{\lambda >0}(\xi,t)=
 \begin{cases}
-\ \frac{-1}{\sqrt{c^2+4(\lambda+1)}}e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}},\quad \xi < 0 \\
-\ \frac{-1}{\sqrt{c^2+4(\lambda+1)}}e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}},\quad \xi > 0\\
+\ \frac{-1}{\sqrt{c^2+4(\lambda+1)}}e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}\xi},\quad \xi < 0 \\
+\ \frac{-1}{\sqrt{c^2+4(\lambda+1)}}e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}\xi},\quad \xi > 0\\
 \end{cases}
 \end{equation}
 
@@ -177,8 +177,8 @@ Recalling our traveling wave solution $V(\xi)$ (\ref{}), we note that $\psi(\xi,
 \begin{equation}\label{solnlambda-}
 \psi_{\lambda <0}(\xi,t)=
 \begin{cases}
-\ \frac{-1}{\sqrt{c^2-4(\lambda-1)}}e^{\frac{-c+\sqrt{c^2-4(\lambda-1)}}{2}},\quad \xi < 0 \\
-\ \frac{-1}{\sqrt{c^2-4(\lambda-1)}}e^{\frac{-c-\sqrt{c^2-4(\lambda-1)}}{2}},\quad \xi > 0\\
+\ \frac{-1}{\sqrt{c^2-4(\lambda-1)}}e^{\frac{-c+\sqrt{c^2-4(\lambda-1)}}{2}\xi},\quad \xi < 0 \\
+\ \frac{-1}{\sqrt{c^2-4(\lambda-1)}}e^{\frac{-c-\sqrt{c^2-4(\lambda-1)}}{2}\xi},\quad \xi > 0\\
 \end{cases}
 \end{equation}
 

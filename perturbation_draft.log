@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  7 DEC 2017 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  7 DEC 2017 21:35
 entering extended mode
 **./perturbation_draft.tex
 (perturbation_draft.tex
@@ -375,11 +375,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4090 strings out of 493323
- 61969 string characters out of 3128713
- 131512 words of memory out of 3000000
- 7574 multiletter control sequences out of 15000+200000
- 14298 words of font info for 55 fonts, out of 3000000 for 9000
+ 4096 strings out of 493323
+ 62026 string characters out of 3128713
+ 131524 words of memory out of 3000000
+ 7579 multiletter control sequences out of 15000+200000
+ 14467 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,9n,40p,492b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
@@ -400,11 +400,12 @@ lic/amsfonts/cm/cmsy10.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/dguittet/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/dguittet/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Us
-ers/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
-ols/msbm10.pfb>
-Output written on perturbation_draft.pdf (4 pages, 604013 bytes).
+ers/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mtt12.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb>
+Output written on perturbation_draft.pdf (4 pages, 621667 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -259,7 +259,7 @@ Next, I displayed a plot of the voltages for only the times 25-50 seconds, to sh
 \section{The Bistable and Traveling Wave Solution}
 
 \subsection{Numerical Solutions: Two-State Ion Channels}
-After analytically solving te traveling wave solutions of the ovltage equation, we found numerical solutions as well. In this case, the equation we examined was:
+After analytically solving te traveling wave solutions of the voltage equation, we found numerical solutions as well. In this case, the equation we examined was:
 \[\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}-v(x,t)+H(v(x,t)-\theta)+J_{ext}(x,t)\]
 Though the term $J_{ext}(x,t)$ was not specified, I will used $J_{ext}(x,t)=10e^{25x^2}\delta{t}$. This is the same $J_{ext}(x,t)$ used in numerically solving the passive membrane solution, and it can be removed from the equation itself and substituted into the initial condition. It mimics the scenario of a large spike of voltage initially applied to the neuron at $x=0$ and $t=0$, while remaining almost zero for all other $x$ at $t=0$. Also, though there are infinite boundaries for both $x$ and $t$, we will again only look at the region from $[-10,10]$ for x and $[0,50]$ for t in order to numerically solve this system.  Similar to the numerical solutions of the passive membrane, we will solve the system numerically by discretizing both partial derivatives using Taylor series, plugging these approximations back into the original partial differential equation, and solving for $v^{j+1}_i$. This gives the equation:
 \begin{equation} \label{**}
@@ -289,7 +289,7 @@ With this value of $\theta$, there is a single wave of voltage, but its speed is
   \caption{Plot of Stable Numerical Approximation, Two-State Ion Channel Solution, $\theta=0.1$}
   \label{fig:sketch6}
 \end{figure}
-The concept of a traveling wave is also depicted with this value of $\theta$. Though the wave is larger, the wave still doesn't change shape as time increases. 
+We found that for this value of $\theta$, the traveling wave front was better depicted with a wider range of x values, so x will go between $[-30,30]$ in this plot. One can see that initially, the wave is spreading from the center $x=0$ to the edges of the boundary. In an infinite boundary, this wave would spread throughout the entire neuron. 
 \subsubsection{Periodically Varying Threshold}
 Now, we will find numerical solutions for a periodically varying threshold. This will be represented in our model by substituting in the following for $f(v(x,t))$:
 \[f(v,x)=-v+H(v-\theta(1+0.5\cos(x)))\]
@@ -321,7 +321,9 @@ It seems that if the constant $C$ is too small not much changes from the prior s
 \end{figure}
 It appears that once $C$ is above a certain threshold, the magnitude of $C$ will not have a large effect on the waves. This makes sense because most voltage values in the orginal equation are close to zero, so they will only be larger than $\theta(1+C\cos(x))$ when $\cos(x)$ is close to zero anyway, which will result in roughly the same points being affected by the Heaviside function, no matter the magnitude of $C$. Therefore, the average speed of the front is not affected if the constant is increased drastically. 
 
-
+\section{Conclusions}
+In this report, we have analyzed variations of the cable equation in order to better understand the ways in which voltage can propagate throughout a neuron. After summarizing the derivation of the model, we analyzed an action potential imposed on a neuron that is experiencing ions leaking out of the cell. This was our passive membrane solution, and our models confirmed what one might expect--a large spike of voltage initially that is quickly dispersed throughout the neuron and diminished through leaking ions until the voltage goes back to zero, or its original voltage state. \par
+In addition, we also analyzed a situation where the neuron has a bistable membrane which allowed us to analyze traveling waves in a solution. Our results verified our expectations, demonstrating how voltage in a neuron can propogate similar to waves approaching shore, rather than just spreading out. We were also able to numerically approximate these solutions in order to verify our results, and numerically approximate systems with more complex functions representing the opening and closing of ion channels that might be more difficult to solve analytically. Through our findings, we were able to expand our knowledge of partial differential equations and Fourier transforms by examining the cable equation and modeling voltage in a neuron. 
 
 
 

@@ -13,24 +13,6 @@
 \begin{document}
 \maketitle
 
-
-
-
- 
- When $\lambda<0$, if $c^2\geq4(1+\lambda)$, then $F(\xi)=Ae^{\frac{1}{2}\big(-c+\sqrt{c^2+4(1+\lambda)}\big)\xi}+Be^{-\frac{1}{2}\big(c+\sqrt{c^2+4(1+\lambda)}\big)\xi}$. The boundary condition in equation \ref{psiBC} requires that $B=0$ when $V>\theta$ and that $A=0$ when $V<\theta$. \\
- 
- 
- ???-->
- When $\lambda<0$, if $c^2<|4(1+\lambda)|$, then $F(\xi)=e^{\frac{-c}{2}}\Big(C cos\big(\frac{\sqrt{|c^2+4(1+\lambda)|}}{2}\xi\big)+D sin\big(\frac{\sqrt{|c^2+4(1+\lambda)|}}{2}\xi\big)\Big)$.
- 
- 
-$v(x,t)=V(\xi)+\epsilon\psi(\xi,t)$
-
-
-
-
-
-
 \subsection{Stability of the Traveling Front Solutions}
 Now that we have found the traveling front solutions, it is important to understand their stability using linear stability analysis. Consider the solution $v(x,t)=V(\xi)+\epsilon\psi(\xi,t)$, where $0 < \epsilon <<1$ and $\psi(\xi,t)$ represents a small perturbation to the traveling wave solution, $V(\xi)$. The goal of the linear stability analysis is to understand how $\psi(\xi,t)$ behaves over time. Recall the governing partial differential equation
 \begin{equation}
@@ -113,7 +95,7 @@ Now we take the limit:
 $$ \lim_{\xi \to 0} \Bigg[ \frac{dS}{d\xi}(+\epsilon) - \frac{dS}{d\xi}(-\epsilon) + c[S(+\epsilon) - S(-\epsilon)] - \int_{-\epsilon}^{+\epsilon}(\lambda + 1)Sd\xi - \int_{-\epsilon}^{+\epsilon}\delta(V(\xi)-\theta)Sd\xi \Bigg]= 0 $$
 Of the remaining two integrals, the first one goes to zero as the bounds shrink to zero since the integral is continuous, even if $S$ is not. The second integral involving the dirac delta function evaluates to $S(0)$ by the \textit{sampling property}, since we are specifically looking at the small region centered around where $V(\xi) = \theta$. Therefore we get:
 $$ \lim_{\xi \to 0} \Bigg[ \frac{dS}{d\xi}(+\epsilon) - \frac{dS}{d\xi}(-\epsilon) + c[S(+\epsilon) - S(-\epsilon)] \Bigg] = S(0) $$
-$S$ must be continuous if we are assuming that the derivative $\frac{dS}{d\xi}$ exists so $S(0^+) = S(0^-)$ and the constants in front of the homogeneous solutions (\ref{homogsln}) are equal, $c_1 = c_2 = K$, revealing a relationship between the value of the spatial term and the discontinuity between its derivative at $\xi=0$.
+$S$ must be continuous if we are assuming that the derivative $\frac{dS}{d\xi}$ exists so $S(0^+) = S(0^-)$ and the constants in front of the homogeneous solutions (\ref{homogsln}) are equal, $c_1 = c_2 = K$ (using $K$ to avoid confusion with the speed $c$), revealing a relationship between the value of the spatial term and the discontinuity between its derivative at $\xi=0$.
 $$ S(0) = \lim_{\xi \to 0} \Bigg[ K(\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}\xi} - \frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}\xi})\Bigg] $$
 Taking the limit, we find the following, where $S(0)\in \mathbb{R}$ and $K\in\mathbb{R}$ since this is a physical system and we assume the solutions are real-valued.
 \begin{equation}\label{Keq}
@@ -137,50 +119,71 @@ Plugging this constant back into our solutions for Region 1 and 2 (\ref{homogsln
 \ \frac{-1}{\sqrt{c^2+4}}e^{\frac{-c-\sqrt{c^2+4}}{2}\xi},\quad \xi > 0\\
 \end{cases}
 \end{equation}
-Recalling our traveling wave solution $V(\xi)$ (\ref{}), we note that $\psi(\xi,t) = V'(\xi)$. This solution corresponds to $v(x,t) = V(\xi) + \epsilon V'(\xi)$, a Taylor expansion linearization around the traveling wave solution. This perturbation is independent of time. We plot $v(x,t)$ with various values of $\epsilon$ to show its effect on $V(\xi)$.
+Recalling our traveling wave solution $V(\xi)$ (\ref{ODE2 solution}), we note that $\psi(\xi,t) = V'(\xi)$. This solution corresponds to $v(x,t) = V(\xi) + \epsilon V'(\xi)$, a Taylor expansion linearization around the traveling wave solution. This perturbation is independent of time. We plot $v(x,t)$ with various values of $\epsilon$ to show its effect on $V(\xi)$.
 
 \begin{figure}[H]
     \centering
     \begin{subfigure}[h]{0.4\textwidth}
-        \includegraphics[width=\textwidth]{Part2Plots/e2}
-        \caption{$\epsilon=2$}
-        \label{fig:t0}
-    \end{subfigure}
-    \begin{subfigure}[h]{0.4\textwidth}
-        \includegraphics[width=\textwidth]{Part2Plots/e1}
-        \caption{$\epsilon=1$}
-        \label{fig:t1}
+        \includegraphics[width=\textwidth]{Part2Plots/e099}
+        \caption{$\epsilon=0.99$}
+        \label{fig:e099}
     \end{subfigure}
     \begin{subfigure}[h]{0.4\textwidth}
         \includegraphics[width=\textwidth]{Part2Plots/e05}
         \caption{$\epsilon=0.5$}
+        \label{fig:e05}
+    \end{subfigure}
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Part2Plots/e001}
+        \caption{$\epsilon=0.01$}
         \label{fig:t10}
     \end{subfigure}
     \begin{subfigure}[h]{0.4\textwidth}
         \includegraphics[width=\textwidth]{Part2Plots/e0}
-        \caption{$\epsilon=0.01$}
-        \label{fig:t100}
+        \caption{$\epsilon=0$}
+        \label{fig:e0}
     \end{subfigure}
     \caption{$v(x,t) = V(\xi) + \epsilon V'(\xi)$ with various $\epsilon$ values}\label{fig:timeplots}
 \end{figure}
 
-\subsubsection{$\lambda > 0$ Case}
+While this perturbation is independent of time, $v(x,t)$ actually solves the original ODE for the traveling wave solution (\ref{second order ODE}). Therefore, it is another traveling wave solution.
+
+\subsubsection{$\lambda \neq 0$ Case}
+Looking at this case, we revert back to using $S(0)$ as a parameter and combine it with the time-dependent solutions in eq(\ref{timeeq}),we find  solutions of the form.
 \begin{equation}\label{solnlambda+}
 \psi_{\lambda >0}(\xi,t)=
 \begin{cases}
-\ \frac{-1}{\sqrt{c^2+4(\lambda+1)}}e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}\xi},\quad \xi < 0 \\
-\ \frac{-1}{\sqrt{c^2+4(\lambda+1)}}e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}\xi},\quad \xi > 0\\
+\ \frac{-S(0)}{\sqrt{c^2+4(\lambda+1)}}e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}\xi+\lambda t},\quad \xi < 0 \\
+\ \frac{-S(0)}{\sqrt{c^2+4(\lambda+1)}}e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}\xi+\lambda t},\quad \xi > 0\\
 \end{cases}
 \end{equation}
+The derivatives are given by:
+\begin{equation}\label{solndevlambda+}
+\partial_{\xi} \psi_{\lambda >0}(\xi,t)=
+\begin{cases}
+\ \frac{-S(0)}{2}e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}\xi+\lambda t},\quad \xi < 0 \\
+\ \frac{S(0)}{2}e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}\xi+\lambda t},\quad \xi > 0\\
+\end{cases}
+\end{equation}
+For $\lambda < 0$, we pull out the negative to find solutions of the form:
 
-\subsubsection{$\lambda < 0$ Case}
 \begin{equation}\label{solnlambda-}
 \psi_{\lambda <0}(\xi,t)=
 \begin{cases}
-\ \frac{-1}{\sqrt{c^2-4(\lambda-1)}}e^{\frac{-c+\sqrt{c^2-4(\lambda-1)}}{2}\xi},\quad \xi < 0 \\
-\ \frac{-1}{\sqrt{c^2-4(\lambda-1)}}e^{\frac{-c-\sqrt{c^2-4(\lambda-1)}}{2}\xi},\quad \xi > 0\\
+\ \frac{-S(0)}{\sqrt{c^2-4(\lambda-1)}}e^{\frac{-c+\sqrt{c^2-4(\lambda-1)}}{2}\xi -\lambda t},\quad \xi < 0 \\
+\ \frac{-S(0)}{\sqrt{c^2-4(\lambda-1)}}e^{\frac{-c-\sqrt{c^2-4(\lambda-1)}}{2}\xi-\lambda t},\quad \xi > 0\\
 \end{cases}
 \end{equation}
+
+\begin{equation}\label{solndevlambda-}
+\partial_{\xi}\psi_{\lambda <0}(\xi,t)=
+\begin{cases}
+\ \frac{-S(0)}{2}e^{\frac{-c+\sqrt{c^2-4(\lambda-1)}}{2}\xi -\lambda t},\quad \xi < 0 \\
+\ \frac{S(0)}{2}e^{\frac{-c-\sqrt{c^2-4(\lambda-1)}}{2}\xi-\lambda t},\quad \xi > 0\\
+\end{cases}
+\end{equation}
+
+We note that if $c^2-4(\lambda-1) < 0$  then the solutions will be complex. Without further boundary conditions, it is difficult to see what the difference between these two families of solutions are and why solutions with $\lambda > 0$ are not valid. 
 
 \pagebreak
 

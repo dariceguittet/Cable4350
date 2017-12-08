@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  7 DEC 2017 23:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  8 DEC 2017 09:23
 entering extended mode
 **./perturbation_draft.tex
 (perturbation_draft.tex
@@ -336,70 +336,59 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 14.
 ("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.f
 d"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Reference `psiBC' on page 1 undefined on input line 20.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Overfull \hbox (42.60576pt too wide) in paragraph at lines 23--25
-[]\OT1/cmr/m/n/12 ???--> When $\OML/cmm/m/it/12  < \OT1/cmr/m/n/12 0$, if $\OM
-L/cmm/m/it/12 c[] < \OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 4(1 + \OML/cmm/m/it/12 \
-OT1/cmr/m/n/12 )\OMS/cmsy/m/n/12 j$\OT1/cmr/m/n/12 , then $\OML/cmm/m/it/12 F\O
-T1/cmr/m/n/12 (\OML/cmm/m/it/12 \OT1/cmr/m/n/12 ) = \OML/cmm/m/it/12 e[][]Ccos
-[][][] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 Dsin[][][][]$\OT1/cmr/m/n/12 . 
- []
-
-[1
+) [1
 
 {C:/Users/dguittet/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2] [3]
 
-LaTeX Warning: Reference `' on page 4 undefined on input line 140.
+LaTeX Warning: Reference `ODE2 solution' on page 4 undefined on input line 122.
 
-<Part2Plots/e2.png, id=25, 732.7375pt x 466.74374pt>
-File: Part2Plots/e2.png Graphic file (type png)
- <use Part2Plots/e2.png>
-Package pdftex.def Info: Part2Plots/e2.png used on input line 145.
+
+<Part2Plots/e099.png, id=25, 732.7375pt x 466.74374pt>
+File: Part2Plots/e099.png Graphic file (type png)
+
+<use Part2Plots/e099.png>
+Package pdftex.def Info: Part2Plots/e099.png used on input line 127.
 (pdftex.def)             Requested size: 187.89914pt x 119.68398pt.
 
-<Part2Plots/e1.png, id=26, 732.7375pt x 466.74374pt>
-File: Part2Plots/e1.png Graphic file (type png)
- <use Part2Plots/e1.png>
-Package pdftex.def Info: Part2Plots/e1.png used on input line 150.
-(pdftex.def)             Requested size: 187.89914pt x 119.68398pt.
-
-<Part2Plots/e05.png, id=27, 732.7375pt x 466.74374pt>
+<Part2Plots/e05.png, id=26, 732.7375pt x 466.74374pt>
 File: Part2Plots/e05.png Graphic file (type png)
  <use Part2Plots/e05.png>
-Package pdftex.def Info: Part2Plots/e05.png used on input line 155.
+Package pdftex.def Info: Part2Plots/e05.png used on input line 132.
 (pdftex.def)             Requested size: 187.89914pt x 119.68398pt.
 
-<Part2Plots/e0.png, id=28, 732.7375pt x 466.74374pt>
+<Part2Plots/e001.png, id=27, 732.7375pt x 466.74374pt>
+File: Part2Plots/e001.png Graphic file (type png)
+
+<use Part2Plots/e001.png>
+Package pdftex.def Info: Part2Plots/e001.png used on input line 137.
+(pdftex.def)             Requested size: 187.89914pt x 119.68398pt.
+ <Part2Plots/e0.png, id=28, 732.7375pt x 466.74374pt>
 File: Part2Plots/e0.png Graphic file (type png)
- <use Part2Plots/e0.png>
-Package pdftex.def Info: Part2Plots/e0.png used on input line 160.
-(pdftex.def)             Requested size: 187.89914pt x 119.68398pt.
 
-[4] [5 <./Part2Plots/e2.png (PNG copy)> <./Part2Plots/e1.png (PNG copy)> <./Par
-t2Plots/e05.png (PNG copy)> <./Part2Plots/e0.png (PNG copy)>] [6]
+<use Part2Plots/e0.png>
+Package pdftex.def Info: Part2Plots/e0.png used on input line 142.
+(pdftex.def)             Requested size: 187.89914pt x 119.68398pt.
+ [4]
+
+LaTeX Warning: Reference `second order ODE' on page 5 undefined on input line 1
+49.
+
+[5 <./Part2Plots/e099.png (PNG copy)> <./Part2Plots/e05.png (PNG copy)> <./Part
+2Plots/e001.png (PNG copy)> <./Part2Plots/e0.png (PNG copy)>] [6] [7]
 (perturbation_draft.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4099 strings out of 493323
- 62051 string characters out of 3128713
- 132542 words of memory out of 3000000
- 7582 multiletter control sequences out of 15000+200000
+ 4101 strings out of 493323
+ 62129 string characters out of 3128713
+ 131560 words of memory out of 3000000
+ 7584 multiletter control sequences out of 15000+200000
  14467 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,40p,492b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,9n,40p,498b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/dguittet/AppData/Local/Programs/MiK
@@ -421,9 +410,9 @@ Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Us
 ers/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/symbols/msbm10.pfb>
-Output written on perturbation_draft.pdf (6 pages, 636389 bytes).
+Output written on perturbation_draft.pdf (7 pages, 639854 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

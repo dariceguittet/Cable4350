@@ -261,7 +261,7 @@ Next, I displayed a plot of the voltages for only the times 25-50 seconds, to sh
 \end{figure}
 
 \section{Traveling Wave Solutions to the Cable Equation}
-The local voltage of the neural membrane and the behavior of the ion currents depend on one another. One way to explore the effects of this dependency is to choose an ionic current $f(v(x,t))$ that results in a bistable system.In this context, bistable means the membrane has two stable equilibria described by an active and an inactive state. This bistable system yields traveling wave solutions to the cable equation. These two states can be implemented in the equation using the Heaviside step nonlinearity, which is defined to be $f(v)=-v+H(v-\theta)$.\\
+The local voltage of the neural membrane and the behavior of the ion currents depend on one another. One way to explore the effects of this dependency is to choose an ionic current $f(v(x,t))$ that results in a bistable system. In this context, bistable means the membrane has two stable equilibria described by an active and an inactive state. This bistable system yields traveling wave solutions to the cable equation. These two states can be implemented in the equation using the Heaviside step nonlinearity, which is defined to be $f(v)=-v+H(v-\theta)$.\\
 
 \begin{equation}
   H(v-\theta)=\begin{cases}
@@ -357,13 +357,18 @@ The solution to equation (\ref{ODE2}) is
 \label{ODE2 solution}
 V_2(\xi)=\frac{-c-\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+1,\xi \in (-\infty,0).
 \end{equation}
-
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{waveThang.jpg}
+\caption{Traveling Wave Solution at Discrete Time Intervals}
+\label{kahkaw}
+\end{figure}
 
 The figure above shows the voltage of the traveling wave solution as a function of space at discrete intervals of time. As time elapses, the "wave" moves to the right. 
 
 
 \subsection{Analysis of the Traveling Wave Solution}
-In order to understand the relationship between the speed of the traveling front, c, and the threshold value, $\theta$, apply the threshold condition that $V(0)=\theta$. Application of this threshold condition to the traveling wave solutions gives $\frac{-c}{2\sqrt{c^2+4}}+\frac{1}{2}=\theta$.
+In order to understand the relationship between the speed of the traveling front, c, and the threshold value, $\theta$, apply the threshold condition that $V(0)=\theta$. Application of this threshold condition to the traveling wave solutions gives $\frac{-c}{2\sqrt{c^2+4}}+\frac{1}{2}=\theta$. Now, we will solve this equation for $c$. 
 $$c=\sqrt{\frac{-(2\theta-1)^2}{\theta^2-\theta}}$$
 
 \begin{figure}[H]
@@ -373,7 +378,7 @@ $$c=\sqrt{\frac{-(2\theta-1)^2}{\theta^2-\theta}}$$
 \label{test}
 \end{figure}
 
-Figure (\ref{test}) above demonstrates that as ????
+Figure (\ref{test}) above demonstrates that as $\theta \rightarrow 0$, then $c \rightarrow \infty$, and as $\theta \rightarrow 1$, then $c \rightarrow \infty$ as well. This makes sense because we know that $V(0)=\theta$, and the original equation is modeling a bistable system with two stable equilibria at $v=0$ and $v=1$. Therefore, if $\theta$ is close to either 0 or 1, it makes sense that it will be drawn towards its nearest stable state at a faster speed. Alternatively, if $\theta=0.5$, it will have a speed $c=0$ because it is drawn equally to both stable states and thereby forced to remain stagnant. 
 
 \subsection{Stability of the Traveling Front Solutions}
 Now that we have found the traveling front solutions, it is important to understand their stability using linear stability analysis. Consider the solution $v(x,t)=V(\xi)+\epsilon\psi(\xi,t)$, where $0 < \epsilon <<1$ and $\psi(\xi,t)$ represents a small perturbation to the traveling wave solution, $V(\xi)$. The goal of the linear stability analysis is to understand how $\psi(\xi,t)$ behaves over time. Recall the governing partial differential equation

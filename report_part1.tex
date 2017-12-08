@@ -62,11 +62,10 @@ We add a stationary input current localized at $x=0$ and find solutions $V_F(x)$
 \begin{equation} \label{pm_odeN}
 \frac{d^2{V_F(x)}}{d{x^2}} - V_F(x) = -\delta(x)
 \end{equation}
-We compute the Fourier transforms of the ODE to find an algebraic equation for the Fourier transform of the solution $\mathcal{FT}\left\{V_F(x)\right\} = \overline{V_F}(\omega)$, where $\omega$ is the spatial frequency with units $\frac{1}{x}$. Using the fact that $\mathcal{FT}\left\{d_{xx}V_F(x)\right\} = -\omega^2\overline{V_F}(\omega)$ and $ \mathcal{FT}\left\{\delta(x)\right\} = 1$, we get upon rearranging:
+We compute the Fourier transforms of the ODE to find an algebraic equation for the Fourier transform of the solution $\mathcal{FT}\left\{V_F(x)\right\} = \overline{V_F}(\omega)$, where $\omega$ is the spatial frequency with units $\frac{1}{x}$. Using the fact that $\mathcal{FT}\left\{d_{xx}V_F(x)\right\} = -\omega^2\overline{V_F}(\omega)$ and $ \mathcal{FT}\left\{\delta(x)\right\} = 1$, we get an equation which we can rearrange:
 
-$$ \overline{V_F}(\omega) = \frac{1}{\omega^2+1} $$
-
-Taking the inverse Fourier transform gives us our solution:
+$$  \overline{V_F}(\omega) = \frac{1}{\omega^2+1} $$
+From a Fourier transform table (*reference!), we find our solution to be:
 
 $$ V_F(x) = \mathcal{FT}^{-1}\left\{\overline{V_F(\omega)}\right\} =  \frac{1}{2}e^{-|x|} $$
 
@@ -92,10 +91,15 @@ Returning to the full time-dependent equation (\ref{pm}), we use Fourier transfo
 \end{equation} 
 When $t>0$, $\delta(t) = 0$ so the equation is reduced to a homogeneous ODE. Separation of variables and integration of both sides leads to the homogeneous solution, scaled by a function that is only dependent on $\omega$.
 
+$$ \int\frac{1}{\overline{G_{\infty}}(\omega,t)}d\overline{G_{\infty}}(\omega,t) = -\int(\omega^2 + 1)dt $$
+$$ \ln|(\overline{G_{\infty}}(\omega,t)| = -(\omega^2+1)t + c(\omega) $$
+ 
 $$\overline{G_{\infty}}(\omega,t) = c(\omega)e^{-t(\omega^2+1)} $$
 To find the value of $c(\omega)$, we examine the solution around $t=0$. Due to $\delta(t)$, there is a discontinuity such that $\overline{G_{\infty}}(\omega,0^-) = 0$ while $\overline{G_{\infty}}(\omega,0^+) = c(\omega)$. We integrate equation (\ref{pm_timeFT}) at a small section around the discontinuity, from $t=(-\epsilon, \epsilon)$, use the fact that $\overline{G_{\infty}}(\omega,\epsilon-) = 0$ since our system starts at $t=0$. 
 
-$$  \overline{G_{\infty}}(\omega,\epsilon) + \int_{-\epsilon}^{\epsilon}(\omega^2+1)\overline{G_{\infty}}(\omega,t)dt = \int_{-\epsilon}^{\epsilon}\delta(t)dt = 1$$
+$$\int_{-\epsilon}^{\epsilon}\frac{d}{dt}\overline{G_{\infty}}(\omega,t)dt + \int_{-\epsilon}^{\epsilon}(\omega^2+1)\overline{G_{\infty}}(\omega,t)dt = \int_{-\epsilon}^{\epsilon}\delta(t)dt $$
+
+$$  \overline{G_{\infty}}(\omega,\epsilon) + \int_{-\epsilon}^{\epsilon}(\omega^2+1)\overline{G_{\infty}}(\omega,t)dt = 1$$
 Taking the limit as $\epsilon \to 0$, we find the integral goes to zero and we are left with the constraint.
 
 $$ \lim_{\epsilon\to 0} \overline{G_{\infty}}(\omega,\epsilon)  = \lim_{t\to 0^+}c(\omega)e^{-t(\omega^2+1)}  = 1 $$

@@ -20,10 +20,10 @@ end
 x=1:Nx+1;
 x1=x*dx-10.1;
 figure(1)
-mesh(V2); title('Voltage Propagation, Theta=1');ylabel('x (Multiplied by 10, Shifted by 10)'); xlabel('Time (Multiplied by 200)'); zlabel('Voltage') 
+mesh(V2); title('Voltage Propagation, Theta=1');ylabel('x (Shifted by 60, Multiplied by 2)'); xlabel('Time (Multiplied by 200)'); zlabel('Voltage') 
 % figure (2)
 % plot(x1,V2)
 figure (3)
 plot(x1,V2(:,500:1001))
 % figure (2)
-% surfl(V2); title('Voltage Propagation, Theta=3');ylabel('x (Multiplied by 2, Shifted by 10)'); xlabel('Time (Multiplied by 100)'); zlabel('Voltage')
+% surfl(V2); title('Voltage Propagation, Theta=3');ylabel('x (Shifted by 60, Multiplied by 2)'); xlabel('Time (Multiplied by 100)'); zlabel('Voltage')

@@ -12,20 +12,77 @@
 
 \begin{document}
 \maketitle
-\section{Perturbation}
-\subsection{PDE for perturbation function}
+
+
+
+
+
+
+The temporal portion of $\psi(\xi,t)=F(\xi)G(t)$ is governed by $\frac{1}{G(t)}\frac{dG}{dt}=\lambda$.
+Thus, the time dependence of $\psi(\xi,t)$ is described by $G(t)=C_1e^{\lambda t}$, where $C_1\in\mathbb{R}$. Now, consider $\frac{d^2F(\xi)}{d\xi^2}+c\frac{dF(\xi)}{d\xi}-F(\xi)(1+\lambda)=0$. 
+There are three cases to consider: $\lambda=0$, $\lambda<0$ and $\lambda>0$.\\
+
+ When $\lambda=0$, $\frac{d^2F(\xi)}{d\xi^2}+c\frac{dF(\xi)}{d\xi}-F(\xi)=0$ has the general solution $F(\xi)=Ae^{\frac{1}{2}\big(-c+\sqrt{c^2+4}\big)\xi}+Be^{-\frac{1}{2}\big(c+\sqrt{c^2+4}\big)\xi}$. The solution corresponding to the zero eigenvalue is $\psi(\xi,t)=A_0e^{\frac{1}{2}\big(-c+\sqrt{c^2+4}\big)\xi}+B_0e^{-\frac{1}{2}\big(c+\sqrt{c^2+4}\big)\xi}$.\\
+ ???? Wait this doesn't depend on time so it can't decay in time????
+ 
+ 
+ When $\lambda<0$, if $c^2\geq4(1+\lambda)$, then $F(\xi)=Ae^{\frac{1}{2}\big(-c+\sqrt{c^2+4(1+\lambda)}\big)\xi}+Be^{-\frac{1}{2}\big(c+\sqrt{c^2+4(1+\lambda)}\big)\xi}$. The boundary condition in equation \ref{psiBC} requires that $B=0$ when $V>\theta$ and that $A=0$ when $V<\theta$. \\
+ 
+ 
+ ???-->
+ When $\lambda<0$, if $c^2<|4(1+\lambda)|$, then $F(\xi)=e^{\frac{-c}{2}}\Big(C cos\big(\frac{\sqrt{|c^2+4(1+\lambda)|}}{2}\xi\big)+D sin\big(\frac{\sqrt{|c^2+4(1+\lambda)|}}{2}\xi\big)\Big)$.
+ 
+ 
+$v(x,t)=V(\xi)+\epsilon\psi(\xi,t)$
+
+
+
+
+
+
+\subsection{Stability of the Traveling Front Solutions}
+Now that we have found the traveling front solutions, it is important to understand their stability using linear stability analysis. Consider the solution $v(x,t)=V(\xi)+\epsilon\psi(\xi,t)$, where $0 < \epsilon <<1$ and $\psi(\xi,t)$ represents a small perturbation to the traveling wave solution, $V(\xi)$. The goal of the linear stability analysis is to understand how $\psi(\xi,t)$ behaves over time. Recall the governing partial differential equation
+\begin{equation}
+\label{uh}
+\frac{\partial v}{\partial t}=\frac{\partial ^2 v}{\partial x^2}-v+H(v-\theta)
+\end{equation}
+\\
+The chain rule allows us to obtain the following partial derivatives of $v(x,t)=V(\xi)+\epsilon\psi(\xi,t)$.
+
+$$\frac{\partial v}{\partial t}=\frac{\partial\xi}{\partial t}\frac{dV}{d\xi}+\epsilon(\frac{\partial \psi}{\partial \xi}\frac{\partial \xi}{\partial t}+\frac{\partial \psi}{\partial t}) = -c\frac{dV}{d\xi}+\epsilon(-c\frac{\partial \psi}{\partial \xi}+\frac{\partial \psi}{\partial t})$$
+
+$$\frac{\partial v}{\partial x}=\frac{\partial \xi}{\partial x}\frac{dV}{d\xi}+\epsilon\frac{\partial\xi}{\partial x}\frac{\partial\psi}{\partial\xi} = \frac{dV}{d\xi}+\epsilon\frac{\partial\psi}{\partial\xi}$$
+
+$$\frac{\partial^2 v}{\partial x^2}=\frac{\partial \xi}{\partial x}\frac{d^2V}{d\xi^2}+\epsilon\frac{\partial^2\psi}{\partial\xi^2}\frac{\partial \xi}{\partial x} = \frac{d^2V}{d\xi^2}+\epsilon\frac{\partial^2\psi}{\partial\xi^2}$$
+Equation (\ref{uh}) is rewritten as 
+\begin{equation}
+\label{frewritten}
+-c\frac{dV(\xi)}{d\xi}+\epsilon(-c\frac{\partial \psi(\xi,t)}{\partial \xi}+\frac{\partial \psi(\xi,t)}{\partial t})=\frac{d^2V(\xi)}{d\xi^2}+\epsilon\frac{\partial^2\psi(\xi,t)}{\partial\xi^2}+f(V(\xi)+\epsilon\psi(\xi,t))
+\end{equation}
+Analysis of equation (\ref{frewritten}) can be simplified by using the Taylor expansion of $f\big(V(\xi)+\epsilon\psi(\xi,t)\big)$ with respect to $V(\xi)$, and discounting $O(\epsilon ^2)$ terms.
+
+$$f\big(V+\epsilon\psi \big) \approx f(V) + \frac{\partial f(V)}{\partial V}\epsilon\psi = -V +\mathcal{H}(V-\theta) - \epsilon\psi + \delta(V-\theta)\epsilon\psi $$
+Equation \ref{frewritten} becomes
+$$-c\frac{dV}{d\xi}+\epsilon(-c\frac{\partial \psi}{\partial \xi}+\frac{\partial \psi}{\partial t})= 
+\frac{d^2V}{d\xi^2}+\epsilon\frac{\partial^2\psi}{\partial\xi^2}-V+H(V-\theta)+\epsilon\psi\big(-1+\delta(V-\theta)\big)$$
+Look at the terms involving $\psi$ and $\epsilon$ to analyze the long term behavior of the disturbance. The partial differential equation that models the behavior of the perturbation is
 
 \begin{equation} \label{pde_nh}
-\frac{\partial \psi}{\partial t} = c \frac{\partial^2\psi}{\partial\xi^2} + \frac{\partial\psi}{\partial\xi} - (1 - \delta(V(\xi)-\theta))\psi
+\frac{\partial \psi}{\partial t} = c \frac{\partial^2\psi}{\partial\xi^2} + \frac{\partial\psi}{\partial\xi} - (1 - \delta(V-\theta))\psi
 \end{equation} 
 
 
 \subsection{Separation of Variables}
-We assume a separation of variables, $\psi(\xi,t) = S(\xi)T(t)$, which leads to
-$$ \frac{1}{T}\frac{\partial T}{\partial t} = \frac{1}{S}\frac{\partial^2S}{\partial\xi^2} + \frac{c}{S}\frac{\partial S}{\partial\xi} - 1 + \delta(V(\xi)-\theta)= \lambda $$
-The time-dependent equation is a homogeneous ODE:
+
+This equation can be solved using separation of variables, where solutions have the form of $\psi(\xi,t)=S(\xi)T(t)\neq0$.
+
+$$ \frac{1}{T}\frac{\partial T}{\partial t} = \frac{1}{S}\frac{\partial^2S}{\partial\xi^2} + \frac{c}{S}\frac{\partial S}{\partial\xi} - 1 + \delta(V-\theta)= \lambda $$
+Before proceeding with the analysis, we need to define the boundary conditions. Recall that the boundary condition $\lim_{x\to\pm\infty} \frac{\partial v(x,t)}{\partial x}=0$ is necessary to ensure a physically realistic solution. Because we previously imposed the boundary condition that $\lim_{\xi\to\pm\infty} \frac{dV}{d\xi}=0$, it must also be true that 
+
+$$\lim_{x\to\pm\infty} \frac{\partial \big(V(\xi)+\epsilon\psi(\xi,t)\big)}{\partial x} = \lim_{\xi\to\pm\infty} \frac{dV}{d\xi}+\lim_{\xi\to\pm\infty} \epsilon\frac{\partial\psi}{\partial\xi}=0 \implies \lim_{\xi\to\pm\infty}\frac{d\psi}{d\xi}=0 $$
+The time-dependent equation is a homogeneous ODE with the following solutions, where $a\in\mathbb{R}$.
 \begin{equation} \label{timeeq}
-\frac{1}{T}\frac{dT}{dt} = \lambda \implies \int\frac{dT}{T} = \int\lambda dt \implies T(t)=e^{\lambda t}
+\frac{1}{T}\frac{dT}{dt} = \lambda \implies \int\frac{dT}{T} = \int\lambda dt \implies T(t)=ae^{\lambda t}
 \end{equation}
 For the spatial dependence, we split the domain of the equation into three regions, depending on the value of $\delta(V(\xi)-\theta)$, with the boundary condition that $\lim_{\xi \to \pm \infty}\psi = 0$:
 
@@ -38,7 +95,7 @@ For the spatial dependence, we split the domain of the equation into three regio
 \subsubsection{ Region 1 and 2}
 In Region 1 and 2, we solve the equation:
 
-\begin{equation}\label{spatial0}
+\begin{equation}
 \frac{d^2S}{d\xi^2} + c\frac{dS}{d\xi} - (\lambda + 1)S = 0
 \end{equation} 
 The boundary conditions are in Region 1: $\lim_{\xi \to -\infty}S_1 = 0$; and in Region 2: $\lim_{\xi \to \infty}S_2 = 0$. The solutions have the form:
@@ -49,20 +106,15 @@ S_2(\xi) = c_2e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}\xi}
 \end{equation}
 
 \subsubsection{Region 3}
-At Region 3, we integrate the equation at a small interval around the point of discontinuity to examine the effect $\delta(V(\xi)-\theta)$ has on the solution. After separation of variables, the inhomogeneous PDE \ref{pde_nh} becomes
+At Region 3, we integrate the equation at a small interval around the point of discontinuity to examine the effect $\delta(V(\xi)-\theta)$ has on the solution. The spatial equation in this region is 
 
-$$ \frac{1}{T}\frac{\partial T}{\partial t} = \frac{1}{S}\frac{\partial^2S}{\partial\xi^2} + \frac{c}{S}\frac{\partial S}{\partial\xi} - 1 + \delta(V(\xi)-\theta)= \lambda $$
-The spatial equation is 
-
-\begin{equation}\label{spatialdelta}
-\frac{d^2S}{d\xi^2} + c\frac{dS}{d\xi} - [\lambda + 1 + \delta(V(\xi)-\theta)]S = 0
+\begin{equation}
+\frac{d^2S}{d\xi^2} + c\frac{dS}{d\xi} - \big[\lambda + 1 + \delta(V(\xi)-\theta)\big]S = 0
 \end{equation} 
-Since there is a discontinuity due to the dirac delta function here at $V(\xi) = \theta$, $\xi = 0$, we integrate a small interval $(+\epsilon,-\epsilon)$ around the discontinuity. Then, we taking the limit $\epsilon \to 0$ gives us information as to how the solutions in Region 1 and 2 (\ref{homogsln}) connect in Region 3.
+Since there is a discontinuity due to the dirac delta function here at $V(\xi) = \theta$, $\xi = 0$, we integrate a small interval $(+\epsilon,-\epsilon)$ around the discontinuity. Then, we taking the limit $\epsilon \to 0$ gives us information as to how the solutions in Region 1 and 2, (\ref{homogsln}), connect in Region 3.
 
 $$ \int_{-\epsilon}^{+\epsilon}\frac{d^2S}{d\xi^2}d\xi + c\int_{-\epsilon}^{+\epsilon}\frac{dS}{d\xi}d\xi - \int_{-\epsilon}^{+\epsilon}(\lambda + 1)Sd\xi - \int_{-\epsilon}^{+\epsilon}\delta(V(\xi)-\theta)Sd\xi = 0 $$
-
 For the first two terms, the fundamental theorem of calculus gives us the first derivative evaluated at the endpoints and the function evaluated at the endpoints.
-
 $$ \frac{dS}{d\xi}(+\epsilon) - \frac{dS}{d\xi}(-\epsilon) + c[S(+\epsilon) - S(-\epsilon)] - \int_{-\epsilon}^{+\epsilon}(\lambda + 1)Sd\xi - \int_{-\epsilon}^{+\epsilon}\delta(V(\xi)-\theta)Sd\xi = 0 $$
 Now we take the limit:
 $$ \lim_{\xi \to 0} \Bigg[ \frac{dS}{d\xi}(+\epsilon) - \frac{dS}{d\xi}(-\epsilon) + c[S(+\epsilon) - S(-\epsilon)] - \int_{-\epsilon}^{+\epsilon}(\lambda + 1)Sd\xi - \int_{-\epsilon}^{+\epsilon}\delta(V(\xi)-\theta)Sd\xi \Bigg]= 0 $$

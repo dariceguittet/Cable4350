@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 DEC 2017 10:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 DEC 2017 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -143,7 +143,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-No file problem2.aux.
+(./problem2.aux)
 \openout1 = `problem2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -158,6 +158,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -277,64 +278,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
-
-LaTeX Warning: Reference `ODE1' on page 2 undefined on input line 52.
-
-
-LaTeX Warning: Reference `ODE2' on page 2 undefined on input line 58.
-
-
-LaTeX Warning: Reference `ODE2' on page 2 undefined on input line 63.
-
-
-Overfull \hbox (0.43396pt too wide) in paragraph at lines 62--64
-\OT1/cmr/m/n/10.95 Guess a par-tic-u-lar so-lu-tion of the form $\OML/cmm/m/it/
-10.95 V[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 A$\OT1/cmr/m/n/10.95 . Plug-
-ging $\OML/cmm/m/it/10.95 V[]$ \OT1/cmr/m/n/10.95 into equa-tion [] yields 
+[2] [3]
+Overfull \hbox (22.96712pt too wide) detected at line 112
+\OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 c[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/
+it/10.95 ^^O\OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.95 c[] 
+\OT1/cmr/m/n/10.95 + []) = [] + \OML/cmm/m/it/10.95 ^^O[] \OMS/cmsy/m/n/10.95 ^
+^@ \OML/cmm/m/it/10.95 V\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ^^X\OT1/cmr/m/n
+/10.95 ) + \OML/cmm/m/it/10.95 ^^O \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ^^X;
+ t\OT1/cmr/m/n/10.95 ) + \OML/cmm/m/it/10.95 H\OT1/cmr/m/n/10.95 (\OML/cmm/m/it
+/10.95 V\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ^^X\OT1/cmr/m/n/10.95 ) + \OML/
+cmm/m/it/10.95 ^^O \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ^^X; t\OT1/cmr/m/n/1
+0.95 ) \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 ^^R\OT1/cmr/m/n/10.95 )
  []
 
-
-LaTeX Warning: Reference `ODE2' on page 2 undefined on input line 67.
-
-[2]
-
-LaTeX Warning: Reference `ODE1' on page 3 undefined on input line 78.
-
-
-LaTeX Warning: Reference `ODE2' on page 3 undefined on input line 83.
-
-[3] (./problem2.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[4] (./problem2.aux) ) 
 Here is how much of TeX's memory you used:
- 2596 strings out of 492995
- 35993 string characters out of 6132704
- 107673 words of memory out of 5000000
+ 2597 strings out of 492995
+ 35999 string characters out of 6132704
+ 109745 words of memory out of 5000000
  6130 multiletter control sequences out of 15000+600000
- 9709 words of font info for 35 fonts, out of 8000000 for 9000
+ 9401 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,25p,368b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on problem2.pdf (3 pages, 122753 bytes).
+ 39i,6n,25p,364b,183s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b>
+Output written on problem2.pdf (4 pages, 118750 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

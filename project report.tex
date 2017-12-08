@@ -13,7 +13,7 @@
 Information within the brain is transmitted between neurons largely due to action potentionals, otherwise known as spikes, which are when the voltage in a neuron rapidly rises and falls. These allow communication between brain cells. A.L Hodgkin and A.F. Huxley received a 1963 Nobel Prize for their work regarding this topic, specifically the discovery that individual parts of the axonal membrane behave similarly to a component in an electric circuit. With this knew knowledge, it is now possible to derive equations that represent the voltage propagation in a neuron using formulas similar to those that describe current, resistance, and voltage in an electrical system. This pattern of diffusion along the membrane of neurons by current or voltage is called cable theory, which is what we will be analyzing in this report.
 
 \subsection{Understanding the Model}
-The model we are using to understand the propogation of voltage in a neuron can be described by the following partial differential equation:
+The model we are using to understand the propagation of voltage in a neuron can be described by the following partial differential equation:
 \begin{equation} \label{1}
 \frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}+f(v(x,t))+J_{ext}(x,t)
 \end {equation}
@@ -38,11 +38,77 @@ The term $-J_{ION}(v(x,t),t)$ is the outward applied current, can be represented
 \[\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}+f(v(x,t))+J_{ext}(x,t)\]
 
 \subsection{Purpose}
-In this project, we aim to examine the partial differential equation model of this phenomenon to analyze the propagation of action potentials throughout a neoron. First, we will look at a passive membrane where there is no voltage gradient and ions will leak out of the cell by first solving the stationary solution and then solving the partial differential equation in order to analyze the impulse propagation reaction to various initial voltage inputs. Next, we will analyze a nonlinear model that takes into account that membrane ion channels often have a "two state" nature--meaning a system that has two possible stable equilibria. Consequently, when a bistable model is introduced into our original equation, traveling wave solutions can be identified by converting the partial differential equation into a system of ordinary differential equations. Therefore, after analysis of these traveling wave and passive membrane solutions, we aim to have a better understanding of how voltage propagates in a neuron under various conditions and inputs.
+In this project, we aim to examine the partial differential equation model of this phenomenon to analyze the propagation of action potentials throughout a neuron. First, we will look at a passive membrane where there is no voltage gradient and ions will leak out of the cell by first solving the stationary solution and then solving the partial differential equation in order to analyze the impulse propagation reaction to various initial voltage inputs. Next, we will analyze a nonlinear model that takes into account that membrane ion channels often have a "two state" nature--meaning... We will examine the traveling wave solutions of this model. Therefore, we aim to have a better understanding of how voltage propagates within under various conditions and inputs.
 
-\section{The Passive Membrane Solution}
+\section{Passive Membrane}
+We consider a passive membrane current with a linear ionic current that obeys Ohm's Law, with the resistance rescaled to unity: $f(v(x,t)) = -v(x,t)$. In addition, we add an external impulse at $x=0$ and $t=0$, formulated as the dirac delta function $\delta(t) \delta(x)$, to examine how the voltage responds. Since axons are much longer than wide, $x$ will range from $-\infty$ to $\infty$. We are also looking for bounded solutions since this is a physical system, therefore we look for solutions such that $\int_{-\infty}^{\infty}|v(x,t)|dx = M < \infty$. The inhomogeneous PDE corresponding to such a system is given by
 
-\subsection{Numerical Solutions: Passive Membrane}
+\begin{equation} \label{pm}
+\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}-v(x,t)+\delta(t)\delta(x)
+\end {equation}
+
+\subsection{Stationary Solutions}
+To start, we find the stationary solutions, $v(x,t) = V_0(x)$, satisfying $\frac{\partial{v(x,t)}}{\partial{t}} = 0$ by solving the homogeneous ODE:
+
+\begin{equation} \label{pm_odeH}
+\frac{d^2{V_0(x)}}{d{x^2}} - V_0(x) = 0
+\end{equation}
+The general solution is $V_0(x) = c_1e^{-x} + c_2e^{x}$. However, in order for $V_0$ to be bounded on $(-\infty, \infty)$, $V_0$ = 0:
+
+\subsection{Impulse Response}
+We add a stationary input current localized at $x=0$ and find solutions $V_F(x)$ to the resulting inhomogeneous ODE with boundary conditions $\lim_{x\to\infty} V_F(x) = 0$.
+
+\begin{equation} \label{pm_odeN}
+\frac{d^2{V_F(x)}}{d{x^2}} - V_F(x) = -\delta(x)
+\end{equation}
+We compute the Fourier transforms of the ODE to find an algebraic equation for the Fourier transform of the solution $\mathcal{FT}\left\{V_F(x)\right\} = \overline{V_F}(\omega)$, where $\omega$ is the spatial frequency with units $\frac{1}{x}$. Using the fact that $\mathcal{FT}\left\{d_{xx}V_F(x)\right\} = -\omega^2\overline{V_F}(\omega)$ and $ \mathcal{FT}\left\{\delta(x)\right\} = 1$, we get upon rearranging:
+
+$$ \overline{V_F}(\omega) = \frac{1}{\omega^2+1} $$
+
+Taking the inverse Fourier transform gives us our solution:
+
+$$ V_F(x) = \mathcal{FT}^{-1}\left\{\overline{V_F(\omega)}\right\} =  \frac{1}{2}e^{-|x|} $$
+
+\subsection{Generalizing Solutions}
+If we make the change of variable $x = x-x_0$ to Part 2.2, we arrive at the inhomogeneous ODE whose solution is defined to be Green's function for this particular problem. Let $\mathcal{L}\left\{G\right\}$ be the linear operator that is the left-hand side of the equation and $G(x-x_0)$ be Green's function, satisfying the same boundary conditions as above.
+
+\begin{equation} \label{pm_greens}
+\mathcal{L}\left\{G\right\} = -\frac{d^2{G(x-x_0)}}{d{x^2}} + G(x-x_0) = \delta(x-x_0)
+\end{equation}
+$$ G(x-x_0) = \frac{1}{2}e^{-| x-x_0 |} $$
+For any external input $f(x)$ and the associated inhomogeneous equation $\mathcal{L}\left\{y\right\} = f(x)$, the solution $y(x)$ can be found as
+$$ y(x) = \int_{a}^{b}G(x-x_0)f(x_0)dx_0 $$
+This fundamental property of Green's function is due to the \textit{sifting property} of the dirac delta function. 
+$$\mathcal{L}\left\{y\right\} = L\int_a^bG(x-x_0)f(x_0)dx_0 = \int_a^b\mathcal{L}\left\{G(x-x_0)\right\}f(x_0)dx_0 = \int_a^b\delta(x-x_0)f(x_0)dx_0 $$
+The formula for a stationary solution given an arbitrary stationary input uses Green's function as below.
+$$V_A(x) = \int_{-\infty}^{\infty}\frac{1}{2}e^{-|x-x_0|}J_{ext}(x_0)dx_0 $$
+
+\subsection{Green's Function for Time-Dependent Equation}
+Returning to the full time-dependent equation (\ref{pm}), we use Fourier transforms to find the solution, $G_{\infty}(x,t)$, Green's function on the infinite cable. This time, the Fourier transform of the PDE results in an inhomogeneous ODE for $\overline{G_{\infty}}(\omega,t)$.
+
+\begin{equation}\label{pm_timeFT}
+\frac{d}{dt}\overline{G_{\infty}}(\omega,t) + (\omega^2+1)\overline{G_{\infty}}(\omega,t) = \delta(t) 
+\end{equation} 
+When $t>0$, $\delta(t) = 0$ so the equation is reduced to a homogeneous ODE. Separation of variables and integration of both sides leads to the homogeneous solution, scaled by a function that is only dependent on $\omega$.
+
+$$\overline{G_{\infty}}(\omega,t) = c(\omega)e^{-t(\omega^2+1)} $$
+To find the value of $c(\omega)$, we examine the solution around $t=0$. Due to $\delta(t)$, there is a discontinuity such that $\overline{G_{\infty}}(\omega,0^-) = 0$ while $\overline{G_{\infty}}(\omega,0^+) = c(\omega)$. We integrate equation (\ref{pm_timeFT}) at a small section around the discontinuity, from $t=(-\epsilon, \epsilon)$, use the fact that $\overline{G_{\infty}}(\omega,\epsilon-) = 0$ since our system starts at $t=0$. 
+
+$$  \overline{G_{\infty}}(\omega,\epsilon) + \int_{-\epsilon}^{\epsilon}(\omega^2+1)\overline{G_{\infty}}(\omega,t)dt = \int_{-\epsilon}^{\epsilon}\delta(t)dt = 1$$
+Taking the limit as $\epsilon \to 0$, we find the integral goes to zero and we are left with the constraint.
+
+$$ \lim_{\epsilon\to 0} \overline{G_{\infty}}(\omega,\epsilon)  = \lim_{t\to 0^+}c(\omega)e^{-t(\omega^2+1)}  = 1 $$
+Therefore, $c(\omega) = 1$ and our solution for $t>0$ is found to be the inverse Fourier transform.
+$$G_{\infty}(\omega,t) = \frac{1}{2\pi}\int_{-\infty}^{\infty}e^{-t(\omega^2+1)}e^{i \omega x)} d\omega = \frac{1}{2\pi}\int_{-\infty}^{\infty}e^{i \omega x-t(\omega^2+1)}d\omega $$
+We complete the square for the exponents and recognize the result as a Gaussian integral to find the solution.
+
+$$ G_{\infty}(x,t>0) = \frac{1}{2\pi}e^{-t-\frac{x^2}{4t}}\int_{-\infty}^{\infty}e^{-t(\omega - \frac{ix}{2t} )^2 }d\omega = \frac{1}{\sqrt{4\pi t}}e^{-t-\frac{x^2}{4t}} $$
+
+\subsubsection{Plots of Green's Function}
+
+
+
+\section{Numerical Solutions}
 After analytically solving the voltage equation, we also found numerical solutions. In order to numerically solve for this partial differential equation, we must first discretize both partial derivatives. For this problem, discretization is the process of using Taylor series to approximate the first time derivative of the voltage function in terms of the point we will approximate and the known point one time step before it, like so:
 \[\frac{\partial{v(x,t)}}{\partial{t}}=\frac{v^{j+1}_i-v^j_i}{\Delta{t}}+O(\Delta{t})\]
 In this equation, $v^j_i$ represents the point at $x=x_i$ and $t=t_j$ and $O(\Delta{t})$ represents the order of the error of this approximation, meaning that the error is a function of the size of the timestep.
@@ -69,7 +135,19 @@ Next, when we change $\Delta{t}$ to 0.001 the meet the conditions for stability 
   \caption{Plot of Stable Numerical Approximation}
   \label{fig:sketch2}
 \end{figure}
-As one can see, this plot is matches closely to the analytical solution. It shows the spike of voltage at $t=0$ and $x=0$ and demonstrates how that voltage propagates throughout the neuron, approaching zero as time and x increases. 
+As one can see, this plot is matches closely to the analytical solution. It shows the spike of voltage at $t=0$ and $x=0$ and demonstrates how that voltage propagates throughout the neuron, approaching zero as time and x increases. \par
+In order to make the propagation more apparent, I included the graph below, where each line indicates a different time step:
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{othergraph1.jpg}
+  \caption{Plot of Stable Numerical Approximation}
+  \label{fig:sketch2}
+\end{figure}
+Next, I displayed a plot of the voltages for only the times 25-50 seconds, to show the scaling on the remaining values. Although they appear to all be zero in the initial graph, they are nonzero and diminishing as one would expect with ions leaking out of the cell, as is the case in this scenario.
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{othergraph2.jpg}
+  \caption{Plot of Stable Numerical Approximation, Times 25-50}
+  \label{fig:sketch2}
+\end{figure}
 
 \section{The Bistable and Traveling Wave Solution}
 
@@ -92,23 +170,49 @@ Matlab was unable to plot this completely, because the divergance caused some of
   \caption{Plot of Stable Numerical Approximation, Two-State Ion Channel Solution, $\theta=1$}
   \label{fig:sketch4}
 \end{figure}
-With this value of $\theta$ the plot doesn't look much different from the plots in the passive membrane solution. This is because when $\theta$ is large, not many of values of voltage, $v(x,t)$ will be greater than $\theta$ so the Heaviside function will be zero for most of the soltuion. 
+With this value of $\theta$ the plot doesn't look much different from the plots in the passive membrane solution. This is because when $\theta$ is large, not many of values of voltage, $v(x,t)$ will be greater than $\theta$ so the Heaviside function will be zero for most of the soltuion. Since this value of $\theta$ doesn't produce a traveling wave, we cannot numerically calculate the speed of the wave. 
 \begin{figure}[H]
   \includegraphics[width=\linewidth]{thetatwo.jpg}
   \caption{Plot of Stable Numerical Approximation, Two-State Ion Channel Solution, $\theta=0.5$}
   \label{fig:sketch5}
 \end{figure}
-The concept of a traveling wave is best depicted with this value of $\theta$. As time increases, the solution converges to a uniform wave that doesn't change shape.
+With this value of $\theta$, there is a single wave of voltage, but its speed is zero. By exmining hte graph, one can see that it converges to relatively constant position as time increases.This is verified for plugging in $\theta=1$ to the analytical equation for wave speed as a function of $\theta$ we found earlier in the report. As time increases, the solution converges to a uniform wave that doesn't change shape and remains stationary throughout time.
 \begin{figure}[H]
   \includegraphics[width=\linewidth]{thetathree.jpg}
   \caption{Plot of Stable Numerical Approximation, Two-State Ion Channel Solution, $\theta=0.1$}
   \label{fig:sketch6}
 \end{figure}
 The concept of a traveling wave is also depicted with this value of $\theta$. Though the wave is larger, the wave still doesn't change shape as time increases. 
-
-
-
-
+\subsubsection{Periodically Varying Threshold}
+Now, we will find numerical solutions for a periodically varying threshold. This will be represented in our model by substituting in the following for $f(v(x,t))$:
+\[f(v,x)=-v+H(v-\theta(1+0.5\cos(x)))\]
+However, since we will want to examine the effects of different coefficients in front of the $\cos(x)$ term, I will label this coefficient $C$. The same steps are applied in order to find numerical solutions, where we discretize the parital derivatives and solve in terms of the value at the next timestep. Since this $f(v(x,t))$ is similar to the one in the previous model that we solved numerically for, the numerical approximation will look similar. It is shown below. 
+\begin{equation} \label{***}
+v^{j+1}_i=\frac{\Delta{t}}{(\Delta{x})^2}(v^{j}_{i+1}+v^{j}_{i-1})+(1-\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2})v^{j}_{i}+\Delta{t}*H(v^j_i-\theta(1+C\cos(x)))
+\end {equation}
+In order to analyze the numerical solutions, we used the three different values of $\theta$ from the numerical solution of the previous model, $\theta=1$, $\theta=0.5$, and $\theta=0.1$. For each of these three $\theta$ values, we used four different values of $C$, the constant preceding the $\cos(x)$ term. The first of which was the given value, 0.5, and the rest were $C=20$, $C=2$, and $C=-1$. All of these plots are shown below, grouped together by $\theta$ value
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{thetaone3.jpg}
+  \caption{Plots of Periodically Varying Threshold, $\theta=1$}
+  \label{fig:sketch7}
+\end{figure}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{thetatwo3.jpg}
+  \caption{Plots of Periodically Varying Threshold, $\theta=0.5$}
+  \label{fig:sketch8}
+\end{figure}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{thetathree3.jpg}
+  \caption{Plots of Periodically Varying Threshold, $\theta=0.1$}
+  \label{fig:sketch9}
+\end{figure}
+It seems that if the constant $C$ is too small not much changes from the prior solution, with $f(v(x,t))=H(v^j_i-\theta)$. This is because it causes the constant $C$ determines how much the total alue of $\theta(1+C\cos(x))$ can vary. If it has larger maginitude, it will be less likely that the variable in the Heaviside function (in this case $v_i^j$) will be larger than it when $\cos(x)=1$ or close to it, and when $\cos(x)=0$ or near this area, it is more likely that $v_i^j$ will be larger, so the value of the Heavisde function will be one. However, if $C$ is small, then these periodic fluctuations due to the cosine term will be relatively insignificant. Next, I will examine if drastically increasing the value of $C$ will have a significant effect on the same $\theta$.
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{plotsomething.jpg}
+  \caption{Varying $C$, $\theta=0.1$}
+  \label{fig:sketch10}
+\end{figure}
+It appears that once $C$ is above a certain threshold, the magnitude of $C$ will not have a large effect on the waves. This makes sense because most voltage values in the orginal equation are close to zero, so they will only be larger than $\theta(1+C\cos(x))$ when $\cos(x)$ is close to zero anyway, which will result in roughly the same points being affected by the Heaviside function, no matter the magnitude of $C$. Therefore, the average speed of the front is not affected if the constant is increased drastically. 
 
 
 

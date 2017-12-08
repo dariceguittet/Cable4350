@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  6 DEC 2017 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  7 DEC 2017 11:38
 entering extended mode
 **./report_part1.tex
 (report_part1.tex
@@ -261,116 +261,116 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {C:/Users/dguittet/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2] [3] [4] [5] <Part1Plots/t0.png, id=29, 599.23875pt x 362.35374pt>
+[2] [3] [4] <Part1Plots/t0.png, id=25, 599.23875pt x 362.35374pt>
 File: Part1Plots/t0.png Graphic file (type png)
 
 <use Part1Plots/t0.png>
-Package pdftex.def Info: Part1Plots/t0.png used on input line 115.
+Package pdftex.def Info: Part1Plots/t0.png used on input line 118.
 (pdftex.def)             Requested size: 187.89914pt x 113.61676pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 116.
- <Part1Plots/t1.png, id=30, 599.23875pt x 362.35374pt>
+(Font)              <10.95> on input line 119.
+ <Part1Plots/t1.png, id=26, 599.23875pt x 362.35374pt>
 File: Part1Plots/t1.png Graphic file (type png)
 
 <use Part1Plots/t1.png>
-Package pdftex.def Info: Part1Plots/t1.png used on input line 120.
+Package pdftex.def Info: Part1Plots/t1.png used on input line 123.
 (pdftex.def)             Requested size: 187.89914pt x 113.61676pt.
- <Part1Plots/t10.png, id=31, 599.23875pt x 365.365pt>
+ <Part1Plots/t10.png, id=27, 599.23875pt x 365.365pt>
 File: Part1Plots/t10.png Graphic file (type png)
 
 <use Part1Plots/t10.png>
-Package pdftex.def Info: Part1Plots/t10.png used on input line 125.
+Package pdftex.def Info: Part1Plots/t10.png used on input line 128.
 (pdftex.def)             Requested size: 187.89914pt x 114.56094pt.
 
-<Part1Plots/t100.png, id=32, 599.23875pt x 366.36874pt>
+<Part1Plots/t100.png, id=28, 599.23875pt x 366.36874pt>
 File: Part1Plots/t100.png Graphic file (type png)
 
 <use Part1Plots/t100.png>
-Package pdftex.def Info: Part1Plots/t100.png used on input line 130.
+Package pdftex.def Info: Part1Plots/t100.png used on input line 133.
 (pdftex.def)             Requested size: 187.89914pt x 114.87567pt.
- <Part1Plots/x0.png, id=33, 728.7225pt x 441.65pt>
+ [5]
+<Part1Plots/x0.png, id=33, 728.7225pt x 441.65pt>
 File: Part1Plots/x0.png Graphic file (type png)
-
-<use Part1Plots/x0.png>
-Package pdftex.def Info: Part1Plots/x0.png used on input line 142.
+ <use Part1Plots/x0.png>
+Package pdftex.def Info: Part1Plots/x0.png used on input line 145.
 (pdftex.def)             Requested size: 187.89914pt x 113.87608pt.
- <Part1Plots/x2.png, id=34, 735.74875pt x 442.65375pt>
+
+<Part1Plots/x2.png, id=34, 735.74875pt x 442.65375pt>
 File: Part1Plots/x2.png Graphic file (type png)
-
-<use Part1Plots/x2.png>
-Package pdftex.def Info: Part1Plots/x2.png used on input line 147.
+ <use Part1Plots/x2.png>
+Package pdftex.def Info: Part1Plots/x2.png used on input line 150.
 (pdftex.def)             Requested size: 187.89914pt x 113.04744pt.
- <Part1Plots/g.png, id=35, 735.74875pt x 446.66875pt>
-File: Part1Plots/g.png Graphic file (type png)
 
-<use Part1Plots/g.png>
-Package pdftex.def Info: Part1Plots/g.png used on input line 160.
+<Part1Plots/g.png, id=35, 735.74875pt x 446.66875pt>
+File: Part1Plots/g.png Graphic file (type png)
+ <use Part1Plots/g.png>
+Package pdftex.def Info: Part1Plots/g.png used on input line 163.
 (pdftex.def)             Requested size: 375.80544pt x 228.15245pt.
- [6 <./Part1Plots/t0.png (PNG copy)> <./Part1Plots/t1.png (PNG copy)> <./Part1P
-lots/t10.png (PNG copy)> <./Part1Plots/t100.png (PNG copy)> <./Part1Plots/x0.pn
-g (PNG copy)> <./Part1Plots/x2.png (PNG copy)>] [7 <./Part1Plots/g.png (PNG cop
-y)>]
-<Part1Plots/plot1.png, id=45, 673.51625pt x 531.9875pt>
+
+[6 <./Part1Plots/t0.png (PNG copy)> <./Part1Plots/t1.png (PNG copy)> <./Part1Pl
+ots/t10.png (PNG copy)> <./Part1Plots/t100.png (PNG copy)> <./Part1Plots/x0.png
+ (PNG copy)> <./Part1Plots/x2.png (PNG copy)>] [7 <./Part1Plots/g.png (PNG copy
+)>] <Part1Plots/plot1.png, id=45, 673.51625pt x 531.9875pt>
 File: Part1Plots/plot1.png Graphic file (type png)
 
 <use Part1Plots/plot1.png>
-Package pdftex.def Info: Part1Plots/plot1.png used on input line 181.
+Package pdftex.def Info: Part1Plots/plot1.png used on input line 184.
 (pdftex.def)             Requested size: 375.80544pt x 296.83946pt.
  [8 <./Part1Plots/plot1.png (PNG copy)>]
 <Part1Plots/plot2.png, id=49, 651.43375pt x 511.9125pt>
 File: Part1Plots/plot2.png Graphic file (type png)
 
 <use Part1Plots/plot2.png>
-Package pdftex.def Info: Part1Plots/plot2.png used on input line 194.
+Package pdftex.def Info: Part1Plots/plot2.png used on input line 197.
 (pdftex.def)             Requested size: 375.80544pt x 295.32379pt.
  [9 <./Part1Plots/plot2.png (PNG copy)>]
 <Part1Plots/plot3.png, id=53, 729.72626pt x 578.16pt>
 File: Part1Plots/plot3.png Graphic file (type png)
 
 <use Part1Plots/plot3.png>
-Package pdftex.def Info: Part1Plots/plot3.png used on input line 208.
+Package pdftex.def Info: Part1Plots/plot3.png used on input line 211.
 (pdftex.def)             Requested size: 375.80544pt x 297.75131pt.
  [10 <./Part1Plots/plot3.png (PNG copy)>]
 <plot1.jpg, id=57, 562.1pt x 421.575pt>
 File: plot1.jpg Graphic file (type jpg)
  <use plot1.jpg>
-Package pdftex.def Info: plot1.jpg used on input line 231.
+Package pdftex.def Info: plot1.jpg used on input line 234.
 (pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
  [11]
 <Plot2.jpg, id=61, 562.1pt x 421.575pt>
 File: Plot2.jpg Graphic file (type jpg)
  <use Plot2.jpg>
-Package pdftex.def Info: Plot2.jpg used on input line 238.
+Package pdftex.def Info: Plot2.jpg used on input line 241.
 (pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
  [12 <./plot1.jpg>]
 [13 <./Plot2.jpg>] <badplot3.jpg, id=69, 580.1675pt x 437.635pt>
 File: badplot3.jpg Graphic file (type jpg)
 
 <use badplot3.jpg>
-Package pdftex.def Info: badplot3.jpg used on input line 255.
+Package pdftex.def Info: badplot3.jpg used on input line 258.
 (pdftex.def)             Requested size: 469.75502pt x 354.34885pt.
  <thetaone.jpg, id=70, 562.1pt x 421.575pt>
 File: thetaone.jpg Graphic file (type jpg)
 
 <use thetaone.jpg>
-Package pdftex.def Info: thetaone.jpg used on input line 261.
+Package pdftex.def Info: thetaone.jpg used on input line 264.
 (pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
  [14 <./badplot3.jpg>]
 <thetatwo.jpg, id=74, 562.1pt x 421.575pt>
 File: thetatwo.jpg Graphic file (type jpg)
  <use thetatwo.jpg>
-Package pdftex.def Info: thetatwo.jpg used on input line 267.
+Package pdftex.def Info: thetatwo.jpg used on input line 270.
 (pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
  [15 <./thetaone.jpg>] <thetathree.jpg, id=78, 562.1pt x 421.575pt>
 File: thetathree.jpg Graphic file (type jpg)
  <use thetathree.jpg>
-Package pdftex.def Info: thetathree.jpg used on input line 273.
+Package pdftex.def Info: thetathree.jpg used on input line 276.
 (pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
  [16 <./thetatwo.jpg>] [17 <./thetathree.jpg>] (report_part1.aux) ) 
 Here is how much of TeX's memory you used:
  3271 strings out of 493323
  52653 string characters out of 3128713
- 118776 words of memory out of 3000000
+ 119776 words of memory out of 3000000
  6778 multiletter control sequences out of 15000+200000
  10071 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -393,7 +393,7 @@ t/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 m/cmsy10.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy8.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report_part1.pdf (17 pages, 664592 bytes).
+Output written on report_part1.pdf (17 pages, 665355 bytes).
 PDF statistics:
  129 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

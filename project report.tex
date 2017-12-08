@@ -135,7 +135,19 @@ Next, when we change $\Delta{t}$ to 0.001 the meet the conditions for stability 
   \caption{Plot of Stable Numerical Approximation}
   \label{fig:sketch2}
 \end{figure}
-As one can see, this plot is matches closely to the analytical solution. It shows the spike of voltage at $t=0$ and $x=0$ and demonstrates how that voltage propagates throughout the neuron, approaching zero as time and x increases. 
+As one can see, this plot is matches closely to the analytical solution. It shows the spike of voltage at $t=0$ and $x=0$ and demonstrates how that voltage propagates throughout the neuron, approaching zero as time and x increases. \par
+In order to make the propagation more apparent, I included the graph below, where each line indicates a different time step:
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{othergraph1.jpg}
+  \caption{Plot of Stable Numerical Approximation}
+  \label{fig:sketch2}
+\end{figure}
+Next, I displayed a plot of the voltages for only the times 25-50 seconds, to show the scaling on the remaining values. Although they appear to all be zero in the initial graph, they are nonzero and diminishing as one would expect with ions leaking out of the cell, as is the case in this scenario.
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{othergraph2.jpg}
+  \caption{Plot of Stable Numerical Approximation, Times 25-50}
+  \label{fig:sketch2}
+\end{figure}
 
 \section{The Bistable and Traveling Wave Solution}
 
@@ -158,23 +170,49 @@ Matlab was unable to plot this completely, because the divergance caused some of
   \caption{Plot of Stable Numerical Approximation, Two-State Ion Channel Solution, $\theta=1$}
   \label{fig:sketch4}
 \end{figure}
-With this value of $\theta$ the plot doesn't look much different from the plots in the passive membrane solution. This is because when $\theta$ is large, not many of values of voltage, $v(x,t)$ will be greater than $\theta$ so the Heaviside function will be zero for most of the soltuion. 
+With this value of $\theta$ the plot doesn't look much different from the plots in the passive membrane solution. This is because when $\theta$ is large, not many of values of voltage, $v(x,t)$ will be greater than $\theta$ so the Heaviside function will be zero for most of the soltuion. Since this value of $\theta$ doesn't produce a traveling wave, we cannot numerically calculate the speed of the wave. 
 \begin{figure}[H]
   \includegraphics[width=\linewidth]{thetatwo.jpg}
   \caption{Plot of Stable Numerical Approximation, Two-State Ion Channel Solution, $\theta=0.5$}
   \label{fig:sketch5}
 \end{figure}
-The concept of a traveling wave is best depicted with this value of $\theta$. As time increases, the solution converges to a uniform wave that doesn't change shape.
+With this value of $\theta$, there is a single wave of voltage, but its speed is zero. By exmining hte graph, one can see that it converges to relatively constant position as time increases.This is verified for plugging in $\theta=1$ to the analytical equation for wave speed as a function of $\theta$ we found earlier in the report. As time increases, the solution converges to a uniform wave that doesn't change shape and remains stationary throughout time.
 \begin{figure}[H]
   \includegraphics[width=\linewidth]{thetathree.jpg}
   \caption{Plot of Stable Numerical Approximation, Two-State Ion Channel Solution, $\theta=0.1$}
   \label{fig:sketch6}
 \end{figure}
 The concept of a traveling wave is also depicted with this value of $\theta$. Though the wave is larger, the wave still doesn't change shape as time increases. 
-
-
-
-
+\subsubsection{Periodically Varying Threshold}
+Now, we will find numerical solutions for a periodically varying threshold. This will be represented in our model by substituting in the following for $f(v(x,t))$:
+\[f(v,x)=-v+H(v-\theta(1+0.5\cos(x)))\]
+However, since we will want to examine the effects of different coefficients in front of the $\cos(x)$ term, I will label this coefficient $C$. The same steps are applied in order to find numerical solutions, where we discretize the parital derivatives and solve in terms of the value at the next timestep. Since this $f(v(x,t))$ is similar to the one in the previous model that we solved numerically for, the numerical approximation will look similar. It is shown below. 
+\begin{equation} \label{***}
+v^{j+1}_i=\frac{\Delta{t}}{(\Delta{x})^2}(v^{j}_{i+1}+v^{j}_{i-1})+(1-\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2})v^{j}_{i}+\Delta{t}*H(v^j_i-\theta(1+C\cos(x)))
+\end {equation}
+In order to analyze the numerical solutions, we used the three different values of $\theta$ from the numerical solution of the previous model, $\theta=1$, $\theta=0.5$, and $\theta=0.1$. For each of these three $\theta$ values, we used four different values of $C$, the constant preceding the $\cos(x)$ term. The first of which was the given value, 0.5, and the rest were $C=20$, $C=2$, and $C=-1$. All of these plots are shown below, grouped together by $\theta$ value
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{thetaone3.jpg}
+  \caption{Plots of Periodically Varying Threshold, $\theta=1$}
+  \label{fig:sketch7}
+\end{figure}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{thetatwo3.jpg}
+  \caption{Plots of Periodically Varying Threshold, $\theta=0.5$}
+  \label{fig:sketch8}
+\end{figure}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{thetathree3.jpg}
+  \caption{Plots of Periodically Varying Threshold, $\theta=0.1$}
+  \label{fig:sketch9}
+\end{figure}
+It seems that if the constant $C$ is too small not much changes from the prior solution, with $f(v(x,t))=H(v^j_i-\theta)$. This is because it causes the constant $C$ determines how much the total alue of $\theta(1+C\cos(x))$ can vary. If it has larger maginitude, it will be less likely that the variable in the Heaviside function (in this case $v_i^j$) will be larger than it when $\cos(x)=1$ or close to it, and when $\cos(x)=0$ or near this area, it is more likely that $v_i^j$ will be larger, so the value of the Heavisde function will be one. However, if $C$ is small, then these periodic fluctuations due to the cosine term will be relatively insignificant. Next, I will examine if drastically increasing the value of $C$ will have a significant effect on the same $\theta$.
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{plotsomething.jpg}
+  \caption{Varying $C$, $\theta=0.1$}
+  \label{fig:sketch10}
+\end{figure}
+It appears that once $C$ is above a certain threshold, the magnitude of $C$ will not have a large effect on the waves. This makes sense because most voltage values in the orginal equation are close to zero, so they will only be larger than $\theta(1+C\cos(x))$ when $\cos(x)$ is close to zero anyway, which will result in roughly the same points being affected by the Heaviside function, no matter the magnitude of $C$. Therefore, the average speed of the front is not affected if the constant is increased drastically. 
 
 
 

@@ -1,6 +1,8 @@
 \documentclass[12pt]{article}
 \usepackage{graphicx}
+\usepackage{subcaption}
 \usepackage{amssymb}
+\usepackage{amsmath}
 \graphicspath{ {images/} }
 \usepackage[margin=1in]{geometry}
 \usepackage{float}
@@ -17,7 +19,15 @@
 \frac{\partial \psi}{\partial t} = c \frac{\partial^2\psi}{\partial\xi^2} + \frac{\partial\psi}{\partial\xi} - (1 - \delta(V(\xi)-\theta))\psi
 \end{equation} 
 
-We split the domain of the equation into three regions, depending on the value of $\delta(V(\xi)-\theta)$, with the boundary condition that $\lim_{\xi \to \pm \infty}\psi = 0$:
+
+\subsection{Separation of Variables}
+We assume a separation of variables, $\psi(\xi,t) = S(\xi)T(t)$, which leads to
+$$ \frac{1}{T}\frac{\partial T}{\partial t} = \frac{1}{S}\frac{\partial^2S}{\partial\xi^2} + \frac{c}{S}\frac{\partial S}{\partial\xi} - 1 + \delta(V(\xi)-\theta)= \lambda $$
+The time-dependent equation is a homogeneous ODE:
+\begin{equation} \label{timeeq}
+\frac{1}{T}\frac{dT}{dt} = \lambda \implies \int\frac{dT}{T} = \int\lambda dt \implies T(t)=e^{\lambda t}
+\end{equation}
+For the spatial dependence, we split the domain of the equation into three regions, depending on the value of $\delta(V(\xi)-\theta)$, with the boundary condition that $\lim_{\xi \to \pm \infty}\psi = 0$:
 
 1) $\xi < 0$ and $\delta(V(\xi)-\theta) = 0$
 
@@ -25,29 +35,20 @@ We split the domain of the equation into three regions, depending on the value o
 
 3) $\xi = 0$ and $\delta(V(\xi)-\theta) = \infty$
 
+\subsubsection{ Region 1 and 2}
+In Region 1 and 2, we solve the equation:
 
-\subsection{Separation of Variables}
-Looking first at region 1 and 2, we have the homogeneous PDE.
-
-\begin{equation} \label{pde_h}
-\frac{\partial \psi}{dt} = c \frac{\partial^2\psi}{d\xi^2} + \frac{\partial\psi}{\partial\xi} - \psi 
-\end{equation}
-We assume a separation of variables, $\psi(\xi,t) = S(\xi)T(t)$, which leads to
-
-$$ \frac{1}{T}\frac{\partial T}{\partial t} = \frac{1}{S}\frac{\partial^2S}{\partial\xi^2} + \frac{c}{S}\frac{\partial S}{\partial\xi} - 1 = \lambda $$
-The general solution is
-
-$$ S(\xi) = c_1e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}\xi} + c_2e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}\xi} $$
-
-\subsection{Region 1 and 2}
-In Region 1, where $\lim_{\xi \to -\infty}S_1 = 0$, and in Region 2, where $\lim_{\xi \to \infty}S_2 = 0$, we have the solutions:
+\begin{equation}\label{spatial0}
+\frac{d^2S}{d\xi^2} + c\frac{dS}{d\xi} - (\lambda + 1)S = 0
+\end{equation} 
+The boundary conditions are in Region 1: $\lim_{\xi \to -\infty}S_1 = 0$; and in Region 2: $\lim_{\xi \to \infty}S_2 = 0$. The solutions have the form:
 
 \begin{equation} \label{homogsln}
 S_1(\xi) = c_1e^{\frac{-c+\sqrt{c^2+4(\lambda+1)}}{2}\xi}
 S_2(\xi) = c_2e^{\frac{-c-\sqrt{c^2+4(\lambda+1)}}{2}\xi} 
 \end{equation}
 
-\subsection{Region 3}
+\subsubsection{Region 3}
 At Region 3, we integrate the equation at a small interval around the point of discontinuity to examine the effect $\delta(V(\xi)-\theta)$ has on the solution. After separation of variables, the inhomogeneous PDE \ref{pde_nh} becomes
 
 $$ \frac{1}{T}\frac{\partial T}{\partial t} = \frac{1}{S}\frac{\partial^2S}{\partial\xi^2} + \frac{c}{S}\frac{\partial S}{\partial\xi} - 1 + \delta(V(\xi)-\theta)= \lambda $$
@@ -81,7 +82,40 @@ Now to examine the family of solutions that depend on $\lambda$, we start with t
 $$1 = K\Bigg(\frac{-c-\sqrt{c^2+4)}}{2} - \frac{-c+\sqrt{c^2+4)}}{2}\Bigg) = -K\sqrt{c^2+4} $$
 or
 $$K = -\frac{1}{\sqrt{c^2+4}}$$
-Plugging this constant back into our 
+Plugging this constant back into our solutions for Region 1 and 2 (\ref{homogsln}) and multiplying it by the time-dependent solution (\ref{timeeq}), we find a solution for $\psi(\xi,t)$:
 
+\begin{equation}\label{solnlambda0}
+\psi(\xi,t)=
+\begin{cases}
+\ \frac{-1}{\sqrt{c^2+4}}e^{\frac{-c+\sqrt{c^2+4}}{2}},\quad \xi < 0 \\
+\ \frac{-1}{\sqrt{c^2+4}}e^{\frac{-c-\sqrt{c^2+4}}{2}},\quad \xi > 0\\
+\end{cases}
+\end{equation}
+Recalling our traveling wave solution $V(\xi)$ (\ref{}), we note that $\psi(\xi,t) = V'(\xi)$. This solution corresponds to $v(x,t) = V(\xi) + \epsilon V'(\xi)$, a Taylor expansion linearization around the traveling wave solution. This perturbation is independent of time. We plot $v(x,t)$ with various values of $\epsilon$ to show its effect on $V(\xi)$.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Part2Plots/e2}
+        \caption{$\epsilon=2$}
+        \label{fig:t0}
+    \end{subfigure}
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Part2Plots/e1}
+        \caption{$\epsilon=1$}
+        \label{fig:t1}
+    \end{subfigure}
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Part2Plots/e05}
+        \caption{$\epsilon=0.5$}
+        \label{fig:t10}
+    \end{subfigure}
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Part2Plots/e0}
+        \caption{$\epsilon=0.01$}
+        \label{fig:t100}
+    \end{subfigure}
+    \caption{$v(x,t) = V(\xi) + \epsilon V'(\xi)$ with various $\epsilon$ values}\label{fig:timeplots}
+\end{figure}
 
 \end{document}

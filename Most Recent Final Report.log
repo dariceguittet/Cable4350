@@ -1,0 +1,592 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  8 DEC 2017 11:45
+entering extended mode
+**"./Most Recent Final Report.tex"
+("Most Recent Final Report.tex"
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cl
+s"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo
+"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
+.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cs.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.s
+ty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gr
+aphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pd
+ftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infw
+arerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxc
+mds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcapt
+ion.sty"
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
+.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
+3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count88
+)
+\c@subfigure=\count89
+\c@subtable=\count90
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\parskip
+.sty"
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpd
+f.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvt
+ex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxet
+ex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count91
+\Gm@cntv=\count92
+\c@Gm@tempcnt=\count93
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks15
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.cfg"))
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty
+"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count94
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath
+.sty"
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext
+.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.
+sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen120
+))
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.
+sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen121
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.
+sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen122
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks19
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks20
+\eqnshift@=\dimen123
+\alignsep@=\dimen124
+\tagshift@=\dimen125
+\tagwidth@=\dimen126
+\totwidth@=\dimen127
+\lineht@=\dimen128
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssym
+b.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfon
+ts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) ("Most Recent Final Report.aux"
+
+LaTeX Warning: Label `fig:sketch2' multiply defined.
+
+
+LaTeX Warning: Label `fig:sketch2' multiply defined.
+
+
+LaTeX Warning: Label `fig:t10' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:t10' multiply defined.
+
+)
+\openout1 = `"Most Recent Final Report.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
+.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen129
+\scratchbox=\box30
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen130
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks24
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdft
+excmds.sty"
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflu
+atex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
+df-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext
+.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvde
+finekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopti
+ons.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvse
+tkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etex
+cmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.f
+d"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.f
+d"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/dguittet/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2] [3] [4] <Part1Plots/t0.png, id=25, 599.23875pt x 362.35374pt>
+File: Part1Plots/t0.png Graphic file (type png)
+
+<use Part1Plots/t0.png>
+Package pdftex.def Info: Part1Plots/t0.png used on input line 111.
+(pdftex.def)             Requested size: 187.89914pt x 113.61676pt.
+ <Part1Plots/t1.png, id=26, 599.23875pt x 362.35374pt>
+File: Part1Plots/t1.png Graphic file (type png)
+
+<use Part1Plots/t1.png>
+Package pdftex.def Info: Part1Plots/t1.png used on input line 116.
+(pdftex.def)             Requested size: 187.89914pt x 113.61676pt.
+ <Part1Plots/t10.png, id=27, 599.23875pt x 365.365pt>
+File: Part1Plots/t10.png Graphic file (type png)
+
+<use Part1Plots/t10.png>
+Package pdftex.def Info: Part1Plots/t10.png used on input line 121.
+(pdftex.def)             Requested size: 187.89914pt x 114.56094pt.
+
+<Part1Plots/t100.png, id=28, 599.23875pt x 366.36874pt>
+File: Part1Plots/t100.png Graphic file (type png)
+
+<use Part1Plots/t100.png>
+Package pdftex.def Info: Part1Plots/t100.png used on input line 126.
+(pdftex.def)             Requested size: 187.89914pt x 114.87567pt.
+ [5]
+<Part1Plots/x0.png, id=33, 728.7225pt x 441.65pt>
+File: Part1Plots/x0.png Graphic file (type png)
+ <use Part1Plots/x0.png>
+Package pdftex.def Info: Part1Plots/x0.png used on input line 138.
+(pdftex.def)             Requested size: 187.89914pt x 113.87608pt.
+
+<Part1Plots/x2.png, id=34, 735.74875pt x 442.65375pt>
+File: Part1Plots/x2.png Graphic file (type png)
+ <use Part1Plots/x2.png>
+Package pdftex.def Info: Part1Plots/x2.png used on input line 143.
+(pdftex.def)             Requested size: 187.89914pt x 113.04744pt.
+
+<Part1Plots/g.png, id=35, 735.74875pt x 446.66875pt>
+File: Part1Plots/g.png Graphic file (type png)
+ <use Part1Plots/g.png>
+Package pdftex.def Info: Part1Plots/g.png used on input line 156.
+(pdftex.def)             Requested size: 375.80544pt x 228.15245pt.
+
+[6 <./Part1Plots/t0.png (PNG copy)> <./Part1Plots/t1.png (PNG copy)> <./Part1Pl
+ots/t10.png (PNG copy)> <./Part1Plots/t100.png (PNG copy)> <./Part1Plots/x0.png
+ (PNG copy)> <./Part1Plots/x2.png (PNG copy)>] [7 <./Part1Plots/g.png (PNG copy
+)>] <Part1Plots/plot1.png, id=45, 673.51625pt x 531.9875pt>
+File: Part1Plots/plot1.png Graphic file (type png)
+
+<use Part1Plots/plot1.png>
+Package pdftex.def Info: Part1Plots/plot1.png used on input line 177.
+(pdftex.def)             Requested size: 375.80544pt x 296.83946pt.
+ [8 <./Part1Plots/plot1.png (PNG copy)>]
+<Part1Plots/plot2.png, id=49, 651.43375pt x 511.9125pt>
+File: Part1Plots/plot2.png Graphic file (type png)
+
+<use Part1Plots/plot2.png>
+Package pdftex.def Info: Part1Plots/plot2.png used on input line 190.
+(pdftex.def)             Requested size: 375.80544pt x 295.32379pt.
+ [9 <./Part1Plots/plot2.png (PNG copy)>]
+<Part1Plots/plot3.png, id=53, 729.72626pt x 578.16pt>
+File: Part1Plots/plot3.png Graphic file (type png)
+
+<use Part1Plots/plot3.png>
+Package pdftex.def Info: Part1Plots/plot3.png used on input line 204.
+(pdftex.def)             Requested size: 375.80544pt x 297.75131pt.
+ [10 <./Part1Plots/plot3.png (PNG copy)>]
+<plot1.jpg, id=57, 562.1pt x 421.575pt>
+File: plot1.jpg Graphic file (type jpg)
+ <use plot1.jpg>
+Package pdftex.def Info: plot1.jpg used on input line 227.
+(pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
+
+Overfull \hbox (3.49107pt too wide) in paragraph at lines 224--230
+[]\OT1/cmr/m/n/12 When us-ing equa-tion (8[]) to ap-prox-i-mate this so-lu-tion
+ nu-mer-i-cally, we will be us-ing $\OML/cmm/m/it/12 J[]\OT1/cmr/m/n/12 (\OML/c
+mm/m/it/12 x; t\OT1/cmr/m/n/12 ) =
+ []
+
+[11] <Plot2.jpg, id=61, 562.1pt x 421.575pt>
+File: Plot2.jpg Graphic file (type jpg)
+ <use Plot2.jpg>
+Package pdftex.def Info: Plot2.jpg used on input line 234.
+(pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
+ [12 <./plot1.jpg>] <othergraph1.jpg, id=65, 562.1pt x 421.575pt>
+File: othergraph1.jpg Graphic file (type jpg)
+ <use othergraph1.jpg>
+Package pdftex.def Info: othergraph1.jpg used on input line 241.
+(pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
+ [13 <./Plot2.jpg>] <othergraph2.jpg, id=70, 562.1pt x 421.575pt>
+File: othergraph2.jpg Graphic file (type jpg)
+ <use othergraph2.jpg>
+Package pdftex.def Info: othergraph2.jpg used on input line 247.
+(pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
+
+[14 <./othergraph1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+[15 <./othergraph2.jpg>] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+
+ []
+
+[17] <waveThang.jpg, id=83, 1124.2pt x 843.15pt>
+File: waveThang.jpg Graphic file (type jpg)
+ <use waveThang.jpg>
+Package pdftex.def Info: waveThang.jpg used on input line 350.
+(pdftex.def)             Requested size: 328.82707pt x 246.61716pt.
+ [18]
+<cVStheta.jpg, id=87, 1124.2pt x 843.15pt>
+File: cVStheta.jpg Graphic file (type jpg)
+ <use cVStheta.jpg>
+Package pdftex.def Info: cVStheta.jpg used on input line 364.
+(pdftex.def)             Requested size: 328.82707pt x 246.61716pt.
+ [19 <./waveThang.jpg>] [20 <./cVStheta.jpg>] [21] [22] [23]
+<Part2Plots/e099.png, id=106, 732.7375pt x 466.74374pt>
+File: Part2Plots/e099.png Graphic file (type png)
+
+<use Part2Plots/e099.png>
+Package pdftex.def Info: Part2Plots/e099.png used on input line 482.
+(pdftex.def)             Requested size: 187.89914pt x 119.68398pt.
+
+<Part2Plots/e05.png, id=107, 732.7375pt x 466.74374pt>
+File: Part2Plots/e05.png Graphic file (type png)
+
+<use Part2Plots/e05.png>
+Package pdftex.def Info: Part2Plots/e05.png used on input line 487.
+(pdftex.def)             Requested size: 187.89914pt x 119.68398pt.
+
+<Part2Plots/e001.png, id=108, 732.7375pt x 466.74374pt>
+File: Part2Plots/e001.png Graphic file (type png)
+
+<use Part2Plots/e001.png>
+Package pdftex.def Info: Part2Plots/e001.png used on input line 492.
+(pdftex.def)             Requested size: 187.89914pt x 119.68398pt.
+
+<Part2Plots/e0.png, id=109, 732.7375pt x 466.74374pt>
+File: Part2Plots/e0.png Graphic file (type png)
+ <use Part2Plots/e0.png>
+Package pdftex.def Info: Part2Plots/e0.png used on input line 497.
+(pdftex.def)             Requested size: 187.89914pt x 119.68398pt.
+
+[24 <./Part2Plots/e099.png (PNG copy)> <./Part2Plots/e05.png (PNG copy)> <./Par
+t2Plots/e001.png (PNG copy)> <./Part2Plots/e0.png (PNG copy)>]
+<badplot3.jpg, id=113, 580.1675pt x 437.635pt>
+File: badplot3.jpg Graphic file (type jpg)
+ <use badplot3.jpg>
+Package pdftex.def Info: badplot3.jpg used on input line 557.
+(pdftex.def)             Requested size: 469.75502pt x 354.34885pt.
+ [25]
+<thetaone.jpg, id=118, 562.1pt x 421.575pt>
+File: thetaone.jpg Graphic file (type jpg)
+ <use thetaone.jpg>
+Package pdftex.def Info: thetaone.jpg used on input line 563.
+(pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
+ [26 <./badplot3.jpg>] <thetatwo.jpg, id=122, 562.1pt x 421.575pt>
+File: thetatwo.jpg Graphic file (type jpg)
+ <use thetatwo.jpg>
+Package pdftex.def Info: thetatwo.jpg used on input line 569.
+(pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
+ [27 <./thetaone.jpg>] <thetathree.jpg, id=126, 562.1pt x 421.575pt>
+File: thetathree.jpg Graphic file (type jpg)
+ <use thetathree.jpg>
+Package pdftex.def Info: thetathree.jpg used on input line 575.
+(pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
+
+[28 <./thetatwo.jpg>] [29 <./thetathree.jpg>]
+<thetaone3.jpg, id=133, 1371.1225pt x 653.44125pt>
+File: thetaone3.jpg Graphic file (type jpg)
+ <use thetaone3.jpg>
+Package pdftex.def Info: thetaone3.jpg used on input line 595.
+(pdftex.def)             Requested size: 469.75502pt x 223.87207pt.
+
+<thetatwo3.jpg, id=134, 1371.1225pt x 653.44125pt>
+File: thetatwo3.jpg Graphic file (type jpg)
+ <use thetatwo3.jpg>
+Package pdftex.def Info: thetatwo3.jpg used on input line 600.
+(pdftex.def)             Requested size: 469.75502pt x 223.87207pt.
+
+<thetathree3.jpg, id=135, 1371.1225pt x 653.44125pt>
+File: thetathree3.jpg Graphic file (type jpg)
+ <use thetathree3.jpg>
+Package pdftex.def Info: thetathree3.jpg used on input line 605.
+(pdftex.def)             Requested size: 469.75502pt x 223.87207pt.
+
+[30 <./thetaone3.jpg>] <plotsomething.jpg, id=139, 1371.1225pt x 653.44125pt>
+File: plotsomething.jpg Graphic file (type jpg)
+
+<use plotsomething.jpg>
+Package pdftex.def Info: plotsomething.jpg used on input line 611.
+(pdftex.def)             Requested size: 469.75502pt x 223.87207pt.
+ [31 <./thetatwo3.jpg> <./thetathree3.jpg>] [32 <./plotsomething.jpg>] [33] [34
+] ("Most Recent Final Report.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4280 strings out of 493323
+ 65266 string characters out of 3128713
+ 133129 words of memory out of 3000000
+ 7733 multiletter control sequences out of 15000+200000
+ 15112 words of font info for 59 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,12n,40p,959b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/dguittet/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dguittet/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/dgu
+ittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pf
+b><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/dguittet/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dguitte
+t/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:
+/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr8.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/dguittet/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/dguittet/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Us
+ers/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mtt12.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb>
+Output written on "Most Recent Final Report.pdf" (34 pages, 1615281 bytes).
+PDF statistics:
+ 207 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+

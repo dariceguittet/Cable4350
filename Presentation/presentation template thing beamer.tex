@@ -230,7 +230,13 @@ lalalala
 
 
 \begin{frame}
-\frametitle{Conclusion}
-lalalala
+\frametitle{Conclusion: Comparison to full Hodgkin-Huxley Model} 
+\hfill \break
+Three gating variables $x = m,n,h$, each satisfying ODE's:
+$$ C\frac{\partial{v}}{\partial{t}} = g_{\text{Na}}m^3h(v-E_{\text{Na}})+g_{\text{K}}n^4(v-E_{\text{K}})+g_{\text{L}}(v-E_\text{L}) + J_{ext}$$
+$$ \frac{dx}{dt} = -\frac{1}{\tau_x(v)}\big[x-x_0(v)\big] $$
+\begin{figure}
+	\includegraphics[scale=0.4]{conc/sol}
+\end{figure}
 \end{frame}
 \end{document}

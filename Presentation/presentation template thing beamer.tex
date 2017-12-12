@@ -97,7 +97,24 @@ lalalala
 
 \begin{frame}
 \frametitle{Numerical Solutions}
-lalalala
+\begin{itemize}
+	\item{Finite Difference Method}
+	\item{Plugging approximations for the partial derivatives into the original PDE gives:}
+\[\frac{v^{j+1}_i-v^j_i}{\Delta{t}}=\frac{v^{j}_{i+1}-2v^j_i+v^j_{i-1}}{(\Delta{x})^2}-v^j_i+J_{ext}(x,t)\]
+	\item{Solving for the unknown term:}
+\[v^{j+1}_i=\frac{\Delta{t}}{(\Delta{x})^2}(v^{j}_{i+1}+v^{j}_{i-1})+(1-\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2})v^{j}_{i}+\Delta{t}*J_{ext}(x,t)\]
+	\item{Stability}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Numerical Solutions Results}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{Plot2.jpg}
+  \caption{Numerical Approximation of Passive Membrane Solution}
+  \label{fig:sketch2}
+\end{figure}
 \end{frame}
 
 \begin{frame}
@@ -117,12 +134,81 @@ lalalala
 
 \begin{frame}
 \frametitle{Numerical Solutions for Traveling Wave}
-lalalala
+\begin{itemize}
+	\item{Finite Difference Method--Similar to Previous Numerical Solution}
+	\item{Resultant Equation (solved for the unknown term):}
+\[v^{j+1}_i=\frac{\Delta{t}}{(\Delta{x})^2}(v^{j}_{i+1}+v^{j}_{i-1})+(1-\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2})v^{j}_{i}+\Delta{t}*H(v^j_i-\theta)\]
+
+\end{itemize}
 \end{frame}
+
+\begin{frame}
+\frametitle{Resuts}
+
+\begin{columns}
+
+
+\begin{column}{.5\textwidth}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{thetatwo.jpg}
+  \caption{$\theta=0.5$}
+  \label{fig:sketch5}
+\end{figure}
+\end{column}
+
+\begin{column}{.5\textwidth}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{thetathree.jpg}
+  \caption{$\theta=0.1$}
+  \label{fig:sketch6}
+\end{figure}
+\end{column}
+
+\end{columns}
+\begin{itemize}
+	\item{Numerically Solving for Speeds of the Waves}
+	\item{Comparison with Analytical Results}
+\end{itemize}
+\end{frame}
+
+
+
+%%%I might take this out, I'm not sure if we need it since it's not a solution we actually found analytically, it might be least important
+\begin{frame}
+\frametitle{Periodically Varying Threshold, Numerical Methods}
+\begin{itemize}
+	\item{What is a periodically varying threshold?}
+	\item{Governing Equation:}
+\[\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}-v+H(v-\theta(1+0.5\cos(x)))+J_{ext}(x,t)\]
+	\item{Numerical Solution:}
+\[v^{j+1}_i=\frac{\Delta{t}}{(\Delta{x})^2}(v^{j}_{i+1}+v^{j}_{i-1})+(1-\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2})v^{j}_{i}\]
+\[+\Delta{t}*H(v^j_i-\theta(1+C\cos(x)))\]
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Results}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{plotsomething.jpg}
+  \caption{Varying $C$, $\theta=0.1$}
+  \label{fig:sketch10}
+\end{figure}
+\end{frame}
+%%%%%
+
+
 
 \begin{frame}
 \frametitle{Conclusion}
 lalalala
 \end{frame}
+
+
+
+
+
+
+
 
 \end{document}

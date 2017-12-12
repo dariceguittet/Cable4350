@@ -1,7 +1,7 @@
 \documentclass{beamer}
  
 \usepackage[utf8]{inputenc}
- 
+\usepackage{animate}
  
 \title{Propagation of Voltage in a Neuron}
 \subtitle{The Cable Equation}
@@ -18,7 +18,7 @@
 \frametitle{Overview}
 1. Motivation \newline \newline
 2. Neuronal Cable Equation \newline \newline
-3. Passive Membrane (Linear Cable Equation) \newline \newline
+3. Passive Membrane \newline \newline
 4. Bi-stable Ion Channels
 \end{frame}
 
@@ -87,12 +87,41 @@
 
 \begin{frame}
 \frametitle{Passive Membrane}
-lalalala
+Linear Cable Equation with Impulse Current Injection:
+
+$$\frac{\partial{v(x,t)}}{\partial{t}} - \frac{\partial^2{v(x,t)}}{\partial{x}^2} + v(x,t)=\delta(t-t_0)\delta(x-x_0)$$ 
+
+$$x \in (-\infty, \infty),\ t \in (0,\infty),\ x_0 = 0,\ t_0 = 0$$ \newline
+
+Boundary Conditions:
+$$\lim_{x\to \pm \infty} v(x,t) = 0$$
 \end{frame}
 
 \begin{frame}
-\frametitle{Green's Functions}
-lalalala
+\frametitle{Green's Function for Linear Infinite Cable Equation}
+Fourier transform $\rightarrow$ 2 ODE's $\rightarrow$ Inverse Fourier transform
+$$ v(x,t) = \frac{\mathcal{H}(x,t)}{\sqrt{4\pi t}}e^{-t-\frac{x^2}{4t}} $$ 
+
+$$  G_{\infty}(x-x_0,t-t_0) = \frac{\mathcal{H}(x-x_0,t-t_0)}{\sqrt{4\pi (t-t_0)}}e^{-(t-t_0)-\frac{(x-x_0)^2}{4(t-t_0)}}$$\newline
+
+Fundamental Solution for Arbitrary Forcing Term, $J_{ext}(x,t)$:
+$$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0,t-t_0)J_{ext}(x_0,t_0)dx_0dt_0 $$
+\end{frame}
+
+\begin{frame}
+\frametitle{Multiple Current Injections: $(x^*,t^*,A^*) = (1, 0.3, 0.3), (10,1.1,1), (30,0,0.5)$}
+	\animategraphics[controls,autoplay,loop, width=1\linewidth]{5}{pm/pm-}{0}{49}
+	
+\end{frame}
+
+\begin{frame}
+\frametitle{animation of traveling wave solution}
+	\animategraphics[controls,autoplay,loop, width=1\linewidth]{10}{tw/tw-}{0}{100}
+\end{frame}
+
+\begin{frame}
+\frametitle{animation of perturbed wave solution}
+	\animategraphics[controls,autoplay,loop, width=1\linewidth]{10}{pt/pt-}{0}{99}
 \end{frame}
 
 \begin{frame}

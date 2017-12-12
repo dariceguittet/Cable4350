@@ -115,16 +115,6 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 \end{frame}
 
 \begin{frame}
-\frametitle{animation of traveling wave solution}
-	\animategraphics[controls,autoplay,loop, width=1\linewidth]{10}{tw/tw-}{0}{100}
-\end{frame}
-
-\begin{frame}
-\frametitle{animation of perturbed wave solution}
-	\animategraphics[controls,autoplay,loop, width=1\linewidth]{10}{pt/pt-}{0}{99}
-\end{frame}
-
-\begin{frame}
 \frametitle{Numerical Solutions}
 \begin{itemize}
 	\item{Finite Difference Method}
@@ -146,19 +136,93 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 \end{figure}
 \end{frame}
 
+
+\begin{frame}
+\frametitle{Bi-stable Ion Channels}
+\begin{itemize}
+\item Two stable states of membrane: active and inactive
+	\begin{itemize}
+		\item Heaviside step nonlinearity: $f(v)=-v+H(v-\theta)=-v+
+		\begin{cases}
+    		0, & \text{$v<\theta$}\\
+    		1, & \text{$v>\theta$}
+  		\end{cases}$
+	\end{itemize}
+\item Goals: 
+	\begin{itemize}
+		\item Seek solutions of the form $v(x,t)=V(\xi)=V(x-ct)$
+		\item Understand how impulse current propagates through neural membrane
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
 \begin{frame}
 \frametitle{Traveling Wave Solutions}
-lalalala
+\begin{columns}
+\begin{column}{.4\textwidth}
+\begin{itemize}
+	\item Boundary conditions:
+		\begin{itemize}
+			\item $V(\xi)$ approaches a homogeneous solution as $\xi \rightarrow\pm\infty$
+			\item $\frac{d V(\xi)}{d\xi}$ is bounded as $\xi\rightarrow\pm\infty$
+			\item $V(\xi)$ is continuous and smooth at $\xi=0$
+		\end{itemize}
+\end{itemize}
+\end{column}
+
+\begin{column}{.51\textwidth}
+\begin{figure}
+\includegraphics[scale=0.15]{travelingWaves1}
+\caption{Traveling front solutions}
+\end{figure}
+\end{column}
+\end{columns}
+
+\begin{itemize}
+	\item Solutions: \\$V_1(\xi)=\frac{-c+\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi},\quad \xi \in (0,\infty)$\\$V_2(\xi)=\frac{-c-\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+1,\quad \xi \in (-\infty,0)$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Animation of Traveling Front Solution}
+	\animategraphics[controls,autoplay,loop, width=1\linewidth]{10}{tw/tw-}{0}{100}
 \end{frame}
 
 \begin{frame}
 \frametitle{Speed of Traveling Wave}
-lalalala
+\begin{columns}
+\begin{column}{.5\textwidth}
+\begin{itemize}
+	\item Threshold condition: $V(0)=\theta \Rightarrow$\\$c=\sqrt{\frac{-(2\theta-1)^2}{\theta^2-\theta}}$
+	\item c represents speed of traveling wave front
+	\item $0<\theta<1$
+	\item High cell activity for $\theta\rightarrow0$ and $\theta\rightarrow1$
+\end{itemize}
+\end{column}
+\begin{column}{.6\textwidth}
+\begin{figure}
+\includegraphics[scale=0.17]{thresholdSpeed1}
+\caption{Threshold Value versus Speed}
+\end{figure}
+\end{column}
+\end{columns}
 \end{frame}
 
 \begin{frame}
 \frametitle{Stability of Traveling Wave}
-lalalala
+\begin{itemize}
+	\item Perturbation: $v(x,t)=V(\xi)+\epsilon\psi(\xi,t)$
+	\item Goal: understand behavior of $\psi(\xi,t)$ as $t\rightarrow\infty$
+	\item Perturbation satisfies cable equation:\\ $\frac{\partial v}{\partial t}=\frac{\partial ^2 v}{\partial x^2}-v+H(v-\theta)$
+	\item Linearize nonlinear terms, extract PDE governing $\psi(\xi,t)$:\\
+	$\frac{\partial \psi}{\partial t} = c \frac{\partial^2\psi}{\partial\xi^2} + \frac{\partial\psi}{\partial\xi} - (1 - \delta(V-\theta))\psi$
+	\item Separation of variables $\rightarrow\psi(\xi,t)=S(\xi)e^{-f(t)}$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Animation of Perturbed Wave Solution}
+	\animategraphics[controls,autoplay,loop, width=1\linewidth]{10}{pt/pt-}{0}{99}
 \end{frame}
 
 \begin{frame}

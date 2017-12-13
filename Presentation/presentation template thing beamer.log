@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  12 DEC 2017 16:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  12 DEC 2017 18:52
 entering extended mode
 **"./presentation template thing beamer.tex"
 ("presentation template thing beamer.tex"
@@ -1867,575 +1867,575 @@ Overfull \hbox (11.90659pt too wide) in paragraph at lines 195--195
 File: tw/tw-0.png Graphic file (type png)
 
 <use tw/tw-0.png>
-Package pdftex.def Info: tw/tw-0.png used on input line 200.
+Package pdftex.def Info: tw/tw-0.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-0.png> <a1,fr0>
 <tw/tw-1.png, id=855, 578.16pt x 369.38pt>
 File: tw/tw-1.png Graphic file (type png)
  <use tw/tw-1.png>
-Package pdftex.def Info: tw/tw-1.png used on input line 200.
+Package pdftex.def Info: tw/tw-1.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-1.png>
 <a1,fr1> <tw/tw-2.png, id=864, 578.16pt x 369.38pt>
 File: tw/tw-2.png Graphic file (type png)
  <use tw/tw-2.png>
-Package pdftex.def Info: tw/tw-2.png used on input line 200.
+Package pdftex.def Info: tw/tw-2.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-2.png> <a1,fr2> <tw/tw-3.png, id=873, 578.16pt x 369.38pt>
 File: tw/tw-3.png Graphic file (type png)
  <use tw/tw-3.png>
-Package pdftex.def Info: tw/tw-3.png used on input line 200.
+Package pdftex.def Info: tw/tw-3.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-3.png> <a1,fr3> <tw/tw-4.png, id=882, 578.16pt x 369.38pt>
 File: tw/tw-4.png Graphic file (type png)
 
 <use tw/tw-4.png>
-Package pdftex.def Info: tw/tw-4.png used on input line 200.
+Package pdftex.def Info: tw/tw-4.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-4.png> <a1,fr4>
 <tw/tw-5.png, id=891, 578.16pt x 369.38pt>
 File: tw/tw-5.png Graphic file (type png)
  <use tw/tw-5.png>
-Package pdftex.def Info: tw/tw-5.png used on input line 200.
+Package pdftex.def Info: tw/tw-5.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-5.png>
 <a1,fr5> <tw/tw-6.png, id=900, 578.16pt x 369.38pt>
 File: tw/tw-6.png Graphic file (type png)
  <use tw/tw-6.png>
-Package pdftex.def Info: tw/tw-6.png used on input line 200.
+Package pdftex.def Info: tw/tw-6.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-6.png> <a1,fr6> <tw/tw-7.png, id=909, 578.16pt x 369.38pt>
 File: tw/tw-7.png Graphic file (type png)
  <use tw/tw-7.png>
-Package pdftex.def Info: tw/tw-7.png used on input line 200.
+Package pdftex.def Info: tw/tw-7.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-7.png> <a1,fr7> <tw/tw-8.png, id=918, 578.16pt x 369.38pt>
 File: tw/tw-8.png Graphic file (type png)
 
 <use tw/tw-8.png>
-Package pdftex.def Info: tw/tw-8.png used on input line 200.
+Package pdftex.def Info: tw/tw-8.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-8.png> <a1,fr8>
 <tw/tw-9.png, id=927, 578.16pt x 369.38pt>
 File: tw/tw-9.png Graphic file (type png)
  <use tw/tw-9.png>
-Package pdftex.def Info: tw/tw-9.png used on input line 200.
+Package pdftex.def Info: tw/tw-9.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-9.png>
 <a1,fr9> <tw/tw-10.png, id=936, 578.16pt x 369.38pt>
 File: tw/tw-10.png Graphic file (type png)
  <use tw/tw-10.png>
-Package pdftex.def Info: tw/tw-10.png used on input line 200.
+Package pdftex.def Info: tw/tw-10.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-10.png> <a1,fr10> <tw/tw-11.png, id=945, 578.16pt x 369.38pt>
 File: tw/tw-11.png Graphic file (type png)
 
 <use tw/tw-11.png>
-Package pdftex.def Info: tw/tw-11.png used on input line 200.
+Package pdftex.def Info: tw/tw-11.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-11.png> <a1,fr11>
 <tw/tw-12.png, id=954, 578.16pt x 369.38pt>
 File: tw/tw-12.png Graphic file (type png)
  <use tw/tw-12.png>
-Package pdftex.def Info: tw/tw-12.png used on input line 200.
+Package pdftex.def Info: tw/tw-12.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-12.png> <a1,fr12> <tw/tw-13.png, id=963, 578.16pt x 369.38pt>
 File: tw/tw-13.png Graphic file (type png)
  <use tw/tw-13.png>
-Package pdftex.def Info: tw/tw-13.png used on input line 200.
+Package pdftex.def Info: tw/tw-13.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-13.png> <a1,fr13> <tw/tw-14.png, id=972, 578.16pt x 369.38pt>
 File: tw/tw-14.png Graphic file (type png)
 
 <use tw/tw-14.png>
-Package pdftex.def Info: tw/tw-14.png used on input line 200.
+Package pdftex.def Info: tw/tw-14.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-14.png> <a1,fr14>
 <tw/tw-15.png, id=981, 578.16pt x 369.38pt>
 File: tw/tw-15.png Graphic file (type png)
  <use tw/tw-15.png>
-Package pdftex.def Info: tw/tw-15.png used on input line 200.
+Package pdftex.def Info: tw/tw-15.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-15.png> <a1,fr15> <tw/tw-16.png, id=990, 578.16pt x 369.38pt>
 File: tw/tw-16.png Graphic file (type png)
  <use tw/tw-16.png>
-Package pdftex.def Info: tw/tw-16.png used on input line 200.
+Package pdftex.def Info: tw/tw-16.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-16.png> <a1,fr16> <tw/tw-17.png, id=999, 578.16pt x 369.38pt>
 File: tw/tw-17.png Graphic file (type png)
 
 <use tw/tw-17.png>
-Package pdftex.def Info: tw/tw-17.png used on input line 200.
+Package pdftex.def Info: tw/tw-17.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-17.png> <a1,fr17>
 <tw/tw-18.png, id=1008, 578.16pt x 369.38pt>
 File: tw/tw-18.png Graphic file (type png)
  <use tw/tw-18.png>
-Package pdftex.def Info: tw/tw-18.png used on input line 200.
+Package pdftex.def Info: tw/tw-18.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-18.png> <a1,fr18> <tw/tw-19.png, id=1017, 578.16pt x 369.38pt>
 File: tw/tw-19.png Graphic file (type png)
  <use tw/tw-19.png>
-Package pdftex.def Info: tw/tw-19.png used on input line 200.
+Package pdftex.def Info: tw/tw-19.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-19.png> <a1,fr19> <tw/tw-20.png, id=1026, 578.16pt x 369.38pt>
 File: tw/tw-20.png Graphic file (type png)
 
 <use tw/tw-20.png>
-Package pdftex.def Info: tw/tw-20.png used on input line 200.
+Package pdftex.def Info: tw/tw-20.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-20.png> <a1,fr20>
 <tw/tw-21.png, id=1035, 578.16pt x 369.38pt>
 File: tw/tw-21.png Graphic file (type png)
  <use tw/tw-21.png>
-Package pdftex.def Info: tw/tw-21.png used on input line 200.
+Package pdftex.def Info: tw/tw-21.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-21.png> <a1,fr21> <tw/tw-22.png, id=1044, 578.16pt x 369.38pt>
 File: tw/tw-22.png Graphic file (type png)
  <use tw/tw-22.png>
-Package pdftex.def Info: tw/tw-22.png used on input line 200.
+Package pdftex.def Info: tw/tw-22.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-22.png> <a1,fr22> <tw/tw-23.png, id=1053, 578.16pt x 369.38pt>
 File: tw/tw-23.png Graphic file (type png)
 
 <use tw/tw-23.png>
-Package pdftex.def Info: tw/tw-23.png used on input line 200.
+Package pdftex.def Info: tw/tw-23.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-23.png> <a1,fr23>
 <tw/tw-24.png, id=1062, 578.16pt x 369.38pt>
 File: tw/tw-24.png Graphic file (type png)
  <use tw/tw-24.png>
-Package pdftex.def Info: tw/tw-24.png used on input line 200.
+Package pdftex.def Info: tw/tw-24.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-24.png> <a1,fr24> <tw/tw-25.png, id=1071, 578.16pt x 369.38pt>
 File: tw/tw-25.png Graphic file (type png)
  <use tw/tw-25.png>
-Package pdftex.def Info: tw/tw-25.png used on input line 200.
+Package pdftex.def Info: tw/tw-25.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-25.png> <a1,fr25> <tw/tw-26.png, id=1080, 578.16pt x 369.38pt>
 File: tw/tw-26.png Graphic file (type png)
 
 <use tw/tw-26.png>
-Package pdftex.def Info: tw/tw-26.png used on input line 200.
+Package pdftex.def Info: tw/tw-26.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-26.png> <a1,fr26>
 <tw/tw-27.png, id=1089, 578.16pt x 369.38pt>
 File: tw/tw-27.png Graphic file (type png)
  <use tw/tw-27.png>
-Package pdftex.def Info: tw/tw-27.png used on input line 200.
+Package pdftex.def Info: tw/tw-27.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-27.png> <a1,fr27> <tw/tw-28.png, id=1098, 578.16pt x 369.38pt>
 File: tw/tw-28.png Graphic file (type png)
  <use tw/tw-28.png>
-Package pdftex.def Info: tw/tw-28.png used on input line 200.
+Package pdftex.def Info: tw/tw-28.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-28.png> <a1,fr28> <tw/tw-29.png, id=1107, 578.16pt x 369.38pt>
 File: tw/tw-29.png Graphic file (type png)
 
 <use tw/tw-29.png>
-Package pdftex.def Info: tw/tw-29.png used on input line 200.
+Package pdftex.def Info: tw/tw-29.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-29.png> <a1,fr29>
 <tw/tw-30.png, id=1116, 578.16pt x 369.38pt>
 File: tw/tw-30.png Graphic file (type png)
  <use tw/tw-30.png>
-Package pdftex.def Info: tw/tw-30.png used on input line 200.
+Package pdftex.def Info: tw/tw-30.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-30.png> <a1,fr30> <tw/tw-31.png, id=1125, 578.16pt x 369.38pt>
 File: tw/tw-31.png Graphic file (type png)
  <use tw/tw-31.png>
-Package pdftex.def Info: tw/tw-31.png used on input line 200.
+Package pdftex.def Info: tw/tw-31.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-31.png> <a1,fr31> <tw/tw-32.png, id=1134, 578.16pt x 369.38pt>
 File: tw/tw-32.png Graphic file (type png)
 
 <use tw/tw-32.png>
-Package pdftex.def Info: tw/tw-32.png used on input line 200.
+Package pdftex.def Info: tw/tw-32.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-32.png> <a1,fr32>
 <tw/tw-33.png, id=1143, 578.16pt x 369.38pt>
 File: tw/tw-33.png Graphic file (type png)
  <use tw/tw-33.png>
-Package pdftex.def Info: tw/tw-33.png used on input line 200.
+Package pdftex.def Info: tw/tw-33.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-33.png> <a1,fr33> <tw/tw-34.png, id=1152, 578.16pt x 369.38pt>
 File: tw/tw-34.png Graphic file (type png)
  <use tw/tw-34.png>
-Package pdftex.def Info: tw/tw-34.png used on input line 200.
+Package pdftex.def Info: tw/tw-34.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-34.png> <a1,fr34> <tw/tw-35.png, id=1161, 578.16pt x 369.38pt>
 File: tw/tw-35.png Graphic file (type png)
 
 <use tw/tw-35.png>
-Package pdftex.def Info: tw/tw-35.png used on input line 200.
+Package pdftex.def Info: tw/tw-35.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-35.png> <a1,fr35>
 <tw/tw-36.png, id=1170, 578.16pt x 369.38pt>
 File: tw/tw-36.png Graphic file (type png)
  <use tw/tw-36.png>
-Package pdftex.def Info: tw/tw-36.png used on input line 200.
+Package pdftex.def Info: tw/tw-36.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-36.png> <a1,fr36> <tw/tw-37.png, id=1179, 578.16pt x 369.38pt>
 File: tw/tw-37.png Graphic file (type png)
  <use tw/tw-37.png>
-Package pdftex.def Info: tw/tw-37.png used on input line 200.
+Package pdftex.def Info: tw/tw-37.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-37.png> <a1,fr37> <tw/tw-38.png, id=1188, 578.16pt x 369.38pt>
 File: tw/tw-38.png Graphic file (type png)
 
 <use tw/tw-38.png>
-Package pdftex.def Info: tw/tw-38.png used on input line 200.
+Package pdftex.def Info: tw/tw-38.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-38.png> <a1,fr38>
 <tw/tw-39.png, id=1197, 578.16pt x 369.38pt>
 File: tw/tw-39.png Graphic file (type png)
  <use tw/tw-39.png>
-Package pdftex.def Info: tw/tw-39.png used on input line 200.
+Package pdftex.def Info: tw/tw-39.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-39.png> <a1,fr39> <tw/tw-40.png, id=1206, 578.16pt x 369.38pt>
 File: tw/tw-40.png Graphic file (type png)
  <use tw/tw-40.png>
-Package pdftex.def Info: tw/tw-40.png used on input line 200.
+Package pdftex.def Info: tw/tw-40.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-40.png> <a1,fr40> <tw/tw-41.png, id=1215, 578.16pt x 369.38pt>
 File: tw/tw-41.png Graphic file (type png)
 
 <use tw/tw-41.png>
-Package pdftex.def Info: tw/tw-41.png used on input line 200.
+Package pdftex.def Info: tw/tw-41.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-41.png> <a1,fr41>
 <tw/tw-42.png, id=1224, 578.16pt x 369.38pt>
 File: tw/tw-42.png Graphic file (type png)
  <use tw/tw-42.png>
-Package pdftex.def Info: tw/tw-42.png used on input line 200.
+Package pdftex.def Info: tw/tw-42.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-42.png> <a1,fr42> <tw/tw-43.png, id=1233, 578.16pt x 369.38pt>
 File: tw/tw-43.png Graphic file (type png)
  <use tw/tw-43.png>
-Package pdftex.def Info: tw/tw-43.png used on input line 200.
+Package pdftex.def Info: tw/tw-43.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-43.png> <a1,fr43> <tw/tw-44.png, id=1242, 578.16pt x 369.38pt>
 File: tw/tw-44.png Graphic file (type png)
 
 <use tw/tw-44.png>
-Package pdftex.def Info: tw/tw-44.png used on input line 200.
+Package pdftex.def Info: tw/tw-44.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-44.png> <a1,fr44>
 <tw/tw-45.png, id=1251, 578.16pt x 369.38pt>
 File: tw/tw-45.png Graphic file (type png)
  <use tw/tw-45.png>
-Package pdftex.def Info: tw/tw-45.png used on input line 200.
+Package pdftex.def Info: tw/tw-45.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-45.png> <a1,fr45> <tw/tw-46.png, id=1260, 578.16pt x 369.38pt>
 File: tw/tw-46.png Graphic file (type png)
  <use tw/tw-46.png>
-Package pdftex.def Info: tw/tw-46.png used on input line 200.
+Package pdftex.def Info: tw/tw-46.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-46.png> <a1,fr46> <tw/tw-47.png, id=1269, 578.16pt x 369.38pt>
 File: tw/tw-47.png Graphic file (type png)
 
 <use tw/tw-47.png>
-Package pdftex.def Info: tw/tw-47.png used on input line 200.
+Package pdftex.def Info: tw/tw-47.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-47.png> <a1,fr47>
 <tw/tw-48.png, id=1278, 578.16pt x 369.38pt>
 File: tw/tw-48.png Graphic file (type png)
  <use tw/tw-48.png>
-Package pdftex.def Info: tw/tw-48.png used on input line 200.
+Package pdftex.def Info: tw/tw-48.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-48.png> <a1,fr48> <tw/tw-49.png, id=1287, 578.16pt x 369.38pt>
 File: tw/tw-49.png Graphic file (type png)
  <use tw/tw-49.png>
-Package pdftex.def Info: tw/tw-49.png used on input line 200.
+Package pdftex.def Info: tw/tw-49.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-49.png> <a1,fr49> <tw/tw-50.png, id=1296, 578.16pt x 369.38pt>
 File: tw/tw-50.png Graphic file (type png)
 
 <use tw/tw-50.png>
-Package pdftex.def Info: tw/tw-50.png used on input line 200.
+Package pdftex.def Info: tw/tw-50.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-50.png> <a1,fr50>
 <tw/tw-51.png, id=1305, 578.16pt x 369.38pt>
 File: tw/tw-51.png Graphic file (type png)
  <use tw/tw-51.png>
-Package pdftex.def Info: tw/tw-51.png used on input line 200.
+Package pdftex.def Info: tw/tw-51.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-51.png> <a1,fr51> <tw/tw-52.png, id=1314, 578.16pt x 369.38pt>
 File: tw/tw-52.png Graphic file (type png)
  <use tw/tw-52.png>
-Package pdftex.def Info: tw/tw-52.png used on input line 200.
+Package pdftex.def Info: tw/tw-52.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-52.png> <a1,fr52> <tw/tw-53.png, id=1323, 578.16pt x 369.38pt>
 File: tw/tw-53.png Graphic file (type png)
 
 <use tw/tw-53.png>
-Package pdftex.def Info: tw/tw-53.png used on input line 200.
+Package pdftex.def Info: tw/tw-53.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-53.png> <a1,fr53>
 <tw/tw-54.png, id=1332, 578.16pt x 369.38pt>
 File: tw/tw-54.png Graphic file (type png)
  <use tw/tw-54.png>
-Package pdftex.def Info: tw/tw-54.png used on input line 200.
+Package pdftex.def Info: tw/tw-54.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-54.png> <a1,fr54> <tw/tw-55.png, id=1341, 578.16pt x 369.38pt>
 File: tw/tw-55.png Graphic file (type png)
  <use tw/tw-55.png>
-Package pdftex.def Info: tw/tw-55.png used on input line 200.
+Package pdftex.def Info: tw/tw-55.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-55.png> <a1,fr55> <tw/tw-56.png, id=1350, 578.16pt x 369.38pt>
 File: tw/tw-56.png Graphic file (type png)
 
 <use tw/tw-56.png>
-Package pdftex.def Info: tw/tw-56.png used on input line 200.
+Package pdftex.def Info: tw/tw-56.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-56.png> <a1,fr56>
 <tw/tw-57.png, id=1359, 578.16pt x 369.38pt>
 File: tw/tw-57.png Graphic file (type png)
  <use tw/tw-57.png>
-Package pdftex.def Info: tw/tw-57.png used on input line 200.
+Package pdftex.def Info: tw/tw-57.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-57.png> <a1,fr57> <tw/tw-58.png, id=1368, 578.16pt x 369.38pt>
 File: tw/tw-58.png Graphic file (type png)
  <use tw/tw-58.png>
-Package pdftex.def Info: tw/tw-58.png used on input line 200.
+Package pdftex.def Info: tw/tw-58.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-58.png> <a1,fr58> <tw/tw-59.png, id=1377, 578.16pt x 369.38pt>
 File: tw/tw-59.png Graphic file (type png)
 
 <use tw/tw-59.png>
-Package pdftex.def Info: tw/tw-59.png used on input line 200.
+Package pdftex.def Info: tw/tw-59.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-59.png> <a1,fr59>
 <tw/tw-60.png, id=1386, 578.16pt x 369.38pt>
 File: tw/tw-60.png Graphic file (type png)
  <use tw/tw-60.png>
-Package pdftex.def Info: tw/tw-60.png used on input line 200.
+Package pdftex.def Info: tw/tw-60.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-60.png> <a1,fr60> <tw/tw-61.png, id=1395, 578.16pt x 369.38pt>
 File: tw/tw-61.png Graphic file (type png)
  <use tw/tw-61.png>
-Package pdftex.def Info: tw/tw-61.png used on input line 200.
+Package pdftex.def Info: tw/tw-61.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-61.png> <a1,fr61> <tw/tw-62.png, id=1404, 578.16pt x 369.38pt>
 File: tw/tw-62.png Graphic file (type png)
 
 <use tw/tw-62.png>
-Package pdftex.def Info: tw/tw-62.png used on input line 200.
+Package pdftex.def Info: tw/tw-62.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-62.png> <a1,fr62>
 <tw/tw-63.png, id=1413, 578.16pt x 369.38pt>
 File: tw/tw-63.png Graphic file (type png)
  <use tw/tw-63.png>
-Package pdftex.def Info: tw/tw-63.png used on input line 200.
+Package pdftex.def Info: tw/tw-63.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-63.png> <a1,fr63> <tw/tw-64.png, id=1422, 578.16pt x 369.38pt>
 File: tw/tw-64.png Graphic file (type png)
  <use tw/tw-64.png>
-Package pdftex.def Info: tw/tw-64.png used on input line 200.
+Package pdftex.def Info: tw/tw-64.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-64.png> <a1,fr64> <tw/tw-65.png, id=1431, 578.16pt x 369.38pt>
 File: tw/tw-65.png Graphic file (type png)
 
 <use tw/tw-65.png>
-Package pdftex.def Info: tw/tw-65.png used on input line 200.
+Package pdftex.def Info: tw/tw-65.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-65.png> <a1,fr65>
 <tw/tw-66.png, id=1440, 578.16pt x 369.38pt>
 File: tw/tw-66.png Graphic file (type png)
  <use tw/tw-66.png>
-Package pdftex.def Info: tw/tw-66.png used on input line 200.
+Package pdftex.def Info: tw/tw-66.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-66.png> <a1,fr66> <tw/tw-67.png, id=1449, 578.16pt x 369.38pt>
 File: tw/tw-67.png Graphic file (type png)
  <use tw/tw-67.png>
-Package pdftex.def Info: tw/tw-67.png used on input line 200.
+Package pdftex.def Info: tw/tw-67.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-67.png> <a1,fr67> <tw/tw-68.png, id=1458, 578.16pt x 369.38pt>
 File: tw/tw-68.png Graphic file (type png)
 
 <use tw/tw-68.png>
-Package pdftex.def Info: tw/tw-68.png used on input line 200.
+Package pdftex.def Info: tw/tw-68.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-68.png> <a1,fr68>
 <tw/tw-69.png, id=1467, 578.16pt x 369.38pt>
 File: tw/tw-69.png Graphic file (type png)
  <use tw/tw-69.png>
-Package pdftex.def Info: tw/tw-69.png used on input line 200.
+Package pdftex.def Info: tw/tw-69.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-69.png> <a1,fr69> <tw/tw-70.png, id=1476, 578.16pt x 369.38pt>
 File: tw/tw-70.png Graphic file (type png)
  <use tw/tw-70.png>
-Package pdftex.def Info: tw/tw-70.png used on input line 200.
+Package pdftex.def Info: tw/tw-70.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-70.png> <a1,fr70> <tw/tw-71.png, id=1485, 578.16pt x 369.38pt>
 File: tw/tw-71.png Graphic file (type png)
 
 <use tw/tw-71.png>
-Package pdftex.def Info: tw/tw-71.png used on input line 200.
+Package pdftex.def Info: tw/tw-71.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-71.png> <a1,fr71>
 <tw/tw-72.png, id=1494, 578.16pt x 369.38pt>
 File: tw/tw-72.png Graphic file (type png)
  <use tw/tw-72.png>
-Package pdftex.def Info: tw/tw-72.png used on input line 200.
+Package pdftex.def Info: tw/tw-72.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-72.png> <a1,fr72> <tw/tw-73.png, id=1503, 578.16pt x 369.38pt>
 File: tw/tw-73.png Graphic file (type png)
  <use tw/tw-73.png>
-Package pdftex.def Info: tw/tw-73.png used on input line 200.
+Package pdftex.def Info: tw/tw-73.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-73.png> <a1,fr73> <tw/tw-74.png, id=1512, 578.16pt x 369.38pt>
 File: tw/tw-74.png Graphic file (type png)
 
 <use tw/tw-74.png>
-Package pdftex.def Info: tw/tw-74.png used on input line 200.
+Package pdftex.def Info: tw/tw-74.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-74.png> <a1,fr74>
 <tw/tw-75.png, id=1521, 578.16pt x 369.38pt>
 File: tw/tw-75.png Graphic file (type png)
  <use tw/tw-75.png>
-Package pdftex.def Info: tw/tw-75.png used on input line 200.
+Package pdftex.def Info: tw/tw-75.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-75.png> <a1,fr75> <tw/tw-76.png, id=1530, 578.16pt x 369.38pt>
 File: tw/tw-76.png Graphic file (type png)
  <use tw/tw-76.png>
-Package pdftex.def Info: tw/tw-76.png used on input line 200.
+Package pdftex.def Info: tw/tw-76.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-76.png> <a1,fr76> <tw/tw-77.png, id=1539, 578.16pt x 369.38pt>
 File: tw/tw-77.png Graphic file (type png)
 
 <use tw/tw-77.png>
-Package pdftex.def Info: tw/tw-77.png used on input line 200.
+Package pdftex.def Info: tw/tw-77.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-77.png> <a1,fr77>
 <tw/tw-78.png, id=1548, 578.16pt x 369.38pt>
 File: tw/tw-78.png Graphic file (type png)
  <use tw/tw-78.png>
-Package pdftex.def Info: tw/tw-78.png used on input line 200.
+Package pdftex.def Info: tw/tw-78.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-78.png> <a1,fr78> <tw/tw-79.png, id=1557, 578.16pt x 369.38pt>
 File: tw/tw-79.png Graphic file (type png)
  <use tw/tw-79.png>
-Package pdftex.def Info: tw/tw-79.png used on input line 200.
+Package pdftex.def Info: tw/tw-79.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-79.png> <a1,fr79> <tw/tw-80.png, id=1566, 578.16pt x 369.38pt>
 File: tw/tw-80.png Graphic file (type png)
 
 <use tw/tw-80.png>
-Package pdftex.def Info: tw/tw-80.png used on input line 200.
+Package pdftex.def Info: tw/tw-80.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-80.png> <a1,fr80>
 <tw/tw-81.png, id=1575, 578.16pt x 369.38pt>
 File: tw/tw-81.png Graphic file (type png)
  <use tw/tw-81.png>
-Package pdftex.def Info: tw/tw-81.png used on input line 200.
+Package pdftex.def Info: tw/tw-81.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-81.png> <a1,fr81> <tw/tw-82.png, id=1584, 578.16pt x 369.38pt>
 File: tw/tw-82.png Graphic file (type png)
  <use tw/tw-82.png>
-Package pdftex.def Info: tw/tw-82.png used on input line 200.
+Package pdftex.def Info: tw/tw-82.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-82.png> <a1,fr82> <tw/tw-83.png, id=1593, 578.16pt x 369.38pt>
 File: tw/tw-83.png Graphic file (type png)
 
 <use tw/tw-83.png>
-Package pdftex.def Info: tw/tw-83.png used on input line 200.
+Package pdftex.def Info: tw/tw-83.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-83.png> <a1,fr83>
 <tw/tw-84.png, id=1602, 578.16pt x 369.38pt>
 File: tw/tw-84.png Graphic file (type png)
  <use tw/tw-84.png>
-Package pdftex.def Info: tw/tw-84.png used on input line 200.
+Package pdftex.def Info: tw/tw-84.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-84.png> <a1,fr84> <tw/tw-85.png, id=1611, 578.16pt x 369.38pt>
 File: tw/tw-85.png Graphic file (type png)
  <use tw/tw-85.png>
-Package pdftex.def Info: tw/tw-85.png used on input line 200.
+Package pdftex.def Info: tw/tw-85.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-85.png> <a1,fr85> <tw/tw-86.png, id=1620, 578.16pt x 369.38pt>
 File: tw/tw-86.png Graphic file (type png)
 
 <use tw/tw-86.png>
-Package pdftex.def Info: tw/tw-86.png used on input line 200.
+Package pdftex.def Info: tw/tw-86.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-86.png> <a1,fr86>
 <tw/tw-87.png, id=1629, 578.16pt x 369.38pt>
 File: tw/tw-87.png Graphic file (type png)
  <use tw/tw-87.png>
-Package pdftex.def Info: tw/tw-87.png used on input line 200.
+Package pdftex.def Info: tw/tw-87.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-87.png> <a1,fr87> <tw/tw-88.png, id=1638, 578.16pt x 369.38pt>
 File: tw/tw-88.png Graphic file (type png)
  <use tw/tw-88.png>
-Package pdftex.def Info: tw/tw-88.png used on input line 200.
+Package pdftex.def Info: tw/tw-88.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-88.png> <a1,fr88> <tw/tw-89.png, id=1647, 578.16pt x 369.38pt>
 File: tw/tw-89.png Graphic file (type png)
 
 <use tw/tw-89.png>
-Package pdftex.def Info: tw/tw-89.png used on input line 200.
+Package pdftex.def Info: tw/tw-89.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-89.png> <a1,fr89>
 <tw/tw-90.png, id=1656, 578.16pt x 369.38pt>
 File: tw/tw-90.png Graphic file (type png)
  <use tw/tw-90.png>
-Package pdftex.def Info: tw/tw-90.png used on input line 200.
+Package pdftex.def Info: tw/tw-90.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-90.png> <a1,fr90> <tw/tw-91.png, id=1665, 578.16pt x 369.38pt>
 File: tw/tw-91.png Graphic file (type png)
  <use tw/tw-91.png>
-Package pdftex.def Info: tw/tw-91.png used on input line 200.
+Package pdftex.def Info: tw/tw-91.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-91.png> <a1,fr91> <tw/tw-92.png, id=1674, 578.16pt x 369.38pt>
 File: tw/tw-92.png Graphic file (type png)
 
 <use tw/tw-92.png>
-Package pdftex.def Info: tw/tw-92.png used on input line 200.
+Package pdftex.def Info: tw/tw-92.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-92.png> <a1,fr92>
 <tw/tw-93.png, id=1683, 578.16pt x 369.38pt>
 File: tw/tw-93.png Graphic file (type png)
  <use tw/tw-93.png>
-Package pdftex.def Info: tw/tw-93.png used on input line 200.
+Package pdftex.def Info: tw/tw-93.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-93.png> <a1,fr93> <tw/tw-94.png, id=1692, 578.16pt x 369.38pt>
 File: tw/tw-94.png Graphic file (type png)
  <use tw/tw-94.png>
-Package pdftex.def Info: tw/tw-94.png used on input line 200.
+Package pdftex.def Info: tw/tw-94.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-94.png> <a1,fr94> <tw/tw-95.png, id=1701, 578.16pt x 369.38pt>
 File: tw/tw-95.png Graphic file (type png)
 
 <use tw/tw-95.png>
-Package pdftex.def Info: tw/tw-95.png used on input line 200.
+Package pdftex.def Info: tw/tw-95.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-95.png> <a1,fr95>
 <tw/tw-96.png, id=1710, 578.16pt x 369.38pt>
 File: tw/tw-96.png Graphic file (type png)
  <use tw/tw-96.png>
-Package pdftex.def Info: tw/tw-96.png used on input line 200.
+Package pdftex.def Info: tw/tw-96.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-96.png> <a1,fr96> <tw/tw-97.png, id=1719, 578.16pt x 369.38pt>
 File: tw/tw-97.png Graphic file (type png)
  <use tw/tw-97.png>
-Package pdftex.def Info: tw/tw-97.png used on input line 200.
+Package pdftex.def Info: tw/tw-97.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-97.png> <a1,fr97> <tw/tw-98.png, id=1728, 578.16pt x 369.38pt>
 File: tw/tw-98.png Graphic file (type png)
 
 <use tw/tw-98.png>
-Package pdftex.def Info: tw/tw-98.png used on input line 200.
+Package pdftex.def Info: tw/tw-98.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-98.png> <a1,fr98>
 <tw/tw-99.png, id=1737, 578.16pt x 369.38pt>
 File: tw/tw-99.png Graphic file (type png)
  <use tw/tw-99.png>
-Package pdftex.def Info: tw/tw-99.png used on input line 200.
+Package pdftex.def Info: tw/tw-99.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-99.png> <a1,fr99> <tw/tw-100.png, id=1746, 578.16pt x 369.38pt>
 File: tw/tw-100.png Graphic file (type png)
  <use tw/tw-100.png>
-Package pdftex.def Info: tw/tw-100.png used on input line 200.
+Package pdftex.def Info: tw/tw-100.png used on input line 215.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-100.png> <a1,fr100> [14
 
@@ -2443,10 +2443,10 @@ Package pdftex.def Info: tw/tw-100.png used on input line 200.
 <thresholdSpeed1.jpg, id=1797, 1124.2pt x 843.15pt>
 File: thresholdSpeed1.jpg Graphic file (type jpg)
  <use thresholdSpeed1.jpg>
-Package pdftex.def Info: thresholdSpeed1.jpg used on input line 220.
+Package pdftex.def Info: thresholdSpeed1.jpg used on input line 235.
 (pdftex.def)             Requested size: 191.11147pt x 143.3336pt.
 
-Overfull \hbox (6.73567pt too wide) in paragraph at lines 220--220
+Overfull \hbox (6.73567pt too wide) in paragraph at lines 235--235
  [] 
  []
 
@@ -2458,597 +2458,597 @@ Overfull \hbox (6.73567pt too wide) in paragraph at lines 220--220
 <pt/pt-0.png, id=1848, 578.16pt x 359.3425pt>
 File: pt/pt-0.png Graphic file (type png)
  <use pt/pt-0.png>
-Package pdftex.def Info: pt/pt-0.png used on input line 237.
+Package pdftex.def Info: pt/pt-0.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-0.png> <a2,fr0> <pt/pt-1.png, id=1857, 578.16pt x 359.3425pt>
 File: pt/pt-1.png Graphic file (type png)
  <use pt/pt-1.png>
-Package pdftex.def Info: pt/pt-1.png used on input line 237.
+Package pdftex.def Info: pt/pt-1.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-1.png> <a2,fr1> <pt/pt-2.png, id=1866, 578.16pt x 359.3425pt>
 File: pt/pt-2.png Graphic file (type png)
 
 <use pt/pt-2.png>
-Package pdftex.def Info: pt/pt-2.png used on input line 237.
+Package pdftex.def Info: pt/pt-2.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-2.png> <a2,fr2>
 <pt/pt-3.png, id=1875, 578.16pt x 359.3425pt>
 File: pt/pt-3.png Graphic file (type png)
  <use pt/pt-3.png>
-Package pdftex.def Info: pt/pt-3.png used on input line 237.
+Package pdftex.def Info: pt/pt-3.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-3.png> <a2,fr3> <pt/pt-4.png, id=1884, 578.16pt x 359.3425pt>
 File: pt/pt-4.png Graphic file (type png)
  <use pt/pt-4.png>
-Package pdftex.def Info: pt/pt-4.png used on input line 237.
+Package pdftex.def Info: pt/pt-4.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-4.png> <a2,fr4> <pt/pt-5.png, id=1893, 578.16pt x 359.3425pt>
 File: pt/pt-5.png Graphic file (type png)
 
 <use pt/pt-5.png>
-Package pdftex.def Info: pt/pt-5.png used on input line 237.
+Package pdftex.def Info: pt/pt-5.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-5.png> <a2,fr5>
 <pt/pt-6.png, id=1902, 578.16pt x 359.3425pt>
 File: pt/pt-6.png Graphic file (type png)
  <use pt/pt-6.png>
-Package pdftex.def Info: pt/pt-6.png used on input line 237.
+Package pdftex.def Info: pt/pt-6.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-6.png> <a2,fr6> <pt/pt-7.png, id=1911, 578.16pt x 359.3425pt>
 File: pt/pt-7.png Graphic file (type png)
  <use pt/pt-7.png>
-Package pdftex.def Info: pt/pt-7.png used on input line 237.
+Package pdftex.def Info: pt/pt-7.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-7.png> <a2,fr7> <pt/pt-8.png, id=1920, 578.16pt x 359.3425pt>
 File: pt/pt-8.png Graphic file (type png)
 
 <use pt/pt-8.png>
-Package pdftex.def Info: pt/pt-8.png used on input line 237.
+Package pdftex.def Info: pt/pt-8.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-8.png> <a2,fr8>
 <pt/pt-9.png, id=1929, 578.16pt x 359.3425pt>
 File: pt/pt-9.png Graphic file (type png)
  <use pt/pt-9.png>
-Package pdftex.def Info: pt/pt-9.png used on input line 237.
+Package pdftex.def Info: pt/pt-9.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-9.png> <a2,fr9> <pt/pt-10.png, id=1938, 578.16pt x 359.3425pt>
 File: pt/pt-10.png Graphic file (type png)
  <use pt/pt-10.png>
-Package pdftex.def Info: pt/pt-10.png used on input line 237.
+Package pdftex.def Info: pt/pt-10.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-10.png> <a2,fr10> <pt/pt-11.png, id=1947, 578.16pt x 359.3425pt>
 File: pt/pt-11.png Graphic file (type png)
 
 <use pt/pt-11.png>
-Package pdftex.def Info: pt/pt-11.png used on input line 237.
+Package pdftex.def Info: pt/pt-11.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-11.png> <a2,fr11>
 <pt/pt-12.png, id=1956, 578.16pt x 359.3425pt>
 File: pt/pt-12.png Graphic file (type png)
  <use pt/pt-12.png>
-Package pdftex.def Info: pt/pt-12.png used on input line 237.
+Package pdftex.def Info: pt/pt-12.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-12.png> <a2,fr12> <pt/pt-13.png, id=1965, 578.16pt x 359.3425pt>
 File: pt/pt-13.png Graphic file (type png)
 
 <use pt/pt-13.png>
-Package pdftex.def Info: pt/pt-13.png used on input line 237.
+Package pdftex.def Info: pt/pt-13.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-13.png> <a2,fr13>
 <pt/pt-14.png, id=1974, 578.16pt x 359.3425pt>
 File: pt/pt-14.png Graphic file (type png)
  <use pt/pt-14.png>
-Package pdftex.def Info: pt/pt-14.png used on input line 237.
+Package pdftex.def Info: pt/pt-14.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-14.png> <a2,fr14> <pt/pt-15.png, id=1983, 578.16pt x 359.3425pt>
 File: pt/pt-15.png Graphic file (type png)
 
 <use pt/pt-15.png>
-Package pdftex.def Info: pt/pt-15.png used on input line 237.
+Package pdftex.def Info: pt/pt-15.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-15.png> <a2,fr15>
 <pt/pt-16.png, id=1992, 578.16pt x 359.3425pt>
 File: pt/pt-16.png Graphic file (type png)
  <use pt/pt-16.png>
-Package pdftex.def Info: pt/pt-16.png used on input line 237.
+Package pdftex.def Info: pt/pt-16.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-16.png> <a2,fr16> <pt/pt-17.png, id=2001, 578.16pt x 359.3425pt>
 File: pt/pt-17.png Graphic file (type png)
 
 <use pt/pt-17.png>
-Package pdftex.def Info: pt/pt-17.png used on input line 237.
+Package pdftex.def Info: pt/pt-17.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-17.png> <a2,fr17>
 <pt/pt-18.png, id=2010, 578.16pt x 359.3425pt>
 File: pt/pt-18.png Graphic file (type png)
  <use pt/pt-18.png>
-Package pdftex.def Info: pt/pt-18.png used on input line 237.
+Package pdftex.def Info: pt/pt-18.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-18.png> <a2,fr18> <pt/pt-19.png, id=2019, 578.16pt x 359.3425pt>
 File: pt/pt-19.png Graphic file (type png)
 
 <use pt/pt-19.png>
-Package pdftex.def Info: pt/pt-19.png used on input line 237.
+Package pdftex.def Info: pt/pt-19.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-19.png> <a2,fr19>
 <pt/pt-20.png, id=2028, 578.16pt x 359.3425pt>
 File: pt/pt-20.png Graphic file (type png)
  <use pt/pt-20.png>
-Package pdftex.def Info: pt/pt-20.png used on input line 237.
+Package pdftex.def Info: pt/pt-20.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-20.png> <a2,fr20> <pt/pt-21.png, id=2037, 578.16pt x 359.3425pt>
 File: pt/pt-21.png Graphic file (type png)
 
 <use pt/pt-21.png>
-Package pdftex.def Info: pt/pt-21.png used on input line 237.
+Package pdftex.def Info: pt/pt-21.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-21.png> <a2,fr21>
 <pt/pt-22.png, id=2046, 578.16pt x 359.3425pt>
 File: pt/pt-22.png Graphic file (type png)
  <use pt/pt-22.png>
-Package pdftex.def Info: pt/pt-22.png used on input line 237.
+Package pdftex.def Info: pt/pt-22.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-22.png> <a2,fr22> <pt/pt-23.png, id=2055, 578.16pt x 359.3425pt>
 File: pt/pt-23.png Graphic file (type png)
 
 <use pt/pt-23.png>
-Package pdftex.def Info: pt/pt-23.png used on input line 237.
+Package pdftex.def Info: pt/pt-23.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-23.png> <a2,fr23>
 <pt/pt-24.png, id=2064, 578.16pt x 359.3425pt>
 File: pt/pt-24.png Graphic file (type png)
  <use pt/pt-24.png>
-Package pdftex.def Info: pt/pt-24.png used on input line 237.
+Package pdftex.def Info: pt/pt-24.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-24.png> <a2,fr24> <pt/pt-25.png, id=2073, 578.16pt x 359.3425pt>
 File: pt/pt-25.png Graphic file (type png)
 
 <use pt/pt-25.png>
-Package pdftex.def Info: pt/pt-25.png used on input line 237.
+Package pdftex.def Info: pt/pt-25.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-25.png> <a2,fr25>
 <pt/pt-26.png, id=2082, 578.16pt x 359.3425pt>
 File: pt/pt-26.png Graphic file (type png)
  <use pt/pt-26.png>
-Package pdftex.def Info: pt/pt-26.png used on input line 237.
+Package pdftex.def Info: pt/pt-26.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-26.png> <a2,fr26> <pt/pt-27.png, id=2091, 578.16pt x 359.3425pt>
 File: pt/pt-27.png Graphic file (type png)
 
 <use pt/pt-27.png>
-Package pdftex.def Info: pt/pt-27.png used on input line 237.
+Package pdftex.def Info: pt/pt-27.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-27.png> <a2,fr27>
 <pt/pt-28.png, id=2100, 578.16pt x 359.3425pt>
 File: pt/pt-28.png Graphic file (type png)
  <use pt/pt-28.png>
-Package pdftex.def Info: pt/pt-28.png used on input line 237.
+Package pdftex.def Info: pt/pt-28.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-28.png> <a2,fr28> <pt/pt-29.png, id=2109, 578.16pt x 359.3425pt>
 File: pt/pt-29.png Graphic file (type png)
 
 <use pt/pt-29.png>
-Package pdftex.def Info: pt/pt-29.png used on input line 237.
+Package pdftex.def Info: pt/pt-29.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-29.png> <a2,fr29>
 <pt/pt-30.png, id=2118, 578.16pt x 359.3425pt>
 File: pt/pt-30.png Graphic file (type png)
  <use pt/pt-30.png>
-Package pdftex.def Info: pt/pt-30.png used on input line 237.
+Package pdftex.def Info: pt/pt-30.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-30.png> <a2,fr30> <pt/pt-31.png, id=2127, 578.16pt x 359.3425pt>
 File: pt/pt-31.png Graphic file (type png)
 
 <use pt/pt-31.png>
-Package pdftex.def Info: pt/pt-31.png used on input line 237.
+Package pdftex.def Info: pt/pt-31.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-31.png> <a2,fr31>
 <pt/pt-32.png, id=2136, 578.16pt x 359.3425pt>
 File: pt/pt-32.png Graphic file (type png)
  <use pt/pt-32.png>
-Package pdftex.def Info: pt/pt-32.png used on input line 237.
+Package pdftex.def Info: pt/pt-32.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-32.png> <a2,fr32> <pt/pt-33.png, id=2145, 578.16pt x 359.3425pt>
 File: pt/pt-33.png Graphic file (type png)
 
 <use pt/pt-33.png>
-Package pdftex.def Info: pt/pt-33.png used on input line 237.
+Package pdftex.def Info: pt/pt-33.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-33.png> <a2,fr33>
 <pt/pt-34.png, id=2154, 578.16pt x 359.3425pt>
 File: pt/pt-34.png Graphic file (type png)
  <use pt/pt-34.png>
-Package pdftex.def Info: pt/pt-34.png used on input line 237.
+Package pdftex.def Info: pt/pt-34.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-34.png> <a2,fr34> <pt/pt-35.png, id=2163, 578.16pt x 359.3425pt>
 File: pt/pt-35.png Graphic file (type png)
 
 <use pt/pt-35.png>
-Package pdftex.def Info: pt/pt-35.png used on input line 237.
+Package pdftex.def Info: pt/pt-35.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-35.png> <a2,fr35>
 <pt/pt-36.png, id=2172, 578.16pt x 359.3425pt>
 File: pt/pt-36.png Graphic file (type png)
  <use pt/pt-36.png>
-Package pdftex.def Info: pt/pt-36.png used on input line 237.
+Package pdftex.def Info: pt/pt-36.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-36.png> <a2,fr36> <pt/pt-37.png, id=2181, 578.16pt x 359.3425pt>
 File: pt/pt-37.png Graphic file (type png)
 
 <use pt/pt-37.png>
-Package pdftex.def Info: pt/pt-37.png used on input line 237.
+Package pdftex.def Info: pt/pt-37.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-37.png> <a2,fr37>
 <pt/pt-38.png, id=2190, 578.16pt x 359.3425pt>
 File: pt/pt-38.png Graphic file (type png)
  <use pt/pt-38.png>
-Package pdftex.def Info: pt/pt-38.png used on input line 237.
+Package pdftex.def Info: pt/pt-38.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-38.png> <a2,fr38> <pt/pt-39.png, id=2199, 578.16pt x 359.3425pt>
 File: pt/pt-39.png Graphic file (type png)
 
 <use pt/pt-39.png>
-Package pdftex.def Info: pt/pt-39.png used on input line 237.
+Package pdftex.def Info: pt/pt-39.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-39.png> <a2,fr39>
 <pt/pt-40.png, id=2208, 578.16pt x 359.3425pt>
 File: pt/pt-40.png Graphic file (type png)
  <use pt/pt-40.png>
-Package pdftex.def Info: pt/pt-40.png used on input line 237.
+Package pdftex.def Info: pt/pt-40.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-40.png> <a2,fr40> <pt/pt-41.png, id=2217, 578.16pt x 359.3425pt>
 File: pt/pt-41.png Graphic file (type png)
 
 <use pt/pt-41.png>
-Package pdftex.def Info: pt/pt-41.png used on input line 237.
+Package pdftex.def Info: pt/pt-41.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-41.png> <a2,fr41>
 <pt/pt-42.png, id=2226, 578.16pt x 359.3425pt>
 File: pt/pt-42.png Graphic file (type png)
  <use pt/pt-42.png>
-Package pdftex.def Info: pt/pt-42.png used on input line 237.
+Package pdftex.def Info: pt/pt-42.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-42.png> <a2,fr42> <pt/pt-43.png, id=2235, 578.16pt x 359.3425pt>
 File: pt/pt-43.png Graphic file (type png)
 
 <use pt/pt-43.png>
-Package pdftex.def Info: pt/pt-43.png used on input line 237.
+Package pdftex.def Info: pt/pt-43.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-43.png> <a2,fr43>
 <pt/pt-44.png, id=2244, 578.16pt x 359.3425pt>
 File: pt/pt-44.png Graphic file (type png)
  <use pt/pt-44.png>
-Package pdftex.def Info: pt/pt-44.png used on input line 237.
+Package pdftex.def Info: pt/pt-44.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-44.png> <a2,fr44> <pt/pt-45.png, id=2253, 578.16pt x 359.3425pt>
 File: pt/pt-45.png Graphic file (type png)
 
 <use pt/pt-45.png>
-Package pdftex.def Info: pt/pt-45.png used on input line 237.
+Package pdftex.def Info: pt/pt-45.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-45.png> <a2,fr45>
 <pt/pt-46.png, id=2262, 578.16pt x 359.3425pt>
 File: pt/pt-46.png Graphic file (type png)
  <use pt/pt-46.png>
-Package pdftex.def Info: pt/pt-46.png used on input line 237.
+Package pdftex.def Info: pt/pt-46.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-46.png> <a2,fr46> <pt/pt-47.png, id=2271, 578.16pt x 359.3425pt>
 File: pt/pt-47.png Graphic file (type png)
 
 <use pt/pt-47.png>
-Package pdftex.def Info: pt/pt-47.png used on input line 237.
+Package pdftex.def Info: pt/pt-47.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-47.png> <a2,fr47>
 <pt/pt-48.png, id=2280, 578.16pt x 359.3425pt>
 File: pt/pt-48.png Graphic file (type png)
  <use pt/pt-48.png>
-Package pdftex.def Info: pt/pt-48.png used on input line 237.
+Package pdftex.def Info: pt/pt-48.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-48.png> <a2,fr48> <pt/pt-49.png, id=2289, 578.16pt x 359.3425pt>
 File: pt/pt-49.png Graphic file (type png)
 
 <use pt/pt-49.png>
-Package pdftex.def Info: pt/pt-49.png used on input line 237.
+Package pdftex.def Info: pt/pt-49.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-49.png> <a2,fr49>
 <pt/pt-50.png, id=2298, 578.16pt x 359.3425pt>
 File: pt/pt-50.png Graphic file (type png)
  <use pt/pt-50.png>
-Package pdftex.def Info: pt/pt-50.png used on input line 237.
+Package pdftex.def Info: pt/pt-50.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-50.png> <a2,fr50> <pt/pt-51.png, id=2307, 578.16pt x 359.3425pt>
 File: pt/pt-51.png Graphic file (type png)
 
 <use pt/pt-51.png>
-Package pdftex.def Info: pt/pt-51.png used on input line 237.
+Package pdftex.def Info: pt/pt-51.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-51.png> <a2,fr51>
 <pt/pt-52.png, id=2316, 578.16pt x 359.3425pt>
 File: pt/pt-52.png Graphic file (type png)
  <use pt/pt-52.png>
-Package pdftex.def Info: pt/pt-52.png used on input line 237.
+Package pdftex.def Info: pt/pt-52.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-52.png> <a2,fr52> <pt/pt-53.png, id=2325, 578.16pt x 359.3425pt>
 File: pt/pt-53.png Graphic file (type png)
 
 <use pt/pt-53.png>
-Package pdftex.def Info: pt/pt-53.png used on input line 237.
+Package pdftex.def Info: pt/pt-53.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-53.png> <a2,fr53>
 <pt/pt-54.png, id=2334, 578.16pt x 359.3425pt>
 File: pt/pt-54.png Graphic file (type png)
  <use pt/pt-54.png>
-Package pdftex.def Info: pt/pt-54.png used on input line 237.
+Package pdftex.def Info: pt/pt-54.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-54.png> <a2,fr54> <pt/pt-55.png, id=2343, 578.16pt x 359.3425pt>
 File: pt/pt-55.png Graphic file (type png)
 
 <use pt/pt-55.png>
-Package pdftex.def Info: pt/pt-55.png used on input line 237.
+Package pdftex.def Info: pt/pt-55.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-55.png> <a2,fr55>
 <pt/pt-56.png, id=2352, 578.16pt x 359.3425pt>
 File: pt/pt-56.png Graphic file (type png)
  <use pt/pt-56.png>
-Package pdftex.def Info: pt/pt-56.png used on input line 237.
+Package pdftex.def Info: pt/pt-56.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-56.png> <a2,fr56> <pt/pt-57.png, id=2361, 578.16pt x 359.3425pt>
 File: pt/pt-57.png Graphic file (type png)
 
 <use pt/pt-57.png>
-Package pdftex.def Info: pt/pt-57.png used on input line 237.
+Package pdftex.def Info: pt/pt-57.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-57.png> <a2,fr57>
 <pt/pt-58.png, id=2370, 578.16pt x 359.3425pt>
 File: pt/pt-58.png Graphic file (type png)
  <use pt/pt-58.png>
-Package pdftex.def Info: pt/pt-58.png used on input line 237.
+Package pdftex.def Info: pt/pt-58.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-58.png> <a2,fr58> <pt/pt-59.png, id=2379, 578.16pt x 359.3425pt>
 File: pt/pt-59.png Graphic file (type png)
 
 <use pt/pt-59.png>
-Package pdftex.def Info: pt/pt-59.png used on input line 237.
+Package pdftex.def Info: pt/pt-59.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-59.png> <a2,fr59>
 <pt/pt-60.png, id=2388, 578.16pt x 359.3425pt>
 File: pt/pt-60.png Graphic file (type png)
  <use pt/pt-60.png>
-Package pdftex.def Info: pt/pt-60.png used on input line 237.
+Package pdftex.def Info: pt/pt-60.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-60.png> <a2,fr60> <pt/pt-61.png, id=2397, 578.16pt x 359.3425pt>
 File: pt/pt-61.png Graphic file (type png)
 
 <use pt/pt-61.png>
-Package pdftex.def Info: pt/pt-61.png used on input line 237.
+Package pdftex.def Info: pt/pt-61.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-61.png> <a2,fr61>
 <pt/pt-62.png, id=2406, 578.16pt x 359.3425pt>
 File: pt/pt-62.png Graphic file (type png)
  <use pt/pt-62.png>
-Package pdftex.def Info: pt/pt-62.png used on input line 237.
+Package pdftex.def Info: pt/pt-62.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-62.png> <a2,fr62> <pt/pt-63.png, id=2415, 578.16pt x 359.3425pt>
 File: pt/pt-63.png Graphic file (type png)
 
 <use pt/pt-63.png>
-Package pdftex.def Info: pt/pt-63.png used on input line 237.
+Package pdftex.def Info: pt/pt-63.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-63.png> <a2,fr63>
 <pt/pt-64.png, id=2424, 578.16pt x 359.3425pt>
 File: pt/pt-64.png Graphic file (type png)
  <use pt/pt-64.png>
-Package pdftex.def Info: pt/pt-64.png used on input line 237.
+Package pdftex.def Info: pt/pt-64.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-64.png> <a2,fr64> <pt/pt-65.png, id=2433, 578.16pt x 359.3425pt>
 File: pt/pt-65.png Graphic file (type png)
 
 <use pt/pt-65.png>
-Package pdftex.def Info: pt/pt-65.png used on input line 237.
+Package pdftex.def Info: pt/pt-65.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-65.png> <a2,fr65>
 <pt/pt-66.png, id=2442, 578.16pt x 359.3425pt>
 File: pt/pt-66.png Graphic file (type png)
  <use pt/pt-66.png>
-Package pdftex.def Info: pt/pt-66.png used on input line 237.
+Package pdftex.def Info: pt/pt-66.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-66.png> <a2,fr66> <pt/pt-67.png, id=2451, 578.16pt x 359.3425pt>
 File: pt/pt-67.png Graphic file (type png)
 
 <use pt/pt-67.png>
-Package pdftex.def Info: pt/pt-67.png used on input line 237.
+Package pdftex.def Info: pt/pt-67.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-67.png> <a2,fr67>
 <pt/pt-68.png, id=2460, 578.16pt x 359.3425pt>
 File: pt/pt-68.png Graphic file (type png)
  <use pt/pt-68.png>
-Package pdftex.def Info: pt/pt-68.png used on input line 237.
+Package pdftex.def Info: pt/pt-68.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-68.png> <a2,fr68> <pt/pt-69.png, id=2469, 578.16pt x 359.3425pt>
 File: pt/pt-69.png Graphic file (type png)
 
 <use pt/pt-69.png>
-Package pdftex.def Info: pt/pt-69.png used on input line 237.
+Package pdftex.def Info: pt/pt-69.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-69.png> <a2,fr69>
 <pt/pt-70.png, id=2478, 578.16pt x 359.3425pt>
 File: pt/pt-70.png Graphic file (type png)
  <use pt/pt-70.png>
-Package pdftex.def Info: pt/pt-70.png used on input line 237.
+Package pdftex.def Info: pt/pt-70.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-70.png> <a2,fr70> <pt/pt-71.png, id=2487, 578.16pt x 359.3425pt>
 File: pt/pt-71.png Graphic file (type png)
 
 <use pt/pt-71.png>
-Package pdftex.def Info: pt/pt-71.png used on input line 237.
+Package pdftex.def Info: pt/pt-71.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-71.png> <a2,fr71>
 <pt/pt-72.png, id=2496, 578.16pt x 359.3425pt>
 File: pt/pt-72.png Graphic file (type png)
  <use pt/pt-72.png>
-Package pdftex.def Info: pt/pt-72.png used on input line 237.
+Package pdftex.def Info: pt/pt-72.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-72.png> <a2,fr72> <pt/pt-73.png, id=2505, 578.16pt x 359.3425pt>
 File: pt/pt-73.png Graphic file (type png)
 
 <use pt/pt-73.png>
-Package pdftex.def Info: pt/pt-73.png used on input line 237.
+Package pdftex.def Info: pt/pt-73.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-73.png> <a2,fr73>
 <pt/pt-74.png, id=2514, 578.16pt x 359.3425pt>
 File: pt/pt-74.png Graphic file (type png)
  <use pt/pt-74.png>
-Package pdftex.def Info: pt/pt-74.png used on input line 237.
+Package pdftex.def Info: pt/pt-74.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-74.png> <a2,fr74> <pt/pt-75.png, id=2523, 578.16pt x 359.3425pt>
 File: pt/pt-75.png Graphic file (type png)
 
 <use pt/pt-75.png>
-Package pdftex.def Info: pt/pt-75.png used on input line 237.
+Package pdftex.def Info: pt/pt-75.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-75.png> <a2,fr75>
 <pt/pt-76.png, id=2532, 578.16pt x 359.3425pt>
 File: pt/pt-76.png Graphic file (type png)
  <use pt/pt-76.png>
-Package pdftex.def Info: pt/pt-76.png used on input line 237.
+Package pdftex.def Info: pt/pt-76.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-76.png> <a2,fr76> <pt/pt-77.png, id=2541, 578.16pt x 359.3425pt>
 File: pt/pt-77.png Graphic file (type png)
 
 <use pt/pt-77.png>
-Package pdftex.def Info: pt/pt-77.png used on input line 237.
+Package pdftex.def Info: pt/pt-77.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-77.png> <a2,fr77>
 <pt/pt-78.png, id=2550, 578.16pt x 359.3425pt>
 File: pt/pt-78.png Graphic file (type png)
  <use pt/pt-78.png>
-Package pdftex.def Info: pt/pt-78.png used on input line 237.
+Package pdftex.def Info: pt/pt-78.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-78.png> <a2,fr78> <pt/pt-79.png, id=2559, 578.16pt x 359.3425pt>
 File: pt/pt-79.png Graphic file (type png)
 
 <use pt/pt-79.png>
-Package pdftex.def Info: pt/pt-79.png used on input line 237.
+Package pdftex.def Info: pt/pt-79.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-79.png> <a2,fr79>
 <pt/pt-80.png, id=2568, 578.16pt x 359.3425pt>
 File: pt/pt-80.png Graphic file (type png)
  <use pt/pt-80.png>
-Package pdftex.def Info: pt/pt-80.png used on input line 237.
+Package pdftex.def Info: pt/pt-80.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-80.png> <a2,fr80> <pt/pt-81.png, id=2577, 578.16pt x 359.3425pt>
 File: pt/pt-81.png Graphic file (type png)
 
 <use pt/pt-81.png>
-Package pdftex.def Info: pt/pt-81.png used on input line 237.
+Package pdftex.def Info: pt/pt-81.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-81.png> <a2,fr81>
 <pt/pt-82.png, id=2586, 578.16pt x 359.3425pt>
 File: pt/pt-82.png Graphic file (type png)
  <use pt/pt-82.png>
-Package pdftex.def Info: pt/pt-82.png used on input line 237.
+Package pdftex.def Info: pt/pt-82.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-82.png> <a2,fr82> <pt/pt-83.png, id=2595, 578.16pt x 359.3425pt>
 File: pt/pt-83.png Graphic file (type png)
 
 <use pt/pt-83.png>
-Package pdftex.def Info: pt/pt-83.png used on input line 237.
+Package pdftex.def Info: pt/pt-83.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-83.png> <a2,fr83>
 <pt/pt-84.png, id=2604, 578.16pt x 359.3425pt>
 File: pt/pt-84.png Graphic file (type png)
  <use pt/pt-84.png>
-Package pdftex.def Info: pt/pt-84.png used on input line 237.
+Package pdftex.def Info: pt/pt-84.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-84.png> <a2,fr84> <pt/pt-85.png, id=2613, 578.16pt x 359.3425pt>
 File: pt/pt-85.png Graphic file (type png)
 
 <use pt/pt-85.png>
-Package pdftex.def Info: pt/pt-85.png used on input line 237.
+Package pdftex.def Info: pt/pt-85.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-85.png> <a2,fr85>
 <pt/pt-86.png, id=2622, 578.16pt x 359.3425pt>
 File: pt/pt-86.png Graphic file (type png)
  <use pt/pt-86.png>
-Package pdftex.def Info: pt/pt-86.png used on input line 237.
+Package pdftex.def Info: pt/pt-86.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-86.png> <a2,fr86> <pt/pt-87.png, id=2631, 578.16pt x 359.3425pt>
 File: pt/pt-87.png Graphic file (type png)
 
 <use pt/pt-87.png>
-Package pdftex.def Info: pt/pt-87.png used on input line 237.
+Package pdftex.def Info: pt/pt-87.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-87.png> <a2,fr87>
 <pt/pt-88.png, id=2640, 578.16pt x 359.3425pt>
 File: pt/pt-88.png Graphic file (type png)
  <use pt/pt-88.png>
-Package pdftex.def Info: pt/pt-88.png used on input line 237.
+Package pdftex.def Info: pt/pt-88.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-88.png> <a2,fr88> <pt/pt-89.png, id=2649, 578.16pt x 359.3425pt>
 File: pt/pt-89.png Graphic file (type png)
 
 <use pt/pt-89.png>
-Package pdftex.def Info: pt/pt-89.png used on input line 237.
+Package pdftex.def Info: pt/pt-89.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-89.png> <a2,fr89>
 <pt/pt-90.png, id=2658, 578.16pt x 359.3425pt>
 File: pt/pt-90.png Graphic file (type png)
  <use pt/pt-90.png>
-Package pdftex.def Info: pt/pt-90.png used on input line 237.
+Package pdftex.def Info: pt/pt-90.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-90.png> <a2,fr90> <pt/pt-91.png, id=2667, 578.16pt x 359.3425pt>
 File: pt/pt-91.png Graphic file (type png)
 
 <use pt/pt-91.png>
-Package pdftex.def Info: pt/pt-91.png used on input line 237.
+Package pdftex.def Info: pt/pt-91.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-91.png> <a2,fr91>
 <pt/pt-92.png, id=2676, 578.16pt x 359.3425pt>
 File: pt/pt-92.png Graphic file (type png)
  <use pt/pt-92.png>
-Package pdftex.def Info: pt/pt-92.png used on input line 237.
+Package pdftex.def Info: pt/pt-92.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-92.png> <a2,fr92> <pt/pt-93.png, id=2685, 578.16pt x 359.3425pt>
 File: pt/pt-93.png Graphic file (type png)
 
 <use pt/pt-93.png>
-Package pdftex.def Info: pt/pt-93.png used on input line 237.
+Package pdftex.def Info: pt/pt-93.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-93.png> <a2,fr93>
 <pt/pt-94.png, id=2694, 578.16pt x 359.3425pt>
 File: pt/pt-94.png Graphic file (type png)
  <use pt/pt-94.png>
-Package pdftex.def Info: pt/pt-94.png used on input line 237.
+Package pdftex.def Info: pt/pt-94.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-94.png> <a2,fr94> <pt/pt-95.png, id=2703, 578.16pt x 359.3425pt>
 File: pt/pt-95.png Graphic file (type png)
 
 <use pt/pt-95.png>
-Package pdftex.def Info: pt/pt-95.png used on input line 237.
+Package pdftex.def Info: pt/pt-95.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-95.png> <a2,fr95>
 <pt/pt-96.png, id=2712, 578.16pt x 359.3425pt>
 File: pt/pt-96.png Graphic file (type png)
  <use pt/pt-96.png>
-Package pdftex.def Info: pt/pt-96.png used on input line 237.
+Package pdftex.def Info: pt/pt-96.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-96.png> <a2,fr96> <pt/pt-97.png, id=2721, 578.16pt x 359.3425pt>
 File: pt/pt-97.png Graphic file (type png)
 
 <use pt/pt-97.png>
-Package pdftex.def Info: pt/pt-97.png used on input line 237.
+Package pdftex.def Info: pt/pt-97.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-97.png> <a2,fr97>
 <pt/pt-98.png, id=2730, 578.16pt x 359.3425pt>
 File: pt/pt-98.png Graphic file (type png)
  <use pt/pt-98.png>
-Package pdftex.def Info: pt/pt-98.png used on input line 237.
+Package pdftex.def Info: pt/pt-98.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-98.png> <a2,fr98> <pt/pt-99.png, id=2739, 578.16pt x 359.3425pt>
 File: pt/pt-99.png Graphic file (type png)
 
 <use pt/pt-99.png>
-Package pdftex.def Info: pt/pt-99.png used on input line 237.
+Package pdftex.def Info: pt/pt-99.png used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 359.34161pt.
  <./pt/pt-99.png> <a2,fr99> [17
 
@@ -3058,13 +3058,13 @@ Package pdftex.def Info: pt/pt-99.png used on input line 237.
 <thetatwo.jpg, id=2815, 562.1pt x 421.575pt>
 File: thetatwo.jpg Graphic file (type jpg)
  <use thetatwo.jpg>
-Package pdftex.def Info: thetatwo.jpg used on input line 277.
+Package pdftex.def Info: thetatwo.jpg used on input line 292.
 (pdftex.def)             Requested size: 153.64493pt x 115.2291pt.
 
 <thetathree.jpg, id=2816, 562.1pt x 421.575pt>
 File: thetathree.jpg Graphic file (type jpg)
  <use thetathree.jpg>
-Package pdftex.def Info: thetathree.jpg used on input line 277.
+Package pdftex.def Info: thetathree.jpg used on input line 292.
 (pdftex.def)             Requested size: 153.64493pt x 115.2291pt.
  [19
 
@@ -3075,7 +3075,7 @@ Package pdftex.def Info: thetathree.jpg used on input line 277.
 File: plotsomething.jpg Graphic file (type jpg)
 
 <use plotsomething.jpg>
-Package pdftex.def Info: plotsomething.jpg used on input line 302.
+Package pdftex.def Info: plotsomething.jpg used on input line 317.
 (pdftex.def)             Requested size: 307.28987pt x 146.43964pt.
  [21
 
@@ -3083,10 +3083,10 @@ Package pdftex.def Info: plotsomething.jpg used on input line 302.
 <conc/sol.png, id=2896, 423.38174pt x 302.3295pt>
 File: conc/sol.png Graphic file (type png)
  <use conc/sol.png>
-Package pdftex.def Info: conc/sol.png used on input line 317.
+Package pdftex.def Info: conc/sol.png used on input line 332.
 (pdftex.def)             Requested size: 169.34969pt x 120.92964pt.
 
-Overfull \vbox (9.81375pt too high) detected at line 317
+Overfull \vbox (9.81375pt too high) detected at line 332
  []
 
 [22
@@ -3101,11 +3101,11 @@ Overfull \vbox (9.81375pt too high) detected at line 317
 \tf@snm=\write8
 \openout8 = `"presentation template thing beamer.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
  ("presentation template thing beamer.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 333.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 333.
 Package rerunfilecheck Info: File `"presentation template thing beamer".out' ha
 s not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -3113,7 +3113,7 @@ s not changed.
 Here is how much of TeX's memory you used:
  28137 strings out of 493323
  546311 string characters out of 3128713
- 631461 words of memory out of 3000000
+ 633461 words of memory out of 3000000
  30912 multiletter control sequences out of 15000+200000
  542466 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3137,7 +3137,7 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/dguittet/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/dgui
 ttet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam
 10.pfb>
-Output written on "presentation template thing beamer.pdf" (22 pages, 2292587 b
+Output written on "presentation template thing beamer.pdf" (22 pages, 2293692 b
 ytes).
 PDF statistics:
  2983 PDF objects out of 2984 (max. 8388607)

@@ -195,8 +195,23 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 \end{frame}
 
 \begin{frame}
+\begin{itemize}
+	\item Boundary conditions:
+		\begin{itemize}
+			\item $V(\xi)$ approaches a homogeneous solution as $\xi \rightarrow\pm\infty$
+			\item $\frac{d V(\xi)}{d\xi}$ is bounded as $\xi\rightarrow\pm\infty$
+			\item $V(\xi)$ is continuous and smooth at $\xi=0$
+		\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+	\item Solutions: \\$V_1(\xi)=\frac{-c+\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi},\quad \xi \in (0,\infty)$\\$V_2(\xi)=\frac{-c-\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+1,\quad \xi \in (-\infty,0)$
+\end{itemize}
+	\centering
 \frametitle{Animation of Traveling Front Solution}
-	\animategraphics[controls,autoplay,loop, width=1\linewidth]{10}{tw/tw-}{0}{100}
+	\animategraphics[controls,autoplay,loop, width=0.5\linewidth]{10}{tw/tw-}{0}{100}
+
+
 \end{frame}
 
 \begin{frame}

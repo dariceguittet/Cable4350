@@ -1,7 +1,7 @@
 \documentclass{beamer}
  
 \usepackage[utf8]{inputenc}
-\usepackage{animate}
+%\usepackage{animate}
  
 \title{Propagation of Voltage in a Neuron}
 \subtitle{The Cable Equation}
@@ -127,15 +127,27 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 
 \begin{frame}
 \frametitle{Numerical Solutions}
+\begin{columns}
+
+
+\begin{column}{.6\textwidth}
 \begin{itemize}
 	\item{Finite Difference Method}
 	\item{Plugging approximations for the partial derivatives into the original PDE gives:}
-\[\frac{v^{j+1}_i-v^j_i}{\Delta{t}}=\frac{v^{j}_{i+1}-2v^j_i+v^j_{i-1}}{(\Delta{x})^2}-v^j_i+J_{ext}(x,t)\]
-	\item{Solving for the unknown term:}
-\[v^{j+1}_i=\frac{\Delta{t}}{(\Delta{x})^2}(v^{j}_{i+1}+v^{j}_{i-1})+(1-\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2})v^{j}_{i}+\Delta{t}*J_{ext}(x,t)\]
-	\item{Stability}
 \end{itemize}
-
+\end{column}
+\begin{column}{.4\textwidth}
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{grid.png}
+  \label{fig:sketch2}
+\end{figure}
+\end{column}
+\end{columns}
+\[\frac{v^{j+1}_i-v^j_i}{\Delta{t}}=\frac{v^{j}_{i+1}-2v^j_i+v^j_{i-1}}{(\Delta{x})^2}-v^j_i+J_{ext}(x,t)\]
+\begin{itemize}
+	\item{Solving for the unknown term:}
+\end{itemize}
+\[v^{j+1}_i=\frac{\Delta{t}}{(\Delta{x})^2}(v^{j}_{i+1}+v^{j}_{i-1})+(1-\frac{\Delta{t}(2+(\Delta{x})^2)}{(\Delta{x})^2})v^{j}_{i}+\Delta{t}*J_{ext}(x,t)\]
 \end{frame}
 
 \begin{frame}
@@ -299,6 +311,7 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
   \caption{Varying $C$, $\theta=0.1$}
   \label{fig:sketch10}
 \end{figure}
+\[\frac{\partial{v(x,t)}}{\partial{t}}=\frac{\partial^2{v(x,t)}}{\partial{x}^2}-v+H(v-\theta(1+0.5\cos(x)))+J_{ext}(x,t)\]
 \end{frame}
 %%%%%
 

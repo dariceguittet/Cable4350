@@ -59,27 +59,12 @@
 
 \begin{frame}
 \frametitle{Hodgkin-Huxley's Neuronal Cable Model (1952)}
-\begin{columns}
-\begin{column}{.65\textwidth}
+
 \begin{figure}
 \includegraphics[scale=0.35]{NeuronalCableModel}
 \caption{Differential membrane patches as circuit. Image from jh.edu/motn}
 \end{figure}
-\end{column}
 
-\begin{column}{.45\textwidth}
-\begin{itemize}
-	\item{1-D \& Ohmic assumption}
-	\item{Intracellular current}
-	\item{Extracellular current}
-	\item{Membrane current}
-	\item{Membrane as capacitor}
-	\item{Ion channels as conductances}
-	\item{Length Constant: $\lambda = \sqrt{\frac{r_m}{r_i+r_e}}$}
-	\item{Time Constant: $r_mC_m$ }
-\end{itemize}
-\end{column}
-\end{columns}
 \end{frame}
 
 \begin{frame}
@@ -102,7 +87,8 @@ Linear Cable Equation with Impulse Current Injection:
 
 $$\frac{\partial{v(x,t)}}{\partial{t}} - \frac{\partial^2{v(x,t)}}{\partial{x}^2} + v(x,t)=\delta(t-t_0)\delta(x-x_0)$$ 
 
-$$x \in (-\infty, \infty),\ t \in (0,\infty),\ x_0 = 0,\ t_0 = 0$$ \newline
+$$x \in (-\infty, \infty)$$
+$$\ t \in (0,\infty)$$ \newline
 
 Boundary Conditions:
 $$\lim_{x\to \pm \infty} v(x,t) = 0$$
@@ -111,7 +97,6 @@ $$\lim_{x\to \pm \infty} v(x,t) = 0$$
 \begin{frame}
 \frametitle{Green's Function for Linear Infinite Cable Equation}
 Fourier transform $\rightarrow$ 2 ODE's $\rightarrow$ Inverse Fourier transform
-$$ v(x,t) = \frac{\mathcal{H}(x,t)}{\sqrt{4\pi t}}e^{-t-\frac{x^2}{4t}} $$ 
 
 $$  G_{\infty}(x-x_0,t-t_0) = \frac{\mathcal{H}(x-x_0,t-t_0)}{\sqrt{4\pi (t-t_0)}}e^{-(t-t_0)-\frac{(x-x_0)^2}{4(t-t_0)}}$$\newline
 

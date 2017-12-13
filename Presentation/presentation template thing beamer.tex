@@ -135,6 +135,7 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 
 \begin{frame}
 \frametitle{Bi-stable Ion Channels}
+Cable Equation: $\frac{\partial v(x,t)}{\partial t}=\frac{\partial ^2 v(x,t)}{\partial x^2}+f(v(x,t))$\\
 \begin{itemize}
 \item Two stable states of membrane: active and inactive
 	\begin{itemize}
@@ -223,11 +224,17 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 \frametitle{Stability of Traveling Wave}
 \begin{itemize}
 	\item Perturbation: $v(x,t)=V(\xi)+\epsilon\psi(\xi,t)$
-	\item Goal: understand behavior of $\psi(\xi,t)$ as $t\rightarrow\infty$
-	\item Perturbation satisfies cable equation:\\ $\frac{\partial v}{\partial t}=\frac{\partial ^2 v}{\partial x^2}-v+H(v-\theta)$
-	\item Linearize nonlinear terms, extract PDE governing $\psi(\xi,t)$:\\
+		\begin{itemize}
+			\item v(x,t) still must satisfy the cable equation: $\frac{\partial v}{\partial t}=\frac{\partial ^2 v}{\partial x^2}-v+H(v-\theta)$
+		\end{itemize}
+	\item What happens to $\psi(\xi,t)$ as $t\rightarrow\infty$?
+	\item Plug $v=V+\epsilon\psi$ into cable equation $\Rightarrow$ Linearize $\Rightarrow$ extract PDE governing $\psi(\xi,t)$:\\
 	$\frac{\partial \psi}{\partial t} = c \frac{\partial^2\psi}{\partial\xi^2} + \frac{\partial\psi}{\partial\xi} - (1 - \delta(V-\theta))\psi$
-	\item Separation of variables $\rightarrow\psi(\xi,t)=S(\xi)e^{-f(t)}$
+	\item Separation of variables: 
+		\begin{itemize}
+		\item $\lambda<0$ case: $\rightarrow\psi(\xi,t)=S(\xi)e^{\lambda t}$
+		\item $\lambda=0$ case: no time dependence $\Rightarrow$ perturbation propagates as traveling front solution
+		\end{itemize}
 \end{itemize}
 \end{frame}
 

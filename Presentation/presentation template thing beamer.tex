@@ -1,7 +1,7 @@
 \documentclass{beamer}
  
 \usepackage[utf8]{inputenc}
-%\usepackage{animate}
+\usepackage{animate}
  
 \title{Propagation of Voltage in a Neuron}
 \subtitle{The Cable Equation}
@@ -29,8 +29,8 @@
     Within one cell
     \begin{itemize}
 	\item Electrochemical signals
-	\item Membrane Potential: $\Delta V_m = V_i - V_e$
 	\item Ions: charge-carriers
+	\item Membrane Potential: $\Delta V_m = V_i - V_e$
 	\item Ion Channels in Membrane \newline
 	\end{itemize}
 	Between cells
@@ -59,27 +59,10 @@
 
 \begin{frame}
 \frametitle{Hodgkin-Huxley's Neuronal Cable Model (1952)}
-\begin{columns}
-\begin{column}{.65\textwidth}
 \begin{figure}
-\includegraphics[scale=0.35]{NeuronalCableModel}
+\includegraphics[scale=0.4]{NeuronalCableModel}
 \caption{Differential membrane patches as circuit. Image from jh.edu/motn}
 \end{figure}
-\end{column}
-
-\begin{column}{.45\textwidth}
-\begin{itemize}
-	\item{1-D \& Ohmic assumption}
-	\item{Intracellular current}
-	\item{Extracellular current}
-	\item{Membrane current}
-	\item{Membrane as capacitor}
-	\item{Ion channels as conductances}
-	\item{Length Constant: $\lambda = \sqrt{\frac{r_m}{r_i+r_e}}$}
-	\item{Time Constant: $r_mC_m$ }
-\end{itemize}
-\end{column}
-\end{columns}
 \end{frame}
 
 \begin{frame}
@@ -102,7 +85,8 @@ Linear Cable Equation with Impulse Current Injection:
 
 $$\frac{\partial{v(x,t)}}{\partial{t}} - \frac{\partial^2{v(x,t)}}{\partial{x}^2} + v(x,t)=\delta(t-t_0)\delta(x-x_0)$$ 
 
-$$x \in (-\infty, \infty),\ t \in (0,\infty),\ x_0 = 0,\ t_0 = 0$$ \newline
+$$x \in (-\infty, \infty)$$
+$$t \in (0,\infty)$$ \newline
 
 Boundary Conditions:
 $$\lim_{x\to \pm \infty} v(x,t) = 0$$
@@ -111,7 +95,6 @@ $$\lim_{x\to \pm \infty} v(x,t) = 0$$
 \begin{frame}
 \frametitle{Green's Function for Linear Infinite Cable Equation}
 Fourier transform $\rightarrow$ 2 ODE's $\rightarrow$ Inverse Fourier transform
-$$ v(x,t) = \frac{\mathcal{H}(x,t)}{\sqrt{4\pi t}}e^{-t-\frac{x^2}{4t}} $$ 
 
 $$  G_{\infty}(x-x_0,t-t_0) = \frac{\mathcal{H}(x-x_0,t-t_0)}{\sqrt{4\pi (t-t_0)}}e^{-(t-t_0)-\frac{(x-x_0)^2}{4(t-t_0)}}$$\newline
 
@@ -139,7 +122,7 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 \begin{column}{.4\textwidth}
 \begin{figure}[H]
   \includegraphics[width=\linewidth]{grid.png}
-  \label{fig:sketch2}
+  \label{fig:sketch3}
 \end{figure}
 \end{column}
 \end{columns}
@@ -162,6 +145,8 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 
 \begin{frame}
 \frametitle{Bi-stable Ion Channels}
+Cable Equation: $\frac{\partial v(x,t)}{\partial t}=\frac{\partial ^2 v(x,t)}{\partial x^2}+f(v(x,t))$ \\
+
 \begin{itemize}
 \item Two stable states of membrane: active and inactive
 	\begin{itemize}
@@ -180,7 +165,7 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 \end{frame}
 
 \begin{frame}
-\frametitle{Traveling Wave Solutions}
+\frametitle{Traveling Front Solutions}
 \begin{columns}
 \begin{column}{.4\textwidth}
 \begin{itemize}
@@ -196,7 +181,7 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 \begin{column}{.51\textwidth}
 \begin{figure}
 \includegraphics[scale=0.15]{travelingWaves1}
-\caption{Traveling front solutions}
+\caption{Traveling Front Solutions}
 \end{figure}
 \end{column}
 \end{columns}
@@ -207,12 +192,27 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 \end{frame}
 
 \begin{frame}
-\frametitle{Animation of Traveling Front Solution}
-	\animategraphics[controls,autoplay,loop, width=1\linewidth]{10}{tw/tw-}{0}{100}
+ \frametitle{Traveling Front Solution}
+\begin{itemize}
+	\item Boundary conditions:
+		\begin{itemize}
+			\item $V(\xi)$ approaches a homogeneous solution as $\xi \rightarrow\pm\infty$
+			\item $\frac{d V(\xi)}{d\xi}$ is bounded as $\xi\rightarrow\pm\infty$
+			\item $V(\xi)$ is continuous and smooth at $\xi=0$
+		\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+	\item Solutions: \\$V_1(\xi)=\frac{-c+\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{-\frac{1}{2}(c+\sqrt{c^2+4})\xi},\quad \xi \in (0,\infty)$\\$V_2(\xi)=\frac{-c-\sqrt{c^2+4}}{2\sqrt{c^2+4}}e^{\frac{1}{2}(-c+\sqrt{c^2+4})\xi}+1,\quad \xi \in (-\infty,0)$
+\end{itemize}
+	\centering
+	
+	\animategraphics[controls,autoplay,loop, width=0.5\linewidth]{10}{tw/tw-}{0}{100}
+
 \end{frame}
 
 \begin{frame}
-\frametitle{Speed of Traveling Wave}
+\frametitle{Speed of Traveling Front}
 \begin{columns}
 \begin{column}{.5\textwidth}
 \begin{itemize}
@@ -232,24 +232,30 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 \end{frame}
 
 \begin{frame}
-\frametitle{Stability of Traveling Wave}
+\frametitle{Stability of Traveling Front}
 \begin{itemize}
 	\item Perturbation: $v(x,t)=V(\xi)+\epsilon\psi(\xi,t)$
-	\item Goal: understand behavior of $\psi(\xi,t)$ as $t\rightarrow\infty$
-	\item Perturbation satisfies cable equation:\\ $\frac{\partial v}{\partial t}=\frac{\partial ^2 v}{\partial x^2}-v+H(v-\theta)$
-	\item Linearize nonlinear terms, extract PDE governing $\psi(\xi,t)$:\\
+	\begin{itemize}
+		\item v(x,t) still must satisfy the cable equation: $\frac{\partial v}{\partial t}=\frac{\partial ^2 v}{\partial x^2}-v+H(v-\theta)$
+	\end{itemize}
+	\item What happens to $\psi(\xi,t)$ as $t\rightarrow\infty$?
+	\item Plug $v=V+\epsilon\psi$ into cable equation $\Rightarrow$ Linearize $\Rightarrow$ extract PDE governing $\psi(\xi,t)$: \\
 	$\frac{\partial \psi}{\partial t} = c \frac{\partial^2\psi}{\partial\xi^2} + \frac{\partial\psi}{\partial\xi} - (1 - \delta(V-\theta))\psi$
-	\item Separation of variables $\rightarrow\psi(\xi,t)=S(\xi)e^{-f(t)}$
+	\item Separation of variables: 
+		\begin{itemize}
+		\item $\lambda=0$ case: no time dependence $\Rightarrow$ perturbation propagates as traveling front solution
+		\item $\lambda<0$ case: $\rightarrow\psi(\xi,t)=S(\xi)e^{\lambda t}$
+		\end{itemize}
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{Animation of Perturbed Wave Solution}
+\frametitle{Perturbed Front Solution}
 	\animategraphics[controls,autoplay,loop, width=1\linewidth]{10}{pt/pt-}{0}{99}
 \end{frame}
 
 \begin{frame}
-\frametitle{Numerical Solutions for Traveling Wave}
+\frametitle{Numerical Solutions for Traveling Front}
 \begin{itemize}
 	\item{Finite Difference Method--Similar to Previous Numerical Solution}
 	\item{Resultant Equation (solved for the unknown term):}
@@ -283,7 +289,7 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 
 \end{columns}
 \begin{itemize}
-	\item{Numerically Solving for Speeds of the Waves}
+	\item{Numerically Solving for Speeds of the Traveling Front}
 	\item{Comparison with Analytic Results}
 \end{itemize}
 \end{frame}
@@ -307,7 +313,7 @@ $$ \hat{v}(x,t) = \int_{-\infty}^{\infty}\int_{-\infty}^{\infty}G_{\infty}(x-x_0
 \begin{frame}
 \frametitle{Results}
 \begin{figure}[H]
-  \includegraphics[width=\linewidth]{plotsomething.jpg}
+  \includegraphics[width=\linewidth]{plotsomething2}
   \caption{Varying $C$, $\theta=0.1$}
   \label{fig:sketch10}
 \end{figure}

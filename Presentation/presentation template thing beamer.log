@@ -1,50 +1,53 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 DEC 2017 02:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.6.25)  13 DEC 2017 09:12
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**"presentation template thing beamer.tex"
-(./presentation template thing beamer.tex
+**"./presentation template thing beamer.tex"
+("presentation template thing beamer.tex"
 LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
-Document Class: beamer 2017/01/23 v3.41 A class for typesetting presentations
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamer.c
+ls"
+Document Class: beamer 2017/12/07 v3.46 A class for typesetting presentations
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+semodes.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolb
+ox.sty"
+Package: etoolbox 2017/11/22 v2.5 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count79
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
 \beamer@tempbox=\box26
 \beamer@tempcount=\count80
 \c@beamerpauses=\count81
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+sedecode.sty"
 \beamer@slideinframe=\count82
 \beamer@minimum=\count83
 )
 \beamer@commentbox=\box27
 \beamer@modecount=\count84
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpd
+f.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-\headheight=\dimen102
-\headdp=\dimen103
-\footheight=\dimen104
-\sidebarheight=\dimen105
-\beamer@tempdim=\dimen106
-\beamer@finalheight=\dimen107
-\beamer@animht=\dimen108
-\beamer@animdp=\dimen109
-\beamer@animwd=\dimen110
-\beamer@leftmargin=\dimen111
-\beamer@rightmargin=\dimen112
-\beamer@leftsidebar=\dimen113
-\beamer@rightsidebar=\dimen114
-\beamer@boxsize=\dimen115
-\beamer@vboxoffset=\dimen116
-\beamer@descdefault=\dimen117
-\beamer@descriptionwidth=\dimen118
+\headdp=\dimen102
+\footheight=\dimen103
+\sidebarheight=\dimen104
+\beamer@tempdim=\dimen105
+\beamer@finalheight=\dimen106
+\beamer@animht=\dimen107
+\beamer@animdp=\dimen108
+\beamer@animwd=\dimen109
+\beamer@leftmargin=\dimen110
+\beamer@rightmargin=\dimen111
+\beamer@leftsidebar=\dimen112
+\beamer@rightsidebar=\dimen113
+\beamer@boxsize=\dimen114
+\beamer@vboxoffset=\dimen115
+\beamer@descdefault=\dimen116
+\beamer@descriptionwidth=\dimen117
 \beamer@lastskip=\skip41
 \beamer@areabox=\box28
 \beamer@animcurrent=\box29
@@ -65,147 +68,177 @@ Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 \beamer@animationtempb=\count95
 \beamer@xpos=\count96
 \beamer@ypos=\count97
-\beamer@showpartnumber=\count98
-\beamer@currentsubsection=\count99
-\beamer@coveringdepth=\count100
-\beamer@sectionadjust=\count101
-\beamer@tocsectionnumber=\count102
+\beamer@ypos@offset=\count98
+\beamer@showpartnumber=\count99
+\beamer@currentsubsection=\count100
+\beamer@coveringdepth=\count101
+\beamer@sectionadjust=\count102
+\beamer@tocsectionnumber=\count103
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+seoptions.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
+.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
 \beamer@paperwidth=\skip42
 \beamer@paperheight=\skip43
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvt
+ex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxet
+ex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count103
-\Gm@cntv=\count104
-\c@Gm@tempcnt=\count105
-\Gm@bindingoffset=\dimen119
-\Gm@wd@mp=\dimen120
-\Gm@odd@mp=\dimen121
-\Gm@even@mp=\dimen122
-\Gm@layoutwidth=\dimen123
-\Gm@layoutheight=\dimen124
-\Gm@layouthoffset=\dimen125
-\Gm@layoutvoffset=\dimen126
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
 \Gm@dimlist=\toks15
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size11.clo
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.cfg"))
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo
+"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\
+pgfcore.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cs.sty"
 Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.s
+ty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gr
+aphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pd
+ftex.def"
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infw
+arerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxc
+mds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count106
+\Gread@gobject=\count107
 ))
-\Gin@req@height=\dimen127
-\Gin@req@width=\dimen128
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
-x
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer
+\pgfsys.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\p
+gfrcs.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfutil-common.tex"
 \pgfutil@everybye=\toks16
-\pgfutil@tempdima=\dimen129
-\pgfutil@tempdimb=\dimen130
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
-sts.tex))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfutil-common-lists.tex"))
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfutil-latex.def"
 \pgfutil@abb=\box34
-(/usr/local/texlive/2017/texmf-dist/tex/latex/ms/everyshi.sty
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfrcs.code.tex"
 Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgfsys.code.tex"
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
-ode.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks19
 ))
-\pgf@x=\dimen131
-\pgf@y=\dimen132
-\pgf@xa=\dimen133
-\pgf@ya=\dimen134
-\pgf@xb=\dimen135
-\pgf@yb=\dimen136
-\pgf@xc=\dimen137
-\pgf@yc=\dimen138
+\pgf@x=\dimen130
+\pgf@y=\dimen131
+\pgf@xa=\dimen132
+\pgf@ya=\dimen133
+\pgf@xb=\dimen134
+\pgf@yb=\dimen135
+\pgf@xc=\dimen136
+\pgf@yc=\dimen137
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count107
-\c@pgf@countb=\count108
-\c@pgf@countc=\count109
-\c@pgf@countd=\count110
+\c@pgf@counta=\count108
+\c@pgf@countb=\count109
+\c@pgf@countc=\count110
+\c@pgf@countd=\count111
 \t@pgf@toka=\toks20
 \t@pgf@tokb=\toks21
 \t@pgf@tokc=\toks22
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
-ef
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
-df.def
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgfsys-common-pdf.def"
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
-code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count111
-\pgfsyssoftpath@bigbuffer@items=\count112
+\pgfsyssoftpath@smallbuffer@items=\count112
+\pgfsyssoftpath@bigbuffer@items=\count113
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
-code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+))
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.s
+ty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\co
+lor.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -219,150 +252,162 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcore.code.tex"
 Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen139
-\pgfmath@count=\count113
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+ath.code.tex"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athcalc.code.tex"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athutil.code.tex")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athparser.code.tex"
+\pgfmath@dimen=\dimen138
+\pgfmath@count=\count114
 \pgfmath@box=\box35
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
 \pgfmath@stack@operation=\toks25
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
-tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
-.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
-nometric.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
-m.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
-rison.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
-code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
-.code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
-code.tex)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
-erarithmetics.code.tex)))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count114
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.code.tex"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.basic.code.tex")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.trigonometric.code.tex")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.random.code.tex")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.comparison.code.tex")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.base.code.tex")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.round.code.tex")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.misc.code.tex")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.integerarithmetics.code.tex")))
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count115
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
-de.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen140
-\pgf@picmaxx=\dimen141
-\pgf@picminy=\dimen142
-\pgf@picmaxy=\dimen143
-\pgf@pathminx=\dimen144
-\pgf@pathmaxx=\dimen145
-\pgf@pathminy=\dimen146
-\pgf@pathmaxy=\dimen147
-\pgf@xx=\dimen148
-\pgf@xy=\dimen149
-\pgf@yx=\dimen150
-\pgf@yy=\dimen151
-\pgf@zx=\dimen152
-\pgf@zy=\dimen153
+\pgf@picminx=\dimen139
+\pgf@picmaxx=\dimen140
+\pgf@picminy=\dimen141
+\pgf@picmaxy=\dimen142
+\pgf@pathminx=\dimen143
+\pgf@pathmaxx=\dimen144
+\pgf@pathminy=\dimen145
+\pgf@pathmaxy=\dimen146
+\pgf@xx=\dimen147
+\pgf@xy=\dimen148
+\pgf@yx=\dimen149
+\pgf@yy=\dimen150
+\pgf@zx=\dimen151
+\pgf@zy=\dimen152
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
-ruct.code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen154
-\pgf@path@lasty=\dimen155
+\pgf@path@lastx=\dimen153
+\pgf@path@lasty=\dimen154
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
-.code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen156
-\pgf@shorten@start@additional=\dimen157
+\pgf@shorten@end@additional=\dimen155
+\pgf@shorten@start@additional=\dimen156
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
-de.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
-\pgf@picture@serial@count=\count115
+\pgf@picture@serial@count=\count116
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
-ate.code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen158
+\pgflinewidth=\dimen157
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
-ations.code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen159
-\pgf@pt@y=\dimen160
-\pgf@pt@temp=\dimen161
+\pgf@pt@x=\dimen158
+\pgf@pt@y=\dimen159
+\pgf@pt@temp=\dimen160
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
-e.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
-ode.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
-ssing.code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorepathprocessing.code.tex"
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
-de.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen162
+\pgfarrowsep=\dimen161
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
-e.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen163
-\pgf@sys@shading@range@num=\count116
+\pgf@max=\dimen162
+\pgf@sys@shading@range@num=\count117
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
-e.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
-code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box39
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
-de.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorelayers.code.tex"
 File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
-ncy.code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoretransparency.code.tex"
 File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
-code.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorepatterns.code.tex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\x
+xcolor.sty"
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count117
-\XC@countmixins=\count118
+\XC@nummixins=\count118
+\XC@countmixins=\count119
 )
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbe
+gshi.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperr
+ef.sty"
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobs
+ub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobs
+ub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -400,22 +445,26 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhoo
+k.sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopti
+ons.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen164
-\Hy@linkcounter=\count119
-\Hy@pagecounter=\count120
+\@linkdim=\dimen163
+\Hy@linkcounter=\count120
+\Hy@pagecounter=\count121
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc
+.def"
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count121
+\Hy@SavedSpaceFactor=\count122
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperr
+ef.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarks' set `true' on input line 4374.
@@ -428,17 +477,17 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count122
+\c@Hy@tempcnt=\count123
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen165
-\Fld@menulength=\count123
-\Field@Width=\dimen166
-\Fld@charsize=\dimen167
+\XeTeXLinkMargin=\dimen164
+\Fld@menulength=\count124
+\Field@Width=\dimen165
+\Fld@charsize=\dimen166
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -448,7 +497,7 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count124
+\Hy@abspage=\count125
 
 
 Package hyperref Message: Stopped early.
@@ -457,23 +506,31 @@ Package hyperref Message: Stopped early.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count125
-\c@bookmark@seq@number=\count126
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdfte
+x.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count126
+\c@bookmark@seq@number=\count127
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunf
+ilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
-y) (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasefont.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+serequires.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+secompatibility.sty")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+sefont.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssym
+b.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfon
+ts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks26
 \symAMSa=\mathgroup4
@@ -481,148 +538,180 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sansmathaccent\
+sansmathaccent.sty"
 Package: sansmathaccent 2013/03/28
-(/usr/local/texlive/2017/texmf-dist/tex/latex/filehook/filehook.sty
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\filehook\fileho
+ok.sty"
 Package: filehook 2011/10/12 v0.5d Hooks for input files
 )))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator.sty
-Package: translator 2010/06/12 ver 1.10
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator-lang
-uage-mappings.tex)))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
-\beamer@argscount=\count127
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+setranslator.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\tran
+slator.sty"
+Package: translator 2017/11/30 v1.11
+))
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+semisc.sty")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+setwoscreens.sty")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+seoverlay.sty"
+\beamer@argscount=\count128
 \beamer@lastskipcover=\skip44
-\beamer@trivlistdepth=\count128
+\beamer@trivlistdepth=\count129
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasesection.sty
-\c@lecture=\count129
-\c@part=\count130
-\c@section=\count131
-\c@subsection=\count132
-\c@subsubsection=\count133
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+setitle.sty")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+sesection.sty"
+\c@lecture=\count130
+\c@part=\count131
+\c@section=\count132
+\c@subsection=\count133
+\c@subsubsection=\count134
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+seframe.sty"
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
-\beamer@zoomcount=\count134
-\beamer@zoomframecount=\count135
-\beamer@frametextheight=\dimen168
-\c@subsectionslide=\count136
+\beamer@zoomcount=\count135
+\beamer@zoomframecount=\count136
+\beamer@frametextheight=\dimen167
+\c@subsectionslide=\count137
 \beamer@frametopskip=\skip45
 \beamer@framebottomskip=\skip46
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks27
-\framewidth=\dimen169
-\c@framenumber=\count137
+\framewidth=\dimen168
+\c@framenumber=\count138
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+severbatim.sty"
 \beamer@verbatimfileout=\write4
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+seframesize.sty"
 \beamer@splitbox=\box43
-\beamer@autobreakcount=\count138
-\beamer@autobreaklastheight=\dimen170
+\beamer@autobreakcount=\count139
+\beamer@autobreaklastheight=\dimen169
 \beamer@frametitletoks=\toks28
 \beamer@framesubtitletoks=\toks29
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
-sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+seframecomponents.sty"
 \beamer@footins=\box44
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+secolor.sty"
+\beamer@bg@ht=\dimen170
+\beamer@bg@wd=\dimen171
+\beamer@bg@dp=\dimen172
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+senotes.sty"
 \beamer@frameboxcopy=\box45
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+setoc.sty")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+setemplates.sty"
 \beamer@sbttoks=\toks30
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+seauxtemplates.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+seboxes.sty"
 \bmb@box=\box46
 \bmb@colorbox=\box47
 \bmb@boxshadow=\box48
 \bmb@boxshadowball=\box49
 \bmb@boxshadowballlarge=\box50
-\bmb@temp=\dimen171
-\bmb@dima=\dimen172
-\bmb@dimb=\dimen173
-\bmb@prevheight=\dimen174
+\bmb@temp=\dimen173
+\bmb@dima=\dimen174
+\bmb@dimb=\dimen175
+\bmb@prevheight=\dimen176
 )
-\beamer@blockheadheight=\dimen175
+\beamer@blockheadheight=\dimen177
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
-ty (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+selocalstructure.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate
+.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 )
-\c@figure=\count139
-\c@table=\count140
+\c@figure=\count140
+\c@table=\count141
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
-\beamer@section@min@dim=\dimen176
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+senavigation.sty"
+\beamer@section@min@dim=\dimen178
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+setheorems.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath
+.sty"
 Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext
+.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.
+sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks32
-\ex@=\dimen177
+\ex@=\dimen179
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.
+sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen178
+\pmbraise@=\dimen180
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.
+sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count141
+\inf@bad=\count142
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count142
-\leftroot@=\count143
+\uproot@=\count143
+\leftroot@=\count144
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count144
-\DOTSCASE@=\count145
+\classnum@=\count145
+\DOTSCASE@=\count146
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box51
 \strutbox@=\box52
-\big@size=\dimen179
+\big@size=\dimen181
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count146
-\c@MaxMatrixCols=\count147
+\macc@depth=\count147
+\c@MaxMatrixCols=\count148
 \dotsspace@=\muskip11
-\c@parentequation=\count148
-\dspbrk@lvl=\count149
+\c@parentequation=\count149
+\dspbrk@lvl=\count150
 \tag@help=\toks33
-\row@=\count150
-\column@=\count151
-\maxfields@=\count152
+\row@=\count151
+\column@=\count152
+\maxfields@=\count153
 \andhelp@=\toks34
-\eqnshift@=\dimen180
-\alignsep@=\dimen181
-\tagshift@=\dimen182
-\tagwidth@=\dimen183
-\totwidth@=\dimen184
-\lineht@=\dimen185
+\eqnshift@=\dimen182
+\alignsep@=\dimen183
+\tagshift@=\dimen184
+\tagwidth@=\dimen185
+\totwidth@=\dimen186
+\lineht@=\dimen187
 \@envbody=\toks35
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -630,7 +719,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amscls/amsthm.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.s
+ty"
 Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks37
 \thm@bodyfont=\toks38
@@ -642,35 +732,37 @@ Package: amsthm 2015/03/04 v2.20.2
 \thm@headsep=\skip56
 \dth@everypar=\toks42
 )
-\c@theorem=\count153
+\c@theorem=\count154
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme/beamerthemede
-fault.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
-edefault.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorth
-emedefault.sty)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerth
-emedefault.sty
-\beamer@dima=\dimen186
-\beamer@dimb=\dimen187
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerba
+sethemes.sty"))
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\themes\t
+heme\beamerthemedefault.sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\themes\f
+ont\beamerfontthemedefault.sty")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\themes\c
+olor\beamercolorthemedefault.sty")
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\themes\i
+nner\beamerinnerthemedefault.sty"
+\beamer@dima=\dimen188
+\beamer@dimb=\dimen189
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterth
-emedefault.sty)))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\themes\o
+uter\beamerouterthemedefault.sty")))
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.s
+ty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks43
 \inpenc@posthook=\toks44
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/utf8.def
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.dfu
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -911,7 +1003,8 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ot1enc.dfu
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu
+"
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -952,7 +1045,8 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omsenc.dfu
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu
+"
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -978,62 +1072,72 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/animate/animate.sty
-Package: animate 2017/05/18 PDF animations from files and inline graphics
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\animate\animate
+.sty"
+Package: animate 2017/09/29 PDF animations from files and inline graphics
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval
+.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyv
+al.tex"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvut
+ils.tex"
 \XKV@toks=\toks45
 \XKV@tempa@toks=\toks46
 )
-\XKV@depth=\count154
+\XKV@depth=\count155
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\ifdraf
+t.sty"
 Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count155
-\calc@Bcount=\count156
-\calc@Adimen=\dimen188
-\calc@Bdimen=\dimen189
+\calc@Acount=\count156
+\calc@Bcount=\count157
+\calc@Adimen=\dimen190
+\calc@Bdimen=\dimen191
 \calc@Askip=\skip57
 \calc@Bskip=\skip58
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count157
+\calc@Ccount=\count158
 \calc@Cskip=\skip59
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/media9/pdfbase.sty
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2017/05/13 L3 programming layer (loader) 
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\media9\pdfbase.
+sty"
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.
+sty"
+Package: expl3 2017/12/05 L3 programming layer (loader) 
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2017/05/13 L3 programming layer (code)
-\c_max_int=\count158
-\l_tmpa_int=\count159
-\l_tmpb_int=\count160
-\g_tmpa_int=\count161
-\g_tmpb_int=\count162
-\g__prg_map_int=\count163
-\c_log_iow=\count164
-\l_iow_line_count_int=\count165
-\l__iow_line_target_int=\count166
-\l__iow_one_indent_int=\count167
-\l__iow_indent_int=\count168
-\c_zero_dim=\dimen190
-\c_max_dim=\dimen191
-\l_tmpa_dim=\dimen192
-\l_tmpb_dim=\dimen193
-\g_tmpa_dim=\dimen194
-\g_tmpb_dim=\dimen195
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-
+code.tex"
+Package: expl3 2017/12/05 L3 programming layer (code)
+\c_max_int=\count159
+\l_tmpa_int=\count160
+\l_tmpb_int=\count161
+\g_tmpa_int=\count162
+\g_tmpb_int=\count163
+\g__intarray_font_int=\count164
+\g__prg_map_int=\count165
+\c_log_iow=\count166
+\l_iow_line_count_int=\count167
+\l__iow_line_target_int=\count168
+\l__iow_one_indent_int=\count169
+\l__iow_indent_int=\count170
+\c_zero_dim=\dimen192
+\c_max_dim=\dimen193
+\l_tmpa_dim=\dimen194
+\l_tmpb_dim=\dimen195
+\g_tmpa_dim=\dimen196
+\g_tmpb_dim=\dimen197
 \c_zero_skip=\skip60
 \c_max_skip=\skip61
 \l_tmpa_skip=\skip62
@@ -1046,52 +1150,99 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count169
-\c__fp_leading_shift_int=\count170
-\c__fp_middle_shift_int=\count171
-\c__fp_trailing_shift_int=\count172
-\c__fp_big_leading_shift_int=\count173
-\c__fp_big_middle_shift_int=\count174
-\c__fp_big_trailing_shift_int=\count175
-\c__fp_Bigg_leading_shift_int=\count176
-\c__fp_Bigg_middle_shift_int=\count177
-\c__fp_Bigg_trailing_shift_int=\count178
-\c__fp_rand_size_int=\count179
-\c__fp_rand_four_int=\count180
-\c__fp_rand_eight_int=\count181
-\l__sort_length_int=\count182
-\l__sort_min_int=\count183
-\l__sort_top_int=\count184
-\l__sort_max_int=\count185
-\l__sort_true_max_int=\count186
-\l__sort_block_int=\count187
-\l__sort_begin_int=\count188
-\l__sort_end_int=\count189
-\l__sort_A_int=\count190
-\l__sort_B_int=\count191
-\l__sort_C_int=\count192
+\l_keys_choice_int=\count171
+\c__fp_leading_shift_int=\count172
+\c__fp_middle_shift_int=\count173
+\c__fp_trailing_shift_int=\count174
+\c__fp_big_leading_shift_int=\count175
+\c__fp_big_middle_shift_int=\count176
+\c__fp_big_trailing_shift_int=\count177
+\c__fp_Bigg_leading_shift_int=\count178
+\c__fp_Bigg_middle_shift_int=\count179
+\c__fp_Bigg_trailing_shift_int=\count180
+\c__fp_rand_size_int=\count181
+\c__fp_rand_four_int=\count182
+\c__fp_rand_eight_int=\count183
+\l__sort_length_int=\count184
+\l__sort_min_int=\count185
+\l__sort_top_int=\count186
+\l__sort_max_int=\count187
+\l__sort_true_max_int=\count188
+\l__sort_block_int=\count189
+\l__sort_begin_int=\count190
+\l__sort_end_int=\count191
+\l__sort_A_int=\count192
+\l__sort_B_int=\count193
+\l__sort_C_int=\count194
+\l__tl_build_start_index_int=\count195
+\l__tl_build_index_int=\count196
+\l__tl_analysis_normal_int=\count197
+\l__tl_analysis_index_int=\count198
+\l__tl_analysis_nesting_int=\count199
+\l__tl_analysis_type_int=\count266
+\l__regex_internal_a_int=\count267
+\l__regex_internal_b_int=\count268
+\l__regex_internal_c_int=\count269
+\l__regex_balance_int=\count270
+\l__regex_group_level_int=\count271
+\l__regex_mode_int=\count272
+\c__regex_cs_in_class_mode_int=\count273
+\c__regex_cs_mode_int=\count274
+\l__regex_catcodes_int=\count275
+\l__regex_default_catcodes_int=\count276
+\c__regex_catcode_D_int=\count277
+\c__regex_catcode_S_int=\count278
+\c__regex_catcode_L_int=\count279
+\c__regex_catcode_O_int=\count280
+\c__regex_catcode_A_int=\count281
+\c__regex_all_catcodes_int=\count282
+\l__regex_show_lines_int=\count283
+\l__regex_min_state_int=\count284
+\l__regex_max_state_int=\count285
+\l__regex_left_state_int=\count286
+\l__regex_right_state_int=\count287
+\l__regex_capturing_group_int=\count288
+\l__regex_min_pos_int=\count289
+\l__regex_max_pos_int=\count290
+\l__regex_curr_pos_int=\count291
+\l__regex_start_pos_int=\count292
+\l__regex_success_pos_int=\count293
+\l__regex_curr_char_int=\count294
+\l__regex_curr_catcode_int=\count295
+\l__regex_last_char_int=\count296
+\l__regex_case_changed_char_int=\count297
+\l__regex_curr_state_int=\count298
+\l__regex_step_int=\count299
+\l__regex_min_active_int=\count300
+\l__regex_max_active_int=\count301
+\l__regex_replacement_csnames_int=\count302
+\l__regex_match_count_int=\count303
+\l__regex_min_submatch_int=\count304
+\l__regex_submatch_int=\count305
+\l__regex_zeroth_submatch_int=\count306
+\g__debug_trace_regex_int=\count307
 \c_empty_box=\box53
 \l_tmpa_box=\box54
 \l_tmpb_box=\box55
 \g_tmpa_box=\box56
 \g_tmpb_box=\box57
-\l__box_top_dim=\dimen196
-\l__box_bottom_dim=\dimen197
-\l__box_left_dim=\dimen198
-\l__box_right_dim=\dimen199
-\l__box_top_new_dim=\dimen256
-\l__box_bottom_new_dim=\dimen257
-\l__box_left_new_dim=\dimen258
-\l__box_right_new_dim=\dimen259
+\l__box_top_dim=\dimen198
+\l__box_bottom_dim=\dimen199
+\l__box_left_dim=\dimen256
+\l__box_right_dim=\dimen257
+\l__box_top_new_dim=\dimen258
+\l__box_bottom_new_dim=\dimen259
+\l__box_left_new_dim=\dimen260
+\l__box_right_new_dim=\dimen261
 \l__box_internal_box=\box58
 \l__coffin_internal_box=\box59
-\l__coffin_internal_dim=\dimen260
-\l__coffin_offset_x_dim=\dimen261
-\l__coffin_offset_y_dim=\dimen262
-\l__coffin_x_dim=\dimen263
-\l__coffin_y_dim=\dimen264
-\l__coffin_x_prime_dim=\dimen265
-\l__coffin_y_prime_dim=\dimen266
+\l__coffin_internal_dim=\dimen262
+\l__coffin_offset_x_dim=\dimen263
+\l__coffin_offset_y_dim=\dimen264
+\l__coffin_x_dim=\dimen265
+\l__coffin_y_dim=\dimen266
+\l__coffin_x_prime_dim=\dimen267
+\l__coffin_y_prime_dim=\dimen268
 \c_empty_coffin=\box60
 \l__coffin_aligned_coffin=\box61
 \l__coffin_aligned_internal_coffin=\box62
@@ -1100,51 +1251,55 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l__coffin_display_coffin=\box65
 \l__coffin_display_coord_coffin=\box66
 \l__coffin_display_pole_coffin=\box67
-\l__coffin_display_offset_dim=\dimen267
-\l__coffin_display_x_dim=\dimen268
-\l__coffin_display_y_dim=\dimen269
-\l__coffin_bounding_shift_dim=\dimen270
-\l__coffin_left_corner_dim=\dimen271
-\l__coffin_right_corner_dim=\dimen272
-\l__coffin_bottom_corner_dim=\dimen273
-\l__coffin_top_corner_dim=\dimen274
-\l__coffin_scaled_total_height_dim=\dimen275
-\l__coffin_scaled_width_dim=\dimen276
+\l__coffin_display_offset_dim=\dimen269
+\l__coffin_display_x_dim=\dimen270
+\l__coffin_display_y_dim=\dimen271
+\l__coffin_bounding_shift_dim=\dimen272
+\l__coffin_left_corner_dim=\dimen273
+\l__coffin_right_corner_dim=\dimen274
+\l__coffin_bottom_corner_dim=\dimen275
+\l__coffin_top_corner_dim=\dimen276
+\l__coffin_scaled_total_height_dim=\dimen277
+\l__coffin_scaled_width_dim=\dimen278
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfm
+ode.def"
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count193
+\l__driver_color_stack_int=\count308
 \l__driver_tmp_box=\box68
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2017/05/13 LaTeX2e option processing using LaTeX3 keys
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3ke
+ys2e\l3keys2e.sty"
+Package: l3keys2e 2017/12/05 LaTeX2e option processing using LaTeX3 keys
 )
-Package: pdfbase 2017/03/23 v0.14 driver independent access to low-level PDF fe
+Package: pdfbase 2017/09/29 v0.18 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count194
-\g_pbs_oc_int=\count195
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/ocgx2/ocgbase.sty
-Package: ocgbase 2017/03/30 v0.10 support package for ocgx2.sty
+\g_pbs_page_int=\count309
+\g_pbs_oc_int=\count310
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ocgx2\ocgbase.s
+ty"
+Package: ocgbase 2017/09/29 v0.12 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count311
 )
 \@anim@box=\box69
 \@anim@measbox=\box70
-\@anim@tmpdima=\dimen277
-\@anim@tmpdimb=\dimen278
-\@anim@num=\count196
-\@anim@curframe=\count197
-\@anim@curframe@zb=\count198
-\@anim@resizeflags=\count199
-\@anim@skipfram=\count266
-\@anim@mulframecnt=\count267
+\@anim@tmpdima=\dimen279
+\@anim@tmpdimb=\dimen280
+\@anim@num=\count312
+\@anim@curframe=\count313
+\@anim@curframe@zb=\count314
+\@anim@resizeflags=\count315
+\@anim@skipfram=\count316
+\@anim@mulframecnt=\count317
 \@anim@@tmlnfile=\read2
-\@anim@tmpcnt=\count268
-\c@@anim@ltxcnt=\count269
-\@anim@curlayer=\count270
-\@anim@lineno=\count271
-\@anim@curfield=\count272
-\@anim@@resizeflags=\count273
-)
-(./presentation template thing beamer.aux)
+\@anim@tmpcnt=\count318
+\c@@anim@ltxcnt=\count319
+\@anim@curlayer=\count320
+\@anim@lineno=\count321
+\@anim@curfield=\count322
+\@anim@@resizeflags=\count323
+) ("presentation template thing beamer.aux")
 \openout1 = `"presentation template thing beamer.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -1196,23 +1351,28 @@ LaTeX Font Info:    ... okay on input line 13.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
+.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count274
-\scratchdimen=\dimen279
+\scratchcounter=\count324
+\scratchdimen=\dimen281
 \scratchbox=\box71
-\nofMPsegments=\count275
-\nofMParguments=\count276
+\nofMPsegments=\count325
+\nofMParguments=\count326
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count277
-\MPscratchDim=\dimen280
-\MPnumerator=\count278
-\makeMPintoPDFobject=\count279
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen282
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
 \everyMPtoPDFconversion=\toks48
-) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+)
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
+df-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext
+.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1221,29 +1381,25 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-ABD: EveryShipout initializing macros
+) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box72
 Package hyperref Info: Link coloring OFF on input line 13.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\namere
+f.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gett
+itlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count280
+\c@section@level=\count330
 )
 LaTeX Info: Redefining \ref on input line 13.
 LaTeX Info: Redefining \pageref on input line 13.
 LaTeX Info: Redefining \nameref on input line 13.
-
-(./presentation template thing beamer.out)
-(./presentation template thing beamer.out)
+ ("presentation template thing beamer.out")
+("presentation template thing beamer.out")
 \@outlinefile=\write5
 \openout5 = `"presentation template thing beamer.out"'.
 
@@ -1300,59 +1456,56 @@ LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
 ut line 13.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
-r-basic-dictionary/translator-basic-dictionary-English.dict
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\tran
+slator-basic-dictionary-English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
-r-bibliography-dictionary/translator-bibliography-dictionary-English.dict
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\tran
+slator-bibliography-dictionary-English.dict"
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
-r-environment-dictionary/translator-environment-dictionary-English.dict
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\tran
+slator-environment-dictionary-English.dict"
 Dictionary: translator-environment-dictionary, Language: English 
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
-r-months-dictionary/translator-months-dictionary-English.dict
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\tran
+slator-months-dictionary-English.dict"
 Dictionary: translator-months-dictionary, Language: English 
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
-r-numbers-dictionary/translator-numbers-dictionary-English.dict
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\tran
+slator-numbers-dictionary-English.dict"
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
-r-theorem-dictionary/translator-theorem-dictionary-English.dict
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\tran
+slator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 13.
+("presentation template thing beamer.nav") [1
 
-(./presentation template thing beamer.nav)
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 15.
-
-[1
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2
+{C:/Users/dguittet/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
 LaTeX Font Info:    Try loading font information for U+msa on input line 50.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.f
+d"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 50.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.f
+d"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
 line 50.
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+("C:\Users\dguittet\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sansmathaccent\
+ot1mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-) <OConnor-InhibitoryInterneurons1.jpg, id=68, 803.0pt x 803.0pt>
+)
+<OConnor-InhibitoryInterneurons1.jpg, id=67, 803.0pt x 803.0pt>
 File: OConnor-InhibitoryInterneurons1.jpg Graphic file (type jpg)
 
 <use OConnor-InhibitoryInterneurons1.jpg>
@@ -1361,7 +1514,7 @@ Package pdftex.def Info: OConnor-InhibitoryInterneurons1.jpg used on input line
 (pdftex.def)             Requested size: 153.64493pt x 153.63757pt.
  [3
 
- <./OConnor-InhibitoryInterneurons1.jpg>] <actionpotential.png, id=99, 510.2262
+ <./OConnor-InhibitoryInterneurons1.jpg>] <actionpotential.png, id=98, 510.2262
 pt x 292.6935pt>
 File: actionpotential.png Graphic file (type png)
 
@@ -1371,13 +1524,17 @@ Package pdftex.def Info: actionpotential.png used on input line 58.
  [4
 
  <./actionpotential.png>]
-<NeuronalCableModel.png, id=127, 498.663pt x 523.9575pt>
+<NeuronalCableModel.png, id=126, 498.663pt x 523.9575pt>
 File: NeuronalCableModel.png Graphic file (type png)
 
 <use NeuronalCableModel.png>
-Package pdftex.def Info: NeuronalCableModel.png used on input line 68.
-(pdftex.def)             Requested size: 174.53465pt x 183.38786pt.
- [5
+Package pdftex.def Info: NeuronalCableModel.png used on input line 66.
+(pdftex.def)             Requested size: 199.46165pt x 209.57928pt.
+
+Overfull \vbox (16.80617pt too high) detected at line 66
+ []
+
+[5
 
  <./NeuronalCableModel.png>] [6
 
@@ -1386,914 +1543,910 @@ Package pdftex.def Info: NeuronalCableModel.png used on input line 68.
 ] [8
 
 ]
-<pm/pm-0.png, id=247, 578.16pt x 369.38pt>
+<pm/pm-0.png, id=245, 578.16pt x 369.38pt>
 File: pm/pm-0.png Graphic file (type png)
  <use pm/pm-0.png>
-Package pdftex.def Info: pm/pm-0.png used on input line 111.
+Package pdftex.def Info: pm/pm-0.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-0.png>
-<a0,fr0> <pm/pm-1.png, id=256, 578.16pt x 369.38pt>
+<a0,fr0> <pm/pm-1.png, id=254, 578.16pt x 369.38pt>
 File: pm/pm-1.png Graphic file (type png)
  <use pm/pm-1.png>
-Package pdftex.def Info: pm/pm-1.png used on input line 111.
+Package pdftex.def Info: pm/pm-1.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-1.png> <a0,fr1> <pm/pm-2.png, id=266, 578.16pt x 369.38pt>
+ <./pm/pm-1.png> <a0,fr1> <pm/pm-2.png, id=263, 578.16pt x 369.38pt>
 File: pm/pm-2.png Graphic file (type png)
  <use pm/pm-2.png>
-Package pdftex.def Info: pm/pm-2.png used on input line 111.
+Package pdftex.def Info: pm/pm-2.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-2.png> <a0,fr2> <pm/pm-3.png, id=275, 578.16pt x 369.38pt>
+ <./pm/pm-2.png> <a0,fr2> <pm/pm-3.png, id=272, 578.16pt x 369.38pt>
 File: pm/pm-3.png Graphic file (type png)
 
 <use pm/pm-3.png>
-Package pdftex.def Info: pm/pm-3.png used on input line 111.
+Package pdftex.def Info: pm/pm-3.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-3.png> <a0,fr3>
-<pm/pm-4.png, id=284, 578.16pt x 369.38pt>
+<pm/pm-4.png, id=281, 578.16pt x 369.38pt>
 File: pm/pm-4.png Graphic file (type png)
  <use pm/pm-4.png>
-Package pdftex.def Info: pm/pm-4.png used on input line 111.
+Package pdftex.def Info: pm/pm-4.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-4.png>
-<a0,fr4> <pm/pm-5.png, id=293, 578.16pt x 369.38pt>
+<a0,fr4> <pm/pm-5.png, id=290, 578.16pt x 369.38pt>
 File: pm/pm-5.png Graphic file (type png)
  <use pm/pm-5.png>
-Package pdftex.def Info: pm/pm-5.png used on input line 111.
+Package pdftex.def Info: pm/pm-5.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-5.png> <a0,fr5> <pm/pm-6.png, id=302, 578.16pt x 369.38pt>
+ <./pm/pm-5.png> <a0,fr5> <pm/pm-6.png, id=299, 578.16pt x 369.38pt>
 File: pm/pm-6.png Graphic file (type png)
  <use pm/pm-6.png>
-Package pdftex.def Info: pm/pm-6.png used on input line 111.
+Package pdftex.def Info: pm/pm-6.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-6.png> <a0,fr6> <pm/pm-7.png, id=311, 578.16pt x 369.38pt>
+ <./pm/pm-6.png> <a0,fr6> <pm/pm-7.png, id=308, 578.16pt x 369.38pt>
 File: pm/pm-7.png Graphic file (type png)
 
 <use pm/pm-7.png>
-Package pdftex.def Info: pm/pm-7.png used on input line 111.
+Package pdftex.def Info: pm/pm-7.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-7.png> <a0,fr7>
-<pm/pm-8.png, id=320, 578.16pt x 369.38pt>
+<pm/pm-8.png, id=317, 578.16pt x 369.38pt>
 File: pm/pm-8.png Graphic file (type png)
  <use pm/pm-8.png>
-Package pdftex.def Info: pm/pm-8.png used on input line 111.
+Package pdftex.def Info: pm/pm-8.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-8.png>
-<a0,fr8> <pm/pm-9.png, id=329, 578.16pt x 369.38pt>
+<a0,fr8> <pm/pm-9.png, id=326, 578.16pt x 369.38pt>
 File: pm/pm-9.png Graphic file (type png)
  <use pm/pm-9.png>
-Package pdftex.def Info: pm/pm-9.png used on input line 111.
+Package pdftex.def Info: pm/pm-9.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-9.png> <a0,fr9> <pm/pm-10.png, id=338, 578.16pt x 369.38pt>
+ <./pm/pm-9.png> <a0,fr9> <pm/pm-10.png, id=335, 578.16pt x 369.38pt>
 File: pm/pm-10.png Graphic file (type png)
  <use pm/pm-10.png>
-Package pdftex.def Info: pm/pm-10.png used on input line 111.
+Package pdftex.def Info: pm/pm-10.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-10.png> <a0,fr10> <pm/pm-11.png, id=347, 578.16pt x 369.38pt>
+ <./pm/pm-10.png> <a0,fr10> <pm/pm-11.png, id=344, 578.16pt x 369.38pt>
 File: pm/pm-11.png Graphic file (type png)
 
 <use pm/pm-11.png>
-Package pdftex.def Info: pm/pm-11.png used on input line 111.
+Package pdftex.def Info: pm/pm-11.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-11.png> <a0,fr11>
-<pm/pm-12.png, id=356, 578.16pt x 369.38pt>
+<pm/pm-12.png, id=353, 578.16pt x 369.38pt>
 File: pm/pm-12.png Graphic file (type png)
  <use pm/pm-12.png>
-Package pdftex.def Info: pm/pm-12.png used on input line 111.
+Package pdftex.def Info: pm/pm-12.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-12.png> <a0,fr12> <pm/pm-13.png, id=365, 578.16pt x 369.38pt>
+ <./pm/pm-12.png> <a0,fr12> <pm/pm-13.png, id=362, 578.16pt x 369.38pt>
 File: pm/pm-13.png Graphic file (type png)
  <use pm/pm-13.png>
-Package pdftex.def Info: pm/pm-13.png used on input line 111.
+Package pdftex.def Info: pm/pm-13.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-13.png> <a0,fr13> <pm/pm-14.png, id=374, 578.16pt x 369.38pt>
+ <./pm/pm-13.png> <a0,fr13> <pm/pm-14.png, id=371, 578.16pt x 369.38pt>
 File: pm/pm-14.png Graphic file (type png)
 
 <use pm/pm-14.png>
-Package pdftex.def Info: pm/pm-14.png used on input line 111.
+Package pdftex.def Info: pm/pm-14.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-14.png> <a0,fr14>
-<pm/pm-15.png, id=383, 578.16pt x 369.38pt>
+<pm/pm-15.png, id=380, 578.16pt x 369.38pt>
 File: pm/pm-15.png Graphic file (type png)
  <use pm/pm-15.png>
-Package pdftex.def Info: pm/pm-15.png used on input line 111.
+Package pdftex.def Info: pm/pm-15.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-15.png> <a0,fr15> <pm/pm-16.png, id=392, 578.16pt x 369.38pt>
+ <./pm/pm-15.png> <a0,fr15> <pm/pm-16.png, id=389, 578.16pt x 369.38pt>
 File: pm/pm-16.png Graphic file (type png)
  <use pm/pm-16.png>
-Package pdftex.def Info: pm/pm-16.png used on input line 111.
+Package pdftex.def Info: pm/pm-16.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-16.png> <a0,fr16> <pm/pm-17.png, id=401, 578.16pt x 369.38pt>
+ <./pm/pm-16.png> <a0,fr16> <pm/pm-17.png, id=398, 578.16pt x 369.38pt>
 File: pm/pm-17.png Graphic file (type png)
 
 <use pm/pm-17.png>
-Package pdftex.def Info: pm/pm-17.png used on input line 111.
+Package pdftex.def Info: pm/pm-17.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-17.png> <a0,fr17>
-<pm/pm-18.png, id=410, 578.16pt x 369.38pt>
+<pm/pm-18.png, id=407, 578.16pt x 369.38pt>
 File: pm/pm-18.png Graphic file (type png)
  <use pm/pm-18.png>
-Package pdftex.def Info: pm/pm-18.png used on input line 111.
+Package pdftex.def Info: pm/pm-18.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-18.png> <a0,fr18> <pm/pm-19.png, id=419, 578.16pt x 369.38pt>
+ <./pm/pm-18.png> <a0,fr18> <pm/pm-19.png, id=416, 578.16pt x 369.38pt>
 File: pm/pm-19.png Graphic file (type png)
  <use pm/pm-19.png>
-Package pdftex.def Info: pm/pm-19.png used on input line 111.
+Package pdftex.def Info: pm/pm-19.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-19.png> <a0,fr19> <pm/pm-20.png, id=428, 578.16pt x 369.38pt>
+ <./pm/pm-19.png> <a0,fr19> <pm/pm-20.png, id=425, 578.16pt x 369.38pt>
 File: pm/pm-20.png Graphic file (type png)
 
 <use pm/pm-20.png>
-Package pdftex.def Info: pm/pm-20.png used on input line 111.
+Package pdftex.def Info: pm/pm-20.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-20.png> <a0,fr20>
-<pm/pm-21.png, id=437, 578.16pt x 369.38pt>
+<pm/pm-21.png, id=434, 578.16pt x 369.38pt>
 File: pm/pm-21.png Graphic file (type png)
  <use pm/pm-21.png>
-Package pdftex.def Info: pm/pm-21.png used on input line 111.
+Package pdftex.def Info: pm/pm-21.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-21.png> <a0,fr21> <pm/pm-22.png, id=446, 578.16pt x 369.38pt>
+ <./pm/pm-21.png> <a0,fr21> <pm/pm-22.png, id=443, 578.16pt x 369.38pt>
 File: pm/pm-22.png Graphic file (type png)
  <use pm/pm-22.png>
-Package pdftex.def Info: pm/pm-22.png used on input line 111.
+Package pdftex.def Info: pm/pm-22.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-22.png> <a0,fr22> <pm/pm-23.png, id=455, 578.16pt x 369.38pt>
+ <./pm/pm-22.png> <a0,fr22> <pm/pm-23.png, id=452, 578.16pt x 369.38pt>
 File: pm/pm-23.png Graphic file (type png)
 
 <use pm/pm-23.png>
-Package pdftex.def Info: pm/pm-23.png used on input line 111.
+Package pdftex.def Info: pm/pm-23.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-23.png> <a0,fr23>
-<pm/pm-24.png, id=464, 578.16pt x 369.38pt>
+<pm/pm-24.png, id=461, 578.16pt x 369.38pt>
 File: pm/pm-24.png Graphic file (type png)
  <use pm/pm-24.png>
-Package pdftex.def Info: pm/pm-24.png used on input line 111.
+Package pdftex.def Info: pm/pm-24.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-24.png> <a0,fr24> <pm/pm-25.png, id=473, 578.16pt x 369.38pt>
+ <./pm/pm-24.png> <a0,fr24> <pm/pm-25.png, id=470, 578.16pt x 369.38pt>
 File: pm/pm-25.png Graphic file (type png)
  <use pm/pm-25.png>
-Package pdftex.def Info: pm/pm-25.png used on input line 111.
+Package pdftex.def Info: pm/pm-25.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-25.png> <a0,fr25> <pm/pm-26.png, id=482, 578.16pt x 369.38pt>
+ <./pm/pm-25.png> <a0,fr25> <pm/pm-26.png, id=479, 578.16pt x 369.38pt>
 File: pm/pm-26.png Graphic file (type png)
 
 <use pm/pm-26.png>
-Package pdftex.def Info: pm/pm-26.png used on input line 111.
+Package pdftex.def Info: pm/pm-26.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-26.png> <a0,fr26>
-<pm/pm-27.png, id=491, 578.16pt x 369.38pt>
+<pm/pm-27.png, id=488, 578.16pt x 369.38pt>
 File: pm/pm-27.png Graphic file (type png)
  <use pm/pm-27.png>
-Package pdftex.def Info: pm/pm-27.png used on input line 111.
+Package pdftex.def Info: pm/pm-27.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-27.png> <a0,fr27> <pm/pm-28.png, id=500, 578.16pt x 369.38pt>
+ <./pm/pm-27.png> <a0,fr27> <pm/pm-28.png, id=497, 578.16pt x 369.38pt>
 File: pm/pm-28.png Graphic file (type png)
  <use pm/pm-28.png>
-Package pdftex.def Info: pm/pm-28.png used on input line 111.
+Package pdftex.def Info: pm/pm-28.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-28.png> <a0,fr28> <pm/pm-29.png, id=509, 578.16pt x 369.38pt>
+ <./pm/pm-28.png> <a0,fr28> <pm/pm-29.png, id=506, 578.16pt x 369.38pt>
 File: pm/pm-29.png Graphic file (type png)
 
 <use pm/pm-29.png>
-Package pdftex.def Info: pm/pm-29.png used on input line 111.
+Package pdftex.def Info: pm/pm-29.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-29.png> <a0,fr29>
-<pm/pm-30.png, id=518, 578.16pt x 369.38pt>
+<pm/pm-30.png, id=515, 578.16pt x 369.38pt>
 File: pm/pm-30.png Graphic file (type png)
  <use pm/pm-30.png>
-Package pdftex.def Info: pm/pm-30.png used on input line 111.
+Package pdftex.def Info: pm/pm-30.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-30.png> <a0,fr30> <pm/pm-31.png, id=527, 578.16pt x 369.38pt>
+ <./pm/pm-30.png> <a0,fr30> <pm/pm-31.png, id=524, 578.16pt x 369.38pt>
 File: pm/pm-31.png Graphic file (type png)
  <use pm/pm-31.png>
-Package pdftex.def Info: pm/pm-31.png used on input line 111.
+Package pdftex.def Info: pm/pm-31.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-31.png> <a0,fr31> <pm/pm-32.png, id=536, 578.16pt x 369.38pt>
+ <./pm/pm-31.png> <a0,fr31> <pm/pm-32.png, id=533, 578.16pt x 369.38pt>
 File: pm/pm-32.png Graphic file (type png)
 
 <use pm/pm-32.png>
-Package pdftex.def Info: pm/pm-32.png used on input line 111.
+Package pdftex.def Info: pm/pm-32.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-32.png> <a0,fr32>
-<pm/pm-33.png, id=545, 578.16pt x 369.38pt>
+<pm/pm-33.png, id=542, 578.16pt x 369.38pt>
 File: pm/pm-33.png Graphic file (type png)
  <use pm/pm-33.png>
-Package pdftex.def Info: pm/pm-33.png used on input line 111.
+Package pdftex.def Info: pm/pm-33.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-33.png> <a0,fr33> <pm/pm-34.png, id=554, 578.16pt x 369.38pt>
+ <./pm/pm-33.png> <a0,fr33> <pm/pm-34.png, id=551, 578.16pt x 369.38pt>
 File: pm/pm-34.png Graphic file (type png)
  <use pm/pm-34.png>
-Package pdftex.def Info: pm/pm-34.png used on input line 111.
+Package pdftex.def Info: pm/pm-34.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-34.png> <a0,fr34> <pm/pm-35.png, id=564, 578.16pt x 369.38pt>
+ <./pm/pm-34.png> <a0,fr34> <pm/pm-35.png, id=560, 578.16pt x 369.38pt>
 File: pm/pm-35.png Graphic file (type png)
 
 <use pm/pm-35.png>
-Package pdftex.def Info: pm/pm-35.png used on input line 111.
+Package pdftex.def Info: pm/pm-35.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-35.png> <a0,fr35>
-<pm/pm-36.png, id=573, 578.16pt x 369.38pt>
+<pm/pm-36.png, id=569, 578.16pt x 369.38pt>
 File: pm/pm-36.png Graphic file (type png)
  <use pm/pm-36.png>
-Package pdftex.def Info: pm/pm-36.png used on input line 111.
+Package pdftex.def Info: pm/pm-36.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-36.png> <a0,fr36> <pm/pm-37.png, id=582, 578.16pt x 369.38pt>
+ <./pm/pm-36.png> <a0,fr36> <pm/pm-37.png, id=578, 578.16pt x 369.38pt>
 File: pm/pm-37.png Graphic file (type png)
  <use pm/pm-37.png>
-Package pdftex.def Info: pm/pm-37.png used on input line 111.
+Package pdftex.def Info: pm/pm-37.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-37.png> <a0,fr37> <pm/pm-38.png, id=591, 578.16pt x 369.38pt>
+ <./pm/pm-37.png> <a0,fr37> <pm/pm-38.png, id=587, 578.16pt x 369.38pt>
 File: pm/pm-38.png Graphic file (type png)
 
 <use pm/pm-38.png>
-Package pdftex.def Info: pm/pm-38.png used on input line 111.
+Package pdftex.def Info: pm/pm-38.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-38.png> <a0,fr38>
-<pm/pm-39.png, id=600, 578.16pt x 369.38pt>
+<pm/pm-39.png, id=596, 578.16pt x 369.38pt>
 File: pm/pm-39.png Graphic file (type png)
  <use pm/pm-39.png>
-Package pdftex.def Info: pm/pm-39.png used on input line 111.
+Package pdftex.def Info: pm/pm-39.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-39.png> <a0,fr39> <pm/pm-40.png, id=609, 578.16pt x 369.38pt>
+ <./pm/pm-39.png> <a0,fr39> <pm/pm-40.png, id=605, 578.16pt x 369.38pt>
 File: pm/pm-40.png Graphic file (type png)
  <use pm/pm-40.png>
-Package pdftex.def Info: pm/pm-40.png used on input line 111.
+Package pdftex.def Info: pm/pm-40.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-40.png> <a0,fr40> <pm/pm-41.png, id=618, 578.16pt x 369.38pt>
+ <./pm/pm-40.png> <a0,fr40> <pm/pm-41.png, id=614, 578.16pt x 369.38pt>
 File: pm/pm-41.png Graphic file (type png)
 
 <use pm/pm-41.png>
-Package pdftex.def Info: pm/pm-41.png used on input line 111.
+Package pdftex.def Info: pm/pm-41.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-41.png> <a0,fr41>
-<pm/pm-42.png, id=627, 578.16pt x 369.38pt>
+<pm/pm-42.png, id=623, 578.16pt x 369.38pt>
 File: pm/pm-42.png Graphic file (type png)
  <use pm/pm-42.png>
-Package pdftex.def Info: pm/pm-42.png used on input line 111.
+Package pdftex.def Info: pm/pm-42.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-42.png> <a0,fr42> <pm/pm-43.png, id=636, 578.16pt x 369.38pt>
+ <./pm/pm-42.png> <a0,fr42> <pm/pm-43.png, id=632, 578.16pt x 369.38pt>
 File: pm/pm-43.png Graphic file (type png)
  <use pm/pm-43.png>
-Package pdftex.def Info: pm/pm-43.png used on input line 111.
+Package pdftex.def Info: pm/pm-43.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-43.png> <a0,fr43> <pm/pm-44.png, id=645, 578.16pt x 369.38pt>
+ <./pm/pm-43.png> <a0,fr43> <pm/pm-44.png, id=641, 578.16pt x 369.38pt>
 File: pm/pm-44.png Graphic file (type png)
 
 <use pm/pm-44.png>
-Package pdftex.def Info: pm/pm-44.png used on input line 111.
+Package pdftex.def Info: pm/pm-44.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-44.png> <a0,fr44>
-<pm/pm-45.png, id=654, 578.16pt x 369.38pt>
+<pm/pm-45.png, id=650, 578.16pt x 369.38pt>
 File: pm/pm-45.png Graphic file (type png)
  <use pm/pm-45.png>
-Package pdftex.def Info: pm/pm-45.png used on input line 111.
+Package pdftex.def Info: pm/pm-45.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-45.png> <a0,fr45> <pm/pm-46.png, id=663, 578.16pt x 369.38pt>
+ <./pm/pm-45.png> <a0,fr45> <pm/pm-46.png, id=659, 578.16pt x 369.38pt>
 File: pm/pm-46.png Graphic file (type png)
  <use pm/pm-46.png>
-Package pdftex.def Info: pm/pm-46.png used on input line 111.
+Package pdftex.def Info: pm/pm-46.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-46.png> <a0,fr46> <pm/pm-47.png, id=672, 578.16pt x 369.38pt>
+ <./pm/pm-46.png> <a0,fr46> <pm/pm-47.png, id=668, 578.16pt x 369.38pt>
 File: pm/pm-47.png Graphic file (type png)
 
 <use pm/pm-47.png>
-Package pdftex.def Info: pm/pm-47.png used on input line 111.
+Package pdftex.def Info: pm/pm-47.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-47.png> <a0,fr47>
-<pm/pm-48.png, id=681, 578.16pt x 369.38pt>
+<pm/pm-48.png, id=677, 578.16pt x 369.38pt>
 File: pm/pm-48.png Graphic file (type png)
  <use pm/pm-48.png>
-Package pdftex.def Info: pm/pm-48.png used on input line 111.
+Package pdftex.def Info: pm/pm-48.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./pm/pm-48.png> <a0,fr48> <pm/pm-49.png, id=690, 578.16pt x 369.38pt>
+ <./pm/pm-48.png> <a0,fr48> <pm/pm-49.png, id=686, 578.16pt x 369.38pt>
 File: pm/pm-49.png Graphic file (type png)
  <use pm/pm-49.png>
-Package pdftex.def Info: pm/pm-49.png used on input line 111.
+Package pdftex.def Info: pm/pm-49.png used on input line 109.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./pm/pm-49.png> <a0,fr49> [9
 
-]
-Overfull \hbox (18.03615pt too wide) detected at line 124
-\OT1/mathkerncmss/m/sl/10.95 v[] \OT1/cmss/m/n/10.95 = [](\OT1/mathkerncmss/m/s
-l/10.95 v[] \OT1/cmss/m/n/10.95 + \OT1/mathkerncmss/m/sl/10.95 v[]\OT1/cmss/m/n
-/10.95 ) + (1 \OMS/cmsy/m/n/10.95 ^^@ []\OT1/cmss/m/n/10.95 )\OT1/mathkerncmss/
-m/sl/10.95 v[] \OT1/cmss/m/n/10.95 + ^^A\OT1/mathkerncmss/m/sl/10.95 t \OMS/cms
-y/m/n/10.95 ^^C \OT1/mathkerncmss/m/sl/10.95 J[]\OT1/cmss/m/n/10.95 (\OT1/mathk
-erncmss/m/sl/10.95 x\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 t\OT1/cm
-ss/m/n/10.95 )
- []
+] <grid.png, id=740, 551.05875pt x 528.97626pt>
+File: grid.png Graphic file (type png)
 
-[10
+<use grid.png>
+Package pdftex.def Info: grid.png used on input line 134.
+(pdftex.def)             Requested size: 122.91406pt x 117.98135pt.
+ [10
 
-] <Plot2.jpg, id=770, 562.1pt x 421.575pt>
+ <./grid.png>] <Plot2.jpg, id=768, 562.1pt x 421.575pt>
 File: Plot2.jpg Graphic file (type jpg)
- <use Plot2.jpg>
-Package pdftex.def Info: Plot2.jpg used on input line 133.
+
+<use Plot2.jpg>
+Package pdftex.def Info: Plot2.jpg used on input line 143.
 (pdftex.def)             Requested size: 307.28987pt x 230.46463pt.
 
-Overfull \vbox (26.73596pt too high) detected at line 133
+Overfull \vbox (26.73596pt too high) detected at line 143
  []
 
 [11
 
  <./Plot2.jpg>] [12
 
-] <travelingWaves1.jpg, id=825, 1124.2pt x 843.15pt>
+] <travelingWaves1.jpg, id=821, 1124.2pt x 843.15pt>
 File: travelingWaves1.jpg Graphic file (type jpg)
 
 <use travelingWaves1.jpg>
-Package pdftex.def Info: travelingWaves1.jpg used on input line 181.
+Package pdftex.def Info: travelingWaves1.jpg used on input line 192.
 (pdftex.def)             Requested size: 168.62273pt x 126.46704pt.
 
-Overfull \hbox (11.90659pt too wide) in paragraph at lines 181--181
+Overfull \hbox (11.90659pt too wide) in paragraph at lines 192--192
  [] 
  []
 
 [13
 
- <./travelingWaves1.jpg>] <tw/tw-0.png, id=853, 578.16pt x 369.38pt>
+ <./travelingWaves1.jpg>] <tw/tw-0.png, id=849, 578.16pt x 369.38pt>
 File: tw/tw-0.png Graphic file (type png)
 
 <use tw/tw-0.png>
-Package pdftex.def Info: tw/tw-0.png used on input line 201.
+Package pdftex.def Info: tw/tw-0.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-0.png> <a1,fr0>
-<tw/tw-1.png, id=862, 578.16pt x 369.38pt>
+<tw/tw-1.png, id=858, 578.16pt x 369.38pt>
 File: tw/tw-1.png Graphic file (type png)
  <use tw/tw-1.png>
-Package pdftex.def Info: tw/tw-1.png used on input line 201.
+Package pdftex.def Info: tw/tw-1.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-1.png>
-<a1,fr1> <tw/tw-2.png, id=871, 578.16pt x 369.38pt>
+<a1,fr1> <tw/tw-2.png, id=867, 578.16pt x 369.38pt>
 File: tw/tw-2.png Graphic file (type png)
  <use tw/tw-2.png>
-Package pdftex.def Info: tw/tw-2.png used on input line 201.
+Package pdftex.def Info: tw/tw-2.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-2.png> <a1,fr2> <tw/tw-3.png, id=880, 578.16pt x 369.38pt>
+ <./tw/tw-2.png> <a1,fr2> <tw/tw-3.png, id=876, 578.16pt x 369.38pt>
 File: tw/tw-3.png Graphic file (type png)
  <use tw/tw-3.png>
-Package pdftex.def Info: tw/tw-3.png used on input line 201.
+Package pdftex.def Info: tw/tw-3.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-3.png> <a1,fr3> <tw/tw-4.png, id=889, 578.16pt x 369.38pt>
+ <./tw/tw-3.png> <a1,fr3> <tw/tw-4.png, id=885, 578.16pt x 369.38pt>
 File: tw/tw-4.png Graphic file (type png)
 
 <use tw/tw-4.png>
-Package pdftex.def Info: tw/tw-4.png used on input line 201.
+Package pdftex.def Info: tw/tw-4.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-4.png> <a1,fr4>
-<tw/tw-5.png, id=898, 578.16pt x 369.38pt>
+<tw/tw-5.png, id=894, 578.16pt x 369.38pt>
 File: tw/tw-5.png Graphic file (type png)
  <use tw/tw-5.png>
-Package pdftex.def Info: tw/tw-5.png used on input line 201.
+Package pdftex.def Info: tw/tw-5.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-5.png>
-<a1,fr5> <tw/tw-6.png, id=907, 578.16pt x 369.38pt>
+<a1,fr5> <tw/tw-6.png, id=903, 578.16pt x 369.38pt>
 File: tw/tw-6.png Graphic file (type png)
  <use tw/tw-6.png>
-Package pdftex.def Info: tw/tw-6.png used on input line 201.
+Package pdftex.def Info: tw/tw-6.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-6.png> <a1,fr6> <tw/tw-7.png, id=916, 578.16pt x 369.38pt>
+ <./tw/tw-6.png> <a1,fr6> <tw/tw-7.png, id=912, 578.16pt x 369.38pt>
 File: tw/tw-7.png Graphic file (type png)
  <use tw/tw-7.png>
-Package pdftex.def Info: tw/tw-7.png used on input line 201.
+Package pdftex.def Info: tw/tw-7.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-7.png> <a1,fr7> <tw/tw-8.png, id=925, 578.16pt x 369.38pt>
+ <./tw/tw-7.png> <a1,fr7> <tw/tw-8.png, id=921, 578.16pt x 369.38pt>
 File: tw/tw-8.png Graphic file (type png)
 
 <use tw/tw-8.png>
-Package pdftex.def Info: tw/tw-8.png used on input line 201.
+Package pdftex.def Info: tw/tw-8.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-8.png> <a1,fr8>
-<tw/tw-9.png, id=934, 578.16pt x 369.38pt>
+<tw/tw-9.png, id=930, 578.16pt x 369.38pt>
 File: tw/tw-9.png Graphic file (type png)
  <use tw/tw-9.png>
-Package pdftex.def Info: tw/tw-9.png used on input line 201.
+Package pdftex.def Info: tw/tw-9.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-9.png>
-<a1,fr9> <tw/tw-10.png, id=943, 578.16pt x 369.38pt>
+<a1,fr9> <tw/tw-10.png, id=939, 578.16pt x 369.38pt>
 File: tw/tw-10.png Graphic file (type png)
  <use tw/tw-10.png>
-Package pdftex.def Info: tw/tw-10.png used on input line 201.
+Package pdftex.def Info: tw/tw-10.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-10.png> <a1,fr10> <tw/tw-11.png, id=952, 578.16pt x 369.38pt>
+ <./tw/tw-10.png> <a1,fr10> <tw/tw-11.png, id=948, 578.16pt x 369.38pt>
 File: tw/tw-11.png Graphic file (type png)
 
 <use tw/tw-11.png>
-Package pdftex.def Info: tw/tw-11.png used on input line 201.
+Package pdftex.def Info: tw/tw-11.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-11.png> <a1,fr11>
-<tw/tw-12.png, id=961, 578.16pt x 369.38pt>
+<tw/tw-12.png, id=957, 578.16pt x 369.38pt>
 File: tw/tw-12.png Graphic file (type png)
  <use tw/tw-12.png>
-Package pdftex.def Info: tw/tw-12.png used on input line 201.
+Package pdftex.def Info: tw/tw-12.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-12.png> <a1,fr12> <tw/tw-13.png, id=970, 578.16pt x 369.38pt>
+ <./tw/tw-12.png> <a1,fr12> <tw/tw-13.png, id=966, 578.16pt x 369.38pt>
 File: tw/tw-13.png Graphic file (type png)
  <use tw/tw-13.png>
-Package pdftex.def Info: tw/tw-13.png used on input line 201.
+Package pdftex.def Info: tw/tw-13.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-13.png> <a1,fr13> <tw/tw-14.png, id=979, 578.16pt x 369.38pt>
+ <./tw/tw-13.png> <a1,fr13> <tw/tw-14.png, id=975, 578.16pt x 369.38pt>
 File: tw/tw-14.png Graphic file (type png)
 
 <use tw/tw-14.png>
-Package pdftex.def Info: tw/tw-14.png used on input line 201.
+Package pdftex.def Info: tw/tw-14.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-14.png> <a1,fr14>
-<tw/tw-15.png, id=988, 578.16pt x 369.38pt>
+<tw/tw-15.png, id=984, 578.16pt x 369.38pt>
 File: tw/tw-15.png Graphic file (type png)
  <use tw/tw-15.png>
-Package pdftex.def Info: tw/tw-15.png used on input line 201.
+Package pdftex.def Info: tw/tw-15.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-15.png> <a1,fr15> <tw/tw-16.png, id=997, 578.16pt x 369.38pt>
+ <./tw/tw-15.png> <a1,fr15> <tw/tw-16.png, id=993, 578.16pt x 369.38pt>
 File: tw/tw-16.png Graphic file (type png)
  <use tw/tw-16.png>
-Package pdftex.def Info: tw/tw-16.png used on input line 201.
+Package pdftex.def Info: tw/tw-16.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-16.png> <a1,fr16> <tw/tw-17.png, id=1006, 578.16pt x 369.38pt>
+ <./tw/tw-16.png> <a1,fr16> <tw/tw-17.png, id=1002, 578.16pt x 369.38pt>
 File: tw/tw-17.png Graphic file (type png)
 
 <use tw/tw-17.png>
-Package pdftex.def Info: tw/tw-17.png used on input line 201.
+Package pdftex.def Info: tw/tw-17.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-17.png> <a1,fr17>
-<tw/tw-18.png, id=1015, 578.16pt x 369.38pt>
+<tw/tw-18.png, id=1011, 578.16pt x 369.38pt>
 File: tw/tw-18.png Graphic file (type png)
  <use tw/tw-18.png>
-Package pdftex.def Info: tw/tw-18.png used on input line 201.
+Package pdftex.def Info: tw/tw-18.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-18.png> <a1,fr18> <tw/tw-19.png, id=1024, 578.16pt x 369.38pt>
+ <./tw/tw-18.png> <a1,fr18> <tw/tw-19.png, id=1020, 578.16pt x 369.38pt>
 File: tw/tw-19.png Graphic file (type png)
  <use tw/tw-19.png>
-Package pdftex.def Info: tw/tw-19.png used on input line 201.
+Package pdftex.def Info: tw/tw-19.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-19.png> <a1,fr19> <tw/tw-20.png, id=1033, 578.16pt x 369.38pt>
+ <./tw/tw-19.png> <a1,fr19> <tw/tw-20.png, id=1029, 578.16pt x 369.38pt>
 File: tw/tw-20.png Graphic file (type png)
 
 <use tw/tw-20.png>
-Package pdftex.def Info: tw/tw-20.png used on input line 201.
+Package pdftex.def Info: tw/tw-20.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-20.png> <a1,fr20>
-<tw/tw-21.png, id=1042, 578.16pt x 369.38pt>
+<tw/tw-21.png, id=1038, 578.16pt x 369.38pt>
 File: tw/tw-21.png Graphic file (type png)
  <use tw/tw-21.png>
-Package pdftex.def Info: tw/tw-21.png used on input line 201.
+Package pdftex.def Info: tw/tw-21.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-21.png> <a1,fr21> <tw/tw-22.png, id=1051, 578.16pt x 369.38pt>
+ <./tw/tw-21.png> <a1,fr21> <tw/tw-22.png, id=1047, 578.16pt x 369.38pt>
 File: tw/tw-22.png Graphic file (type png)
  <use tw/tw-22.png>
-Package pdftex.def Info: tw/tw-22.png used on input line 201.
+Package pdftex.def Info: tw/tw-22.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-22.png> <a1,fr22> <tw/tw-23.png, id=1061, 578.16pt x 369.38pt>
+ <./tw/tw-22.png> <a1,fr22> <tw/tw-23.png, id=1056, 578.16pt x 369.38pt>
 File: tw/tw-23.png Graphic file (type png)
 
 <use tw/tw-23.png>
-Package pdftex.def Info: tw/tw-23.png used on input line 201.
+Package pdftex.def Info: tw/tw-23.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-23.png> <a1,fr23>
-<tw/tw-24.png, id=1070, 578.16pt x 369.38pt>
+<tw/tw-24.png, id=1065, 578.16pt x 369.38pt>
 File: tw/tw-24.png Graphic file (type png)
  <use tw/tw-24.png>
-Package pdftex.def Info: tw/tw-24.png used on input line 201.
+Package pdftex.def Info: tw/tw-24.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-24.png> <a1,fr24> <tw/tw-25.png, id=1079, 578.16pt x 369.38pt>
+ <./tw/tw-24.png> <a1,fr24> <tw/tw-25.png, id=1074, 578.16pt x 369.38pt>
 File: tw/tw-25.png Graphic file (type png)
  <use tw/tw-25.png>
-Package pdftex.def Info: tw/tw-25.png used on input line 201.
+Package pdftex.def Info: tw/tw-25.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-25.png> <a1,fr25> <tw/tw-26.png, id=1088, 578.16pt x 369.38pt>
+ <./tw/tw-25.png> <a1,fr25> <tw/tw-26.png, id=1083, 578.16pt x 369.38pt>
 File: tw/tw-26.png Graphic file (type png)
 
 <use tw/tw-26.png>
-Package pdftex.def Info: tw/tw-26.png used on input line 201.
+Package pdftex.def Info: tw/tw-26.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-26.png> <a1,fr26>
-<tw/tw-27.png, id=1097, 578.16pt x 369.38pt>
+<tw/tw-27.png, id=1092, 578.16pt x 369.38pt>
 File: tw/tw-27.png Graphic file (type png)
  <use tw/tw-27.png>
-Package pdftex.def Info: tw/tw-27.png used on input line 201.
+Package pdftex.def Info: tw/tw-27.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-27.png> <a1,fr27> <tw/tw-28.png, id=1106, 578.16pt x 369.38pt>
+ <./tw/tw-27.png> <a1,fr27> <tw/tw-28.png, id=1101, 578.16pt x 369.38pt>
 File: tw/tw-28.png Graphic file (type png)
  <use tw/tw-28.png>
-Package pdftex.def Info: tw/tw-28.png used on input line 201.
+Package pdftex.def Info: tw/tw-28.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-28.png> <a1,fr28> <tw/tw-29.png, id=1115, 578.16pt x 369.38pt>
+ <./tw/tw-28.png> <a1,fr28> <tw/tw-29.png, id=1110, 578.16pt x 369.38pt>
 File: tw/tw-29.png Graphic file (type png)
 
 <use tw/tw-29.png>
-Package pdftex.def Info: tw/tw-29.png used on input line 201.
+Package pdftex.def Info: tw/tw-29.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-29.png> <a1,fr29>
-<tw/tw-30.png, id=1124, 578.16pt x 369.38pt>
+<tw/tw-30.png, id=1119, 578.16pt x 369.38pt>
 File: tw/tw-30.png Graphic file (type png)
  <use tw/tw-30.png>
-Package pdftex.def Info: tw/tw-30.png used on input line 201.
+Package pdftex.def Info: tw/tw-30.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-30.png> <a1,fr30> <tw/tw-31.png, id=1133, 578.16pt x 369.38pt>
+ <./tw/tw-30.png> <a1,fr30> <tw/tw-31.png, id=1128, 578.16pt x 369.38pt>
 File: tw/tw-31.png Graphic file (type png)
  <use tw/tw-31.png>
-Package pdftex.def Info: tw/tw-31.png used on input line 201.
+Package pdftex.def Info: tw/tw-31.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-31.png> <a1,fr31> <tw/tw-32.png, id=1142, 578.16pt x 369.38pt>
+ <./tw/tw-31.png> <a1,fr31> <tw/tw-32.png, id=1137, 578.16pt x 369.38pt>
 File: tw/tw-32.png Graphic file (type png)
 
 <use tw/tw-32.png>
-Package pdftex.def Info: tw/tw-32.png used on input line 201.
+Package pdftex.def Info: tw/tw-32.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-32.png> <a1,fr32>
-<tw/tw-33.png, id=1151, 578.16pt x 369.38pt>
+<tw/tw-33.png, id=1146, 578.16pt x 369.38pt>
 File: tw/tw-33.png Graphic file (type png)
  <use tw/tw-33.png>
-Package pdftex.def Info: tw/tw-33.png used on input line 201.
+Package pdftex.def Info: tw/tw-33.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-33.png> <a1,fr33> <tw/tw-34.png, id=1160, 578.16pt x 369.38pt>
+ <./tw/tw-33.png> <a1,fr33> <tw/tw-34.png, id=1155, 578.16pt x 369.38pt>
 File: tw/tw-34.png Graphic file (type png)
  <use tw/tw-34.png>
-Package pdftex.def Info: tw/tw-34.png used on input line 201.
+Package pdftex.def Info: tw/tw-34.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-34.png> <a1,fr34> <tw/tw-35.png, id=1169, 578.16pt x 369.38pt>
+ <./tw/tw-34.png> <a1,fr34> <tw/tw-35.png, id=1164, 578.16pt x 369.38pt>
 File: tw/tw-35.png Graphic file (type png)
 
 <use tw/tw-35.png>
-Package pdftex.def Info: tw/tw-35.png used on input line 201.
+Package pdftex.def Info: tw/tw-35.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-35.png> <a1,fr35>
-<tw/tw-36.png, id=1178, 578.16pt x 369.38pt>
+<tw/tw-36.png, id=1173, 578.16pt x 369.38pt>
 File: tw/tw-36.png Graphic file (type png)
  <use tw/tw-36.png>
-Package pdftex.def Info: tw/tw-36.png used on input line 201.
+Package pdftex.def Info: tw/tw-36.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-36.png> <a1,fr36> <tw/tw-37.png, id=1187, 578.16pt x 369.38pt>
+ <./tw/tw-36.png> <a1,fr36> <tw/tw-37.png, id=1182, 578.16pt x 369.38pt>
 File: tw/tw-37.png Graphic file (type png)
  <use tw/tw-37.png>
-Package pdftex.def Info: tw/tw-37.png used on input line 201.
+Package pdftex.def Info: tw/tw-37.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-37.png> <a1,fr37> <tw/tw-38.png, id=1196, 578.16pt x 369.38pt>
+ <./tw/tw-37.png> <a1,fr37> <tw/tw-38.png, id=1191, 578.16pt x 369.38pt>
 File: tw/tw-38.png Graphic file (type png)
 
 <use tw/tw-38.png>
-Package pdftex.def Info: tw/tw-38.png used on input line 201.
+Package pdftex.def Info: tw/tw-38.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-38.png> <a1,fr38>
-<tw/tw-39.png, id=1205, 578.16pt x 369.38pt>
+<tw/tw-39.png, id=1200, 578.16pt x 369.38pt>
 File: tw/tw-39.png Graphic file (type png)
  <use tw/tw-39.png>
-Package pdftex.def Info: tw/tw-39.png used on input line 201.
+Package pdftex.def Info: tw/tw-39.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-39.png> <a1,fr39> <tw/tw-40.png, id=1214, 578.16pt x 369.38pt>
+ <./tw/tw-39.png> <a1,fr39> <tw/tw-40.png, id=1209, 578.16pt x 369.38pt>
 File: tw/tw-40.png Graphic file (type png)
  <use tw/tw-40.png>
-Package pdftex.def Info: tw/tw-40.png used on input line 201.
+Package pdftex.def Info: tw/tw-40.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-40.png> <a1,fr40> <tw/tw-41.png, id=1223, 578.16pt x 369.38pt>
+ <./tw/tw-40.png> <a1,fr40> <tw/tw-41.png, id=1218, 578.16pt x 369.38pt>
 File: tw/tw-41.png Graphic file (type png)
 
 <use tw/tw-41.png>
-Package pdftex.def Info: tw/tw-41.png used on input line 201.
+Package pdftex.def Info: tw/tw-41.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-41.png> <a1,fr41>
-<tw/tw-42.png, id=1232, 578.16pt x 369.38pt>
+<tw/tw-42.png, id=1227, 578.16pt x 369.38pt>
 File: tw/tw-42.png Graphic file (type png)
  <use tw/tw-42.png>
-Package pdftex.def Info: tw/tw-42.png used on input line 201.
+Package pdftex.def Info: tw/tw-42.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-42.png> <a1,fr42> <tw/tw-43.png, id=1241, 578.16pt x 369.38pt>
+ <./tw/tw-42.png> <a1,fr42> <tw/tw-43.png, id=1236, 578.16pt x 369.38pt>
 File: tw/tw-43.png Graphic file (type png)
  <use tw/tw-43.png>
-Package pdftex.def Info: tw/tw-43.png used on input line 201.
+Package pdftex.def Info: tw/tw-43.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-43.png> <a1,fr43> <tw/tw-44.png, id=1250, 578.16pt x 369.38pt>
+ <./tw/tw-43.png> <a1,fr43> <tw/tw-44.png, id=1245, 578.16pt x 369.38pt>
 File: tw/tw-44.png Graphic file (type png)
 
 <use tw/tw-44.png>
-Package pdftex.def Info: tw/tw-44.png used on input line 201.
+Package pdftex.def Info: tw/tw-44.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-44.png> <a1,fr44>
-<tw/tw-45.png, id=1259, 578.16pt x 369.38pt>
+<tw/tw-45.png, id=1254, 578.16pt x 369.38pt>
 File: tw/tw-45.png Graphic file (type png)
  <use tw/tw-45.png>
-Package pdftex.def Info: tw/tw-45.png used on input line 201.
+Package pdftex.def Info: tw/tw-45.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-45.png> <a1,fr45> <tw/tw-46.png, id=1268, 578.16pt x 369.38pt>
+ <./tw/tw-45.png> <a1,fr45> <tw/tw-46.png, id=1263, 578.16pt x 369.38pt>
 File: tw/tw-46.png Graphic file (type png)
  <use tw/tw-46.png>
-Package pdftex.def Info: tw/tw-46.png used on input line 201.
+Package pdftex.def Info: tw/tw-46.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-46.png> <a1,fr46> <tw/tw-47.png, id=1277, 578.16pt x 369.38pt>
+ <./tw/tw-46.png> <a1,fr46> <tw/tw-47.png, id=1272, 578.16pt x 369.38pt>
 File: tw/tw-47.png Graphic file (type png)
 
 <use tw/tw-47.png>
-Package pdftex.def Info: tw/tw-47.png used on input line 201.
+Package pdftex.def Info: tw/tw-47.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-47.png> <a1,fr47>
-<tw/tw-48.png, id=1286, 578.16pt x 369.38pt>
+<tw/tw-48.png, id=1281, 578.16pt x 369.38pt>
 File: tw/tw-48.png Graphic file (type png)
  <use tw/tw-48.png>
-Package pdftex.def Info: tw/tw-48.png used on input line 201.
+Package pdftex.def Info: tw/tw-48.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-48.png> <a1,fr48> <tw/tw-49.png, id=1295, 578.16pt x 369.38pt>
+ <./tw/tw-48.png> <a1,fr48> <tw/tw-49.png, id=1290, 578.16pt x 369.38pt>
 File: tw/tw-49.png Graphic file (type png)
  <use tw/tw-49.png>
-Package pdftex.def Info: tw/tw-49.png used on input line 201.
+Package pdftex.def Info: tw/tw-49.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-49.png> <a1,fr49> <tw/tw-50.png, id=1304, 578.16pt x 369.38pt>
+ <./tw/tw-49.png> <a1,fr49> <tw/tw-50.png, id=1299, 578.16pt x 369.38pt>
 File: tw/tw-50.png Graphic file (type png)
 
 <use tw/tw-50.png>
-Package pdftex.def Info: tw/tw-50.png used on input line 201.
+Package pdftex.def Info: tw/tw-50.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-50.png> <a1,fr50>
-<tw/tw-51.png, id=1313, 578.16pt x 369.38pt>
+<tw/tw-51.png, id=1308, 578.16pt x 369.38pt>
 File: tw/tw-51.png Graphic file (type png)
  <use tw/tw-51.png>
-Package pdftex.def Info: tw/tw-51.png used on input line 201.
+Package pdftex.def Info: tw/tw-51.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-51.png> <a1,fr51> <tw/tw-52.png, id=1322, 578.16pt x 369.38pt>
+ <./tw/tw-51.png> <a1,fr51> <tw/tw-52.png, id=1317, 578.16pt x 369.38pt>
 File: tw/tw-52.png Graphic file (type png)
  <use tw/tw-52.png>
-Package pdftex.def Info: tw/tw-52.png used on input line 201.
+Package pdftex.def Info: tw/tw-52.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-52.png> <a1,fr52> <tw/tw-53.png, id=1331, 578.16pt x 369.38pt>
+ <./tw/tw-52.png> <a1,fr52> <tw/tw-53.png, id=1326, 578.16pt x 369.38pt>
 File: tw/tw-53.png Graphic file (type png)
 
 <use tw/tw-53.png>
-Package pdftex.def Info: tw/tw-53.png used on input line 201.
+Package pdftex.def Info: tw/tw-53.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-53.png> <a1,fr53>
-<tw/tw-54.png, id=1340, 578.16pt x 369.38pt>
+<tw/tw-54.png, id=1335, 578.16pt x 369.38pt>
 File: tw/tw-54.png Graphic file (type png)
  <use tw/tw-54.png>
-Package pdftex.def Info: tw/tw-54.png used on input line 201.
+Package pdftex.def Info: tw/tw-54.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-54.png> <a1,fr54> <tw/tw-55.png, id=1349, 578.16pt x 369.38pt>
+ <./tw/tw-54.png> <a1,fr54> <tw/tw-55.png, id=1344, 578.16pt x 369.38pt>
 File: tw/tw-55.png Graphic file (type png)
  <use tw/tw-55.png>
-Package pdftex.def Info: tw/tw-55.png used on input line 201.
+Package pdftex.def Info: tw/tw-55.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-55.png> <a1,fr55> <tw/tw-56.png, id=1358, 578.16pt x 369.38pt>
+ <./tw/tw-55.png> <a1,fr55> <tw/tw-56.png, id=1353, 578.16pt x 369.38pt>
 File: tw/tw-56.png Graphic file (type png)
 
 <use tw/tw-56.png>
-Package pdftex.def Info: tw/tw-56.png used on input line 201.
+Package pdftex.def Info: tw/tw-56.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-56.png> <a1,fr56>
-<tw/tw-57.png, id=1368, 578.16pt x 369.38pt>
+<tw/tw-57.png, id=1362, 578.16pt x 369.38pt>
 File: tw/tw-57.png Graphic file (type png)
  <use tw/tw-57.png>
-Package pdftex.def Info: tw/tw-57.png used on input line 201.
+Package pdftex.def Info: tw/tw-57.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-57.png> <a1,fr57> <tw/tw-58.png, id=1377, 578.16pt x 369.38pt>
+ <./tw/tw-57.png> <a1,fr57> <tw/tw-58.png, id=1371, 578.16pt x 369.38pt>
 File: tw/tw-58.png Graphic file (type png)
  <use tw/tw-58.png>
-Package pdftex.def Info: tw/tw-58.png used on input line 201.
+Package pdftex.def Info: tw/tw-58.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-58.png> <a1,fr58> <tw/tw-59.png, id=1386, 578.16pt x 369.38pt>
+ <./tw/tw-58.png> <a1,fr58> <tw/tw-59.png, id=1380, 578.16pt x 369.38pt>
 File: tw/tw-59.png Graphic file (type png)
 
 <use tw/tw-59.png>
-Package pdftex.def Info: tw/tw-59.png used on input line 201.
+Package pdftex.def Info: tw/tw-59.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-59.png> <a1,fr59>
-<tw/tw-60.png, id=1395, 578.16pt x 369.38pt>
+<tw/tw-60.png, id=1389, 578.16pt x 369.38pt>
 File: tw/tw-60.png Graphic file (type png)
  <use tw/tw-60.png>
-Package pdftex.def Info: tw/tw-60.png used on input line 201.
+Package pdftex.def Info: tw/tw-60.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-60.png> <a1,fr60> <tw/tw-61.png, id=1404, 578.16pt x 369.38pt>
+ <./tw/tw-60.png> <a1,fr60> <tw/tw-61.png, id=1398, 578.16pt x 369.38pt>
 File: tw/tw-61.png Graphic file (type png)
  <use tw/tw-61.png>
-Package pdftex.def Info: tw/tw-61.png used on input line 201.
+Package pdftex.def Info: tw/tw-61.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-61.png> <a1,fr61> <tw/tw-62.png, id=1413, 578.16pt x 369.38pt>
+ <./tw/tw-61.png> <a1,fr61> <tw/tw-62.png, id=1407, 578.16pt x 369.38pt>
 File: tw/tw-62.png Graphic file (type png)
 
 <use tw/tw-62.png>
-Package pdftex.def Info: tw/tw-62.png used on input line 201.
+Package pdftex.def Info: tw/tw-62.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-62.png> <a1,fr62>
-<tw/tw-63.png, id=1422, 578.16pt x 369.38pt>
+<tw/tw-63.png, id=1416, 578.16pt x 369.38pt>
 File: tw/tw-63.png Graphic file (type png)
  <use tw/tw-63.png>
-Package pdftex.def Info: tw/tw-63.png used on input line 201.
+Package pdftex.def Info: tw/tw-63.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-63.png> <a1,fr63> <tw/tw-64.png, id=1431, 578.16pt x 369.38pt>
+ <./tw/tw-63.png> <a1,fr63> <tw/tw-64.png, id=1425, 578.16pt x 369.38pt>
 File: tw/tw-64.png Graphic file (type png)
  <use tw/tw-64.png>
-Package pdftex.def Info: tw/tw-64.png used on input line 201.
+Package pdftex.def Info: tw/tw-64.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-64.png> <a1,fr64> <tw/tw-65.png, id=1440, 578.16pt x 369.38pt>
+ <./tw/tw-64.png> <a1,fr64> <tw/tw-65.png, id=1434, 578.16pt x 369.38pt>
 File: tw/tw-65.png Graphic file (type png)
 
 <use tw/tw-65.png>
-Package pdftex.def Info: tw/tw-65.png used on input line 201.
+Package pdftex.def Info: tw/tw-65.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-65.png> <a1,fr65>
-<tw/tw-66.png, id=1449, 578.16pt x 369.38pt>
+<tw/tw-66.png, id=1443, 578.16pt x 369.38pt>
 File: tw/tw-66.png Graphic file (type png)
  <use tw/tw-66.png>
-Package pdftex.def Info: tw/tw-66.png used on input line 201.
+Package pdftex.def Info: tw/tw-66.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-66.png> <a1,fr66> <tw/tw-67.png, id=1458, 578.16pt x 369.38pt>
+ <./tw/tw-66.png> <a1,fr66> <tw/tw-67.png, id=1452, 578.16pt x 369.38pt>
 File: tw/tw-67.png Graphic file (type png)
  <use tw/tw-67.png>
-Package pdftex.def Info: tw/tw-67.png used on input line 201.
+Package pdftex.def Info: tw/tw-67.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-67.png> <a1,fr67> <tw/tw-68.png, id=1467, 578.16pt x 369.38pt>
+ <./tw/tw-67.png> <a1,fr67> <tw/tw-68.png, id=1461, 578.16pt x 369.38pt>
 File: tw/tw-68.png Graphic file (type png)
 
 <use tw/tw-68.png>
-Package pdftex.def Info: tw/tw-68.png used on input line 201.
+Package pdftex.def Info: tw/tw-68.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-68.png> <a1,fr68>
-<tw/tw-69.png, id=1476, 578.16pt x 369.38pt>
+<tw/tw-69.png, id=1470, 578.16pt x 369.38pt>
 File: tw/tw-69.png Graphic file (type png)
  <use tw/tw-69.png>
-Package pdftex.def Info: tw/tw-69.png used on input line 201.
+Package pdftex.def Info: tw/tw-69.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-69.png> <a1,fr69> <tw/tw-70.png, id=1485, 578.16pt x 369.38pt>
+ <./tw/tw-69.png> <a1,fr69> <tw/tw-70.png, id=1479, 578.16pt x 369.38pt>
 File: tw/tw-70.png Graphic file (type png)
  <use tw/tw-70.png>
-Package pdftex.def Info: tw/tw-70.png used on input line 201.
+Package pdftex.def Info: tw/tw-70.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-70.png> <a1,fr70> <tw/tw-71.png, id=1494, 578.16pt x 369.38pt>
+ <./tw/tw-70.png> <a1,fr70> <tw/tw-71.png, id=1488, 578.16pt x 369.38pt>
 File: tw/tw-71.png Graphic file (type png)
 
 <use tw/tw-71.png>
-Package pdftex.def Info: tw/tw-71.png used on input line 201.
+Package pdftex.def Info: tw/tw-71.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-71.png> <a1,fr71>
-<tw/tw-72.png, id=1503, 578.16pt x 369.38pt>
+<tw/tw-72.png, id=1497, 578.16pt x 369.38pt>
 File: tw/tw-72.png Graphic file (type png)
  <use tw/tw-72.png>
-Package pdftex.def Info: tw/tw-72.png used on input line 201.
+Package pdftex.def Info: tw/tw-72.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-72.png> <a1,fr72> <tw/tw-73.png, id=1512, 578.16pt x 369.38pt>
+ <./tw/tw-72.png> <a1,fr72> <tw/tw-73.png, id=1506, 578.16pt x 369.38pt>
 File: tw/tw-73.png Graphic file (type png)
  <use tw/tw-73.png>
-Package pdftex.def Info: tw/tw-73.png used on input line 201.
+Package pdftex.def Info: tw/tw-73.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-73.png> <a1,fr73> <tw/tw-74.png, id=1521, 578.16pt x 369.38pt>
+ <./tw/tw-73.png> <a1,fr73> <tw/tw-74.png, id=1515, 578.16pt x 369.38pt>
 File: tw/tw-74.png Graphic file (type png)
 
 <use tw/tw-74.png>
-Package pdftex.def Info: tw/tw-74.png used on input line 201.
+Package pdftex.def Info: tw/tw-74.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-74.png> <a1,fr74>
-<tw/tw-75.png, id=1530, 578.16pt x 369.38pt>
+<tw/tw-75.png, id=1524, 578.16pt x 369.38pt>
 File: tw/tw-75.png Graphic file (type png)
  <use tw/tw-75.png>
-Package pdftex.def Info: tw/tw-75.png used on input line 201.
+Package pdftex.def Info: tw/tw-75.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-75.png> <a1,fr75> <tw/tw-76.png, id=1539, 578.16pt x 369.38pt>
+ <./tw/tw-75.png> <a1,fr75> <tw/tw-76.png, id=1533, 578.16pt x 369.38pt>
 File: tw/tw-76.png Graphic file (type png)
  <use tw/tw-76.png>
-Package pdftex.def Info: tw/tw-76.png used on input line 201.
+Package pdftex.def Info: tw/tw-76.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-76.png> <a1,fr76> <tw/tw-77.png, id=1548, 578.16pt x 369.38pt>
+ <./tw/tw-76.png> <a1,fr76> <tw/tw-77.png, id=1542, 578.16pt x 369.38pt>
 File: tw/tw-77.png Graphic file (type png)
 
 <use tw/tw-77.png>
-Package pdftex.def Info: tw/tw-77.png used on input line 201.
+Package pdftex.def Info: tw/tw-77.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-77.png> <a1,fr77>
-<tw/tw-78.png, id=1557, 578.16pt x 369.38pt>
+<tw/tw-78.png, id=1551, 578.16pt x 369.38pt>
 File: tw/tw-78.png Graphic file (type png)
  <use tw/tw-78.png>
-Package pdftex.def Info: tw/tw-78.png used on input line 201.
+Package pdftex.def Info: tw/tw-78.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-78.png> <a1,fr78> <tw/tw-79.png, id=1566, 578.16pt x 369.38pt>
+ <./tw/tw-78.png> <a1,fr78> <tw/tw-79.png, id=1560, 578.16pt x 369.38pt>
 File: tw/tw-79.png Graphic file (type png)
  <use tw/tw-79.png>
-Package pdftex.def Info: tw/tw-79.png used on input line 201.
+Package pdftex.def Info: tw/tw-79.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-79.png> <a1,fr79> <tw/tw-80.png, id=1575, 578.16pt x 369.38pt>
+ <./tw/tw-79.png> <a1,fr79> <tw/tw-80.png, id=1569, 578.16pt x 369.38pt>
 File: tw/tw-80.png Graphic file (type png)
 
 <use tw/tw-80.png>
-Package pdftex.def Info: tw/tw-80.png used on input line 201.
+Package pdftex.def Info: tw/tw-80.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-80.png> <a1,fr80>
-<tw/tw-81.png, id=1584, 578.16pt x 369.38pt>
+<tw/tw-81.png, id=1578, 578.16pt x 369.38pt>
 File: tw/tw-81.png Graphic file (type png)
  <use tw/tw-81.png>
-Package pdftex.def Info: tw/tw-81.png used on input line 201.
+Package pdftex.def Info: tw/tw-81.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-81.png> <a1,fr81> <tw/tw-82.png, id=1593, 578.16pt x 369.38pt>
+ <./tw/tw-81.png> <a1,fr81> <tw/tw-82.png, id=1587, 578.16pt x 369.38pt>
 File: tw/tw-82.png Graphic file (type png)
  <use tw/tw-82.png>
-Package pdftex.def Info: tw/tw-82.png used on input line 201.
+Package pdftex.def Info: tw/tw-82.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-82.png> <a1,fr82> <tw/tw-83.png, id=1602, 578.16pt x 369.38pt>
+ <./tw/tw-82.png> <a1,fr82> <tw/tw-83.png, id=1596, 578.16pt x 369.38pt>
 File: tw/tw-83.png Graphic file (type png)
 
 <use tw/tw-83.png>
-Package pdftex.def Info: tw/tw-83.png used on input line 201.
+Package pdftex.def Info: tw/tw-83.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-83.png> <a1,fr83>
-<tw/tw-84.png, id=1611, 578.16pt x 369.38pt>
+<tw/tw-84.png, id=1605, 578.16pt x 369.38pt>
 File: tw/tw-84.png Graphic file (type png)
  <use tw/tw-84.png>
-Package pdftex.def Info: tw/tw-84.png used on input line 201.
+Package pdftex.def Info: tw/tw-84.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-84.png> <a1,fr84> <tw/tw-85.png, id=1620, 578.16pt x 369.38pt>
+ <./tw/tw-84.png> <a1,fr84> <tw/tw-85.png, id=1614, 578.16pt x 369.38pt>
 File: tw/tw-85.png Graphic file (type png)
  <use tw/tw-85.png>
-Package pdftex.def Info: tw/tw-85.png used on input line 201.
+Package pdftex.def Info: tw/tw-85.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-85.png> <a1,fr85> <tw/tw-86.png, id=1629, 578.16pt x 369.38pt>
+ <./tw/tw-85.png> <a1,fr85> <tw/tw-86.png, id=1623, 578.16pt x 369.38pt>
 File: tw/tw-86.png Graphic file (type png)
 
 <use tw/tw-86.png>
-Package pdftex.def Info: tw/tw-86.png used on input line 201.
+Package pdftex.def Info: tw/tw-86.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-86.png> <a1,fr86>
-<tw/tw-87.png, id=1638, 578.16pt x 369.38pt>
+<tw/tw-87.png, id=1632, 578.16pt x 369.38pt>
 File: tw/tw-87.png Graphic file (type png)
  <use tw/tw-87.png>
-Package pdftex.def Info: tw/tw-87.png used on input line 201.
+Package pdftex.def Info: tw/tw-87.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-87.png> <a1,fr87> <tw/tw-88.png, id=1647, 578.16pt x 369.38pt>
+ <./tw/tw-87.png> <a1,fr87> <tw/tw-88.png, id=1641, 578.16pt x 369.38pt>
 File: tw/tw-88.png Graphic file (type png)
  <use tw/tw-88.png>
-Package pdftex.def Info: tw/tw-88.png used on input line 201.
+Package pdftex.def Info: tw/tw-88.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-88.png> <a1,fr88> <tw/tw-89.png, id=1656, 578.16pt x 369.38pt>
+ <./tw/tw-88.png> <a1,fr88> <tw/tw-89.png, id=1650, 578.16pt x 369.38pt>
 File: tw/tw-89.png Graphic file (type png)
 
 <use tw/tw-89.png>
-Package pdftex.def Info: tw/tw-89.png used on input line 201.
+Package pdftex.def Info: tw/tw-89.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-89.png> <a1,fr89>
-<tw/tw-90.png, id=1666, 578.16pt x 369.38pt>
+<tw/tw-90.png, id=1659, 578.16pt x 369.38pt>
 File: tw/tw-90.png Graphic file (type png)
  <use tw/tw-90.png>
-Package pdftex.def Info: tw/tw-90.png used on input line 201.
+Package pdftex.def Info: tw/tw-90.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-90.png> <a1,fr90> <tw/tw-91.png, id=1675, 578.16pt x 369.38pt>
+ <./tw/tw-90.png> <a1,fr90> <tw/tw-91.png, id=1668, 578.16pt x 369.38pt>
 File: tw/tw-91.png Graphic file (type png)
  <use tw/tw-91.png>
-Package pdftex.def Info: tw/tw-91.png used on input line 201.
+Package pdftex.def Info: tw/tw-91.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-91.png> <a1,fr91> <tw/tw-92.png, id=1684, 578.16pt x 369.38pt>
+ <./tw/tw-91.png> <a1,fr91> <tw/tw-92.png, id=1677, 578.16pt x 369.38pt>
 File: tw/tw-92.png Graphic file (type png)
 
 <use tw/tw-92.png>
-Package pdftex.def Info: tw/tw-92.png used on input line 201.
+Package pdftex.def Info: tw/tw-92.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-92.png> <a1,fr92>
-<tw/tw-93.png, id=1693, 578.16pt x 369.38pt>
+<tw/tw-93.png, id=1686, 578.16pt x 369.38pt>
 File: tw/tw-93.png Graphic file (type png)
  <use tw/tw-93.png>
-Package pdftex.def Info: tw/tw-93.png used on input line 201.
+Package pdftex.def Info: tw/tw-93.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-93.png> <a1,fr93> <tw/tw-94.png, id=1702, 578.16pt x 369.38pt>
+ <./tw/tw-93.png> <a1,fr93> <tw/tw-94.png, id=1695, 578.16pt x 369.38pt>
 File: tw/tw-94.png Graphic file (type png)
  <use tw/tw-94.png>
-Package pdftex.def Info: tw/tw-94.png used on input line 201.
+Package pdftex.def Info: tw/tw-94.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-94.png> <a1,fr94> <tw/tw-95.png, id=1711, 578.16pt x 369.38pt>
+ <./tw/tw-94.png> <a1,fr94> <tw/tw-95.png, id=1704, 578.16pt x 369.38pt>
 File: tw/tw-95.png Graphic file (type png)
 
 <use tw/tw-95.png>
-Package pdftex.def Info: tw/tw-95.png used on input line 201.
+Package pdftex.def Info: tw/tw-95.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-95.png> <a1,fr95>
-<tw/tw-96.png, id=1720, 578.16pt x 369.38pt>
+<tw/tw-96.png, id=1713, 578.16pt x 369.38pt>
 File: tw/tw-96.png Graphic file (type png)
  <use tw/tw-96.png>
-Package pdftex.def Info: tw/tw-96.png used on input line 201.
+Package pdftex.def Info: tw/tw-96.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-96.png> <a1,fr96> <tw/tw-97.png, id=1729, 578.16pt x 369.38pt>
+ <./tw/tw-96.png> <a1,fr96> <tw/tw-97.png, id=1722, 578.16pt x 369.38pt>
 File: tw/tw-97.png Graphic file (type png)
  <use tw/tw-97.png>
-Package pdftex.def Info: tw/tw-97.png used on input line 201.
+Package pdftex.def Info: tw/tw-97.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-97.png> <a1,fr97> <tw/tw-98.png, id=1738, 578.16pt x 369.38pt>
+ <./tw/tw-97.png> <a1,fr97> <tw/tw-98.png, id=1731, 578.16pt x 369.38pt>
 File: tw/tw-98.png Graphic file (type png)
 
 <use tw/tw-98.png>
-Package pdftex.def Info: tw/tw-98.png used on input line 201.
+Package pdftex.def Info: tw/tw-98.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-98.png> <a1,fr98>
-<tw/tw-99.png, id=1747, 578.16pt x 369.38pt>
+<tw/tw-99.png, id=1740, 578.16pt x 369.38pt>
 File: tw/tw-99.png Graphic file (type png)
  <use tw/tw-99.png>
-Package pdftex.def Info: tw/tw-99.png used on input line 201.
+Package pdftex.def Info: tw/tw-99.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
- <./tw/tw-99.png> <a1,fr99> <tw/tw-100.png, id=1756, 578.16pt x 369.38pt>
+ <./tw/tw-99.png> <a1,fr99> <tw/tw-100.png, id=1749, 578.16pt x 369.38pt>
 File: tw/tw-100.png Graphic file (type png)
  <use tw/tw-100.png>
-Package pdftex.def Info: tw/tw-100.png used on input line 201.
+Package pdftex.def Info: tw/tw-100.png used on input line 212.
 (pdftex.def)             Requested size: 578.15858pt x 369.37909pt.
  <./tw/tw-100.png> <a1,fr100> [14
 
 ]
-<thresholdSpeed1.jpg, id=1808, 1124.2pt x 843.15pt>
+<thresholdSpeed1.jpg, id=1800, 1124.2pt x 843.15pt>
 File: thresholdSpeed1.jpg Graphic file (type jpg)
  <use thresholdSpeed1.jpg>
-Package pdftex.def Info: thresholdSpeed1.jpg used on input line 221.
+Package pdftex.def Info: thresholdSpeed1.jpg used on input line 232.
 (pdftex.def)             Requested size: 191.11147pt x 143.3336pt.
 
-Overfull \hbox (6.73567pt too wide) in paragraph at lines 221--221
+Overfull \hbox (6.73567pt too wide) in paragraph at lines 232--232
  [] 
  []
 
@@ -2302,638 +2455,638 @@ Overfull \hbox (6.73567pt too wide) in paragraph at lines 221--221
  <./thresholdSpeed1.jpg>] [16
 
 ]
-<pt/pt-0.png, id=1860, 716.6775pt x 361.35pt>
+<pt/pt-0.png, id=1851, 716.6775pt x 361.35pt>
 File: pt/pt-0.png Graphic file (type png)
  <use pt/pt-0.png>
-Package pdftex.def Info: pt/pt-0.png used on input line 244.
+Package pdftex.def Info: pt/pt-0.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-0.png> <a2,fr0> <pt/pt-1.png, id=1869, 716.6775pt x 361.35pt>
+ <./pt/pt-0.png> <a2,fr0> <pt/pt-1.png, id=1860, 716.6775pt x 361.35pt>
 File: pt/pt-1.png Graphic file (type png)
  <use pt/pt-1.png>
-Package pdftex.def Info: pt/pt-1.png used on input line 244.
+Package pdftex.def Info: pt/pt-1.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-1.png> <a2,fr1> <pt/pt-2.png, id=1878, 716.6775pt x 361.35pt>
+ <./pt/pt-1.png> <a2,fr1> <pt/pt-2.png, id=1869, 716.6775pt x 361.35pt>
 File: pt/pt-2.png Graphic file (type png)
 
 <use pt/pt-2.png>
-Package pdftex.def Info: pt/pt-2.png used on input line 244.
+Package pdftex.def Info: pt/pt-2.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-2.png> <a2,fr2>
-<pt/pt-3.png, id=1887, 716.6775pt x 361.35pt>
+<pt/pt-3.png, id=1878, 716.6775pt x 361.35pt>
 File: pt/pt-3.png Graphic file (type png)
  <use pt/pt-3.png>
-Package pdftex.def Info: pt/pt-3.png used on input line 244.
+Package pdftex.def Info: pt/pt-3.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-3.png> <a2,fr3> <pt/pt-4.png, id=1896, 716.6775pt x 361.35pt>
+ <./pt/pt-3.png> <a2,fr3> <pt/pt-4.png, id=1887, 716.6775pt x 361.35pt>
 File: pt/pt-4.png Graphic file (type png)
  <use pt/pt-4.png>
-Package pdftex.def Info: pt/pt-4.png used on input line 244.
+Package pdftex.def Info: pt/pt-4.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-4.png> <a2,fr4> <pt/pt-5.png, id=1905, 716.6775pt x 361.35pt>
+ <./pt/pt-4.png> <a2,fr4> <pt/pt-5.png, id=1896, 716.6775pt x 361.35pt>
 File: pt/pt-5.png Graphic file (type png)
 
 <use pt/pt-5.png>
-Package pdftex.def Info: pt/pt-5.png used on input line 244.
+Package pdftex.def Info: pt/pt-5.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-5.png> <a2,fr5>
-<pt/pt-6.png, id=1914, 716.6775pt x 361.35pt>
+<pt/pt-6.png, id=1905, 716.6775pt x 361.35pt>
 File: pt/pt-6.png Graphic file (type png)
  <use pt/pt-6.png>
-Package pdftex.def Info: pt/pt-6.png used on input line 244.
+Package pdftex.def Info: pt/pt-6.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-6.png> <a2,fr6> <pt/pt-7.png, id=1923, 716.6775pt x 361.35pt>
+ <./pt/pt-6.png> <a2,fr6> <pt/pt-7.png, id=1914, 716.6775pt x 361.35pt>
 File: pt/pt-7.png Graphic file (type png)
  <use pt/pt-7.png>
-Package pdftex.def Info: pt/pt-7.png used on input line 244.
+Package pdftex.def Info: pt/pt-7.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-7.png> <a2,fr7> <pt/pt-8.png, id=1932, 716.6775pt x 361.35pt>
+ <./pt/pt-7.png> <a2,fr7> <pt/pt-8.png, id=1923, 716.6775pt x 361.35pt>
 File: pt/pt-8.png Graphic file (type png)
 
 <use pt/pt-8.png>
-Package pdftex.def Info: pt/pt-8.png used on input line 244.
+Package pdftex.def Info: pt/pt-8.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-8.png> <a2,fr8>
-<pt/pt-9.png, id=1941, 716.6775pt x 361.35pt>
+<pt/pt-9.png, id=1932, 716.6775pt x 361.35pt>
 File: pt/pt-9.png Graphic file (type png)
  <use pt/pt-9.png>
-Package pdftex.def Info: pt/pt-9.png used on input line 244.
+Package pdftex.def Info: pt/pt-9.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-9.png> <a2,fr9> <pt/pt-10.png, id=1950, 716.6775pt x 361.35pt>
+ <./pt/pt-9.png> <a2,fr9> <pt/pt-10.png, id=1941, 716.6775pt x 361.35pt>
 File: pt/pt-10.png Graphic file (type png)
  <use pt/pt-10.png>
-Package pdftex.def Info: pt/pt-10.png used on input line 244.
+Package pdftex.def Info: pt/pt-10.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-10.png> <a2,fr10> <pt/pt-11.png, id=1959, 716.6775pt x 361.35pt>
+ <./pt/pt-10.png> <a2,fr10> <pt/pt-11.png, id=1950, 716.6775pt x 361.35pt>
 File: pt/pt-11.png Graphic file (type png)
 
 <use pt/pt-11.png>
-Package pdftex.def Info: pt/pt-11.png used on input line 244.
+Package pdftex.def Info: pt/pt-11.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-11.png> <a2,fr11>
-<pt/pt-12.png, id=1968, 716.6775pt x 361.35pt>
+<pt/pt-12.png, id=1959, 716.6775pt x 361.35pt>
 File: pt/pt-12.png Graphic file (type png)
  <use pt/pt-12.png>
-Package pdftex.def Info: pt/pt-12.png used on input line 244.
+Package pdftex.def Info: pt/pt-12.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-12.png> <a2,fr12> <pt/pt-13.png, id=1977, 716.6775pt x 361.35pt>
+ <./pt/pt-12.png> <a2,fr12> <pt/pt-13.png, id=1968, 716.6775pt x 361.35pt>
 File: pt/pt-13.png Graphic file (type png)
 
 <use pt/pt-13.png>
-Package pdftex.def Info: pt/pt-13.png used on input line 244.
+Package pdftex.def Info: pt/pt-13.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-13.png> <a2,fr13>
-<pt/pt-14.png, id=1986, 716.6775pt x 361.35pt>
+<pt/pt-14.png, id=1977, 716.6775pt x 361.35pt>
 File: pt/pt-14.png Graphic file (type png)
  <use pt/pt-14.png>
-Package pdftex.def Info: pt/pt-14.png used on input line 244.
+Package pdftex.def Info: pt/pt-14.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-14.png> <a2,fr14> <pt/pt-15.png, id=1995, 716.6775pt x 361.35pt>
+ <./pt/pt-14.png> <a2,fr14> <pt/pt-15.png, id=1986, 716.6775pt x 361.35pt>
 File: pt/pt-15.png Graphic file (type png)
 
 <use pt/pt-15.png>
-Package pdftex.def Info: pt/pt-15.png used on input line 244.
+Package pdftex.def Info: pt/pt-15.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-15.png> <a2,fr15>
-<pt/pt-16.png, id=2004, 716.6775pt x 361.35pt>
+<pt/pt-16.png, id=1995, 716.6775pt x 361.35pt>
 File: pt/pt-16.png Graphic file (type png)
  <use pt/pt-16.png>
-Package pdftex.def Info: pt/pt-16.png used on input line 244.
+Package pdftex.def Info: pt/pt-16.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-16.png> <a2,fr16> <pt/pt-17.png, id=2013, 716.6775pt x 361.35pt>
+ <./pt/pt-16.png> <a2,fr16> <pt/pt-17.png, id=2004, 716.6775pt x 361.35pt>
 File: pt/pt-17.png Graphic file (type png)
 
 <use pt/pt-17.png>
-Package pdftex.def Info: pt/pt-17.png used on input line 244.
+Package pdftex.def Info: pt/pt-17.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-17.png> <a2,fr17>
-<pt/pt-18.png, id=2022, 716.6775pt x 361.35pt>
+<pt/pt-18.png, id=2013, 716.6775pt x 361.35pt>
 File: pt/pt-18.png Graphic file (type png)
  <use pt/pt-18.png>
-Package pdftex.def Info: pt/pt-18.png used on input line 244.
+Package pdftex.def Info: pt/pt-18.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-18.png> <a2,fr18> <pt/pt-19.png, id=2031, 716.6775pt x 361.35pt>
+ <./pt/pt-18.png> <a2,fr18> <pt/pt-19.png, id=2022, 716.6775pt x 361.35pt>
 File: pt/pt-19.png Graphic file (type png)
 
 <use pt/pt-19.png>
-Package pdftex.def Info: pt/pt-19.png used on input line 244.
+Package pdftex.def Info: pt/pt-19.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-19.png> <a2,fr19>
-<pt/pt-20.png, id=2040, 716.6775pt x 361.35pt>
+<pt/pt-20.png, id=2031, 716.6775pt x 361.35pt>
 File: pt/pt-20.png Graphic file (type png)
  <use pt/pt-20.png>
-Package pdftex.def Info: pt/pt-20.png used on input line 244.
+Package pdftex.def Info: pt/pt-20.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-20.png> <a2,fr20> <pt/pt-21.png, id=2049, 716.6775pt x 361.35pt>
+ <./pt/pt-20.png> <a2,fr20> <pt/pt-21.png, id=2040, 716.6775pt x 361.35pt>
 File: pt/pt-21.png Graphic file (type png)
 
 <use pt/pt-21.png>
-Package pdftex.def Info: pt/pt-21.png used on input line 244.
+Package pdftex.def Info: pt/pt-21.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-21.png> <a2,fr21>
-<pt/pt-22.png, id=2058, 716.6775pt x 361.35pt>
+<pt/pt-22.png, id=2049, 716.6775pt x 361.35pt>
 File: pt/pt-22.png Graphic file (type png)
  <use pt/pt-22.png>
-Package pdftex.def Info: pt/pt-22.png used on input line 244.
+Package pdftex.def Info: pt/pt-22.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-22.png> <a2,fr22> <pt/pt-23.png, id=2067, 716.6775pt x 361.35pt>
+ <./pt/pt-22.png> <a2,fr22> <pt/pt-23.png, id=2058, 716.6775pt x 361.35pt>
 File: pt/pt-23.png Graphic file (type png)
 
 <use pt/pt-23.png>
-Package pdftex.def Info: pt/pt-23.png used on input line 244.
+Package pdftex.def Info: pt/pt-23.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-23.png> <a2,fr23>
-<pt/pt-24.png, id=2076, 716.6775pt x 361.35pt>
+<pt/pt-24.png, id=2067, 716.6775pt x 361.35pt>
 File: pt/pt-24.png Graphic file (type png)
  <use pt/pt-24.png>
-Package pdftex.def Info: pt/pt-24.png used on input line 244.
+Package pdftex.def Info: pt/pt-24.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-24.png> <a2,fr24> <pt/pt-25.png, id=2085, 716.6775pt x 361.35pt>
+ <./pt/pt-24.png> <a2,fr24> <pt/pt-25.png, id=2076, 716.6775pt x 361.35pt>
 File: pt/pt-25.png Graphic file (type png)
 
 <use pt/pt-25.png>
-Package pdftex.def Info: pt/pt-25.png used on input line 244.
+Package pdftex.def Info: pt/pt-25.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-25.png> <a2,fr25>
-<pt/pt-26.png, id=2095, 716.6775pt x 361.35pt>
+<pt/pt-26.png, id=2085, 716.6775pt x 361.35pt>
 File: pt/pt-26.png Graphic file (type png)
  <use pt/pt-26.png>
-Package pdftex.def Info: pt/pt-26.png used on input line 244.
+Package pdftex.def Info: pt/pt-26.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-26.png> <a2,fr26> <pt/pt-27.png, id=2104, 716.6775pt x 361.35pt>
+ <./pt/pt-26.png> <a2,fr26> <pt/pt-27.png, id=2094, 716.6775pt x 361.35pt>
 File: pt/pt-27.png Graphic file (type png)
 
 <use pt/pt-27.png>
-Package pdftex.def Info: pt/pt-27.png used on input line 244.
+Package pdftex.def Info: pt/pt-27.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-27.png> <a2,fr27>
-<pt/pt-28.png, id=2113, 716.6775pt x 361.35pt>
+<pt/pt-28.png, id=2103, 716.6775pt x 361.35pt>
 File: pt/pt-28.png Graphic file (type png)
  <use pt/pt-28.png>
-Package pdftex.def Info: pt/pt-28.png used on input line 244.
+Package pdftex.def Info: pt/pt-28.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-28.png> <a2,fr28> <pt/pt-29.png, id=2122, 716.6775pt x 361.35pt>
+ <./pt/pt-28.png> <a2,fr28> <pt/pt-29.png, id=2112, 716.6775pt x 361.35pt>
 File: pt/pt-29.png Graphic file (type png)
 
 <use pt/pt-29.png>
-Package pdftex.def Info: pt/pt-29.png used on input line 244.
+Package pdftex.def Info: pt/pt-29.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-29.png> <a2,fr29>
-<pt/pt-30.png, id=2131, 716.6775pt x 361.35pt>
+<pt/pt-30.png, id=2121, 716.6775pt x 361.35pt>
 File: pt/pt-30.png Graphic file (type png)
  <use pt/pt-30.png>
-Package pdftex.def Info: pt/pt-30.png used on input line 244.
+Package pdftex.def Info: pt/pt-30.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-30.png> <a2,fr30> <pt/pt-31.png, id=2140, 716.6775pt x 361.35pt>
+ <./pt/pt-30.png> <a2,fr30> <pt/pt-31.png, id=2130, 716.6775pt x 361.35pt>
 File: pt/pt-31.png Graphic file (type png)
 
 <use pt/pt-31.png>
-Package pdftex.def Info: pt/pt-31.png used on input line 244.
+Package pdftex.def Info: pt/pt-31.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-31.png> <a2,fr31>
-<pt/pt-32.png, id=2149, 716.6775pt x 361.35pt>
+<pt/pt-32.png, id=2139, 716.6775pt x 361.35pt>
 File: pt/pt-32.png Graphic file (type png)
  <use pt/pt-32.png>
-Package pdftex.def Info: pt/pt-32.png used on input line 244.
+Package pdftex.def Info: pt/pt-32.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-32.png> <a2,fr32> <pt/pt-33.png, id=2158, 716.6775pt x 361.35pt>
+ <./pt/pt-32.png> <a2,fr32> <pt/pt-33.png, id=2148, 716.6775pt x 361.35pt>
 File: pt/pt-33.png Graphic file (type png)
 
 <use pt/pt-33.png>
-Package pdftex.def Info: pt/pt-33.png used on input line 244.
+Package pdftex.def Info: pt/pt-33.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-33.png> <a2,fr33>
-<pt/pt-34.png, id=2167, 716.6775pt x 361.35pt>
+<pt/pt-34.png, id=2157, 716.6775pt x 361.35pt>
 File: pt/pt-34.png Graphic file (type png)
  <use pt/pt-34.png>
-Package pdftex.def Info: pt/pt-34.png used on input line 244.
+Package pdftex.def Info: pt/pt-34.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-34.png> <a2,fr34> <pt/pt-35.png, id=2176, 716.6775pt x 361.35pt>
+ <./pt/pt-34.png> <a2,fr34> <pt/pt-35.png, id=2166, 716.6775pt x 361.35pt>
 File: pt/pt-35.png Graphic file (type png)
 
 <use pt/pt-35.png>
-Package pdftex.def Info: pt/pt-35.png used on input line 244.
+Package pdftex.def Info: pt/pt-35.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-35.png> <a2,fr35>
-<pt/pt-36.png, id=2185, 716.6775pt x 361.35pt>
+<pt/pt-36.png, id=2175, 716.6775pt x 361.35pt>
 File: pt/pt-36.png Graphic file (type png)
  <use pt/pt-36.png>
-Package pdftex.def Info: pt/pt-36.png used on input line 244.
+Package pdftex.def Info: pt/pt-36.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-36.png> <a2,fr36> <pt/pt-37.png, id=2194, 716.6775pt x 361.35pt>
+ <./pt/pt-36.png> <a2,fr36> <pt/pt-37.png, id=2184, 716.6775pt x 361.35pt>
 File: pt/pt-37.png Graphic file (type png)
 
 <use pt/pt-37.png>
-Package pdftex.def Info: pt/pt-37.png used on input line 244.
+Package pdftex.def Info: pt/pt-37.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-37.png> <a2,fr37>
-<pt/pt-38.png, id=2203, 716.6775pt x 361.35pt>
+<pt/pt-38.png, id=2193, 716.6775pt x 361.35pt>
 File: pt/pt-38.png Graphic file (type png)
  <use pt/pt-38.png>
-Package pdftex.def Info: pt/pt-38.png used on input line 244.
+Package pdftex.def Info: pt/pt-38.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-38.png> <a2,fr38> <pt/pt-39.png, id=2212, 716.6775pt x 361.35pt>
+ <./pt/pt-38.png> <a2,fr38> <pt/pt-39.png, id=2202, 716.6775pt x 361.35pt>
 File: pt/pt-39.png Graphic file (type png)
 
 <use pt/pt-39.png>
-Package pdftex.def Info: pt/pt-39.png used on input line 244.
+Package pdftex.def Info: pt/pt-39.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-39.png> <a2,fr39>
-<pt/pt-40.png, id=2221, 716.6775pt x 361.35pt>
+<pt/pt-40.png, id=2211, 716.6775pt x 361.35pt>
 File: pt/pt-40.png Graphic file (type png)
  <use pt/pt-40.png>
-Package pdftex.def Info: pt/pt-40.png used on input line 244.
+Package pdftex.def Info: pt/pt-40.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-40.png> <a2,fr40> <pt/pt-41.png, id=2230, 716.6775pt x 361.35pt>
+ <./pt/pt-40.png> <a2,fr40> <pt/pt-41.png, id=2220, 716.6775pt x 361.35pt>
 File: pt/pt-41.png Graphic file (type png)
 
 <use pt/pt-41.png>
-Package pdftex.def Info: pt/pt-41.png used on input line 244.
+Package pdftex.def Info: pt/pt-41.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-41.png> <a2,fr41>
-<pt/pt-42.png, id=2239, 716.6775pt x 361.35pt>
+<pt/pt-42.png, id=2229, 716.6775pt x 361.35pt>
 File: pt/pt-42.png Graphic file (type png)
  <use pt/pt-42.png>
-Package pdftex.def Info: pt/pt-42.png used on input line 244.
+Package pdftex.def Info: pt/pt-42.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-42.png> <a2,fr42> <pt/pt-43.png, id=2248, 716.6775pt x 361.35pt>
+ <./pt/pt-42.png> <a2,fr42> <pt/pt-43.png, id=2238, 716.6775pt x 361.35pt>
 File: pt/pt-43.png Graphic file (type png)
 
 <use pt/pt-43.png>
-Package pdftex.def Info: pt/pt-43.png used on input line 244.
+Package pdftex.def Info: pt/pt-43.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-43.png> <a2,fr43>
-<pt/pt-44.png, id=2257, 716.6775pt x 361.35pt>
+<pt/pt-44.png, id=2247, 716.6775pt x 361.35pt>
 File: pt/pt-44.png Graphic file (type png)
  <use pt/pt-44.png>
-Package pdftex.def Info: pt/pt-44.png used on input line 244.
+Package pdftex.def Info: pt/pt-44.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-44.png> <a2,fr44> <pt/pt-45.png, id=2266, 716.6775pt x 361.35pt>
+ <./pt/pt-44.png> <a2,fr44> <pt/pt-45.png, id=2256, 716.6775pt x 361.35pt>
 File: pt/pt-45.png Graphic file (type png)
 
 <use pt/pt-45.png>
-Package pdftex.def Info: pt/pt-45.png used on input line 244.
+Package pdftex.def Info: pt/pt-45.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-45.png> <a2,fr45>
-<pt/pt-46.png, id=2275, 716.6775pt x 361.35pt>
+<pt/pt-46.png, id=2265, 716.6775pt x 361.35pt>
 File: pt/pt-46.png Graphic file (type png)
  <use pt/pt-46.png>
-Package pdftex.def Info: pt/pt-46.png used on input line 244.
+Package pdftex.def Info: pt/pt-46.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-46.png> <a2,fr46> <pt/pt-47.png, id=2284, 716.6775pt x 361.35pt>
+ <./pt/pt-46.png> <a2,fr46> <pt/pt-47.png, id=2274, 716.6775pt x 361.35pt>
 File: pt/pt-47.png Graphic file (type png)
 
 <use pt/pt-47.png>
-Package pdftex.def Info: pt/pt-47.png used on input line 244.
+Package pdftex.def Info: pt/pt-47.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-47.png> <a2,fr47>
-<pt/pt-48.png, id=2293, 716.6775pt x 361.35pt>
+<pt/pt-48.png, id=2283, 716.6775pt x 361.35pt>
 File: pt/pt-48.png Graphic file (type png)
  <use pt/pt-48.png>
-Package pdftex.def Info: pt/pt-48.png used on input line 244.
+Package pdftex.def Info: pt/pt-48.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-48.png> <a2,fr48> <pt/pt-49.png, id=2302, 716.6775pt x 361.35pt>
+ <./pt/pt-48.png> <a2,fr48> <pt/pt-49.png, id=2292, 716.6775pt x 361.35pt>
 File: pt/pt-49.png Graphic file (type png)
 
 <use pt/pt-49.png>
-Package pdftex.def Info: pt/pt-49.png used on input line 244.
+Package pdftex.def Info: pt/pt-49.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-49.png> <a2,fr49>
-<pt/pt-50.png, id=2311, 716.6775pt x 361.35pt>
+<pt/pt-50.png, id=2301, 716.6775pt x 361.35pt>
 File: pt/pt-50.png Graphic file (type png)
  <use pt/pt-50.png>
-Package pdftex.def Info: pt/pt-50.png used on input line 244.
+Package pdftex.def Info: pt/pt-50.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-50.png> <a2,fr50> <pt/pt-51.png, id=2320, 716.6775pt x 361.35pt>
+ <./pt/pt-50.png> <a2,fr50> <pt/pt-51.png, id=2310, 716.6775pt x 361.35pt>
 File: pt/pt-51.png Graphic file (type png)
 
 <use pt/pt-51.png>
-Package pdftex.def Info: pt/pt-51.png used on input line 244.
+Package pdftex.def Info: pt/pt-51.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-51.png> <a2,fr51>
-<pt/pt-52.png, id=2329, 716.6775pt x 361.35pt>
+<pt/pt-52.png, id=2319, 716.6775pt x 361.35pt>
 File: pt/pt-52.png Graphic file (type png)
  <use pt/pt-52.png>
-Package pdftex.def Info: pt/pt-52.png used on input line 244.
+Package pdftex.def Info: pt/pt-52.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-52.png> <a2,fr52> <pt/pt-53.png, id=2338, 716.6775pt x 361.35pt>
+ <./pt/pt-52.png> <a2,fr52> <pt/pt-53.png, id=2328, 716.6775pt x 361.35pt>
 File: pt/pt-53.png Graphic file (type png)
 
 <use pt/pt-53.png>
-Package pdftex.def Info: pt/pt-53.png used on input line 244.
+Package pdftex.def Info: pt/pt-53.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-53.png> <a2,fr53>
-<pt/pt-54.png, id=2347, 716.6775pt x 361.35pt>
+<pt/pt-54.png, id=2337, 716.6775pt x 361.35pt>
 File: pt/pt-54.png Graphic file (type png)
  <use pt/pt-54.png>
-Package pdftex.def Info: pt/pt-54.png used on input line 244.
+Package pdftex.def Info: pt/pt-54.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-54.png> <a2,fr54> <pt/pt-55.png, id=2356, 716.6775pt x 361.35pt>
+ <./pt/pt-54.png> <a2,fr54> <pt/pt-55.png, id=2346, 716.6775pt x 361.35pt>
 File: pt/pt-55.png Graphic file (type png)
 
 <use pt/pt-55.png>
-Package pdftex.def Info: pt/pt-55.png used on input line 244.
+Package pdftex.def Info: pt/pt-55.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-55.png> <a2,fr55>
-<pt/pt-56.png, id=2365, 716.6775pt x 361.35pt>
+<pt/pt-56.png, id=2355, 716.6775pt x 361.35pt>
 File: pt/pt-56.png Graphic file (type png)
  <use pt/pt-56.png>
-Package pdftex.def Info: pt/pt-56.png used on input line 244.
+Package pdftex.def Info: pt/pt-56.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-56.png> <a2,fr56> <pt/pt-57.png, id=2374, 716.6775pt x 361.35pt>
+ <./pt/pt-56.png> <a2,fr56> <pt/pt-57.png, id=2364, 716.6775pt x 361.35pt>
 File: pt/pt-57.png Graphic file (type png)
 
 <use pt/pt-57.png>
-Package pdftex.def Info: pt/pt-57.png used on input line 244.
+Package pdftex.def Info: pt/pt-57.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-57.png> <a2,fr57>
-<pt/pt-58.png, id=2383, 716.6775pt x 361.35pt>
+<pt/pt-58.png, id=2373, 716.6775pt x 361.35pt>
 File: pt/pt-58.png Graphic file (type png)
  <use pt/pt-58.png>
-Package pdftex.def Info: pt/pt-58.png used on input line 244.
+Package pdftex.def Info: pt/pt-58.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-58.png> <a2,fr58> <pt/pt-59.png, id=2392, 716.6775pt x 361.35pt>
+ <./pt/pt-58.png> <a2,fr58> <pt/pt-59.png, id=2382, 716.6775pt x 361.35pt>
 File: pt/pt-59.png Graphic file (type png)
 
 <use pt/pt-59.png>
-Package pdftex.def Info: pt/pt-59.png used on input line 244.
+Package pdftex.def Info: pt/pt-59.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-59.png> <a2,fr59>
-<pt/pt-60.png, id=2402, 716.6775pt x 361.35pt>
+<pt/pt-60.png, id=2391, 716.6775pt x 361.35pt>
 File: pt/pt-60.png Graphic file (type png)
  <use pt/pt-60.png>
-Package pdftex.def Info: pt/pt-60.png used on input line 244.
+Package pdftex.def Info: pt/pt-60.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-60.png> <a2,fr60> <pt/pt-61.png, id=2411, 716.6775pt x 361.35pt>
+ <./pt/pt-60.png> <a2,fr60> <pt/pt-61.png, id=2400, 716.6775pt x 361.35pt>
 File: pt/pt-61.png Graphic file (type png)
 
 <use pt/pt-61.png>
-Package pdftex.def Info: pt/pt-61.png used on input line 244.
+Package pdftex.def Info: pt/pt-61.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-61.png> <a2,fr61>
-<pt/pt-62.png, id=2420, 716.6775pt x 361.35pt>
+<pt/pt-62.png, id=2409, 716.6775pt x 361.35pt>
 File: pt/pt-62.png Graphic file (type png)
  <use pt/pt-62.png>
-Package pdftex.def Info: pt/pt-62.png used on input line 244.
+Package pdftex.def Info: pt/pt-62.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-62.png> <a2,fr62> <pt/pt-63.png, id=2429, 716.6775pt x 361.35pt>
+ <./pt/pt-62.png> <a2,fr62> <pt/pt-63.png, id=2418, 716.6775pt x 361.35pt>
 File: pt/pt-63.png Graphic file (type png)
 
 <use pt/pt-63.png>
-Package pdftex.def Info: pt/pt-63.png used on input line 244.
+Package pdftex.def Info: pt/pt-63.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-63.png> <a2,fr63>
-<pt/pt-64.png, id=2438, 716.6775pt x 361.35pt>
+<pt/pt-64.png, id=2427, 716.6775pt x 361.35pt>
 File: pt/pt-64.png Graphic file (type png)
  <use pt/pt-64.png>
-Package pdftex.def Info: pt/pt-64.png used on input line 244.
+Package pdftex.def Info: pt/pt-64.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-64.png> <a2,fr64> <pt/pt-65.png, id=2447, 716.6775pt x 361.35pt>
+ <./pt/pt-64.png> <a2,fr64> <pt/pt-65.png, id=2436, 716.6775pt x 361.35pt>
 File: pt/pt-65.png Graphic file (type png)
 
 <use pt/pt-65.png>
-Package pdftex.def Info: pt/pt-65.png used on input line 244.
+Package pdftex.def Info: pt/pt-65.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-65.png> <a2,fr65>
-<pt/pt-66.png, id=2456, 716.6775pt x 361.35pt>
+<pt/pt-66.png, id=2445, 716.6775pt x 361.35pt>
 File: pt/pt-66.png Graphic file (type png)
  <use pt/pt-66.png>
-Package pdftex.def Info: pt/pt-66.png used on input line 244.
+Package pdftex.def Info: pt/pt-66.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-66.png> <a2,fr66> <pt/pt-67.png, id=2465, 716.6775pt x 361.35pt>
+ <./pt/pt-66.png> <a2,fr66> <pt/pt-67.png, id=2454, 716.6775pt x 361.35pt>
 File: pt/pt-67.png Graphic file (type png)
 
 <use pt/pt-67.png>
-Package pdftex.def Info: pt/pt-67.png used on input line 244.
+Package pdftex.def Info: pt/pt-67.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-67.png> <a2,fr67>
-<pt/pt-68.png, id=2474, 716.6775pt x 361.35pt>
+<pt/pt-68.png, id=2463, 716.6775pt x 361.35pt>
 File: pt/pt-68.png Graphic file (type png)
  <use pt/pt-68.png>
-Package pdftex.def Info: pt/pt-68.png used on input line 244.
+Package pdftex.def Info: pt/pt-68.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-68.png> <a2,fr68> <pt/pt-69.png, id=2483, 716.6775pt x 361.35pt>
+ <./pt/pt-68.png> <a2,fr68> <pt/pt-69.png, id=2472, 716.6775pt x 361.35pt>
 File: pt/pt-69.png Graphic file (type png)
 
 <use pt/pt-69.png>
-Package pdftex.def Info: pt/pt-69.png used on input line 244.
+Package pdftex.def Info: pt/pt-69.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-69.png> <a2,fr69>
-<pt/pt-70.png, id=2492, 716.6775pt x 361.35pt>
+<pt/pt-70.png, id=2481, 716.6775pt x 361.35pt>
 File: pt/pt-70.png Graphic file (type png)
  <use pt/pt-70.png>
-Package pdftex.def Info: pt/pt-70.png used on input line 244.
+Package pdftex.def Info: pt/pt-70.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-70.png> <a2,fr70> <pt/pt-71.png, id=2501, 716.6775pt x 361.35pt>
+ <./pt/pt-70.png> <a2,fr70> <pt/pt-71.png, id=2490, 716.6775pt x 361.35pt>
 File: pt/pt-71.png Graphic file (type png)
 
 <use pt/pt-71.png>
-Package pdftex.def Info: pt/pt-71.png used on input line 244.
+Package pdftex.def Info: pt/pt-71.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-71.png> <a2,fr71>
-<pt/pt-72.png, id=2510, 716.6775pt x 361.35pt>
+<pt/pt-72.png, id=2499, 716.6775pt x 361.35pt>
 File: pt/pt-72.png Graphic file (type png)
  <use pt/pt-72.png>
-Package pdftex.def Info: pt/pt-72.png used on input line 244.
+Package pdftex.def Info: pt/pt-72.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-72.png> <a2,fr72> <pt/pt-73.png, id=2519, 716.6775pt x 361.35pt>
+ <./pt/pt-72.png> <a2,fr72> <pt/pt-73.png, id=2508, 716.6775pt x 361.35pt>
 File: pt/pt-73.png Graphic file (type png)
 
 <use pt/pt-73.png>
-Package pdftex.def Info: pt/pt-73.png used on input line 244.
+Package pdftex.def Info: pt/pt-73.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-73.png> <a2,fr73>
-<pt/pt-74.png, id=2528, 716.6775pt x 361.35pt>
+<pt/pt-74.png, id=2517, 716.6775pt x 361.35pt>
 File: pt/pt-74.png Graphic file (type png)
  <use pt/pt-74.png>
-Package pdftex.def Info: pt/pt-74.png used on input line 244.
+Package pdftex.def Info: pt/pt-74.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-74.png> <a2,fr74> <pt/pt-75.png, id=2537, 716.6775pt x 361.35pt>
+ <./pt/pt-74.png> <a2,fr74> <pt/pt-75.png, id=2526, 716.6775pt x 361.35pt>
 File: pt/pt-75.png Graphic file (type png)
 
 <use pt/pt-75.png>
-Package pdftex.def Info: pt/pt-75.png used on input line 244.
+Package pdftex.def Info: pt/pt-75.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-75.png> <a2,fr75>
-<pt/pt-76.png, id=2546, 716.6775pt x 361.35pt>
+<pt/pt-76.png, id=2535, 716.6775pt x 361.35pt>
 File: pt/pt-76.png Graphic file (type png)
  <use pt/pt-76.png>
-Package pdftex.def Info: pt/pt-76.png used on input line 244.
+Package pdftex.def Info: pt/pt-76.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-76.png> <a2,fr76> <pt/pt-77.png, id=2555, 716.6775pt x 361.35pt>
+ <./pt/pt-76.png> <a2,fr76> <pt/pt-77.png, id=2544, 716.6775pt x 361.35pt>
 File: pt/pt-77.png Graphic file (type png)
 
 <use pt/pt-77.png>
-Package pdftex.def Info: pt/pt-77.png used on input line 244.
+Package pdftex.def Info: pt/pt-77.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-77.png> <a2,fr77>
-<pt/pt-78.png, id=2564, 716.6775pt x 361.35pt>
+<pt/pt-78.png, id=2553, 716.6775pt x 361.35pt>
 File: pt/pt-78.png Graphic file (type png)
  <use pt/pt-78.png>
-Package pdftex.def Info: pt/pt-78.png used on input line 244.
+Package pdftex.def Info: pt/pt-78.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-78.png> <a2,fr78> <pt/pt-79.png, id=2573, 716.6775pt x 361.35pt>
+ <./pt/pt-78.png> <a2,fr78> <pt/pt-79.png, id=2562, 716.6775pt x 361.35pt>
 File: pt/pt-79.png Graphic file (type png)
 
 <use pt/pt-79.png>
-Package pdftex.def Info: pt/pt-79.png used on input line 244.
+Package pdftex.def Info: pt/pt-79.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-79.png> <a2,fr79>
-<pt/pt-80.png, id=2582, 716.6775pt x 361.35pt>
+<pt/pt-80.png, id=2571, 716.6775pt x 361.35pt>
 File: pt/pt-80.png Graphic file (type png)
  <use pt/pt-80.png>
-Package pdftex.def Info: pt/pt-80.png used on input line 244.
+Package pdftex.def Info: pt/pt-80.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-80.png> <a2,fr80> <pt/pt-81.png, id=2591, 716.6775pt x 361.35pt>
+ <./pt/pt-80.png> <a2,fr80> <pt/pt-81.png, id=2580, 716.6775pt x 361.35pt>
 File: pt/pt-81.png Graphic file (type png)
 
 <use pt/pt-81.png>
-Package pdftex.def Info: pt/pt-81.png used on input line 244.
+Package pdftex.def Info: pt/pt-81.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-81.png> <a2,fr81>
-<pt/pt-82.png, id=2600, 716.6775pt x 361.35pt>
+<pt/pt-82.png, id=2589, 716.6775pt x 361.35pt>
 File: pt/pt-82.png Graphic file (type png)
  <use pt/pt-82.png>
-Package pdftex.def Info: pt/pt-82.png used on input line 244.
+Package pdftex.def Info: pt/pt-82.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-82.png> <a2,fr82> <pt/pt-83.png, id=2609, 716.6775pt x 361.35pt>
+ <./pt/pt-82.png> <a2,fr82> <pt/pt-83.png, id=2598, 716.6775pt x 361.35pt>
 File: pt/pt-83.png Graphic file (type png)
 
 <use pt/pt-83.png>
-Package pdftex.def Info: pt/pt-83.png used on input line 244.
+Package pdftex.def Info: pt/pt-83.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-83.png> <a2,fr83>
-<pt/pt-84.png, id=2618, 716.6775pt x 361.35pt>
+<pt/pt-84.png, id=2607, 716.6775pt x 361.35pt>
 File: pt/pt-84.png Graphic file (type png)
  <use pt/pt-84.png>
-Package pdftex.def Info: pt/pt-84.png used on input line 244.
+Package pdftex.def Info: pt/pt-84.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-84.png> <a2,fr84> <pt/pt-85.png, id=2627, 716.6775pt x 361.35pt>
+ <./pt/pt-84.png> <a2,fr84> <pt/pt-85.png, id=2616, 716.6775pt x 361.35pt>
 File: pt/pt-85.png Graphic file (type png)
 
 <use pt/pt-85.png>
-Package pdftex.def Info: pt/pt-85.png used on input line 244.
+Package pdftex.def Info: pt/pt-85.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-85.png> <a2,fr85>
-<pt/pt-86.png, id=2636, 716.6775pt x 361.35pt>
+<pt/pt-86.png, id=2625, 716.6775pt x 361.35pt>
 File: pt/pt-86.png Graphic file (type png)
  <use pt/pt-86.png>
-Package pdftex.def Info: pt/pt-86.png used on input line 244.
+Package pdftex.def Info: pt/pt-86.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-86.png> <a2,fr86> <pt/pt-87.png, id=2645, 716.6775pt x 361.35pt>
+ <./pt/pt-86.png> <a2,fr86> <pt/pt-87.png, id=2634, 716.6775pt x 361.35pt>
 File: pt/pt-87.png Graphic file (type png)
 
 <use pt/pt-87.png>
-Package pdftex.def Info: pt/pt-87.png used on input line 244.
+Package pdftex.def Info: pt/pt-87.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-87.png> <a2,fr87>
-<pt/pt-88.png, id=2654, 716.6775pt x 361.35pt>
+<pt/pt-88.png, id=2643, 716.6775pt x 361.35pt>
 File: pt/pt-88.png Graphic file (type png)
  <use pt/pt-88.png>
-Package pdftex.def Info: pt/pt-88.png used on input line 244.
+Package pdftex.def Info: pt/pt-88.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-88.png> <a2,fr88> <pt/pt-89.png, id=2663, 716.6775pt x 361.35pt>
+ <./pt/pt-88.png> <a2,fr88> <pt/pt-89.png, id=2652, 716.6775pt x 361.35pt>
 File: pt/pt-89.png Graphic file (type png)
 
 <use pt/pt-89.png>
-Package pdftex.def Info: pt/pt-89.png used on input line 244.
+Package pdftex.def Info: pt/pt-89.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-89.png> <a2,fr89>
-<pt/pt-90.png, id=2672, 716.6775pt x 361.35pt>
+<pt/pt-90.png, id=2661, 716.6775pt x 361.35pt>
 File: pt/pt-90.png Graphic file (type png)
  <use pt/pt-90.png>
-Package pdftex.def Info: pt/pt-90.png used on input line 244.
+Package pdftex.def Info: pt/pt-90.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-90.png> <a2,fr90> <pt/pt-91.png, id=2681, 716.6775pt x 361.35pt>
+ <./pt/pt-90.png> <a2,fr90> <pt/pt-91.png, id=2670, 716.6775pt x 361.35pt>
 File: pt/pt-91.png Graphic file (type png)
 
 <use pt/pt-91.png>
-Package pdftex.def Info: pt/pt-91.png used on input line 244.
+Package pdftex.def Info: pt/pt-91.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-91.png> <a2,fr91>
-<pt/pt-92.png, id=2690, 716.6775pt x 361.35pt>
+<pt/pt-92.png, id=2679, 716.6775pt x 361.35pt>
 File: pt/pt-92.png Graphic file (type png)
  <use pt/pt-92.png>
-Package pdftex.def Info: pt/pt-92.png used on input line 244.
+Package pdftex.def Info: pt/pt-92.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-92.png> <a2,fr92> <pt/pt-93.png, id=2700, 716.6775pt x 361.35pt>
+ <./pt/pt-92.png> <a2,fr92> <pt/pt-93.png, id=2688, 716.6775pt x 361.35pt>
 File: pt/pt-93.png Graphic file (type png)
 
 <use pt/pt-93.png>
-Package pdftex.def Info: pt/pt-93.png used on input line 244.
+Package pdftex.def Info: pt/pt-93.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-93.png> <a2,fr93>
-<pt/pt-94.png, id=2709, 716.6775pt x 361.35pt>
+<pt/pt-94.png, id=2697, 716.6775pt x 361.35pt>
 File: pt/pt-94.png Graphic file (type png)
  <use pt/pt-94.png>
-Package pdftex.def Info: pt/pt-94.png used on input line 244.
+Package pdftex.def Info: pt/pt-94.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-94.png> <a2,fr94> <pt/pt-95.png, id=2718, 716.6775pt x 361.35pt>
+ <./pt/pt-94.png> <a2,fr94> <pt/pt-95.png, id=2706, 716.6775pt x 361.35pt>
 File: pt/pt-95.png Graphic file (type png)
 
 <use pt/pt-95.png>
-Package pdftex.def Info: pt/pt-95.png used on input line 244.
+Package pdftex.def Info: pt/pt-95.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-95.png> <a2,fr95>
-<pt/pt-96.png, id=2727, 716.6775pt x 361.35pt>
+<pt/pt-96.png, id=2715, 716.6775pt x 361.35pt>
 File: pt/pt-96.png Graphic file (type png)
  <use pt/pt-96.png>
-Package pdftex.def Info: pt/pt-96.png used on input line 244.
+Package pdftex.def Info: pt/pt-96.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-96.png> <a2,fr96> <pt/pt-97.png, id=2736, 716.6775pt x 361.35pt>
+ <./pt/pt-96.png> <a2,fr96> <pt/pt-97.png, id=2724, 716.6775pt x 361.35pt>
 File: pt/pt-97.png Graphic file (type png)
 
 <use pt/pt-97.png>
-Package pdftex.def Info: pt/pt-97.png used on input line 244.
+Package pdftex.def Info: pt/pt-97.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-97.png> <a2,fr97>
-<pt/pt-98.png, id=2745, 716.6775pt x 361.35pt>
+<pt/pt-98.png, id=2733, 716.6775pt x 361.35pt>
 File: pt/pt-98.png Graphic file (type png)
  <use pt/pt-98.png>
-Package pdftex.def Info: pt/pt-98.png used on input line 244.
+Package pdftex.def Info: pt/pt-98.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
- <./pt/pt-98.png> <a2,fr98> <pt/pt-99.png, id=2754, 716.6775pt x 361.35pt>
+ <./pt/pt-98.png> <a2,fr98> <pt/pt-99.png, id=2742, 716.6775pt x 361.35pt>
 File: pt/pt-99.png Graphic file (type png)
 
 <use pt/pt-99.png>
-Package pdftex.def Info: pt/pt-99.png used on input line 244.
+Package pdftex.def Info: pt/pt-99.png used on input line 255.
 (pdftex.def)             Requested size: 716.67577pt x 361.34912pt.
  <./pt/pt-99.png> <a2,fr99> [17
 
 ] [18
 
 ]
-<thetatwo.jpg, id=2831, 562.1pt x 421.575pt>
+<thetatwo.jpg, id=2818, 562.1pt x 421.575pt>
 File: thetatwo.jpg Graphic file (type jpg)
  <use thetatwo.jpg>
-Package pdftex.def Info: thetatwo.jpg used on input line 284.
+Package pdftex.def Info: thetatwo.jpg used on input line 295.
 (pdftex.def)             Requested size: 153.64493pt x 115.2291pt.
 
-<thetathree.jpg, id=2832, 562.1pt x 421.575pt>
+<thetathree.jpg, id=2819, 562.1pt x 421.575pt>
 File: thetathree.jpg Graphic file (type jpg)
  <use thetathree.jpg>
-Package pdftex.def Info: thetathree.jpg used on input line 284.
+Package pdftex.def Info: thetathree.jpg used on input line 295.
 (pdftex.def)             Requested size: 153.64493pt x 115.2291pt.
  [19
 
  <./thetatwo.jpg> <./thetathree.jpg>] [20
 
 ]
-<plotsomething.jpg, id=2887, 1371.1225pt x 653.44125pt>
-File: plotsomething.jpg Graphic file (type jpg)
+<plotsomething2.png, id=2873, 689.57625pt x 376.40625pt>
+File: plotsomething2.png Graphic file (type png)
 
-<use plotsomething.jpg>
-Package pdftex.def Info: plotsomething.jpg used on input line 309.
-(pdftex.def)             Requested size: 307.28987pt x 146.43964pt.
+<use plotsomething2.png>
+Package pdftex.def Info: plotsomething2.png used on input line 321.
+(pdftex.def)             Requested size: 307.28987pt x 167.73285pt.
  [21
 
- <./plotsomething.jpg>]
-<conc/sol.png, id=2913, 423.38174pt x 302.3295pt>
+ <./plotsomething2.png>]
+<conc/sol.png, id=2900, 423.38174pt x 302.3295pt>
 File: conc/sol.png Graphic file (type png)
  <use conc/sol.png>
-Package pdftex.def Info: conc/sol.png used on input line 324.
+Package pdftex.def Info: conc/sol.png used on input line 336.
 (pdftex.def)             Requested size: 169.34969pt x 120.92964pt.
 
-Overfull \vbox (9.81375pt too high) detected at line 324
+Overfull \vbox (9.81375pt too high) detected at line 336
  []
 
 [22
@@ -2948,49 +3101,46 @@ Overfull \vbox (9.81375pt too high) detected at line 324
 \tf@snm=\write8
 \openout8 = `"presentation template thing beamer.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
- (./presentation template thing beamer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
+ ("presentation template thing beamer.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `"presentation template thing beamer".out' ha
 s not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
-
  ) 
 Here is how much of TeX's memory you used:
- 27303 strings out of 492995
- 521047 string characters out of 6132704
- 607840 words of memory out of 5000000
- 30084 multiletter control sequences out of 15000+600000
- 15534 words of font info for 57 fonts, out of 8000000 for 9000
+ 28144 strings out of 493323
+ 546399 string characters out of 3128713
+ 633456 words of memory out of 3000000
+ 30917 multiletter control sequences out of 15000+200000
+ 542466 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,63p,10419b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on "presentation template thing beamer.pdf" (22 pages, 2205959 b
+ 56i,15n,63p,10421b,736s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dguittet/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/dguittet/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/dgui
+ttet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmss10.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmss12.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/dguittet/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/dgui
+ttet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.p
+fb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmssi8.pfb><C:/Users/dguittet/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dguittet/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/dguittet/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/dgui
+ttet/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam
+10.pfb>
+Output written on "presentation template thing beamer.pdf" (22 pages, 2650263 b
 ytes).
 PDF statistics:
- 3005 PDF objects out of 3580 (max. 8388607)
- 1656 compressed objects within 17 object streams
- 50 named destinations out of 1000 (max. 500000)
- 5944 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2987 PDF objects out of 3580 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 5949 words of extra memory for PDF output out of 10000 (max. 10000000)
 
